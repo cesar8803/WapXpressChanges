@@ -1,0 +1,20 @@
+/* For Mobile and Ipad Devices */
+@import url('include-devicecss/device979.css') (max-width: 979px);
+
+/* For Mobile and Ipad Devices */
+@import url('include-devicecss/device767.css') (max-width: 767px);
+
+/* For Mobile and Ipad Devices */
+@import url('include-devicecss/device768-979.css') (min-width: 768px) and (max-width: 979px);
+
+/* For Mobile Portrait and Landscape and Samsung Tablet Portrait Devices */
+@import url('include-devicecss/device570.css') (max-width: 570px);
+
+/* For Tablet and Ipad Portrait */
+@import url('include-devicecss/device599-800.css') (min-width: 599px) and (max-width: 800px);
+
+/* For Samsung Tablet Portrait and Middle Devices */
+@import url('include-devicecss/device570-650.css') (min-width: 570px) and (max-width: 650px);
+
+/* For Mobile Portrait Devices */
+@import url('include-devicecss/device320-479.css') (min-width: 320px) and (max-width: 479px);

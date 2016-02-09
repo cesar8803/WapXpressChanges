@@ -1,0 +1,109 @@
+/* Start: search brand*/
+.search-container{
+padding: 1.5% 1.5% 0;
+}
+.banner-container{
+margin-bottom: 15px;
+}
+.product-box{
+border: solid 1px #e1e1e1;
+height: 248px;
+text-align: center;
+margin-bottom: 2.5641%;
+}
+.product-box h3{
+font-family: 'Roboto Bold',arial,sans-serif;
+font-size: 16px;
+color: #000000;
+line-height: 17px;
+margin: 15px 0 2px;
+}
+.product-box p{
+font-family: arial;
+color: #565656;
+font-size: 12px;
+}
+.product-box:nth-child(4n+1){
+margin-left: 0!important
+}
+.product-box img{
+height: 174px;
+}
+.cat-interested{
+padding: 0 1.5%;
+margin-bottom: 15px;
+}
+/* End: search brand*/
+/* Start: search result*/
+.search-result-label{
+font-family: 'Roboto Medium';
+font-size: 18px;
+padding: 0 10px;
+margin-top: 30px;
+}
+.search-result-label span{
+color: #00a4e4;
+}
+.search-result-sub-label{
+color: #898989;
+font-size: 14px;
+padding: 0 10px;
+margin-bottom: 0;
+}
+.search-result-sub-label span{
+color: #333;
+font-family: 'Roboto Medium';
+}
+.search-list-section .pdt-list li.span3:nth-child(2){
+background: url("../img/border-big.png") no-repeat right top;
+}
+.search-list-section .pdt-list li.span3:last-child{
+background:none;
+}
+/* End: search result*/
+/* Start: search no result*/
+.search-no-result{
+padding: 20px 60px;
+margin-bottom: 35px;
+}
+.search-no-result input{
+float: left;
+}
+.search-no-result .search{
+width: 300px;
+height: 32px;
+margin-right: 15px;
+border-radius: 4px !important;
+}
+.search-no-result .btn-pink{
+width: 142px;
+padding: 9px 0;
+margin-top: 3px;
+cursor: pointer;
+font-size: 18px;
+}
+.search-no-result .section{
+margin-top: 35px;
+}
+.search-no-result .section h4{
+font-weight: normal;
+font-family: 'Roboto Medium';
+font-size: 16px;
+}
+.search-no-result .section p{
+margin: 0;
+}
+/* End: search no result*/
+/* Start: search did you mean */
+.search-no-result .search-result-sub-label{
+color: #717171;
+font-family: Roboto Regular;
+font-size: 18px;
+
+}
+.search-no-result .search-result-sub-label span a{
+color:#d30177;
+margin: 0 4px;
+}
+
+/* End: search did you mean */

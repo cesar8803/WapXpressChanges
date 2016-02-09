@@ -1,0 +1,184 @@
+.airtime-container{
+padding: 1.5%;
+}
+.airtime-content{
+border:1px solid #adadad;
+}
+.mandatory {
+color: #EB0A8C;
+font-family: 'Roboto Reqular',arial,sans-serif;
+font-size: 12px;
+}
+.airtime-content-head div{
+float: left;
+width: 50%;
+padding: 25px 0;
+color:#aaa9a9;
+font-family: 'Roboto Bold';
+font-size: 18px;
+background: #ededed;
+position: relative;
+}
+.airtime-content-head div.active{
+color:#010101;
+background: #f9f9f9;
+}
+.airtime-content-head div:first-child :after{
+content: '';
+border-bottom: 35px solid #F9F9F9;
+border-left: 30px solid #EDEDED;
+border-top: 35px solid #F9F9F9;
+position: absolute;
+width: 0;
+height: 0;
+right: 0;
+top:0;
+}
+.airtime-content-head div.active:first-child :after{
+border-bottom: 35px solid #ffffff;
+border-left: 30px solid #F9F9F9;
+border-top: 35px solid #ffffff;
+}
+.airtime-content-head div span{
+color: #FFF;
+background: #cdcccc;
+padding: 5px 12px;
+border-radius:20px;
+margin: 0 20px 0 40px;
+}
+.airtime-content-head div.active span{
+background:#FF0084;
+}
+.airtime-content-body{
+padding: 1.5%;
+clear: both;
+}
+.add-phone-link{
+color: #242323;
+font-size: 16px;
+font-family: 'Roboto Medium';
+text-decoration: underline;
+}
+.add-phone-link img{
+margin-right: 10px;
+margin-top: -1px;
+height: 18px;
+}
+.airtime-content-body .phone-details {
+border: 1px solid #d8d9d9;
+padding: 10px;
+font-size: 14px;
+position: relative;
+}
+.phone-details .checkbox{
+position: absolute;
+top:2px;
+right:8px;
+}
+.airtime-content-body .phone-details div{
+margin-bottom: 2px;
+color: #595959;
+}
+.airtime-content-body .phone-details div strong{
+font-family: 'Roboto Medium';
+font-size: 15px;
+font-weight: normal;
+color: #010101;
+}
+.airtime-content-body .phone-details div label{
+display: inline;
+color: #595959;
+}
+.airtime-content-body .phone-details div label strong{
+font-size: 14px;
+}
+.airtime-content-body .phone-details select{
+width: 100%;
+border-radius:3px;
+font-size: 13px;
+}
+.edit-phone-detail span{
+margin-right: 20px;
+}
+.edit-phone-detail a{
+color: #111111;
+font-size: 13px;
+text-decoration: underline;
+}
+.edit-phone-detail img {
+height: 16px;
+margin-right: 4px;
+margin-top: -3px;
+}
+.continuar-btn{
+background: #dddddd;
+margin-left: 10px;
+color: #ffffff;
+text-align: center;
+border: none;
+padding: 15px 60px;
+font-size: 16px;
+font-family: 'Roboto Condensed',arial,sans-serif;
+font-weight: 400;
+border-radius: 2px 2px 2px 2px;
+-webkit-border-radius: 2px;
+-ms-border-radius: 2px;
+-moz-border-radius: 2px;
+}
+.continuar-btn.active{
+background: #E0068D;
+}
+.airtime-payment-details select{
+width: 90%;
+}
+.airtime-payment-details .checkbox label {
+color: #454545;
+cursor: pointer;
+display: inline-block;
+font-family: 'Roboto Bold',arial,sans-serif;
+font-size: 12px;
+}
+.airtime-payment-details .checkbox a{
+text-decoration: underline;
+font-family: 'Roboto Medium';
+}
+.cvv-input-main{
+position: relative;
+}
+.cvv-input-main .question_icon {
+position: absolute;
+left: 240px;
+top:26px;
+background-color: #616161;
+border-radius: 50%;
+color: #FFFFFF;
+display: inline-block;
+font-size: 14px;
+line-height: 28px;
+text-align: center;
+vertical-align: text-bottom;
+width: 28px;
+}
+.airtime-payment-details .expiary-detail{
+display: none;
+}
+.airtime-payment-details .captcha-input {
+margin-left: 6px;
+margin-top: 7px;
+width: 100px;
+}
+.accept_check label.error{
+display: none;
+}
+.logo-airtime img {
+height: 42px;
+}
+.recipient-lable-container {
+
+}
+.airtime-step1{
+border-bottom: none;
+}
+.airtime-step2 {
+border-top: none;
+}

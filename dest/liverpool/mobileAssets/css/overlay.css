@@ -1,0 +1,229 @@
+.del-head-cont {
+height: 25px;
+padding-bottom: 0;
+padding-top: 5px;
+}
+.del-head {
+color: #4C4C4C;
+font-size: 16px;
+font-family: 'Roboto Bold',arial, sans-serif;
+}
+.delview-modal.modal.fade.in {
+top: 30%;
+}
+.delview-modal.modal{
+width:420px !important;
+margin-left:-210px !important;
+}
+.delview-modal .modal-body {
+padding: 5px 15px 15px;
+}
+#address-delete-modal .btn-grey-small {
+margin-left: 20px;
+}
+.rt-cont{
+width:auto;
+font-weight: bold;
+font-size: 12px;
+color: #000000;
+padding: 15px 0;
+}
+.view-promo-modal.modal.fade.in,.popUp-modal.modal.fade.in {
+top: 15%;
+border: none;
+}
+.view-promo-modal.modal,.popUp-modal.modal{
+margin-left:0;
+left: 16%;
+width: auto;
+}
+.ajax-overlay{
+background: #fff;
+opacity: .7;
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+display: none;
+}
+.ajax-loader{
+z-index: 9;
+position: fixed;
+top: 50%;
+left: 50%;
+display: none;
+}
+/*......*/
+.popUp-modal.modal.fade.in{
+left: 10%;
+top: 0;
+}
+.cart-popup{
+margin-left: 0;
+}
+.cart-popup .top-head{
+font-family: 'Roboto Medium';
+font-size: 23px;
+font-weight: normal;
+background: #eef2ef;
+padding: 20px;
+}
+.cart-popup .cart-close-btn{
+background: url('../img/icons/mega-menu-close-hover.png') no-repeat;
+background-size: 26px;
+height: 26px;
+width: 26px;
+right: 8px !important;
+top: 8px !important;
+position: absolute;
+}
+.tick-icon{
+background: url("../img/icons/tick.png") no-repeat;
+height: 42px;
+width: 42px;
+background-size: 42px;
+float: left;
+margin-right: 15px;
+}
+.shopping-product{
+margin-top: 25px;
+}
+.cart-popup h3{
+font-family: 'Roboto Medium';
+}
+.shopping-product p{
+font-size: 15px;
+font-family: 'Roboto Regular'
+}
+.shopping-product .prod-price{
+margin-bottom: 10px;
+}
+.shopping-product .prod-price ul li.old-price{
+font-size: 15px;
+margin-right: 10px;
+}
+.shopping-product.prod-price ul li{
+font-size: 18px;
+}
+.cart-popup hr{
+border-top: 1px solid #d4d4d4;
+}
+.shopping-history{
+border-left:1px solid #d4d4d4;
+}
+.shopping-history h3{
+padding-left: 12px;
+}
+ul.price-detail{
+color: #010101;
+font-size: 15px;
+font-family: arial;
+margin: 0;
+}
+ul.price-detail li{
+margin-bottom: 6px;
+padding: 0 10%;
+}
+ul.price-detail li span:first-child{
+width: 65%;
+text-align: right;
+display: inline-block;
+}
+.price-discount{
+color: #5b5b5b;
+}
+ul.price-detail .total-price{
+font-size: 18px;
+border-top: 1px solid #d4d4d4;
+padding-top: 8px;
+margin: 15px 0;
+font-family: 'Roboto Bold';
+}
+.shopping-history .btn {
+border-radius: 4px;
+font-size: 18px;
+margin-top: 5px;
+margin-bottom: 10px;
+width: 95%;
+padding: 8px 25px;
+}
+.volver-tienda{
+font-family: arial;
+font-size: 11px;
+color: #5b5b5b;
+text-decoration: underline;
+float:right;
+}
+.cart-carousels .prod-title a{
+font-size: 12px;
+}
+.cart-carousels .prod-price ul li{
+font-size: 13px;
+display: block !important;
+}
+.cart-carousels .prod-price ul li.old-price{
+font-size: 12px;
+}
+.cart-carousels .thumbnails > li{
+margin-bottom: 0;
+}
+.cart-carousels{
+height: 255px;
+overflow: hidden;
+}
+.cart-carousels .product-car-slot .globalslidercontainer .caroufredsel_wrapper{
+height: 215px !important;
+}
+.cart-carousels .product-car-slot .globalslider{
+height: 215px !important;
+overflow:hidden;
+}
+/*Start: airtime */
+.rt-cont .btn-pink-small{
+margin-right: 25px;
+}
+.rt-cont .btn-pink-small,.rt-cont .btn-grey-small{
+padding: 6px 60px;
+}
+.delpad
+{
+padding: 6px 55px !important;
+}
+.cardDeleteButton{
+width: 100%
+}
+.cardDeleteButtonModal{
+float:left;
+}
+.displayMaxCrediterror
+{
+    background-color: white;
+    position: absolute;
+    float: left;
+    left: 32%;
+    top: 40%;
+    height: 10%;
+    width: 37%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 102%;
+    color:red;
+}
+.displayMaxCrediterror .close
+{
+
+background-color: azure;
+    position: relative;
+    float: right;
+    right: 1%;
+    width: 5%;
+    top: 5%;
+    color: black;
+    font-weight: bold;
+}
+.displayMaxCrediterror span
+{
+    position:relative;
+    top:30%;
+}

@@ -1,0 +1,18 @@
+ptions +FollowSymlinks
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RerwiteOptions inherit
+RewriteBase /
+            RewriteCond %{REQUEST_URI} ^/tienda/m$
+            RewriteRule ^/tienda/m$   /tienda/m/ [L,R=301]
+
+            RewriteCond %{HTTP_USER_AGENT} "!(android|blackberry|googlebot-mobile|iemobile|ipad|iphone|ipod|opera mobile|palmos|webos)" [NC]
+            RewriteCond %{REQUEST_URI}  ^/tienda/m/(.*)$    [NC]
+            RewriteRule ^/tienda/m/(.*)$   /tienda/$1 [L,R=301]
+
+            RewriteCond %{HTTP_USER_AGENT} "(android|blackberry|googlebot-mobile|iemobile|ipad|iphone|ipod|opera mobile|palmos|webos)" [NC]
+            RewriteCond %{REQUEST_URI}  !(.*tienda/m/.*)  [NC]
+            RewriteRule ^/tienda/(.*)$   /tienda/m/$1 [L,R=301]
+
+</IfModule>
+

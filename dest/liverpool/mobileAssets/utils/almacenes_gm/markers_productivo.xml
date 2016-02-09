@@ -1,0 +1,2421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markers>
+
+	<marker lat="19.549201" lng="-99.273902" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Atizapán]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales"  >
+			<![CDATA[<br>Av. Ruíz Cortines No. 501.<br>Colonia Lomas de Atizapán.<br>C.P. 52977.
+			<br>Atizapán, Edo. de México. <br> 
+			<br> Telefono: 50 77 13 00 <br>
+			<br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br><br>]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante 
+					 <LI>Agencia de viajes 
+					 <LI>Centro de Seguros y Servicios ]]>  
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgAtizapan001.jpg" alt="Liverpool Atizapán"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	</marker>
+		<marker lat="19.430961"  lng="-99.132149" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Centro]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Venustiano Carranza No. 92.<br>Colonia Centro.
+			<br>C.P. 06060.<br>Delegación Cuauhtémoc.<br>Distrito Federal.
+			<br><br> Tel: 51 33 28 00
+			<br>Fax:55 42 32 00
+			<br><br> Horario: Lunes a Viernes de 11:00 a 20:30 hrs. Sábado de 11:00 a 21:00 hrs. Domingo de 11:00 a 19:30 hrs.
+			<br><br>  Horario Restaurante: Lunes a Viernes de 11:00 a 20:00 hrs.
+			<br><br><br>
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Seguros y Servicios]]>
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			&lt;img alt=&quot;imagen&quot; src=&quot;/assets/utils/almacenes_gm/images/imgCentro001.jpg&quot;&gt;<!-- <![CDATA[/assets/utils/almacenes_gm/images/icoBolsa.png]]>  -->
+		</tag3>
+		
+	</marker>
+	
+	
+	<marker lat="19.85556"  lng="-90.523181" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Campeche]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Pedro Sainz de Baranda No. 139<br>Colonia Ermita Área de AH Kim Pech.
+			<br>C.P. 24000.<br>Campeche<br>Campeche
+			<br><br> Tel: (981) 81 81 300
+			
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs. 
+			<br><br>  Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios]]>
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCampeche001.jpg" alt="Liverpool Campeche"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>
+	
+	<marker lat="19.302314"    lng="-99.122311" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Coapa]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Calzada del Hueso No. 519. Colonia Residencial Acoxpa.<br>Centro Comercial Galerías Coapa.
+			<br>C.P. 14300. Delegación Tlalpan. Distrito Federal.
+			<br><br> Tel:56 27 96 00
+			<br>Fax:56 27 96 77
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 9:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI> Agencia de viajes  <LI>Centro de Seguros y Servicios ]]>  
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCoapa001.jpg" alt="Liverpool Coapa"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>	
+	<marker lat="19.583758"  lng="-99.023262"  type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Ecatepec]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. 1ero. de Mayo. Esquina Av. Central. Mz. 4. Lote. 2. s/n.<br>Colonia Plaza Las Américas. C.P. 55075. Ecatepec, Estado de México.
+			<br><br> Tel:58 36 11 00
+			<br>Fax:58 36 11 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 9:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Agencia de viajes <LI> Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgEcatepec001.jpg" alt="Liverpool Ecatepec"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>	
+	
+	<marker lat="19.372577"   lng="-99.178922" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Insurgentes]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Insurgentes Sur No. 1310. Colonia Del Valle.<br>C.P. 03100. Delegación Benito Juárez. Distrito Federal.
+			<br><br> Tel:54 80 13 00
+			<br>Fax:54 80 13 82
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI> Agencia de viajes <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgInsurgentes001.jpg" alt="Liverpool Insurgentes"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>			
+	<marker lat="19.400003"  lng="-99.276178"  type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Interlomas]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Vialidad de la Barranca No.6. Colonia Exhacienda Jesús del Monte<br>C.P.52787. Municipio de Huixquilucan. Estado de México.
+			<br><br> Tel:30 88 23 00
+			<br>Fax:30 88 23 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a  21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 8:00 a 21:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante<LI>Agencia de viajes <LI>Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgInterlomas001.jpg" alt="Liverpool Interlomas"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>
+	
+	<marker lat="19.42402"  lng="-99.020419"  type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Cd. Jardín]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Bordo de Xochiaca #3<br>C.P.57205. Nezahualcóyotl. Estado de México.
+			<br><br> Tel:24 81 37 00
+			<br>Fax:24 81 37 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a  21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 8:00 a 23:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCdJardin001.jpg" alt="Liverpool Cd. Jardín"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>
+
+	<marker lat="19.403348"  lng="-99.155045"  type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Parque Delta]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Cuauhtémoc No. 462. Colonia Narvarte. Centro Comercial Parque Delta.<br>C.P.03020. Delegación Benito Juárez, México. Distrito Federal.
+			<br><br> Tel:56 36 11 00
+			<br>Fax:56 36 11 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgParqueDelta001.jpg" alt="Liverpool Parque Delta"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>
+
+	<marker lat="19.403348"  lng="-99.131259"  type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Lindavista]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Colector 13 No. 280.<br>Colonia Magdalena de las Salinas.<br>Plaza Parque Lindavista.<br>C.P. 07760.<br>Delegación Gustavo A. Madero.<br>Distrito Federal.
+			<br><br> Tel:57 47 10 00
+			<br>Fax:57 47 10 79
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante<LI>Agencia de viajes <LI>Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgLindavista001.jpg" alt="Liverpool Lindavista"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>
+
+	<marker lat="19.304157" lng="-99.188395"  type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Perisur]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Periférico Sur No. 4690. Colonia Ampliación Jardines Pedregal.<br>C.P. 04500. Delegación Coyoacán. Distrito Federal.
+			<br><br> Tel:54 47 12 00
+			<br>Fax:54 47 12 60
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 11:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante<LI>Agencia de viajes <LI>Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgPerisur001.jpg" alt="Liverpool Perisur"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>
+	
+	<marker lat="19.433713" lng="-99.182773"  type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Polanco]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Mariano Escobedo No. 425. Colonia Chapultepec Morales.<br>C.P. 11570. Delegación Miguel Hidalgo. Distrito Federal.
+			<br><br> Tel:53 28 64 00
+			<br>Fax:53 28 64 74
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante<LI>Agencia de viajes <LI>Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgPolanco001.jpg" alt="Liverpool Polanco"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>	
+	
+	<marker lat="19.361448" lng="-99.273405"  type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Santa Fe]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Vasco de Quiroga No. 3800. Colonia Santa Fe.<br>Centro Comercial Santa Fe.<br>C.P. 05109. Delegación Cuajimalpa. Distrito Federal.
+			<br><br> Tel:52 57 90 00
+			<br>Fax:52 57 01 12
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante<LI>Agencia de viajes <LI>Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgSantaFe001.jpg" alt="Liverpool Santa Fe"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>	
+	
+	<marker lat="19.507929" lng="-99.235253"  type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Satélite]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Circuito Centro Comercial No. 2251. Colonia Ciudad Satélite. Plaza Satélite.<br>C.P.53100. Naucalpan<LI> Estado de México.
+			<br><br> Tel:57 29 31 00
+			<br>Fax:57 29 31 72
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 11:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante<LI>Agencia de viajes <LI>Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgSatelite001.jpg" alt="Liverpool Satélite"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	
+	<marker lat="19.383775" lng="-99.080501"   type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Tezontle]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Canal de Tezontle No. 1512. Colonia Dr. Alfonso Ortiz Tirado.<br>Centro Comercial Parque Tezontle. C.P.09020.<brDelegación Iztapalapa. Distrito Federal.
+			<br><br> Tel:56 40 14 00
+			<br>Fax:56 40 14 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[Restaurante<LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgTezontle001.jpg" alt="Liverpool Tezontle"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	 
+	<marker lat="16.772915" lng="-99.776448"   type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Acapulco]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. de las Naciones 1813, Lote 1, Manzana 5 esq. Costera de las Palmas. Fracc. Playa Diamante. Acapulco, Guerrero. C.P. 39970
+			<br><br> Tel:(744) 4 35 29 00
+			<br>
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> 
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgAcapulco001.jpg" alt="Liverpool Acapulco"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	 
+	 
+	<marker lat="21.924271" lng="-102.289732" type="liverpool"  ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Aguascalientes]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. de Zacatecas Norte No. 851. Colonia Trojes de Alonso.<br>Centro Comercial Antera. C.P. 20200. Aguascalientes, Aguascalientes.
+			<br><br> Tel:(449) 139 34 00
+			<br> Fax:(449) 139 34 71
+			<br><br>
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante<LI>Agencia de viajes <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgAguascalientes001.jpg" alt="Liverpool Aguascalientes"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	 	 
+	 
+	 	
+	<marker lat="21.145842" lng="-86.823186"   type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Cancún]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Tulúm Sur No. 260. Sm 7. Mza 49. Local A-7. Plaza Las Américas.<br>C.P. 77500. Cancún, Quintana Roo.
+			<br><br> Tel:(998) 881 15 00
+			<br>     Fax:(998) 881 15 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 22:00 hrs.
+			<br><br> 
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Agencia de viajes <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCancun001.jpg" alt="Liverpool Cancún"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	 		
+	
+	<marker lat="20.531782" lng="-100.777760"   type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Celaya]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Eje Nor-Oriente 200 Interior L1.  Col. Las Compuertas del Campestre<br>Celaya, Guanajuato. C.P. 38080
+			<br><br> Tel:(461) 15 98 300
+			<br>     Fax:(461) 15 98 370
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante<LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCelaya001.jpg" alt="Liverpool Celaya"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	
+	 
+	<marker lat="18.520592" lng="-88.321152"   type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Chetumal]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Insurgentes Km. 5.025 s/n. Local A1. Plaza Las Américas.<br>Colonia Emancipación de México. C.P. 77084. Chetumal, Quintana Roo.
+			<br><br> Tel:(983) 835 10 00
+			<br>     Fax:(983) 835 10 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> 
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgChetumal001.jpg" alt="Liverpool Chetumal"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>		 
+
+	<marker lat="28.622765" lng="-106.115023" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Chihuahua]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Periférico de la Juventud y Av. Politécnico Nacional s/n. Col. Quintas del Sol.<br>C.P. 31250. Chihuahua, Chihuahua.
+			<br><br> Tel:(614) 432 01 00
+			<br>     Fax:(614) 431 01 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 9:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgChihuahua001.jpg" alt="Liverpool Chihuahua"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	 
+	 	
+
+	 <marker lat="17.515275" lng="-99.484205" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Chilpancingo]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. René Juárez Cisneros No. 130. Colonia Predio Tepango.<br>C.P. 39095. Chilpancingo de los Bravo, Guerrero.
+			<br><br> Tel:(747) 494 28 00
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgChilpancingo001.jpg" alt="Liverpool Chilpancingo"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	 
+	 
+	 <marker lat="18.652355" lng="-91.807841" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Cd. del Carmen]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Corregidora · 28 entre aviación y <br>C.P. 24199. Cd. del Carmen, Campeche.
+			<br><br> Tel:(938) 38 10 100
+			<br>	 fax:(656) 38 10 170			
+			<br><br> Horario: Lunes a Domingo de 9:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Seguros y Servicios ]]>
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCuidadDelCarmen001.jpg" alt="Liverpool Cd. del Carmen"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	 
+
+	<marker lat="31.686710" lng="-106.409068" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Cd. Juárez]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Teófilo Borunda No. 8681. Col. Partido Iglesias<br>C.P. 32618. Cd. Juárez, Chihuahua.
+			<br><br> Tel:(656) 227 24 00
+			<br>	 fax:(656) 227 24 89			
+			<br><br> Horario: Lunes a Domingo de 9:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgChihuahua001.jpg" alt="Liverpool Cd. Juárez"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+
+	<marker lat="23.77375466053118" lng="-99.13740903139114" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Cd. Victoria]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Carretera a Monterrey esq. libramiento Naciones Unidas<br>Col. Ejidos Benito Juárez, Ciudad Victoria
+			<br><br> Tel:01834-153-11-00 
+			
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/default.jpg" alt="Liverpool Cd. Victoria"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+
+	<marker lat="18.141814" lng="-94.487969" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Coatzacoalcos]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Universidad Veracruzana km. 8 s/n. Col. Santa Rosa. Ampl. Plaza Forum.<br>C.P. 96535. Coatzacoalcos, Veracruz.
+			<br><br> Tel:(921) 211 70 00
+			<br>     fax:(921) 211 70 70			
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 9:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCoatzacoalcos001.jpg" alt="Liverpool Coatzacoalcos"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	 
+	<marker lat="19.267062" lng="-103.697666" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Colima]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Tercer Anillo Periférico Oriente No. 301. Esquina con Prol. Ignacio Sandoval.<br>Colonia Las Primaveras. C.P. 28040. Colima, Colima.
+			<br><br> Tel:(312) 316 23 00
+			<br>     fax:(312) 316 23 70			
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgColima001.jpg" alt="Liverpool Colima"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>	 
+	
+	<marker lat="18.936013" lng="-99.192692" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Cuernavaca]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Autopista México - Acapulco Km. 87.850. Esq. Av. de los 50 Metros s/n.<br>Colonia Ricardo Flores Magón 5to. Fraccionamiento.<br>C.P. 62370. Cuernavaca, Morelos.
+			<br><br> Tel:(777) 100 74 00
+			<br>     fax:(777) 100 74 70			
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCuernavaca001.jpg" alt="Liverpool Cuernavaca"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	 
+
+	<marker lat="24.815047" lng="-107.401614" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Culiacán]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd José Diego Valadez No. 1676. Col. Desarrollo Urbano Tres Ríos.<br>C.P. 80000. Culiacán, Sinaloa.
+			<br><br> Tel:(667) 759 28 00
+			<br>     fax:(667) 759 28 70			
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCuliacan001.jpg" alt="Liverpool Culiacán"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+
+	<marker lat="24.035255" lng="-104.649823" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Durango]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Felipe Pescador No. 1401. Colonia Esperanza.<br>C.P. 34080. Durango, Durango.
+			<br><br> Tel:(618) 827 29 00
+			<br>     fax:(618) 827 29 70			
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgDurango001.jpg" alt="Liverpool Durango"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+
+	<marker lat="20.679496" lng="-103.432728" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Guadalajara]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Rafael Sanzio No. 150. Int. 204. Colonia Vallarta Camichines.<br>C.P. 45020. Zapopan, Jalisco.
+			<br><br> Tel:(33) 37 77 33 00
+			<br>     fax:(33) 37 77 33 70			
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgGuadalajara001.jpg" alt="Liverpool Guadalajara"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	
+	<marker lat="29.087428" lng="-110.965127" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Hermosillo]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Luis Encinas Jhonson. Esquina Blvd. Navarrete. s/n.<br>Colonia San Benito. C.P. 83190. Hermosillo, Sonora.
+			<br><br> Tel:(662) 289 28 00
+			<br>     fax:(662) 289 28 70		
+			<br><br> Horario: Lunes a Domingo de 10:30 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgHermosillo001.jpg" alt="Liverpool Hermosillo"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+
+	<marker lat="20.680550" lng="-101.379937" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Irapuato]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Villas de Irapuato No. 1443. Colonia Ejidos Irapuato.<br>C.P. 36670. Irapuato, Guanajuato.
+			<br><br> Tel:(462) 606 85 00
+			<br>     fax:(462) 606 85 70		
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgIrapuato001.jpg" alt="Liverpool Irapuato"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	 
+	 
+	 <marker lat="16.23433"  lng="-95.212326"  type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Istmo]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Carretera Transísmica Km 12. Colonia Granadillo<br>C.P.70613. Salina Cruz. Oaxaca, Oax.
+			<br><br> Tel:(971) 714 91 00
+			<br> fax:(971) 714 91 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a  21:00 hrs.
+			<br><br>  Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgIstmo001.jpg" alt="Liverpool Istmo"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	</marker>
+	
+	 
+		<marker lat="24.118242" lng="-110.339427" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool La Paz]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Pino Payas y Agustín Olachea<br>Colonia El Zacatal. C.P. 23080. La Paz, Baja California.
+			<br><br> Tel:(612) 17 510 00
+			<br>     fax:(612) 17 510 70		
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 11:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgPaz001.jpg" alt="Liverpool La Paz"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	 
+	 
+	<marker lat="21.157409" lng="-101.695000" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png"> 
+		<name><![CDATA[Liverpool León]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Juan José Alonso de Torres No. 3002.<br>Colonia Valle del Campestre. C.P. 37150. León, Guanajuato.
+			<br><br> Tel:(477) 710 21 00
+			<br>     fax:(477) 710 21 30		
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 11:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgLeon001.jpg" alt="Liverpool León"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>		
+	 
+	 <marker lat="21.089966" lng="-101.616583" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png"> 
+		<name><![CDATA[Liverpool León Sur]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Boulevard. Aeropuerto # 104<br>Col. Cerrito de Jeréz. C.P. 37530. León, Guanajuato.
+			<br><br> Tel:(477) 101 73 00
+			<br>     fax:(477) 101 73 70		
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 11:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Agencia de viajes <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgLeonSur001.jpg" alt="Liverpool León Sur"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker> 
+	 
+	<marker lat="25.782117" lng="-109.004588" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Los Mochis]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Centenario 850 Poniente. Col. Sector Centro Ahome<br>Los Mochis, Sinaloa. C.P. 81270
+			<br><br> Tel:(668) 8 16 78 00
+
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a.m. a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgLosMochis001.jpg" alt="Liverpool Los Mochis"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	
+	 
+	 
+	 <marker lat="23.284498" lng="-106.454988" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Mazatlán]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. del Delfín No. 64. Fracc. La Marina. C.P. 82100. Mazatlán, Sinaloa.
+			<br><br> Tel: (669) 989 19 00
+			<br>     Fax: (669) 989 19 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a.m. a 21:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante<LI> Centro de Diseño de Interiores <LI> Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgMazatlanLiv001.jpg" alt="Liverpool Mazatlán"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	 
+	 
+	<marker lat="21.039636" lng="-89.630086" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Mérida]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Calle 60 No. 299. Carretera Mérida - Progreso Km. 8.5.<br>Colonia Unidad Revolución Cordemex. C.P. 97110. Mérida, Yucatán.
+			<br><br> Tel:(999) 942 72 00
+			<br>     fax:(999) 942 72 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgMerida001.jpg" alt="Liverpool Mérida"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>		 
+	 
+	<marker lat="19.258686" lng="-99.620590" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Metepec]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Ixtapan de la Sal Norte No. 126.<br>Colonia La Purísima Metepec. C.P. 52040. Toluca, Estado de México.
+			<br><br> Tel:(722) 276 27 00
+			<br>     fax:(722) 276 27 70
+			<br><br> Horario: Lunes a Domingo de 8:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgMetepec001.jpg" alt="Liverpool Metepec"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>		 	 
+
+	<marker lat="25.680949" lng="-100.354539" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Monterrey]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. José Eleuterio González No. 550 Sur. Colonia Vista Hermosa.<br>C.P. 64620. Monterrey, Nuevo León.
+			<br><br> Tel:(81) 83 89 55 00
+			<br>     fax:(81) 83 89 55 48
+			<br><br> Horario: Lunes a Domingo de 11:00 a 20:30 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 11:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[ <LI>Restaurante  <LI> Agencia de viajes <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgMonterrey001.jpg" alt="Liverpool Monterrey"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	
+
+	<marker lat="25.665579" lng="-100.314907" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Monterrey Centro]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Melchor Ocampo No. 108. Colonia Oriente Centro.<br>C.P. 64000. Monterrey, Nuevo León.
+			<br><br> Tel:(81) 83 18 49 00
+			<br>     fax:(81) 83 18 49 09
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgMonterreyCentro001.jpg" alt="Liverpool Monterrey Centro"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	 
+	<marker lat="25.734779" lng="-100.395405" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Monterrey Cumbres]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Hacienda Peñuelas 6769. Colonia Cumbres las Palmas.<br>C.P. 64619. Monterrey, Nuevo León.
+			<br><br> Tel:(81) 81 21 13 00
+			<br>     fax:(81) 81 21 13 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgMonterreyCumbres001.jpg" alt="Liverpool Monterrey Cumbres"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	 
+
+	<marker lat="25.638073" lng="-100.313952" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Monterrey Valle]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Lázaro Cárdenas No. 1000 Oriente. Colonia Valle del Mirador.<br>C.P. 64750. Monterrey, Nuevo León.
+			<br><br> Tel:(81) 81 33 43 00
+			<br>     fax:(81) 81 33 43 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br> Horario Restaurante: Lunes a Domingo de 9:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Restaurante <LI> Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgMonterreyValle001.jpg" alt="Liverpool Monterrey Valle"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	 
+	<marker lat="19.689102" lng="-101.157990" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Morelia]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Lic. Enrique Ramírez Miguel No. 1000. Colonia Las Américas.<br>Plaza Las Américas. C.P. 58270. Morelia, Michoacán.
+			<br><br> Tel:(443) 113 26 00
+			<br>     fax:(443) 113 26 70 
+			<br><br> Horario: Lunes a Domingo de 10:30 a 20:30 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI> Agencia de viajes <LI> Restaurante <LI> Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgMorelia001.jpg" alt="Liverpool Morelia"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	 
+
+
+	<marker lat="19.656214" lng="-101.163859" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Morelia Paseo Altozano]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Montaña Monarca Norte No. 1000 INT. A-1N-01.<br>Centro Comercial Paseo Altozano Morelia.<br>Colonia Ejido Jesús del Monte. C.P. 58350. Morelia, Michoacán.
+			<br><br> Tel:(443) 113 81 00
+			<br>     fax:(443) 113 81 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgMoreliaPA002.jpg" alt="Liverpool MOrelia Paseo Altozano"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	
+	 
+	 	<marker lat="20.687687" lng="-103.296005" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Oblatos]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Circunvalación 2700.<br>Colonia Oblatos. C.P. 44700. Guadalajara, Jalisco.
+			<br><br> Tel:(33) 38 83 7100
+			<br>     fax:(33) 38 83 7170
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgOblatos001.jpg" alt="Liverpool Oblatos"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	
+	 
+	<marker lat="18.86358" lng="-97.096299" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Orizaba]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Circunvalación No. 1430. Colonia EL Espinal.<br>C.P. 94330. Orizaba, Veracruz.
+			<br><br> Tel:(272) 728 12 00
+			<br>     fax:(272) 728 12 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 21:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgOrizaba001.jpg" alt="Liverpool Orizaba"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	 
+	 
+	<marker lat="20.097982" lng="-98.768538" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Pachuca]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Camino Real de la Plata No. 100. Colonia Zon Plateada.<br>C.P. 42080. Pachuca, Hidalgo.
+			<br><br> Tel:(771) 717 88 00
+			<br>     fax:(771) 717 88 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Agencia de viajes <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgPachuca001.jpg" alt="Liverpool Pachuca"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	 
+	<marker lat="19.60393" lng="-99.189327" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Perinorte]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Carretera México - Querétaro. Km. 30.5. Colonia Hacienda del Parque.<br>C.P. 54769. Cuautitlán, Izcalli. Estado de México.
+			<br><br> Tel:58 64 95 00
+			<br>     fax:58 64 95 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 7:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgPerinorte001.jpg" alt="Liverpool Perinorte"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>
+	 
+	  
+	<marker lat="20.61588" lng="-87.096825" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Playa del Carmen]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Carretera Federal Chetumal Puerto Juárez 288 Mnz 356 Lote 1. Cd. Playa del Carmen, Solidaridad. C.P. 77710<br>Chetumal, Quintana Roo.
+			<br><br> Tel:(984) 206 44 00
+			<br>     fax:(984) 206 44 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 21:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante<LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgPlayaCarmen2_001.jpg" alt="Liverpool Playa del Carmen"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	 	 
+	 	 	 
+	 
+	<marker lat="19.031602" lng="-98.232558" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Puebla]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. del Niño Poblano No. 2510. Colonia Concepción de la Cruz.<br>Centro Comercial Angelópolis. C.P. 72430. Puebla, Puebla.
+			<br><br> Tel:(222) 229 75 00
+			<br>     fax:(222) 229 75 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 11:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgPuebla001.jpg" alt="Liverpool Puebla"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>	 
+	 	 
+
+	<marker lat="20.658318" lng="-105.239625" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Puerto Vallarta]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Francisco Medina Ascencio No. 2920. Zona Hotelera Norte.<br>Colonia Educación. C.P. 48338. Puerto Vallarta, Jalisco.
+			<br><br> Tel:(322) 22 624 00
+			<br>     fax:(322) 22 624 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgPuertoVallarta001.jpg" alt="Liverpool Vallarta"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>
+	 
+	<marker lat="20.577907" lng="-100.405136" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Querétaro]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. 5 de Febrero Sur s/n. Colonia Virreyes.<br>Centro Comercial Galerías Querétaro. C.P. 76000. Querétaro, Querétaro.
+			<br><br> Tel:(442) 196 18 00
+			<br>     fax:(442) 196 18 01
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgQueretaro001.jpg" alt="Liverpool Querétaro"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>
+	 
+	 
+	<marker lat="25.455898" lng="-100.974559" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Saltillo]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Nazario S. Ortíz Garza # 2345. Col. Tanque de Peña Centro Comercial Galerías.Saltillo, Coahila. C.P. 25000
+			<br><br> Tel:(844)4 38 4500
+
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgSaltillo001.jpg" alt="Liverpool Saltillo"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>	 
+	 
+	 	<marker lat="20.38313" lng="-100.012665" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool San Juan del Río]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Carretera Panamericana No. 202. Col. La Venta<br>San Juan del Río, Querétaro. C.P. 76800
+			<br><br> Tel:(044)427 268 3000
+			<br> 	Fax:(044)427 268 3071
+
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante<LI>Agencia de viajes <LI>Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgSanJuan001.jpg" alt="Liverpool San Juan del Río"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>	 
+
+
+	<marker lat="20.904612" lng="-100.728943" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool San Miguel de Allende]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Libramiento José Manuel Zavala Zavala No. 165. Colonia La Luciérnaga.<br>Local 4A. Plaza La Luciérnaga. C.P. 37745. San Miguel de Allende, Guanajuato.
+			<br><br> Tel:(415) 150 30 00
+			<br>  Fax:(415) 150 30 22
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgSnMiguelAllende001.jpg" alt="as"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>
+
+
+		<marker lat="22.133185" lng="-101.033728" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool San Luis Potosí]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Antonio Rocha Cordero No. 700 esq. Av. Sierra Vista Poniente. Col. Fracc. Lomas del Tecnológico<br>C.P. 78216. San Luis Potosí, San Luis Potosí
+			<br><br> Tel:(444) 826 48 00
+			<br>  Fax:(444) 826 48 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br>     Horario Restaurante: Lunes a Domingo de 9:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Agencia de viajes <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgSanLuis001.jpg" alt="Liverpool San Luis Potosí"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>	 
+	 
+	<marker lat="22.260796" lng="-97.876532" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Tampico]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Prolongación Av. Hidalgo No. 4902.<br>Colonia Country Club. C.P. 89250. Tampico, Tamaulipas.
+			<br><br> Tel:(833) 229 36 00
+			<br>  Fax:(833) 229 36 97
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br>     Horario Restaurante: Lunes a Domingo de 9:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgTampico001.jpg" alt="Liverpool Tmapico"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>		 
+	 	 
+	<marker lat="18.468914" lng="-97.417241" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Tehuacán]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Adolfo López Mateos No. 3800. Colonia San Lorenzo Teotipilco.<br>Centro Comercial El Paseo. C.P. 75710. Tehuacán, Puebla
+			<br><br> Tel:(238) 384 24 00
+			<br>  Fax:(238) 384 24 22
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgTehuacan001.jpg" alt="Liverpool Tehuacán"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>	 
+
+
+	<marker lat="21.493804" lng="-104.867753" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Tepic]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Luis Donaldo Colosio No.680. Colonia Benito Juárez.<br>C.P. 63175. Tepic, Nayarit.
+			<br><br> Tel:(311) 129 65 00
+			<br>  Fax:(311) 129 65 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br> Horario Restaurante: Lunes a Domingo de 11:00 a 21:00 hrs.			
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgTepic001.jpg" alt="Liverpool Tepic"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>	
+	 
+	<marker lat="20.647724" lng="-103.319142" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Tlaquepaque]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Marcelino García Barragán No. 2077 Col. Prados del Nilo CC Forum<br>C.P. 44840. Guadalajara, Jalisco.
+			<br><br> Tel:(33) 38 37 7400
+			<br>  Fax:(33) 38 37 7470
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.		
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/default.jpg" alt="Liverpool Tlaquepaque"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>		 
+	 
+	<marker lat="25.581466" lng="-103.404565" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Torreón]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Independencia No. 6000. Esquina con Periférico.<br>Colonia Residencial El Fresno. Plaza Comercial Galerías Laguna.<br>C.P. 27018. Torreón, Coahuila.
+			<br><br> Tel:(871) 749 12 00
+			<br>  Fax:(871) 749 12 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br> Horario Restaurante: Lunes a Domingo de 9:00 a 20:30 hrs.	
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgTorreon001.jpg" alt="Liverpool Torreón"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>		 
+
+
+	<marker lat="16.754902" lng="-93.149552" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Tuxtla]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Belisario Domínguez No. 1691. Colonia Jardines de Tuxtla.<br>C.P. 29020. Tuxtla Gutiérrez, Chiapas.
+			<br><br> Tel:(961) 617 35 00
+			<br>  Fax:(961) 617 35 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+	
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgTuxtla001.jpg" alt="Liverpool Tuxtla"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>
+	 
+	<marker lat="19.140151" lng="-96.104847" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Veracruz]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Adolfo Ruíz Cortines esq. con Américas s/n.<br>Colonia Costa Verde.<br>Plaza Comercial Las Américas. C.P. 94290. Boca del Río, Veracruz.
+			<br><br> Tel:(229) 989 24 00
+			<br>  Fax:(229) 989 24 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+	
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Agencia de viajes <LI>   Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgVeracruz001.jpg" alt="Liverpool Veracruz"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>	
+	  
+	<marker lat="19.0952741" lng="-96.105909" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Veracruz El Dorado]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Miguel Alemán, esquina José Ma. Morelos.<br>Terreno Novillero. C.P. 94290. Boca del Río, Veracruz.
+			<br><br> Tel:(229) 923 43 00
+			<br>  Fax:(229) 923 43 92
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 9:00 a 21:00 hrs.
+	
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante<LI>Agencia de viajes <LI>Centro de Diseño de Interiores <LI>Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgDorado001.jpg" alt="Liverpool Veracruz el Dorado"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>	  
+	 
+	<marker lat="18.001509" lng="-92.945398" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Villahermosa]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Paseo Tabasco No. 1405.<br>Colonia Desarrollo Urbano Tabasco 2000.<br>Galerías Tabasco 2000.<br>C.P. 86035.<br>Villahermosa, Tabasco
+			<br><br> Tel:(993) 310 77 00
+			<br>  Fax:(993) 310 77 77
+			<br><br> Horario: Lunes a Domingo de 10:30 a 20:30 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 9:00 a 20:30 hrs.	
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Agencia de viajes <LI>   Centro de Diseño de Interiores ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgVillahermosa001.jpg" alt="Liverpool Villahermosa"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>	
+	 
+	<marker lat="17.967446" lng="-92.938950" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Villahermosa Altabrisa]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Circuito Interior Carlos Pellicer Cámara # 129<br>Colonia Primero de Mayo<br>Centro Comecial Altabrisa.<br>C.P. 86190.<br>Villahermosa, Tabasco
+			<br><br> Tel:(993) 310 69 00
+			<br>  Fax:(993) 310 69 00
+			<br><br> Horario: Lunes a Domingo de 10:30 a 20:30 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 9:00 a 20:30 hrs.	
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/default.jpg" alt="Liverpool Villahermosa Altabrisa"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>	
+	 
+
+	<marker lat="19.512965" lng="-96.877007" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Xalapa]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Carretera Xalapa-Veracruz Km. 2.5. No. 680. Ancla 1. Col. Pastoresa.<br>Las Américas Xalapa. C.P. 91193. Xalapa - Enríquez, Veracruz.
+			<br><br> Tel:(228) 141 11 00
+			<br>  Fax:(228) 141 11 70
+			<br><br> Horario: Lunes a Domingo de 8:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:30 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgXalapa001.jpg" alt="Liverpool Xalapa"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>		
+	 
+	 
+	<marker lat="22.767783" lng="-102.582006" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Zacatecas]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Héroes de Chapultepec domicilio conocido. Antigua Unidad Minera, El Bote. Cd. Argentum.<br>Zacatecas, Zacatecas. C.P. 98040
+			<br><br> Tel:(492) 491 80 00
+			<br>  Fax:(492) 491 80 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 8:00 a 20:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Centro de Diseño de Interiores <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgZacatecas001.jpg" alt="Liverpool Zacatecas"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>
+	 
+	<marker lat="20.712496281478" lng="-103.41246128082275" type="liverpool" ico="/assets/utils/almacenes_gm/images/icoBolsa.png">
+		<name><![CDATA[Liverpool Zapopan]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Patria 2085.  Fracc. Plaza Andares Zapopan, Jalisco. C.P. 45080
+			<br><br> Tel:(33) 36 48 17 00
+			<br>  Fax:(33) 36 48 17 88
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Restaurante <LI>Agencia de viajes <LI>   Centro de Seguros y Servicios ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgZapopan001.jpg" alt="Liverpool Zapopan"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>
+	 
+	 
+	<marker lat="21.11569" lng="-86.765985" type="dutyfree"  ico="/assets/utils/almacenes_gm/images/df.png" >
+		<name><![CDATA[Duty Free Cancún]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Kukulkán Km. 12.5.<br>Centro Comercial La Isla.<br>Locales en Planta Baja 42 y 43.<br>Locales en Planta Alta 20 y 21.<br>C.P. 77500.<br>Zona Hotelera.<br>Cancún, Quintana Roo.
+			<br><br> Tel:(998) 848 78 80
+			<br>  Fax:(998) 884 78 81
+			<br><br> Horario: Lunes a Domingo de 11:00 a 23:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCancun001_duty.jpg" alt="Liverpool Duty Free Cancún"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	 	 
+	 
+	<marker lat="21.102118" lng="-86.765213" type="dutyfree"  ico="/assets/utils/almacenes_gm/images/df.png">
+		<name><![CDATA[Duty Free Kukulcán]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Kukulcán Km 13.<br>Plaza Kukulcán.<br>Local 1 y 2 PB 201 y 202 PA<br>C.P. 77500.<br>Zona Hotelera.<br>Cancún, Quintana Roo.
+			<br><br> Tel:(998) 193 14 40
+			<br>  Fax:(998) 193 14 41
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgKukulcan001_duty.jpg" alt="Duty Free Kukulcán"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	 	 	 
+	 	 
+	<marker lat="22.880609" lng="-109.912189" type="dutyfree" ico="/assets/utils/almacenes_gm/images/df.png">
+		<name><![CDATA[Duty Free Los Cabos]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Marina No. 17. Plaza Bonita Mall. Local 38-D. Colonia Centro.<br>C.P. 23453. Cabo San Lucas, Baja California Sur.
+			<br><br> Tel:(624) 163 73 50
+			<br>  Fax:(624) 163 73 58
+			<br><br> Horario: Lunes a Domingo de 11:00 a 22:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgLosCabos001_duty.jpg" alt="Liverpool Duty Free Los Cabos"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	 	 
+
+
+	<marker lat="20.625213" lng="-87.07441" type="dutyfree" ico="/assets/utils/almacenes_gm/images/df.png">
+		<name><![CDATA[Duty Free Playa del Carmen]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[5a. Av. Norte No. 248. Esquina con Privada 14 Norte.<br>C.P. 77710. Colonia Centro. Playa del Carmen, Quintana Roo.
+			<br><br> Tel:(984) 206 31 40
+			<br>  Fax:(984) 873 09 70 ext. 1072
+			<br><br> Horario: Lunes a Domingo de 11:00 a 23:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgPlayaCarmen001_duty.jpg" alt="Duty Free Playa del Carmen"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	 
+
+
+	<marker lat="20.625675" lng="-87.073452" type="dutyfree" ico="/assets/utils/almacenes_gm/images/df.png">
+		<name><![CDATA[Duty Free Playa del Carmen II]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[5a. Av. Norte entre calle 4 Norte y Calle 6 Norte Mzn. 6 Lote 5<br>C.P. 77710. Colonia Centro. Playa del Carmen, Quintana Roo. Municipio de Solidaridad.
+			<br><br> Tel:(984) 873 09 70
+			<br>  Fax:(664) 635 17 55
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/default.jpg" alt="Liverpool Duty Free II"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+	<marker lat="32.528226" lng="-117.019683" type="dutyfree" ico="/assets/utils/almacenes_gm/images/df.png">
+		<name><![CDATA[Duty Free Tijuana]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Paseo de los Héroes #9111. Plaza Pavilion, Local 1. Zona Río Tijuana<br>C.P. 22010. Tijuana, Baja California.
+			<br><br> Tel:(664) 635 17 50
+			<br>  Fax:(664) 635 17 55
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.		
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgTijuana001_duty.jpg" alt="Liverpool Duty Free Tijuana"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>		 
+	 	 	 
+	
+	<marker lat="16.861535" lng="-99.882047" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Acapulco]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Costera Miguel Alemán No. 1632. Esquina con Wilfrido Massieu.<br>Fraccionamiento Magallanes. Interior Gran Plaza. C.P. 39670.<br>Acapulco, Guerrero.
+			<br><br> Tel:(744) 469 30 00
+			<br>  Fax:(744) 469 30 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+
+		
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Centro de Diseño de Interiores ]]> 
+		</tag2>
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgAcapulco001_ff.jpg" alt="Fábricas de Francia Acapulco"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+		
+	 </marker>		
+	
+	<marker lat="21.850157" lng="-102.293293" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Aguascalientes]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Calle Mahatma Gandhi s/n. Colonia Pilar Blanco.<br>Centro Comercial Villa Asunción. C.P. 20280.<br>Aguascalientes, Aguascalientes.
+			<br><br> Tel:(449) 910 49 00
+			<br>  Fax:(449) 910 49 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgAguascalientes001_ff.jpg" alt="Fábricas de Francia Aguascalientes"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+
+	<marker lat="28.648519" lng="-106.100979" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Chihuahua]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Francisco Ortíz Mena. Esquina con Antonio de Montes s/n.<br>Colonia Unidad Presidentes. Plaza Galerías. C.P. 31200. Chihuahua, Chihuahua.
+			<br><br> Tel:(614) 442 25 00
+			<br>  Fax:(614) 442 25 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgChihuahua001_ff.jpg" alt="aFábricas de Francia Chihuahua"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+	<marker lat="31.735193" lng="-106.446801" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Ciudad Juárez]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Paseo Triunfo de la República No. 4450. Colonia Monumental.<br>Centro Comercial Río Grande. C.P. 32310.<br>Ciudad Juárez, Chihuahua.
+			<br><br> Tel:(656) 688 12 00
+			<br>  Fax:(656) 688 12 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCiudadJuarez001_ff.jpg" alt="Fábricas de Francia Ciudad Juárez"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+		<marker lat="27.485012" lng="-109.947653" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Ciudad Obregón]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Calle California esq Guerrero s/n. Colonia Cumuripa.<br>Plaza Tutuli. C.P. 85140.<br>Ciudad Obregón, Sonora.
+			<br><br> Tel:(644) 410 58 00
+			<br>  Fax:(644) 410 58 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCiudadObregon001_ff.jpg" alt="Fábricas de Francia Ciudad Obregón"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>		 
+	 
+	 
+		<marker lat="19.159084" lng="-96.132469" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Coatzacoalcos]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Universidad esq. con Jacarandas s/n. Col. Rancho Alegre I<br>Plaza Cristal. C.P. 96558.<br>Coatzacoalcos, Veracruz.
+			<br><br> Tel:(921) 211 70 00
+			<br>  Fax:(921) 211 70 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Centro de Seguros y Servicios ]]>
+		</tag2>		
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCoatzacoalcos_ff.jpg" alt="Fábricas de Francia Coatzacoalcos"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>		 
+	 	 	 
+	<marker lat="18.884498" lng="-96.930496" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Córdoba]]></name>
+		<numTag>3</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Autopista Córdoba - Orizaba. Km. 1.<br>Fraccionamiento Las Lomas. Plaza Crystal. C.P. 94570.Córdoba, Veracruz.
+			<br><br> Tel:(271) 717 20 00
+			<br>  Fax:(271) 717 20 80
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+		<tag2 descripcion="Servicios Adicionales">
+			<![CDATA[<LI>Centro de Seguros y Servicios ]]>
+		</tag2>		
+		<tag3 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgCordoba001_ff.jpg" alt="aFábricas de Francia Córdoba"  style="width:100%;height:68%;"/>]]>
+		</tag3>
+	 </marker>			 
+	 
+	<marker lat="20.675338" lng="-103.347139" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Guadalajara, Centro]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Juárez No. 272.<br>Colonia Centro.<br>C.P. 44100.<br>Guadalajara, Jalisco.
+			<br><br> Tel:(33) 36 78 57 00
+			<br>  Fax:(33) 36 78 57 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgGuadalajaraCentro001_ff.jpg" alt="Fábricas de Francia Guadalajara, Centro"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+	<marker lat="20.673544" lng="-103.404908" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Gran Plaza, Guadalajara]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Vallarta No. 3959. Colonia Don Bosco Vallarta.<br>C.P. 45049. Zapopan, Jalisco.
+			<br><br> Tel:(33) 38 18 49 00
+			<br>  Fax:(33) 38 18 49 70
+			<br><br> Horario: Domingo a Jueves de 11:00 a 20:30 hrs.<br>Viernes y Sábado de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgGuadalajaraGranPlaza001_ff.jpg" alt="Fábricas de Francia Gran Plaza, Guadalajara"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>		 
+	 
+	<marker lat="20.712456" lng="-103.377389" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Plaza Patria, Guadalajara]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Patria. Esquina con Av. Ávila Camacho s/n. Local L. Colonia Seattle.<br>Centro Comercial Plaza Patria. C.P. 45160. Zapopan, Jalisco.
+			<br><br> Tel:(33) 36 78 67 00
+			<br>  Fax:(33) 36 78 67 70
+			<br><br> Horario: Domingo a Jueves de 11:00 a 20:30 hrs.<br>Viernes y Sábado de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgGuadalajaraPatria001_ff.jpg" alt="Fábricas de Francia Plaza Patria, Guadalajara"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>		
+	 
+<marker lat="20.650585" lng="-103.401834" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Plaza del Sol, Guadalajara]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. López Mateos Sur. Esquina Mariano Otero No. 2375. Zona E.<br>Local 1. Plaza del Sol. Colonia Ciudad del Sol. C.P. 45050. Zapopan, Jalisco.
+			<br><br> Tel:(33) 36 79 08 00
+			<br>  Fax:(33) 36 79 08 34
+			<br><br> Horario: Domingo a Jueves de 11:00 a 20:30 hrs.<br>Viernes y Sábado de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgGuadalajaraPlazaSol001_ff.jpg" alt="Fábricas de Francia Plaza del Sol, Guadalajara"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>		
+	 
+	 
+	<marker lat="21.141309" lng="-101.686867" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia León]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Paseo de los Insurgentes s/n. Esquina Blvd. Adolfo López Mateos.<br>Colonia Jardines del Moral. Centro Comercial La Gran Plaza. C.P. 37180. León, Guanajuato.
+			<br><br> Tel:(477) 710 30 00
+			<br>  Fax:(477) 710 30 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgLeon001_ff.jpg" alt="Fábricas de Francia León"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>		
+	 
+	<marker lat="23.201267" lng="-106.421514" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Mazatlán, Centro]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Benito Juárez. Esquina con Canizales s/n. Colonia Centro.<br>C.P. 82000. Mazatlán, Sinaloa.
+			<br><br> Tel:(669) 989 08 00
+			<br>  Fax:(669) 989 0870
+			<br><br> Horario: Lunes a Sábado de 10:30 a 20:30 hrs.<br>Domingo de 10:00 a 20:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgMazatlan001_ff.jpg" alt="Fábricas de Francia Mazatlán, Centro"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>			 
+	 
+	 
+	<marker lat="17.043984" lng="-96.716101" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Oaxaca]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Jorge López Tamayo No. 500. Esquina con Av. Vicente Guerrero.<br>Colonia Agencia Candiani.<br>Plaza Oaxaca.<br>C.P. 68130.<br>Oaxaca, Oaxaca.
+			<br><br> Tel:(951) 501 70 00
+			<br>  Fax:(951) 501 70 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgOaxaca001_ff.jpg" alt="Fábricas de Francia Oaxaca"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>
+	 
+	 
+	<marker lat="20.535414" lng="-97.471438" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Poza Rica]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Lázaro Cárdenas. No. 807. Colonia Morelos.<br>Plaza Cristal. C.P. 93340. Poza Rica, Veracruz.
+			<br><br> Tel:(782) 826 23 00
+			<br>  Fax:(782) 826 23 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgPozaRica001_ff.jpg" alt="Fábricas de Francia Poza Rica"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+ 
+	 	 	 	 
+
+	<marker lat="19.021389" lng="-98.212656" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Puebla]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Valsequillo. No. 107. Colonia Residencial Boulevares.<br>Plaza Crystal. C.P. 72440. Puebla, Puebla.
+			<br><br> Tel:(222) 229 76 00
+			<br>  Fax:(222) 229 76 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgPuebla001_ff.jpg" alt="Fábricas de Francia Puebla"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+
+	<marker lat="22.155313" lng="-101.005265" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia San Luis Potosí]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Nereo Rodríguez Barragán No. 450. Colonia Del Valle.<br>Plaza El Dorado. C.P. 78200. San Luis Potosí, San Luis Potosí.
+			<br><br> Tel:(444) 834 19 00
+			<br>  Fax:(444) 834 19 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br> Horario Restaurante: Lunes a Domingo de 9:00 a 20:30 hrs.
+
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgSanLuisPotosi001_ff.jpg" alt="Fábricas de Francia San Luis Potosí"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+	<marker lat="14.89354" lng="-92.274594" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Tapachula]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[4ta. Avénida Sur. Prolongación Puerto Madero s/n. Zona D12.<br>Colonia Cantarrana. Plaza Crystal. C.P. 30797. Tapachula, Chiapas.
+			<br><br> Tel:(962) 628 95 00
+			<br>  Fax:(962) 628 95 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgTapachula001_ff.jpg" alt="Fábricas de Francia Tapachula"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+	 
+	 
+	<marker lat="21.510359" lng="-104.891887" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Tepic]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. México No. 104 Norte.<br>Colonia Centro. C.P. 63000. Tepic, Nayarit.
+			<br><br> Tel:(311) 215 40 00
+			<br>  Fax:(311) 215 40 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgTepic001_ff.jpg" alt="Fábricas de Francia Tepic"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>		
+
+	<marker lat="19.158911" lng="-96.110045" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Veracruz]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Su Santidad Juan Pablo II No. 48. Esquina con Blvd. Ruíz Cortínes.<br>Fraccionamiento Jardines de Virginia. Plaza Mocambo. C.P. 94290.<br>Boca del Río, Veracruz.
+			<br><br> Tel:(229) 989 40 00
+			<br>  Fax:(229) 989 40 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgVeracruz001_ff.jpg" alt="Fábricas de Francia Veracruz"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+
+	 
+	 
+	<marker lat="17.980973" lng="-92.941219" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Villahermosa]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Heróico Colegio Militar. Esquina con Quintín Araus s/n.<br>Colonia Atasta de Cerra. Plaza Cristal. C.P. 86100. Villahermosa, Tabasco.
+			<br><br> Tel:(993) 310 60 00
+			<br>  Fax:(993) 310 60 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgVillahermosa001_ff.jpg" alt="Fábricas de Francia Villahermosa"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+
+	 
+	<marker lat="19.538381" lng="-96.906747" type="ff" ico="/assets/utils/almacenes_gm/images/ff.png">
+		<name><![CDATA[Fábricas de Francia Xalapa]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Lázaro Cárdenas. Esquina con Antonio Chedraui Karam s/n.<br>Colonia Encinal. Plaza Crystal. C.P. 91180. Xalapa, Veracruz.
+			<br><br> Tel:(228) 842 22 00
+			<br>  Fax:(228) 842 22 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+			<br><br><br>
+			
+			]]>
+		</tag1>
+		
+
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgXalapa001_ff.jpg" alt="Fábricas de Francia Xalapa"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	 
+	<marker lat="19.549296" lng="-99.274081" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Atizapán]]></name>
+		<numTag>2</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Ruiz Cortines No. 255 Colonia las Margaritas, Atizapán de Zaragoza, Edo. De México.
+			<br><br> Tel:D.F. y Área Metropolitana: 5545 1000<br>Interior de la República: 01800 2215 173
+			<br>  Fax:(228) 842 22 70
+			<br><br> Horario: Lunes a Domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasAtizapan/')">
+			
+			]]>
+		</tag1>
+		<tag2 descripcion="Foto      ">
+			<![CDATA[<img src="/assets/utils/almacenes_gm/images/imgXalapa001.jpg" alt="as"  style="width:100%;height:68%;"/>]]>
+		</tag2>
+	 </marker>	
+	
+	 
+	 <marker lat="19.856852" lng="-90.522596" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Campeche]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Pedro Sainz de Baranda No. 139<br>Colonia Ah Kim Pech Sector Metropolitano
+			<br><br> Tel: D.F. y Área Metropolitana: 5545 1000<br>Interior de la República: 01800 2215 173
+			<br>  Fax:(228) 842 22 70
+			<br><br> Horario: Lunes a Domingos de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasCampeche/')"> 
+			]]>
+		</tag1>
+	 </marker>	
+	
+	 
+	<marker lat="19.302456" lng="-99.123319" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Coapa]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Calzada del Hueso No.519<br>Col. Residencial Acoxpa
+			<br><br> Tel: D.F. y Área Metropolitana: 5545 1000<br>Interior de la República: 01800 2215 173
+			<br>  Fax:(228) 842 22 70
+			<br><br> Horario: Lunes a viernes de 11:00 a 20:30 hrs. Sábados y domingos de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasCoapa/')"> 
+			]]>
+		</tag1>
+	 </marker>	
+	 
+	 
+	 <marker lat="21.039356" lng="-89.629748" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Merida]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Calle 60 No. 299-A<br>Carretera Mérida-Progreso km 0.5
+			<br><br> Tel: D.F. y Área Metropolitana: 5545 1000 Interior de la República: 01800 2215 173
+
+			<br><br> Horario: Lunes a domingo: 11:00 a 21:00 hrs.
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasMerida/')"> 
+			]]>
+		</tag1>
+	 </marker>		
+	 
+	<marker lat="18.936379" lng="-99.190954" type="cc" ico="/assets/utils/almacenes_gm/images/CCCuernavaca.png">
+		<name><![CDATA[Galerías Cuernavaca]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Autopista México-Acapulco km. 87.5, Av. de los Cincuenta Metros
+			<br><br> Tel: D.F. y Área Metropolitana: 5545 1000 Interior de la República: 01800 2215 173
+
+			<br><br> Horario: Lunes a domingo de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasCuernavaca/')"> 
+			]]>
+		</tag1>
+
+	 </marker>		
+	 
+	<marker lat="17.515479" lng="-99.485321" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Chilpancingo]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. René Juárez Cisneros No. 130, Col. Predio Tepango, C.P. 39095, Chilpancingo, Guerrero.
+			<br><br> Tel: D.F. y Área Metropolitana: 5545 1000<br>Interior de la República: 01800 2215 173
+
+			<br><br> Horario: Lunes a domingo: 11:00 a 20:30 hrs.<br>Sábado: 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasChilpancingo/')"> 
+			]]>
+		</tag1>
+
+	 </marker>	 
+	 	 	 	 
+	 	 	 	 	 	 	 <!-- ######## -->
+	<marker lat="19.371023" lng="-99.178938" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Insurgentes]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Parroquia No.194, Col. Del Valle
+			<br><br> Tel: D.F. y Área Metropolitana: 5545 1000 Interior de la República: 01800 2215 173
+
+			<br><br> Horario: Domingo a viernes: 11:00 a 20:30 hrs.<br>Sábado: 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasInsurgentes/')"> 
+			]]>
+		</tag1>
+
+	 </marker>	 
+	 
+	<marker lat="25.581466" lng="-103.404629" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Laguna]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Periférico Raúl López Sánchez No.6000, Col. El Fresno
+			<br><br> D.F. y Área Metropolitana: 5545 1000 Interior de la República: 01800 2215 173
+
+			<br><br> Horario: Lunes a domingo: 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasLaguna/')"> 
+			]]>
+		</tag1>
+
+	 </marker>	 
+	<marker lat="19.259213" lng="-99.620569" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Metepec]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Boulevard Toluca-Metepec No.400
+					  <br><br> D.F. y Área Metropolitana: 5545 1000 Interior de la República: 01800 2215 173
+					  <br><br> Lunes a domingo: 11:00 a 20:30 hrs.<br>Sábado: 11:00 a 21:00 hrs.
+					
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasMetepec/')"> 
+			]]>
+		</tag1>
+
+	 </marker>	 
+	 	 	 	 	 	 	 	 	 	 
+	<marker lat="25.681181" lng="-100.354716" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Monterrey]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[<br> Av. Insurgentes No.2500, Col. Vista Hermosa
+			<br><br> D.F. y Área Metropolitana: 5545 1000, Interior de la República: 01800 2215 173
+			<br><br> Lunes a domingo: 11:00 a 20:30 hrs.<br>Sábado: 11:00 a 21:00 hrs.
+
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasMonterrey/')"> 
+			]]>
+		</tag1>
+
+	 </marker>	 
+	 
+	<marker lat="19.602442" lng="-99.191388" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Centro Comercial Perinorte]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Hacienda Sierra Vieja No. 2, Fracc. Hacienda del Parque. C.P. 54769. Cuautitlán Izcalli, Edo. de México.
+			<br> <br> Tel: D.F. y Área Metropolitana: 5545 1000 <br>Interior de la República: 01800 2215 173
+			<br> <br> Lunes a viernes de 11:00 a 20:30 hrs.<br>Sábados y domingos de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/perinorte/')"> 
+			]]>
+		</tag1>
+
+	 </marker>	 
+	<marker lat="19.304035" lng="-99.189999" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Centro Comercial Perisur]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Anillo Periférico Sur 4690,<br>Col. Ampliación Pedregal de San Ángel.C.P. 04500, Coyoacán, México D.F.
+			<br> <br> Tel: D.F. y Área Metropolitana: 5545 1000 Interior de la República: 01800 2215 173
+			
+			<br><br> Lunes a domingo: 11:00 a 20:30 hrs.<br>Sábado: 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/perisur/')"> 
+			]]>
+		</tag1>
+
+	 </marker>	 
+
+	<marker lat="20.577761" lng="-100.405426" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Querétaro]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. 5 de Febrero No. 99 esq. Celaya Cuota, Col. Los Virreyes, C.P. 76175,<br>Santiago de Querétaro, Qro.
+			<br> <br> Tel: D.F. y Área Metropolitana: 5545 1000 Interior de la República: 01800 2215 173<br>01 442 215 70 62/65
+			<br><br> Lunes a domingo: 11:00 a 20:30 hrs.<br>Sábado: 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasQueretaro/')"> 
+			]]>
+		</tag1>
+
+	 </marker>	 
+	<marker lat="25.444224" lng="-100.973175" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Saltillo]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Nazario Ortiz Garza #2345 Col. Tanque de Peña  C.P. 25279  Saltillo, Coahuila.
+			<br><br> Tel: (844) 4853600
+
+			<br><br> Horario: Lunes a domingo: 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasSaltillo/')"> 
+			]]>
+		</tag1>
+
+	 </marker>
+	 
+	 <marker lat="20.384314" lng="-100.012716" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías San Juan del Río]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Blvd. Carretera Panamericana No. 200. Col. Centro San Juan del Río, Querétaro. C.P. 76800
+			<br><br> Tel: (844) 4853600
+
+			<br><br> Horario: Lunes a domingo: 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasSanJuandelRio')"> 
+			]]>
+		</tag1>
+	 </marker>
+ 
+	 
+	<marker lat="18.000846" lng="-92.945988" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png">
+		<name><![CDATA[Galerías Tabasco]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Paseo Tabasco No.1405, Col. Desarrollo Urbano
+			<br><br> Tel: D.F. y Área Metropolitana: 5545 1000 Interior de la República: 01800 2215 173
+			<br><br> Horario:   Lunes a domingo de 11:00 a 21:00 hrs. 
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasTabasco/')"> 
+			]]>
+		</tag1>
+
+	 </marker>	 
+	 
+	<marker lat="20.658456" lng="-105.239448" type="cc" ico="/assets/utils/almacenes_gm/images/cc.png"> <!--  CCPVallarta.png">-->
+		<name><![CDATA[Galerías Vallarta]]></name>
+		<numTag>1</numTag>
+		<tag1 descripcion="Datos Generales">
+			<![CDATA[Av. Francisco Medina Ascencio No.2920, Col. Educación.
+			<br><br> D.F. y Área Metropolitana: 5545 1000 Interior de la República: 01800 2215 173
+
+			<br><br> Lunes a viernes de 11:00 a 20:30 hrs.<br>Sábados y domingos de 11:00 a 21:00 hrs.
+
+			<br><br><br>
+			<INPUT TYPE="BUTTON" VALUE="Visita el sitio" ONCLICK="window.open('http://www.galerias.com/GaleriasVallarta/')"> 
+			]]>
+		</tag1>
+
+	 </marker>
+</markers>

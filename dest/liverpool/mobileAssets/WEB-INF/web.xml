@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+
+	<display-name>LP Mobile Static Content</display-name>
+	<description>An ATG Application for LP</description>
+	<!--
+		If context-root is set here, then ServletContextWebAppRegistry will use this setting as the context-root for this
+		WebApp. This must match the context-root setting in application.xml.
+	-->
+	<context-param>
+		<param-name>context-root</param-name>
+		<param-value>/mobileAssets</param-value>
+	</context-param>
+
+	
+</web-app>
+	<!-- @version $Id: //product/Eclipse/main/plugins/atg.project/templates/web.xml#1 $$Change: 425088 $ -->

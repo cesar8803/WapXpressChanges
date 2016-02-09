@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+background-color:#eeeeee;
+}
+#contenedor {
+background-color: white;
+width: 800px;
+margin:0 auto;
+padding: 0px;
+}
+#header {
+border: 0px;
+padding: 10px 10px 5px 20px;
+font: 100% helvetica;
+background-color:blue;
+background-color:white\0/;
+}
+#parrafos {
+margin-bottom: 5px;
+overflow: auto;
+width: 100%
+}
+#parrafo1 {
+font: 80% helvetica;
+float: left;
+color: #333;
+margin: 10px 13px;
+padding: 0px;
+width: 380px;
+display: inline;
+position: relative;
+}
+#parrafo2 {
+font: 80% helvetica;
+display: inline;
+position: relative;
+color: #333;
+margin: 10px 10px 10px 0px;
+padding: 0px;
+width: 380px;
+float: left;
+}
+#parrafo3 {
+font: 80% helvetica;
+float: left;
+color: #333;
+margin: 10px 13px;
+padding: 0px;
+width: 775px;
+display: inline;
+position: relative;
+}
+#pie {
+background: url(/web/images/pdf/pie.jpg);
+margin: 0px;
+padding: 0px;
+width: 800px;
+height: 100px;
+position: display;
+}

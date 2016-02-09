@@ -1,0 +1,268 @@
+.footer{
+color: #fff;
+font-family: 'Roboto Medium', sans-serif;
+}
+.footer-top{
+background: #E0068D;
+padding: 30px 0;
+clear:both;
+}
+.footer-top h1{
+font-family: arial;
+font-size: 21px;
+line-height: normal;
+}
+.footer-top p{
+}
+.footer-top a{
+color: #fff;
+font-size: 15px;
+}
+.footer-top label{
+color: #fff;
+font-size: 15px;
+}
+.footer-top h2{
+font-family: 'Roboto Bold', sans-serif;
+font-size: 18px;
+line-height: normal;
+}
+.footer-top .last-section label{
+color: #231f20;
+}
+.social-icons{
+margin-bottom: 4px;
+}
+.social-icons a{
+width: 36px;
+height: 36px;
+display: inline-block;
+margin-right: 8px;
+}
+.social-icons a.facebook_icon{
+background:url('/mobileAssets/images/icons/facebook.png') no-repeat;
+background-size: 36px;
+}
+.social-icons a.pinterest_icon{
+background:url('/mobileAssets/images/icons/pinterest.png') no-repeat;
+background-size: 36px;
+}
+.social-icons a.twitter_icon{
+background:url('/mobileAssets/images/icons/twitter.png') no-repeat;
+background-size: 36px;
+}
+.footer-top button{
+color: #da027b;
+border: 1px solid #686868;
+border-radius: 4px;
+font-family: arial;
+font-size: 15px;
+font-weight: bold;
+padding: 2px 15px;
+background: #fff;
+}
+.footer-bottom{
+background: #262626;
+}
+.footer-bottom .sub-section{
+margin-top: 8px;
+}
+.sub-section h3{
+font-size: 17px;
+font-weight: normal;
+line-height: normal;
+}
+.sub-section p{
+font-family: 'Roboto Medium';
+font-size: 12px;
+margin :0;
+}
+.sub-section ul.subList{
+margin: 0;
+}
+.sub-section ul.subList li span{
+color: #fff;
+font-size: 13px;
+}
+.sub-section .cerificates{
+background: #fff;
+padding-bottom: 2px;
+}
+.sub-section .cerificates img{
+max-height: 45px;
+max-width: 58px;
+}
+.footer-bottom-last
+{
+padding: 8px 0;
+}
+.footer-bottom-last a{
+color: #fff;
+text-decoration: underline;
+padding: 0 10px;
+font-size: 11px;
+font-family: 'Roboto Light';
+}
+.footer-bottom-last p{
+color:#a9a8a8;
+font-size: 9px;
+font-family: arial;
+
+}
+
+.footer-top .location {
+background-color: #c7046c;
+padding: 9px;
+font-size: 12px;
+}
+.footer-top .location .footerlocation_arrow
+{
+margin-left: 9px;
+
+}
+.footer-top
+{
+padding: 30px 0px 4px 0px;
+}
+.footertop_phone
+{
+
+margin-bottom: 0px !important;
+}
+#footertop_contactno
+{
+
+width:30% !important;
+}
+.footertop_icon
+{
+float:left;
+margin-right:4px;
+}
+.footertop_pinloc
+{
+padding-right: 4px;
+padding-bottom: 6px;
+}
+.bootom-footer .breadcrumb{
+list-style: none;
+border-radius: 4px;
+margin-left: 0;
+min-height: 33px;
+background-color: transparent;
+margin: 0;
+margin: 0 auto;
+}
+
+
+
+.footer-schedules {
+float: left;
+background: #cbd5d7;
+color: #000000;
+padding: 1.02em;
+}
+.footer-contact {
+background: #e4e8e9;
+color: #000000;
+padding: 1.02em;
+float: left;
+}
+.footer-contact span a {
+color: #FF2797;
+}
+.footer-bottom .sub-section h3 a, .footer-bottom .sub-section h3 font font font font {
+  color: #3d4949;
+  font-size: 15px;
+}
+.bootom-footer {
+margin-top: 4px;
+}
+.breadcrumb.bread-rights li a {
+color: #000;
+}
+.footer-icon-locator {
+background-image: url(/mobileAssets/images/icons/store-locator-hover-icon1.png);
+background-repeat: no-repeat;
+width: 1.6em;
+height: 1.6em;
+background-size: 1em;
+background-position: 5px 5px;
+display: inline-block;
+}
+.footer-schedules span {
+color: #ff2797;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation: portrait) {
+.footer-schedules {
+width: 47%;
+}
+.footer-contact {
+width: 46%;
+padding : 2.3% 1.9%;
+}
+
+.bootom-footer .breadcrumb{
+width: 48%;
+}
+.footer-schedules .row-fluid{
+width:100%;
+}
+.footer-bottom .breadcrumb li{
+border:none;
+padding: 0;
+}
+.bootom-footer .breadcrumb {
+min-height : 25px;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation: landscape) {
+.footer-schedules {
+width: 47%;
+}
+.footer-contact {
+width: 47.8%;
+padding: 1.7% 1.4%;
+}
+.bootom-footer .breadcrumb{
+width: 40%;
+}
+.footer-schedules .row-fluid{
+width:100%;
+}
+.footer-bottom .breadcrumb li{
+border:none;
+padding: 0;
+}
+.bootom-footer .breadcrumb {
+min-height : 25px;
+}
+
+}
+.bootom-footer .breadcrumb.bread-terms li a{
+color: #00a4e4;
+}
+.bootom-footer .breadcrumb li:first-child{
+background : none;
+}
+.bootom-footer .breadcrumb li:last-child{
+background : none;
+border : none;
+}
+.footer-textleft{
+width: 70% !important;
+float: left !important;
+position: relative;
+left: 4%;
+}
+.footer-imageleft
+{
+width: 25% !important;
+color: #FF2797;
+}
+
+.sub-section a {
+color: #949897;
+}

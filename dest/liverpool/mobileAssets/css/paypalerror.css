@@ -1,0 +1,85 @@
+.paypalerror
+{
+
+border: #ccc 1px solid !important;
+
+}
+
+.paypalerror p
+{
+font-family: 'Roboto Regular',arial,sans-serif;
+font-size: 16px;
+font-weight: 500;
+color: #454545;
+word-wrap: break-word;
+word-break: break-all;
+padding: 10px;
+}
+.htpt
+{
+height: 70px;
+}
+.errmsgdiv
+{
+width: 20% !important;
+float: left !important;
+position: relative;
+left: 14%;
+top: 22px;
+display: none !important;
+
+}
+.errmsgdiv2
+{
+width: 61% !important;
+float: left !important;
+position: relative;
+left: 9%;
+
+}
+.topneverr
+{
+
+color: #000;
+font-weight: bold;
+font-size: 15px;
+
+}
+.bordersold
+{
+border-bottom: #ccc 1px solid !important;
+display: block;
+height: 60px;
+}
+
+.smalft
+{
+font-weight: 100;
+font-size: 12px;
+
+}
+
+.ipaderrmsgdiv {
+width: 20% !important;
+float: left !important;
+position: relative;
+left: 30%;
+top: 16px;
+}
+
+.ipaderrmsgdiv2 {
+width: 63% !important;
+float: left !important;
+position: relative;
+left: 16%;
+}
+.ipadbordersold
+{
+border-bottom: #ccc 1px solid !important;
+display: block;
+height: 47px;
+width: 300px;
+}
+
+.checkout-details-main{
+margin-bottom: 20px;

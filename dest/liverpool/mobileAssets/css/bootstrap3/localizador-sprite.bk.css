@@ -1,0 +1,120 @@
+.sprite {
+    background-image: url(../../images/locator/sprite_localizador.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-back {
+    width: 97px;
+    height: 95px;
+    background-position: -5px -5px;
+}
+
+.sprite-btn_busqueda {
+      width: 40px;
+  height: 40px;
+  background-position: -92px -2px;
+  background-size: 20em;
+}
+
+.sprite-btn_localizador {
+      width: 40px;
+  height: 40px;
+  background-position: -107px 2px;
+  background-size: 15.5em;
+}
+
+.sprite-btn_mas {
+    width: 80px;
+  height: 83px;
+  background-position: -67px -35px;
+  background-size: 15em;
+}
+
+.sprite-filtro_activo {
+    width: 36px;
+    height: 36px;
+    background-position: -232px -5px;
+}
+
+.sprite-filtro_inactivo {
+    
+  width: 14px;
+  height: 13px;
+  background-position: 0px -64px;
+  background-size: 8em;
+  
+}
+
+
+.sprite-horario {
+    width: 60px;
+    height: 59px;
+    background-position: -51px -193px;
+}
+
+.sprite-indicaciones {
+  width: 30px;
+  height: 25px;
+  background-position: -63px -104px;
+  background-size: 13em;
+}
+
+.sprite-listado {
+    width: 47px;
+    height: 37px;
+    background-position: -176px -193px;
+}
+
+.sprite-lllamar {
+    width: 30px;
+  height: 30px;
+  background-position: -164px -1px;
+  background-size: 14em;
+}
+
+.sprite-localizador_gris {
+    width: 79px;
+    height: 61px;
+    background-position: -241px -61px;
+}
+
+.sprite-logo {
+    width: 58px;
+    height: 51px;
+    background-position: -5px -132px;
+}
+
+.sprite-mark {
+    width: 47px;
+    height: 66px;
+    background-position: -241px -132px;
+}
+
+.sprite-radio_activo {
+    width: 36px;
+    height: 36px;
+    background-position: -233px -208px;
+}
+
+.sprite-radio_inactivo {
+    width: 36px;
+    height: 36px;
+    background-position: -279px -208px;
+}
+
+.sprite-servicios {
+    width: 49px;
+    height: 66px;
+    background-position: -121px -254px;
+}
+
+.sprite-telefono {
+    width: 45px;
+    height: 45px;
+    background-position: -180px -254px;
+}
+.align-icon-header{
+    margin-top: 0.3em;
+    margin-right: 1em;
+}

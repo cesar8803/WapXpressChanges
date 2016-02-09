@@ -1,0 +1,199 @@
+.border-header{
+  border: solid;
+  border-width: thin;
+  /*border-color: #E9E9E9;*/
+  border-color: #ced2d3;
+  background-color: #fff;
+  height: 55px;
+}
+.btn-back-head {
+    background-color: #FF0084;
+    border: none;
+    height: 53px;
+    margin-left: -1px;
+    width: 53px;
+    padding: 0;
+}
+.btn-Searc-head{
+  background: #FF0084 url('/mobileAssets/images/icons/search_header.png') no-repeat center center!important;
+    height: 32px!important;
+  width: 32px!important;
+  display: inline-block;
+  text-indent: -9999px;
+  background-size: 20px!important;
+  border: 0 solid;
+  right:0!important;
+}
+
+.back-button{
+  
+}
+
+
+.loggin-modal-body{
+  padding: 10px;
+}
+
+.loggin-modal-body .row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#button_loggin{
+  padding-bottom: 10px;
+}
+#myTab li{
+  width: 50%;
+  text-align: center;
+}
+.modal-close-btn {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  background: url('/mobileAssets/images/buttons/modal-close-btn.png') no-repeat center center;
+  width: 50px;
+  height: 53px;
+  background-size: 50px;
+  z-index: 1;
+  
+}
+
+
+.tab-content{
+  padding-top: 20px;
+}
+
+.back-button img{
+  max-width: 40px;
+}
+.img-sea{
+  max-width: 20px;
+  max-height: 20px;
+}
+.logo{
+  margin: 10px 0 0;
+  max-width: 125px;
+  max-height: 36px;
+  margin-left: -10px;
+}
+.search-position{
+    margin: 8px;
+  float: right;
+  width: 22em;
+    margin-right: -9px;
+}
+.img-size-icon{
+  padding-top: 13px;
+    width: 2em;
+      margin-left: 5px;
+}
+.img-group{
+  width: 20px;
+}
+.img-size-badge{
+  padding-top: 5px;
+  width: 3em;
+}
+.img-size-icon-bag{
+  width: 52px;
+  height: 30px;
+  display: block;
+}
+
+.btn-group.bg-Group a {
+    display: block;
+    width: 48%;
+    float: left;
+    border-left: 1px solid #ddd;
+    height: 55px;
+}
+
+
+.btn-group-user {
+    background-color: #f8f8f8;
+    border: none;
+    height: 51px;
+    width: 131px;
+    font-size: 0.75em;
+    color: #333;
+}
+.bg-Group {
+    background-color: #F8F8F8;
+    margin-left: -15px;
+    width: 95%;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    height: 53px;
+}
+.badge-position{
+  margin-left: -5em;
+}
+.badge-img{
+  position: absolute;
+  right: 0px;
+  background-color: #FF0084;
+  margin-top: 8px;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+.search-position {
+  margin: 8px;
+  float: right;
+  width: 13em;
+    margin-right: -9px;
+}
+.badge-position{
+  margin-left: -1em;
+}
+.badge-img {
+  position: absolute;
+  right: 0px;
+  background-color: #DC027C;
+  margin-top: 8px;
+  margin-right: -14px;
+}
+ }
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+ .logo {
+  margin: 8px;
+  max-width: 145px;
+  max-height: 36px;
+  margin-left: 42px;
+}
+}
+button.btn-group-user{
+    width:100%!important;
+    float: left!important;
+    display: inline-block;
+}
+.logged-in a button{
+    width:100%!important;
+}
+
+ul.loggedin-menu.lp-loggenin-cont.pdplogincontent {
+    top:60px;
+    width:130px;
+}
+ul.loggedin-menu.lp-loggenin-cont.pdplogincontent li{
+    display:block!important;
+    height: auto;
+    overflow: hidden;
+}
+ul.loggedin-menu.lp-loggenin-cont.pdplogincontent li a{
+    display:inline-block;
+    width:100%!important;
+    height:auto;
+    padding:.25em 0;
+    border: 0 solid
+}
+.logged-in button {
+    width:50%!important;
+    height: 60px;
+}
+body > div.ui-page.ui-page-theme-a.ui-page-active > section > header > div.hidden-xs.border-header.row.header-ipad > div.col-xs-5 > div.col-xs-10 {
+    width: 97%;
+    height: 55px;
+    box-sizing: border-box;
+}
+.badge-position {
+    margin-left: -4em!important;
+}

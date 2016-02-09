@@ -1,0 +1,1173 @@
+.breadcrumb-slider{
+width: 92%;
+}
+.promotions-slider{
+width: 68%;
+}
+/*Start: Credits Login Css */
+.credits-login{
+padding:0 1.5%;
+}
+.usuario-content{
+padding:25px 25px;
+background-color:#fafafa;
+border:1px solid #dcdcdc;
+margin-top:40px;
+border-radius:5px 5px;
+min-height:380px;
+}
+.consulta-content{
+padding:25px 25px;
+background-color:#fafafa;
+border:1px solid #dcdcdc;
+margin-top:40px;
+border-radius:5px 5px;
+min-height:340px;
+}
+.usario-header{
+width:100%;
+margin:0px auto;
+}
+.consulta-header{
+width:100%;
+margin:0px auto;
+}
+.usario-header h3, .consulta-header h3{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:18px;
+font-weight:400;
+text-transform: uppercase;
+text-align:center;
+margin:0px;
+}
+.usario-header label, .consulta-header label{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:16px;
+font-weight:400;
+text-align:center;
+}
+.usuario-textbx{
+/*width:92.50%;*/
+width:93%;
+padding:3% !important;
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:15px !important;
+font-weight:400;
+margin-bottom:15px !important;
+}
+.entrar-btn{
+width:99.5% !important;
+text-transform: uppercase;
+margin-bottom:25px;
+padding:15px 0px !important;
+}
+.usario-txtcontainer{
+margin-top:30px;
+}
+.usario-txtcontainer p{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:15px;
+font-weight:400;
+}
+.usario-txtcontainer .login-txt{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:13px;
+font-weight:400;
+}
+.usuario-banner{
+margin-top:40px;
+width:100%;
+border:1px solid #dcdcdc;
+position: relative;
+float: left;
+}
+.usuario-banner img{
+height:390px;
+width:100%;
+}
+.credits-banner{
+min-height:390px;
+display: inline-block;
+width:100%;
+}
+.usario-bottom-content{
+margin-bottom:40px;
+}
+.creditcard-container {
+width:100%;
+margin:0px;
+float:left;
+margin-bottom:60px;
+}
+.creditcard-container .cards-wrapper{
+float:left;
+border:1px solid #d4d4d4;
+padding:10px 10px;
+margin-left:13px !important;
+width:24%;
+}
+.creditcard-container{
+margin-left:0px !important;
+}
+.left-creditcard{
+margin-top:10px;
+}
+.left-creditcard img{
+margin-top:10px;
+}
+.haz-greybtn{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:13px;
+font-weight:400;
+border:1px solid #d0d1d1;
+background-color:#f1f1f1;
+padding:5px 15px;
+color:#000;
+margin-top:10px;
+}
+.creditcard-name{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:14px;
+font-weight:400;
+text-transform:uppercase;
+color:#545454;
+}
+.creditcard-more{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:13px;
+font-weight:400;
+color:#000;
+}
+.credit-ayuda{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:13px;
+font-weight:400;
+color:#000;
+margin-top:15px;
+display:block;
+}
+.quest-help{
+border-radius:50%;
+background:#00a4e4;
+color:#fff;
+padding:2px 10px;
+display:inline-block;
+margin-right:10px;
+}
+.solicit{
+position:absolute;
+bottom:42px;
+left:75px;
+color:#ff0084;
+text-decoration: underline;
+}
+.creditcard-container .cards-wrapper:first-child{
+margin-left:0px !important;
+}
+/* End: Credits Login Css */
+
+/* Start: Credits Add Card Css */
+.card-container {
+padding: 1.5% 2%;
+height: 100%;
+}
+.card-container h2 {
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 18px;
+font-weight: normal;
+color: #111111;
+}
+.select-card-box-main{
+position: relative;
+float: left;
+width: 50%;
+border: 1px solid #ACACAC;
+}
+/*Css for the select starts from here */
+
+.custom-select-list, .custom-select-options{
+width: 50%;
+margin: 10px 0 0 0;
+}
+.custom-select-list .selected-text{
+width: 80%;
+display: block;
+float: left;
+height: 38px;
+line-height: 38px;
+color: #888888;
+font-size: 15px;
+font-family: 'Roboto Medium';
+}
+.selected-li, .custom-select-options li{
+cursor: pointer;
+padding: 0 0 0 14px;
+}
+.down-arr{
+border-left: 1px solid #acacac;
+display: block;
+float: right;
+}
+.custom-select-list li{
+display: block;
+float: left;
+width: 96%;
+}
+.custom-select-options{
+display: none;
+z-index: 9;
+margin: 0;
+position: absolute;
+left: 0;
+top:37px;
+background: #fff;
+border-radius:5px;
+width: 100% !important;
+}
+.my-card-img{
+float: left;
+width: 30%;
+}
+
+/*Css for the select ends from here */
+.option-text{
+float: left;
+color: #888888;
+font-family: 'Roboto Medium';
+font-size: 15px;
+padding: 6px;
+width: 96%;;
+}
+.select-card-box .arrow{
+float: right;
+height: 38px;
+width: 19%;
+border-left:1px solid #ACACAC;
+background: url("/mobileAssets/images/icons/list_arrow_icon.png") no-repeat scroll center center / 14px auto rgba(0, 0, 0, 0);
+}
+
+ul.card-options li{
+padding-top: 4%;
+border-top: 1px solid #ACACAC;
+}
+ul.card-options li a{
+font-family: 'Roboto Condensed';
+font-size: 16px;
+color: #000;
+}
+ul.card-options li a img{
+height: 50px;
+margin-right: 10px;
+}
+.card-detail-main{
+position: relative;
+}
+.card-details{
+position: absolute;
+padding: 0 1.5%;
+width: 30%;
+height: 100%;
+background: rgba(0,0,0,0.7);
+top:0;
+left: 0;
+color: #fff;
+font-family: 'Roboto Regular';
+font-size: 15px;
+}
+.card-details .card-details-header{
+margin-top: 20px;
+}
+.card-details h1{
+font-family: 'Roboto Bold';
+font-size: 22px;
+line-height: 25px;
+margin-top: 0;
+}
+.card-details ul{
+margin:25px 0 0;
+}
+.card-details ul li{
+margin-bottom: 8px;
+line-height: 17px;
+background: url(/mobileAssets/images/icons/tick-mark-grey.png) no-repeat left top ;
+background-size: 16px;
+padding-left: 25px;
+}
+.accordion-group {
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+border-color: #E5E5E5 -moz-use-text-color -moz-use-text-color;
+border-image: none;
+border-radius: 0;
+border-right: medium none;
+border-style: solid none none;
+border-width: 1px medium medium;
+}
+.accordion-group:last-child {
+border-bottom: 1px solid #E5E5E5;
+}
+.accordion-inner {
+border: medium none;
+font-family: 'Roboto Regular', arial, sans-serif;
+font-size: 13px;
+padding: 9px 5%;
+}
+.accordion-heading .accordion-toggle {
+color: #505050;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 18px;
+padding: 12px 0;
+position: relative;
+}
+.accordion-heading .accordion-toggle:after {
+color: #E0068D;
+content: "+";
+font-size: 28px;
+position: absolute;
+right: 1%;
+}
+.accordion-heading.active .accordion-toggle:after {
+color: #E0068D;
+content: "-";
+font-size: 28px;
+position: absolute;
+right: 1%;
+}
+.accordion-inner h5, .accordion-inner h4 {
+color: #303030;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-weight: normal;
+margin: 0 0 5px;
+}
+.accordion-inner h4 {
+font-size: 16px;
+margin-bottom: 10px;
+}
+.accordion-inner p {
+color: #494949;
+margin-bottom: 0;
+}
+
+.credit-add-card-container{
+padding:2% 2% 2% 1.5%;
+}
+.credit-agregar{
+margin:10px 0px 10px 0px;
+float:left;
+padding-left: 22px;
+}
+.credit-agregar li{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:15px;
+font-weight:400;
+color:#111;
+margin-bottom:10px;
+list-style: disc outside url(/mobileAssets/images/icons/tick-mark.png);
+}
+.credit-agregar li span {
+vertical-align: text-top;
+line-height: 16px;
+}
+.check-mrk{
+background:url(/mobileAssets/images/icons/tick-mark.png) no-repeat;
+width:15px;
+height:15px;
+background-size:15px;
+color:#fff;
+display:inline-block;
+margin-right:5px;
+vertical-align:middle;
+}
+.credit-add-card-numero{
+border-radius: 5px 5px !important;
+padding:10px 15px !important;
+width:100%;
+margin-bottom:15px !important;
+height: 38px !important;
+}
+.credit-add-card-content h5{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size:16px;
+font-weight:500;
+color:#111;
+}
+.show-order-list{
+list-style: decimal;
+}
+.card-detail-table-row{
+border-top: 1px solid #DDDDDD;
+line-height: 30px;
+padding-bottom: 5px;
+padding-top: 5px;
+}
+.card-detail-table-row:nth-child(2n+1) {
+background-color: #F9F9F9;
+}
+.cards-content .accordion-title{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size:23px;
+line-height: 30px;
+font-weight:500;
+color:#111;
+margin-bottom: 20px;
+}
+.cards-content .accordion-sub-title{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size:19px;
+line-height: 30px;
+font-weight:500;
+color:#111;
+margin: 30px 0 20px 0;
+}
+.cards-content .accordion-mini-title{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size:18px;
+line-height: 30px;
+font-weight:500;
+color:#111;
+margin: 0 0 15px 0;
+}
+.hightlight-pink, .cards-ul-title, .insurance-amnt{
+color: #EF0078 !important;
+font-family: 'Roboto Medium', arial, sans-serif;
+}
+.cards-ul-title{
+margin-bottom: 10px !important;
+}
+.show-pink-bullets{
+list-style: disc;
+color: #EF0078;
+margin-left: 15px !important;
+}
+.show-pink-bullets p{
+margin: 0;
+}
+.insurance-amnt{
+font-size: 20px;
+}
+.card-tab-list.show-pink-bullets > li{
+margin-bottom: 15px;
+}
+.card-banner-image{
+width: 100%;
+}
+/*css for card tabs starts here*/
+.card-tab-list{
+margin: 0;
+}
+/*css for card tabs ends here*/
+
+/* End: Credits Add Card Css */
+/* Start: MyCard Css */
+.my-cards-container{
+padding:2% 1%;
+}
+.cards-content{
+margin-bottom:30px;
+}
+.card-close{
+background: url('/mobileAssets/images/icons/cart-close.png') no-repeat;
+height: 21px;
+width: 21px;
+background-size: 21px;
+display: inline-block;
+text-indent: -9999px;
+cursor: pointer;
+}
+.mycards-row{
+padding:15px 0px 25px 0px;
+border-bottom:1px solid #bbbbbb;
+}
+.my-cards-container .mistarjeta{
+border-bottom:1px solid #bbbbbb;
+padding-bottom:15px;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size:18px;
+font-weight:500;
+color:#111;
+margin-top:0px;
+}
+.card-name{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:15px;
+font-weight:400;
+color:#000;
+margin-bottom:10px;
+}
+.my-card-number{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:14px;
+font-weight:400;
+color:#000;
+}
+.my-card-details{
+margin-top:10px;
+}
+.my-card-details label{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size:14px;
+font-weight:400;
+color:#000;
+padding-bottom:10px;
+}
+.my-card-details span{
+font-family: 'Roboto BoldCondensed', arial, sans-serif;
+font-size:14px;
+font-weight:700;
+color:#000;
+padding-top:15px;
+display:inline-block;
+border-top:1px solid #bbbbbb;
+}
+.card-consultar{
+/*margin-top:30px;*/
+padding:10px 30px;
+}
+.credit-cont{
+padding: 15px 0 15px 15px;
+}
+.rt-cont p{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+}
+.rt-cont .credit-delete-btn{
+font-family: 'Roboto Bold', arial, sans-serif;
+font-size: 18px;
+font-weight: 700;
+padding: 10px 40px;
+}
+.credit-cont .btn-pink-small{
+margin-right: 0 !important;
+}
+.credit-cont .btn-grey-small{
+margin-right: 25px !important;
+}
+/* End: MyCard Css */
+/* Start: Credits Landing Anonymous User Css */
+.credits-landing-container{
+padding:15px 20px 20px 20px;
+}
+.banner-container{
+position:relative;
+}
+.credits-entrar{
+margin-bottom:20px;
+padding:15px 75px;
+}
+.credits-grey{
+padding:15px 15px;
+}
+.credits-correo-txt{
+width:95%;
+padding:10px 10px !important;
+border-radius:5px 5px !important;
+margin-bottom:15px !important;
+}
+.credits-folio-txt{
+width:96%;
+padding:10px 10px !important;
+border-radius:5px 5px !important;
+margin-bottom:15px !important;
+height: 20px !important;
+}
+.iniciar{
+margin-top:0px;
+}
+.credits-carousal .lvpool-caroufredsel-pag{
+left:205px;
+}
+.credits-vermas{
+position:absolute;
+bottom:20px;
+right:25px;
+z-index:2;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-weight: 500;
+font-size:12px;
+text-decoration: underline;
+color:#000;
+}
+.credits-promotional-banner{
+margin-top:50px;
+float:left;
+}
+.promo-banner-container{
+margin-top:30px;
+margin-bottom:40px;
+}
+.promo-banner-container ul{
+margin:0px;
+}
+.credits-tick{
+background:url(/mobileAssets/images/icons/tick-mark-white.png);
+width:30px;
+height:30px;
+background-size:30px;
+display:inline-block;
+text-align:center;
+}
+.t-data{
+padding:25px 0px !important;
+text-align:center !important;
+}
+.t-heading{
+text-align:left !important;
+padding-left:8px !important;
+vertical-align:middle !important;
+}
+.cards-table-container table{
+border:1px solid #bbb;
+}
+.cards-table-container{
+margin-top:40px;
+}
+.credits-consulta-container{
+margin-top:35px;
+}
+.cards-table-container table td, .cards-table-container table th{
+background:#f7f7f7;
+font-family:'Roboto Condensed', arial, sans-serif;
+font-weight: 400;
+font-size:15px;
+}
+.grey-col{
+background:#e4e4e4 !important;
+border-top:1px solid #bbbbbb;
+border-bottom:1px solid #bbbbbb;
+text-align:center !important;
+}
+.grey-row{
+background:#eeeeee !important;
+border-top:1px solid #bbbbbb;
+border-bottom:1px solid #bbbbbb;
+}
+.merged-col{
+background:#dbdbdb !important;
+border-top:1px solid #bbbbbb;
+border-bottom:1px solid #bbbbbb;
+}
+.txt-center{
+text-align:center !important;
+}
+.credits-verdetails{
+font-family: 'Roboto BoldCondensed', arial, sans-serif;
+font-weight: 700;
+font-size:12px;
+text-decoration:underline;
+color:#000;
+}
+.cards-table-container h5, .credits-consulta-container h5{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-weight: 500;
+font-size:16px;
+}
+.credits-consulta-container label{
+font-family: 'Roboto Condensed', arial, sans-serif;
+font-weight: 400;
+font-size:15px;
+margin-bottom:18px;
+}
+.image-padd{
+padding:20px 15px !important;
+}
+.benificios-text{
+font-family: 'Roboto Bold', arial, sans-serif !important;
+font-weight: 700 !important;
+}
+/* End: Credits Landing Anonymous User Css */
+/* credit catd detials styles*/
+.credit-card-heading {
+font-size: 18px;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-weight: 500;
+color: #111111;
+line-height: 20px;
+margin: 0 0 20px 0;
+}
+.credit-card-heading2 {
+font-size: 16px;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-weight: 500;
+color: #111111;
+line-height: 20px;
+margin: 0 0 20px 0;
+}
+
+.credit-card-heading3{
+display: block;
+font-size:15px;
+font-weight:500;
+line-height : 20px;
+padding: 14px 20px 15px;
+font-family: 'Roboto Medium', arial, sans-serif;
+background: url("/mobileAssets/images/icons/leftnav-arw.png") no-repeat scroll 95% center transparent;
+}
+#registered-cards {
+color: #888888;
+font-size: 16px;
+width: 100%;
+height: 43px;
+padding: 10px 5px;
+-webkit-border-radius: 2px;
+-ms-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+margin-bottom: 15px;
+}
+.credit-card-leftnav ul {
+margin: 0;
+}
+.credit-card-leftnav li {
+border-bottom: 1px solid #bbbbbb;
+}
+.credit-card-leftnav li a {
+font-size: 15px;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-weight: 500;
+color: #111111;
+line-height: 20px;
+padding: 14px 20px 15px 20px;
+display: block;
+background: url("/mobileAssets/images/icons/leftnav-arw.png") no-repeat scroll 95% center transparent;
+
+}
+.credit-card-leftnav li.active a {
+background-color: #dddddd;
+}
+.credit-card-leftnav li a:hover {
+background-color: #dddddd;
+}
+.credit-card-subnav li{
+border-bottom: none;
+}
+.credit-card-subnav li a {
+padding:14px 20px 15px 35px;
+}
+.point-para{
+font-size: 14px;
+font-family: 'Roboto Medium', arial, sans-serif;
+margin: 15px 0 20px;
+float: left;
+color: #111;
+}
+.los-point{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 12px;
+color: #111;
+}
+.balance-table-container label{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 15px;
+color: #111;
+}
+.card-heading{
+font-size: 16px!important;
+}
+.credit-card-table-container label{
+text-transform: none!important;
+font-size: 13px!important;
+font-family: 'Roboto Bold', arial, sans-serif!important;
+padding-left: 15px;
+}
+.gran-total-cont{
+background: #ececec;
+border-bottom: 1px solid #E1E1E1;
+}
+.gran-total-cont h2{
+text-transform: uppercase;
+}
+.change-cont{
+margin: 0 25px!important;
+}
+.change-cont h3{
+color: #111;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 15px;
+margin: 0 0 30px;
+line-height: 20px;
+font-weight: normal;
+}
+.change-cont label, .payment-inner-cont label{
+color: #111;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 16px;
+margin-bottom: 10px;
+}
+.change-cont input{
+font-family: 'Roboto Medium', arial, sans-serif;
+color: #111;
+font-size: 16px;
+width: 92%;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 10px;
+height: 38px;
+}
+.card-detail-container .payment-inner-cont input{
+font-family: 'Roboto Medium', arial, sans-serif;
+color: #111;
+font-size: 16px;
+width: 99%;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 10px;
+height: 38px;
+}
+.change-cont input[type="submit"]{
+color: #fff;
+}
+.credit-contact-cont p{
+color: #111;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 15px;
+margin: 0;
+}
+.credit-contact-cont{
+margin: 35px 15px 0;
+}
+.credit-buy-cont h3{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 18px;
+font-weight: normal;
+color: #666;
+margin: 0;
+line-height: 27px;
+}
+.credit-buy-cont h5{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 18px;
+font-weight: normal;
+color: #111;
+line-height: 27px;
+border-bottom: solid 1px #bbbbbb;
+margin: 35px 0 15px;
+padding-bottom: 15px;
+}
+.credit-buy-cont p{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 15px;
+color: #111;
+margin-bottom: 15px;
+}
+.credit-buy-cont h4{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 16px;
+font-weight: normal;
+color: #111;
+}
+.credit-buy-cont .row-fluid [class*="span4"], .credit-buy-cont .row-fluid [class*="span6"], .visible-vertical.row-fluid [class*="span3"]{
+border: solid 1px #aeaeae;
+text-align: center;
+border-radius: 5px;
+line-height: 27px;
+color: #111;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 15px;
+margin-bottom: 10px;
+}
+.credit-update h4{
+margin-bottom: 25px;
+}
+.mt35{
+margin-top: 35px;
+}
+.payment-cont p{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 12px;
+color: #111;
+margin: 0;
+}
+.payment-inner-cont{
+margin: 40px 15px;
+}
+.payment-para{
+background: #bbbbbb;
+padding: 30px 25px;
+margin-top: 30px;
+}
+.payment-para p{
+font-family: 'Roboto Medium', arial, sans-serif;
+color: #111;
+font-size: 12px;
+margin-bottom: 5px;
+}
+.promo-cont{
+position: relative;
+width: 657px;
+}
+.promo-overlay{
+position: absolute;
+background: #000;
+opacity: .5;
+width: 100%;
+height: 120px;
+bottom: 0;
+left: 0;
+}
+.promo-content{
+position: absolute;
+bottom: 0;
+left: 0;
+padding: 15px 25px;
+background: transparent;
+color: #fff;
+width: 91%;
+}
+.promo-content p{
+font-family: 'Roboto Regular', arial, sans-serif;
+font-size: 16px;
+margin: 0;
+}
+.promo-content h3{
+font-family: 'Roboto Bold', arial, sans-serif;
+font-size: 18px;
+font-weight: normal;
+float: left;
+line-height: 25px;
+margin: 0;
+}
+.promo-content p.promo{
+font-size: 13px;
+position: absolute;
+bottom: 20px;
+}
+.download-cont h3{
+font-size: 15px;
+color: #111;
+font-family: 'Roboto Medium', arial, sans-serif;
+line-height: 25px;
+font-weight: normal;
+}
+.download-cont p, .download-cont label{
+color: #111;
+font-size: 15px;
+font-family: 'Roboto Regular', arial, sans-serif;
+float: left;
+}
+.download-cont input{
+float: left;
+margin-right: 10px;
+}
+.html-slot{
+height: 200px;
+background: #dddddd;
+font-family: 'Roboto Bold', arial, sans-serif;
+font-size: 18px;
+color: #6e6e6e;
+text-align: center;
+vertical-align: middle;
+margin-top: 30px;
+/* Internet Explorer 10 */
+display:-ms-flexbox!important;
+-ms-flex-pack:center;
+-ms-flex-align:center;
+/* Firefox */
+display:-moz-box!important;
+-moz-box-pack:center;
+-moz-box-align:center;
+/* Safari, Opera, and Chrome */
+display:-webkit-box!important;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+/* W3C */
+display:box!important;
+box-pack:center;
+box-align:center;
+float: none !important
+}
+.status-cont td{
+font-family: 'Roboto Regular', arial, sans-serif;
+font-size: 18px;
+padding: 20px;
+color: #111;
+}
+.status-cont td b{
+font-family: 'Roboto Bold', arial, sans-serif;
+}
+.status-cont p{
+font-size: 12px;
+font-family: 'Roboto Medium', arial, sans-serif;
+padding: 25px 20px;
+border-top: solid 1px #ddd;
+color: #111;
+margin: 0;
+}
+.status-cont a{
+font-size: 12px;
+font-family: 'Roboto Medium', arial, sans-serif;
+color: #111;
+text-decoration: underline;
+padding-left: 20px;
+margin: 0;
+}
+.status-logo{
+width: 30%;
+margin: 10px 0 40px 10px;
+float: left;
+}
+.credit-left-nav h1{
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 18px;
+font-weight: normal;
+color: #111111;
+background: url(/mobileAssets/images/icons/mob-left-nav-bar.png) no-repeat left center transparent;
+padding-left: 40px;
+cursor: pointer;
+margin: 0 0 0 10px;
+}
+.credit-left-nav.active h1, .credit-left-nav h1:hover{
+background: url(/mobileAssets/images/icons/mob-left-nav-bar-active.png) no-repeat left center transparent;
+}
+.card-container input.btn-pink{
+color: #fff;
+font-family: 'Roboto Bold', arial, sans-serif;
+}
+.mobile-total{
+background: #f1f1f1;
+padding: 15px 10px;
+font-family: 'Roboto Bold',arial,sans-serif;
+font-size: 16px;
+}
+.credit-card-table-container .table-container{
+/*border-top: 1px solid #DDDDDD;*/
+margin-bottom: 10px;
+padding-top: 15px;
+}
+.credit-card-left-container .select-card-box-main{
+width: 100%;
+margin-bottom: 20px;
+}
+.credit-card-left-container .select-card-box.selected-li.active{
+border-bottom: none;
+}
+.credit-card-left-container .custom-select-options{
+top: 39px;
+border-left: solid 1px #ACACAC;
+border-right: solid 1px #ACACAC;
+border-radius: 0;
+left: -1px;
+}
+.credit-card-left-container ul.card-options li{
+border-bottom: 1px solid #ACACAC;
+border-top: none!important;
+padding: 0!important;
+width: 100%;
+}
+.visible-vertical{
+display: none;
+}
+.descargar-btn.disabled{
+background: none repeat scroll 0 0 #DDDDDD;
+cursor: defualt;
+}
+.previous-months{
+display: none;
+}
+.promo-cont .credit-promotion-banner{
+width: 100% !important;
+}
+
+.block_promo_by_card{
+
+}
+
+.block_promo_by_card a{
+padding: 1em 0;
+display:block;
+border-bottom: 1px solid #ddd;
+border-top: 1px solid #fff;
+background: #f9f9f9 url('/mobileAssets/images/credit_texture.png');
+-webkit-transition: 0.4s all;
+-moz-transition: 0.4s all;
+-ms-transition: 0.4s all;
+-o-transition: 0.4s all;
+transition: 0.4s all;
+}
+.block_promo_by_card a:hover, .block_promo_by_card a.active{
+background: #fff ;
+box-shadow: inset 0 -4px 6px -3px #bbb;
+padding: 1.5em 0;
+}
+
+.block_promo_by_card a div{
+background-position: -5px 0;
+display: inline-block;
+width: 85px;
+height:65px;
+vertical-align: center;
+}
+.block_promo_by_card a p{
+font-size:0.95em;
+font-family: "robotomedium", arial, sans-serif;
+display: inline-block;
+vertical-align: top;
+padding: 20px 0 20px 15px;
+}
+.credit-card-left-container h1{
+padding: 10px 0;
+padding-left:40px;
+letter-spacing:0px;
+font-family: robotomedium, arial, sans-serif;
+font-size: 18px;
+}
+
+.block_promo_by_card a p span{
+display: block;
+}
+
+.txt_highlight_pink{
+color: #ef0078;
+font-family: "robotomedium";
+}
+
+.dilisa_promos_img{
+background:url(/mobileAssets/images/icons/dilisa.png) no-repeat;
+}
+.premium_promos_img{
+background:url(/mobileAssets/images/icons/lpc.png) no-repeat;
+}
+.university_promos_img{
+background:url(/mobileAssets/images/icons/livertu.png) no-repeat;
+}
+
+.right_content_credit_error {
+display: inline-block;
+float: left;
+width: 400px;
+height: 650px;
+padding-bottom: 20px;
+margin-top: 25px;
+margin-left: 40px;
+}
+.right_content_credit_error h1{
+padding-left: 15px;
+letter-spacing: 0px;
+font-family: robotomedium, arial, sans-serif;
+font-color:#ea1c45;
+font-size: 18px;
+padding: 291px 0 10px 85px;
+}
+.fashion_promos_img{
+background:url(/mobileAssets/images/icons/galerias.png) no-repeat;
+}
+.showinphonecheckout-card-number
+{
+display: none;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+body > div.wrapper > div.row-fluid.card-specification > div.span2{
+width:40%;
+}
+
+body > div.wrapper > div.row-fluid.card-specification > div.span10{
+ width:55%!important;
+    float:left:
+}
+}
+/*body > div.wrapper > section > div > aside > dsp > div.credit-left-nav.active > nav:nth-child(2) > ul > li:nth-child(4) {
+    display: none;
+}*/
