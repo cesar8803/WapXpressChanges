@@ -5,6 +5,10 @@ $(document).ready(function(){
   	slideWidth: 0,
   	slideMargin: 0
   });
+  $('.popover-show').popover({
+        placement : 'bottom',
+        html:true
+        });
 });
 
 
