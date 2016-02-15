@@ -1,0 +1,40 @@
+form#addItemToCartForm(method='post', action='/tienda/m/browse/pdAddtoCart.jsp?_DARGS=/m/browse/productVarients.jsp.addItemToCartForm', name='addItemToCartForm')
+      input(value='utf-8', type='hidden', name='_dyncharset')
+      input(value='7942273102663659176', type='hidden', name='_dynSessConf')
+      input(value='1036094943', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.productId')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.productId')
+      input(value='', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.value.promoDiscountAmount')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.value.promoDiscountAmount')
+      input(value='', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.value.promoType')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.value.promoType')
+      // 7
+      input#skuId(value='1036094962', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.catalogRefIds')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.catalogRefIds')
+      input(value='Soft Line', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.value.productType')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.value.productType')
+      // 8
+      // not lense common normal product
+      button.btn-pdp(onclick="submitAddToCartPagar('addItemToCartForm','1036094962','false');")
+        img(src='/mobileAssets/images/cta_paynow.png')
+        span Pagar ahora
+      input#selectedQuantity(value='1', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.quantity')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.quantity')
+      // <div class="">
+      // row-fluid share-container tabnavigationcontainer
+      input#itemToGiftId(value='false', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.value.itemToGift')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.value.itemToGift')
+      p(class="separator-pdp-buttons")  
+      input(value='Soft Line', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.value.productType')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.value.productType')
+      input(value='false', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.skipInventory')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.skipInventory')
+      input#selectedQuantity(value='1', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.quantity')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.quantity')
+      input(value='LP_SITE_400', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.siteId')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.siteId')
+      a.btn-pdp-bag(title='Comprar', onclick="submitAddToCart(addItemToCartForm,'1036094962','false'); javascript:pdpAddToCartButton('Jersey Nike Barcelona Local para Caballero','1036094943','1299.0','NIKE');", href='#')
+        img(src='/mobileAssets/images/cta_paylater.png')
+        span Agregar a mi bolsa
+        input#addTocartButton(value='submit', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.addItemToOrder')
+        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.addItemToOrder')
+      input(value='/m/browse/productVarients.jsp.addItemToCartForm', type='hidden', name='_DARGS')

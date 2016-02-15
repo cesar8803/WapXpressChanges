@@ -117,7 +117,7 @@ margin-top: 12px!important;}
   	border: 0;
 }
 .btn-pdp img {
-
+	display: none;
 	width: 3em;
 	height: auto;
 	float: left;
@@ -267,6 +267,12 @@ p.lense_sub_opt select, #dynaDDLRightLense p select {
   margin-left: 9px;
 
 }
+.separator-pdp-buttons{
+	margin: 0 0 0em !important;
+}
+.separator-pdp-buttons-none{
+	display: none;
+}
 a.btn-pdp-ebook:hover {
   text-decoration: none;
   color: #fff;
@@ -276,6 +282,7 @@ a.btn-pdp-bag:hover {
   color: #fff;
 }
 .btn-pdp-bag img {
+	display: none;
 	width: 3em;
 	height: auto;
 	float: left;
@@ -531,6 +538,7 @@ input[type=checkbox]:not(old) {
 
 .btn-pdp-redes.btn-pdp-redes-last {
 	padding-top: 15px;
+	display: none !important;
 }
 .lp-pdp-main-container {
 	padding: 1.5%;
@@ -693,6 +701,7 @@ body > div.ui-page.ui-page-theme-a.ui-page-active > section > div:nth-child(7) >
     display:inline-block;
     float:left;
     width:50px!important;
+    margin: 0 0 0 2em;
 }
 .subset-pricing.plp-prices.row div{
     width:auto;
@@ -956,4 +965,33 @@ font-weight: bold;
 #webcollage,#content {
     max-width: 100%;
     box-sizing: border-box;
+}
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom: 1px solid #ddd;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.bg-pdp-cell ul, ol {
+    list-style-type: none;
+}
+.resalte{
+	font-weight: bold;
+	display: inline-block;
+}
+.bg-pdp-cell p{
+	display: inline-block;
 }

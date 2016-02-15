@@ -27,11 +27,15 @@ $(document).ready(function() {
         placement : 'bottom',
         html:true
         });
-$('.popover-show').on('shown.bs.popover', function () {
+/*$('.popover-show').on('shown.bs.popover', function () {
 	 $(".star-ratingloginpop").on("click", function(event) {
 		 lpobj.showLoginPopup();
      	});
-         });
+         });*/
+$('[data-toggle="popover"]').popover({
+        placement : 'bottom',
+        html:true
+        });
 
 
 

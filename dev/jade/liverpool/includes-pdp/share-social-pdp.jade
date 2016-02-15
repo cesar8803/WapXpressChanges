@@ -1,0 +1,27 @@
+.row
+      .social-rating
+        #tools_producto
+          .clear
+          .col-xs-2.btn-pdp-redes.lpfirstsocialicon
+            a.addthis_button_email.at300b(target='_blank', title='Correo')
+              img(src='/mobileAssets/images/pdp_message.png', alt='MESSENGER')
+          .col-xs-2.btn-pdp-redes
+            a.addthis_button_facebook.at300b(onclick="window.open('','_blank');return false;", title='Facebook')
+              img(src='/mobileAssets/images/pdp_face.png', alt='FACEBOOK')
+          .col-xs-2.btn-pdp-redes
+            a.addthis_button_twitter.at300b(onclick="window.open('','_blank');return false;", style='background-image:https://www.liverpool.com.mx/web/images/tweet_btn.png; background-repeat:no-repeat', tw:via='LiverpoolMexico', tw:text='#EsParteDeMiVida', title='Tweet')
+              img(src='/mobileAssets/images/pdp_twitter.png', alt='TWITTER')
+          .col-xs-2.btn-pdp-redes
+            a.addthis_button_google_plusone_share.at300b(g:plusone:size='medium', title='Google+')
+              img(src='/mobileAssets/images/pdp_google.png', alt='GOOGLE PLUS')
+          .col-xs-2.btn-pdp-redes.btn-pdp-redes-last
+            | COMPARTE
+          script(type='text/javascript').
+            var addthis_config = {
+            ui_language: "es",
+            data_ga_property: 'UA-4668284-1',
+            data_ga_social: true
+            };
+            addthis_config.ui_email_from = '';
+          script(type='text/javascript', src='http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-537712a30d2b9bd8')
+        .clear-fix

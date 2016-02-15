@@ -5,6 +5,27 @@ html(lang="en")
 		title Liverpool es parte de MI vida
 		meta(charset="X-UA-Compatible" content="IE=egde")
 		meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport')
+		link(rel="stylesheet", href="/mobileAssets/css/bootstrap3/jquery.bxslider.css")
+		link(rel="stylesheet", href="/mobileAssets/css/bootstrap3/bootstrap.min.css")
+		link(rel="stylesheet", href="/mobileAssets/css/bootstrap3/bootstrap-select.min.css")
+		link(rel="stylesheet", href="/mobileAssets/css/bootstrap3/pdp-style.css")
+		link(rel="stylesheet", href="/mobileAssets/css/bootstrap3/star-rating.css")
+		link(rel="stylesheet", href="/mobileAssets/css/bootstrap3/bootstrap-theme.css")
+		script(src='/mobileAssets/js/bootstrap3/jquery-1.11.2.min.js')
+		script(src='/mobileAssets/js/bootstrap3/jquery.bxslider.js')
+		script(src='/mobileAssets/js/bootstrap3/test.js')
+		script(src='/mobileAssets/js/bootstrap3/star-rating.js')
+		script(src='/mobileAssets/js/bootstrap3/pdp-controller.js')
+		script(src='/mobileAssets/js/global.js')
+		script(src="/mobileAssets/js/bootstrap3/bootstrap.min.js")
 	include ./common/header-pdp.jade
 	body
-		include ./includes-pdp/carousel.jade
+		div(class="col-md-6")
+			include ./includes-pdp/carousel.jade
+			include ./includes-pdp/description-pdp.jade
+			include ./includes-pdp/ratings-pdp.jade
+			include ./includes-pdp/prices-pdp.jade
+			include ./includes-pdp/attributes-pdp.jade
+			include ./includes-pdp/buttons-pay-pdp.jade
+			include ./includes-pdp/share-social-pdp.jade
+		include ./includes-pdp/description-options-pdp.jade
