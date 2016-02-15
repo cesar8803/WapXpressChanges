@@ -77,6 +77,12 @@ _af = action footer
     margin-right: 0.5em;
 
 }
+#arrow_up_icn {
+    width: 14px;
+    height: 14px;
+    background-position: -167px -250px;
+    margin: 0 auto 0 auto;
+}
 /*.header_search-button {
   background-color:#e10098;
   background-image: url('/mobileAssets/images/sprite/redisign_SPRITE.png') !important;
@@ -97,7 +103,7 @@ p.temporary-label-footer {
     margin-bottom: 0px!important;
 }
 .bootom-footer .breadcrumb.bread-terms li a {
-    color: #FF2797;
+    color:#e10098;
     font-size: 12px;
 }
 .homesearch-position .form-control {
@@ -107,5 +113,8 @@ p.temporary-label-footer {
     margin-top: 0px!important;
 }
 .span3.footer-imageleft {
+	color:#e10098;
+}
+div.footer-contact > div > span > a {
 	color:#e10098;
 }
