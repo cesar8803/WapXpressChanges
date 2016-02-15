@@ -64,6 +64,10 @@
     <link href="/mobileAssets/css/style.css" rel="stylesheet" media="all"/>
     <link href="/mobileAssets/css/jquery.jscrollpane.css" rel="stylesheet"/>
     <link href="/mobileAssets/css/category.css" rel="stylesheet"/>
+    <link href="/mobileAssets/css/home/sprite-images.css" rel="stylesheet" media="all"/>
+    <!--bxslider-->
+    <link rel="stylesheet" href="/mobileAssets/css/bootstrap3/jquery.bxslider.css" media="all"/>
+    <link rel="stylesheet" href="/mobileAssets/css/bootstrap3/home-banner-slider.css" media="all"/>
     <!-- Include the css file using Pagename Include Tag in Jsp-->
     <!-- Start: liverpool-page-content-->
     <meta charset="utf-8"/>
@@ -95,11 +99,22 @@
           <div class="header-navigation-main">
             <div id="headernev" data-spy="affix" data-offset-top="100" class="header-navigation navbar row-fluid">
               <div class="header-navigation-left span1">
-                <button type="button" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="navbtn-txt">Navegar</span></button>
+                <!--Icono:  hamburguer menu líneas menú pricipal-->
+                <div id="menu_icn"></div>
+                <!--button.btn.btn-navbar(type='button')
+                //span.icon-bar
+                //span.icon-bar
+                //span.icon-bar
+                //span.navbtn-txt Navegar
+                -->
               </div>
               <!-- start: header navigation right content-->
-              <div class="header-navigation-right span2">
-                <div class="logo pull-left"><a href="/tienda/m" title="liverpool"><img src="/mobileAssets/images/logo.png" alt="Liverpool - es parte de mi vida" title="Liverpool - es parte de mi vida"/></a></div>
+              <div class="header-navigation-right span2"><a href="/tienda/m" title="liverpool" class="logo">
+                  <div id="logo_icn"></div></a>
+                <!--.logo.pull-left
+                a(href='/tienda/m', title='liverpool')
+                  img(src='/mobileAssets/images/logo.png', alt='Liverpool - es parte de mi vida', title='Liverpool - es parte de mi vida')
+                -->
                 <div id="testHeaderCartContent">
                   <input id="mobilePage_contextPath" type="hidden" value="/tienda/m"/>
                   <div class="header-nav-utility pull-left hidden-phone">
@@ -149,7 +164,10 @@
                       </div>
                     </div>
                   </div>
-                  <div class="lp-header-search-icon"><a href="/tienda/m/cart/cart.jsp" title="cart" rel="/tienda/m/cart/cart.jsp" class="cart-link visible-phone touchEvent"><span>cart</span>
+                  <div class="lp-header-search-icon"><a href="/tienda/m/cart/cart.jsp" title="cart" rel="/tienda/m/cart/cart.jsp" class="cart-link visible-phone touchEvent">
+                      <!--Icono: bolsa carrito de compra-->
+                      <div id="bag_icn"></div>
+                      <!--span cart-->
                       <div class="cart-bubble">0</div></a></div>
                 </div>
                 <div id="homephonesearchipad" class="hidden-phone input-group homesearch-position">
@@ -163,8 +181,10 @@
                     <button class="btn" type="button">
                     <img src="/mobileAssets/images/icons/mega-menu-close.png" alt="X" />
                     </button>
-                    --><span class="input-group-btn btn-Searc-head">
-                      <button type="submit" class="header_search-button"></button></span>
+                    -->
+                    <button id="search_wh_icn" type="submit"></button>
+                    <!--span.input-group-btn.btn-Searc-headbutton.header_search-button(type='submit')
+                    -->
                     <!--
                     <div class="input-append">
                     <input class="field-search cross_site_script_val_pop valid" id="appendedInputButtons" type="text">
@@ -198,6 +218,7 @@
               <div class="pdp_addtocartConfirm"><span>1 elemento añadido a su bolsa</span></div>
               <!-- end: header navigation right content catalogNavigation.jsp-->
               <!-- Modified for Performance Defect 5365 - Replace LPBrowseCacheDroplet with OOTB Cache Droplet-->
+              <!--Start: Mega Menu-->
               <div class="mega-menu-cont-main">
                 <div class="row-fluid">
                   <div class="span12 mega-menu-cont hidden-phone">
@@ -8772,12 +8793,18 @@
                   </div>
                 </div>
               </div>
+              <!--End: Mega Menu-->
             </div>
             <div class="visableinphone">
               <div class="mobile-menu-cont lp-mble-cont">
                 <div class="buttons-header">
-                  <div class="login-home myaccount-icon"><i class="home-user-icon"></i><span>Iniciar sesión</span></div>
-                  <div class="shops-home"><a title="Store Locator" href="/tienda/m/browse/store.jsp"><i class="home-store-icon"></i><span>Localiza tu tienda</span></a></div>
+                  <div class="login-home myaccount-icon">
+                    <!--icono botón para ir a iniciar sesión-->
+                    <div id="sesion_h_icn"></div><span>Iniciar sesión</span>
+                  </div>
+                  <div class="shops-home"><a title="Store Locator" href="/tienda/m/browse/store.jsp">
+                      <!--Icono: botón para ir a localizador-->
+                      <div id="locator_h_icn"></div><span>Localiza tu tienda</span></a></div>
                 </div>
               </div>
               <div class="input-group homesearch-position">
@@ -8791,8 +8818,10 @@
                   <button class="btn" type="button">
                   <img src="/mobileAssets/images/icons/mega-menu-close.png" alt="X" />
                   </button>
-                  --><span class="input-group-btn btn-Searc-head">
-                    <button type="submit" class="header_search-button"></button></span>
+                  -->
+                  <button id="search_wh_icn" type="submit"></button>
+                  <!--span.input-group-btn.btn-Searc-headbutton.header_search-button(type='submit')
+                  -->
                   <!--
                   <div class="input-append">
                   <input class="field-search cross_site_script_val_pop valid" id="appendedInputButtons" type="text">
@@ -8832,74 +8861,270 @@
         <div class="home-banner-content">
           <!-- Start: banner-container-->
           <div class="content-container banner-container">
-            <div class="span12 imgLow">
-              <div class="banner-container-lt row-fluid">
-                <ul class="homelslider rotatingbanner">
-                  <li><a href="/amo-ser-parte-de-tu-vida-mobile/" name="bc_080216feb_m" onclick="dataLayer.push({              'event':'promotionClick',              'ecommerce':{              'promoClick':{              'promotions': [              {              'id':'m_14_febrero_080216',              'name':'14 de febrero',              'creative':'h_m_banner_central',              'position':'central'              }]              }              }              });"><img title="14 de febrero - Amo ser parte de tu vida" alt="14 de febrero - Amo ser parte de tu vida" src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216feb_m.jpg" class="prodimg"/>
-                      <div class="visible-phone swipecontainer"> </div></a></li>
-                  <li><a href="/tienda/línea-blanca/cat610025" name="bc_080216lb_m" onclick="dataLayer.push({              'event':'promotionClick',              'ecommerce':{              'promoClick':{              'promotions': [              {              'id':'m_lines_blanca_080216',              'name':'Linea Blanca',              'creative':'h_m_banner_central',              'position':'central'              }]              }              }              });"><img title="Linea Blanca" alt="Linea Blanca" src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216lb_m.jpg" class="prodimg"/>
-                      <div class="visible-phone swipecontainer"> </div></a></li>
-                  <li><a href="/tienda/cómputo-y-electrónica/cat5150041" name="bc_080216_mult_m" onclick="dataLayer.push({              'event':'promotionClick',              'ecommerce':{              'promoClick':{              'promotions': [              {              'id':'m_multimedia_080216',              'name':'Multimedia 20%',              'creative':'h_m_banner_central',              'position':'central'              }]              }              }              });"><img title="Multimedia" alt="Multimedia" src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_mult_m.jpg" class="prodimg"/>
-                      <div class="visible-phone swipecontainer"> </div></a></li>
-                  <li><a href="/tienda/muebles/cat860739" name="bc_080216_mueb_m" onclick="dataLayer.push({              'event':'promotionClick',              'ecommerce':{              'promoClick':{              'promotions': [              {              'id':'m_muebles_080216',              'name':'Muebles 20%',              'creative':'h_m_banner_central',              'position':'central'              }]              }              }              });"><img title="Muebles" alt="Muebles" src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_mueb_m.jpg" class="prodimg"/>
-                      <div class="visible-phone swipecontainer"> </div></a></li>
-                  <li><a href="/tienda/bebés/cat4120003" name="bc_080216_beb_m" onclick="dataLayer.push({              'event':'promotionClick',              'ecommerce':{              'promoClick':{              'promotions': [              {              'id':'m_bebes_080216',              'name':'Bebes 20%',              'creative':'h_m_banner_central',              'position':'central'              }]              }              }              });"><img title="Medio Mes del Bebé" alt="Medio Mes del Bebé" src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_beb_m.jpg" class="prodimg"/>
-                      <div class="visible-phone swipecontainer"> </div></a></li>
-                </ul><br/>
-                <div class="lvpool-caroufredsel-pag"> </div>
-              </div>
+            <div id="banner-slider">
+              <ul class="baner-content">
+                <li><img src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216feb_m.jpg" alt="14 de febrero - Amo ser parte de tu vida"/></li>
+                <li><img src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216lb_m.jpg" alt="Línea blanca"/></li>
+                <li><img src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_mult_m.jpg" alt="Multimedia"/></li>
+                <li><img src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_mueb_m.jpg" alt="Muebles"/></li>
+                <li><img src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_beb_m.jpg" alt="Bebes"/></li>
+              </ul>
             </div>
+            <!--.span12.imgLow
+            .banner-container-lt.row-fluid
+              ul.homelslider.rotatingbanner
+                li
+                  a(href='/amo-ser-parte-de-tu-vida-mobile/', name='bc_080216feb_m', onclick="dataLayer.push({\
+                  'event':'promotionClick',\
+                  'ecommerce':{\
+                  'promoClick':{\
+                  'promotions': [\
+                  {\
+                  'id':'m_14_febrero_080216',\
+                  'name':'14 de febrero',\
+                  'creative':'h_m_banner_central',\
+                  'position':'central'\
+                  }]\
+                  }\
+                  }\
+                  });")
+                    img.prodimg(title='14 de febrero - Amo ser parte de tu vida', alt='14 de febrero - Amo ser parte de tu vida', src='http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216feb_m.jpg')
+                    .visible-phone.swipecontainer  
+                li
+                  a(href='/tienda/línea-blanca/cat610025', name='bc_080216lb_m', onclick="dataLayer.push({\
+                  'event':'promotionClick',\
+                  'ecommerce':{\
+                  'promoClick':{\
+                  'promotions': [\
+                  {\
+                  'id':'m_lines_blanca_080216',\
+                  'name':'Linea Blanca',\
+                  'creative':'h_m_banner_central',\
+                  'position':'central'\
+                  }]\
+                  }\
+                  }\
+                  });")
+                    img.prodimg(title='Linea Blanca', alt='Linea Blanca', src='http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216lb_m.jpg')
+                    .visible-phone.swipecontainer  
+                li
+                  a(href='/tienda/cómputo-y-electrónica/cat5150041', name='bc_080216_mult_m', onclick="dataLayer.push({\
+                  'event':'promotionClick',\
+                  'ecommerce':{\
+                  'promoClick':{\
+                  'promotions': [\
+                  {\
+                  'id':'m_multimedia_080216',\
+                  'name':'Multimedia 20%',\
+                  'creative':'h_m_banner_central',\
+                  'position':'central'\
+                  }]\
+                  }\
+                  }\
+                  });")
+                    img.prodimg(title='Multimedia', alt='Multimedia', src='http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_mult_m.jpg')
+                    .visible-phone.swipecontainer  
+                li
+                  a(href='/tienda/muebles/cat860739', name='bc_080216_mueb_m', onclick="dataLayer.push({\
+                  'event':'promotionClick',\
+                  'ecommerce':{\
+                  'promoClick':{\
+                  'promotions': [\
+                  {\
+                  'id':'m_muebles_080216',\
+                  'name':'Muebles 20%',\
+                  'creative':'h_m_banner_central',\
+                  'position':'central'\
+                  }]\
+                  }\
+                  }\
+                  });")
+                    img.prodimg(title='Muebles', alt='Muebles', src='http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_mueb_m.jpg')
+                    .visible-phone.swipecontainer  
+                li
+                  a(href='/tienda/bebés/cat4120003', name='bc_080216_beb_m', onclick="dataLayer.push({\
+                  'event':'promotionClick',\
+                  'ecommerce':{\
+                  'promoClick':{\
+                  'promotions': [\
+                  {\
+                  'id':'m_bebes_080216',\
+                  'name':'Bebes 20%',\
+                  'creative':'h_m_banner_central',\
+                  'position':'central'\
+                  }]\
+                  }\
+                  }\
+                  });")
+                    img.prodimg(title='Medio Mes del Bebé', alt='Medio Mes del Bebé', src='http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_beb_m.jpg')
+                    .visible-phone.swipecontainer  
+              br
+              .lvpool-caroufredsel-pag  
+            -->
             <!-- Banners para tablet-->
-            <div class="span12 imgTablet">
-              <div class="banner-container-lt row-fluid">
-                <ul class="tabletslider rotatingbanner">
-                  <li><a href="/amo-ser-parte-de-tu-vida-mobile/" name="bc_080216feb" onclick="dataLayer.push({              'event':'promotionClick',              'ecommerce':{              'promoClick':{              'promotions': [              {              'id':'m_14_febrero_080216',              'name':'14 de febrero',              'creative':'h_m_banner_central',              'position':'central'              }]              }              }              });"><img title="14 de febrero - Amo ser parte de tu vida" alt="14 de febrero - Amo ser parte de tu vida" src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216feb.jpg" class="prodimg"/>
-                      <div class="visible-phone swipecontainer"> </div></a></li>
-                  <li><a href="/tienda/línea-blanca/cat610025" name="bc_080216lb" onclick="dataLayer.push({              'event':'promotionClick',              'ecommerce':{              'promoClick':{              'promotions': [              {              'id':'m_linea_blanca_080216',              'name':'Linea Blanca',              'creative':'h_m_banner_central',              'position':'central'              }]              }              }              });"><img title="Linea Blanca" alt="Linea Blanca" src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216lb.jpg" class="prodimg"/>
-                      <div class="visible-phone swipecontainer"> </div></a></li>
-                  <li><a href="/tienda/cómputo-y-electrónica/cat5150041" name="bc_080216_mult" onclick="dataLayer.push({              'event':'promotionClick',              'ecommerce':{              'promoClick':{              'promotions': [              {              'id':'m_multimedia_080216',              'name':'Multimedia 20%',              'creative':'h_m_banner_central',              'position':'central'              }]              }              }              });"><img title="Multimedia" alt="Multimedia" src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_mult.jpg" class="prodimg"/>
-                      <div class="visible-phone swipecontainer"> </div></a></li>
-                  <li><a href="/tienda/muebles/cat860739" name="bc_080216_mueb" onclick="dataLayer.push({              'event':'promotionClick',              'ecommerce':{              'promoClick':{              'promotions': [              {              'id':'m_muebles_080216',              'name':'Muebles 20%',              'creative':'h_m_banner_central',              'position':'central'              }]              }              }              });"><img title="Muebles" alt="Muebles" src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_mueb.jpg" class="prodimg"/>
-                      <div class="visible-phone swipecontainer"> </div></a></li>
-                  <li><a href="/tienda/bebés/cat4120003" name="bc_080216_beb" onclick="dataLayer.push({              'event':'promotionClick',              'ecommerce':{              'promoClick':{              'promotions': [              {              'id':'m_bebes_080216',              'name':'Bebes 20%',              'creative':'h_m_banner_central',              'position':'central'              }]              }              }              });"><img title="Medio Mes del Bebe" alt="Medio Mes del Bebe" src="http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_beb.jpg" class="prodimg"/>
-                      <div class="visible-phone swipecontainer"> </div></a></li>
-                </ul><br/>
-                <div class="lvpool-caroufredsel-pag-tab"> </div>
-              </div>
-            </div>
+            <!--.span12.imgTablet
+            .banner-container-lt.row-fluid
+              ul.tabletslider.rotatingbanner
+                li
+                  a(href='/amo-ser-parte-de-tu-vida-mobile/', name='bc_080216feb', onclick="dataLayer.push({\
+                  'event':'promotionClick',\
+                  'ecommerce':{\
+                  'promoClick':{\
+                  'promotions': [\
+                  {\
+                  'id':'m_14_febrero_080216',\
+                  'name':'14 de febrero',\
+                  'creative':'h_m_banner_central',\
+                  'position':'central'\
+                  }]\
+                  }\
+                  }\
+                  });")
+                    img.prodimg(title='14 de febrero - Amo ser parte de tu vida', alt='14 de febrero - Amo ser parte de tu vida', src='http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216feb.jpg')
+                    .visible-phone.swipecontainer  
+                li
+                  a(href='/tienda/línea-blanca/cat610025', name='bc_080216lb', onclick="dataLayer.push({\
+                  'event':'promotionClick',\
+                  'ecommerce':{\
+                  'promoClick':{\
+                  'promotions': [\
+                  {\
+                  'id':'m_linea_blanca_080216',\
+                  'name':'Linea Blanca',\
+                  'creative':'h_m_banner_central',\
+                  'position':'central'\
+                  }]\
+                  }\
+                  }\
+                  });")
+                    img.prodimg(title='Linea Blanca', alt='Linea Blanca', src='http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216lb.jpg')
+                    .visible-phone.swipecontainer  
+                li
+                  a(href='/tienda/cómputo-y-electrónica/cat5150041', name='bc_080216_mult', onclick="dataLayer.push({\
+                  'event':'promotionClick',\
+                  'ecommerce':{\
+                  'promoClick':{\
+                  'promotions': [\
+                  {\
+                  'id':'m_multimedia_080216',\
+                  'name':'Multimedia 20%',\
+                  'creative':'h_m_banner_central',\
+                  'position':'central'\
+                  }]\
+                  }\
+                  }\
+                  });")
+                    img.prodimg(title='Multimedia', alt='Multimedia', src='http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_mult.jpg')
+                    .visible-phone.swipecontainer  
+                li
+                  a(href='/tienda/muebles/cat860739', name='bc_080216_mueb', onclick="dataLayer.push({\
+                  'event':'promotionClick',\
+                  'ecommerce':{\
+                  'promoClick':{\
+                  'promotions': [\
+                  {\
+                  'id':'m_muebles_080216',\
+                  'name':'Muebles 20%',\
+                  'creative':'h_m_banner_central',\
+                  'position':'central'\
+                  }]\
+                  }\
+                  }\
+                  });")
+                    img.prodimg(title='Muebles', alt='Muebles', src='http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_mueb.jpg')
+                    .visible-phone.swipecontainer  
+                li
+                  a(href='/tienda/bebés/cat4120003', name='bc_080216_beb', onclick="dataLayer.push({\
+                  'event':'promotionClick',\
+                  'ecommerce':{\
+                  'promoClick':{\
+                  'promotions': [\
+                  {\
+                  'id':'m_bebes_080216',\
+                  'name':'Bebes 20%',\
+                  'creative':'h_m_banner_central',\
+                  'position':'central'\
+                  }]\
+                  }\
+                  }\
+                  });")
+                    img.prodimg(title='Medio Mes del Bebe', alt='Medio Mes del Bebe', src='http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_beb.jpg')
+                    .visible-phone.swipecontainer  
+              br
+              .lvpool-caroufredsel-pag-tab
+            -->
           </div>
           <!-- End: banner-container-->
         </div>
         <!-- End: home-banner-->
         <!-- End: home-banner-content-->
         <!-- Start: cat-brands-slider  departmentsTargeter.jsp-->
-        <div class="lrpl-sub-banner-slider container-fluid globalslidercontainer">
-          <input type="hidden" hreflang="3" value="6" class="itemCount"/>
-          <div class="lrpl-slider-leftarrow prev"></div>
-          <ul class="globalslider">
-            <li><a href="/tienda/m/dkny/N-1z13cm4" onclick="dataLayer.push({'eventCategory' : 'banner_columna1', 'eventAction' : 'click', 'eventLabel': 'dkny', 'event' : 'click'});"><img src="/mobileAssets/images/brands/dkny.gif" alt="DKNY" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/etam/N-1z12ynd" onclick="dataLayer.push({'eventCategory' : 'banner_columna2', 'eventAction' : 'click', 'eventLabel': 'etam', 'event' : 'click'});"><img src="/mobileAssets/images/brands/etam.gif" alt="Etam" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/calvin-klein/N-1z1413x" onclick="dataLayer.push({'eventCategory' : 'banner_columna3', 'eventAction' : 'click', 'eventLabel': 'calvin', 'event' : 'click'});"><img src="/mobileAssets/images/brands/calvin.gif" alt="Calvin Klein" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/vera-wang/N-1z13bx4" onclick="dataLayer.push({'eventCategory' : 'banner_columna3', 'eventAction' : 'click', 'eventLabel': 'vera', 'event' : 'click'});"><img src="/mobileAssets/images/brands/vera.gif" alt="Vera Wang" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/nautica/N-1z14046" onclick="dataLayer.push({'eventCategory' : 'banner_columna4', 'eventAction' : 'click', 'eventLabel': 'nautica', 'event' : 'click'});"><img src="/mobileAssets/images/brands/nautica.gif" alt="Nautica" class="prodimg"/></a></li>
-            <li><a href="/tienda/mac/cat4450237" onclick="dataLayer.push({'eventCategory' : 'banner_columna4', 'eventAction' : 'click', 'eventLabel': 'mac', 'event' : 'click'});"><img src="/mobileAssets/images/brands/mac.gif" alt="MAC" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/that-s-it/N-1z1020r" onclick="dataLayer.push({'eventCategory' : 'banner_columna6', 'eventAction' : 'click', 'eventLabel': 'thatsit', 'event' : 'click'});"><img src="/mobileAssets/images/brands/thatsit.gif" alt="That's it" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/guess/N-1z14064" onclick="dataLayer.push({'eventCategory' : 'banner_columna8', 'eventAction' : 'click', 'eventLabel': 'guess', 'event' : 'click'});"><img src="/mobileAssets/images/brands/guess.gif" alt="Guess" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/tommy-hilfiger/N-1z14099" onclick="dataLayer.push({'eventCategory' : 'banner_columna9', 'eventAction' : 'click', 'eventLabel': 'tommy', 'event' : 'click'});"><img src="/mobileAssets/images/brands/tommy.gif" alt="Tommy Hilfiger" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/destination-maternity/cat1250612" onclick="dataLayer.push({'eventCategory' : 'banner_columna10', 'eventAction' : 'click', 'eventLabel': 'destination', 'event' : 'click'});"><img src="/mobileAssets/images/brands/destination.gif" alt="Destination Maternity" class="prodimg"/></a></li>
-            <li><a href="/tienda/biography/N-0Z1z136p5" onclick="dataLayer.push({'eventCategory' : 'banner_columna12', 'eventAction' : 'click', 'eventLabel': 'biography', 'event' : 'click'});"><img src="/mobileAssets/images/brands/biography.gif" alt="Biography" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/mon-caramel/N-1z1413v" onclick="dataLayer.push({'eventCategory' : 'banner_columna13', 'eventAction' : 'click', 'eventLabel': 'moncaramel', 'event' : 'click'});"><img src="/mobileAssets/images/brands/moncaramel.gif" alt="Moncarmel" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/carter-s/N-1z1304y" onclick="dataLayer.push({'eventCategory' : 'banner_columna14', 'eventAction' : 'click', 'eventLabel': 'carters', 'event' : 'click'});"><img src="/mobileAssets/images/brands/carters.gif" alt="Carters" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/trucco/N-1z11tie" onclick="dataLayer.push({'eventCategory' : 'banner_columna16', 'eventAction' : 'click', 'eventLabel': 'trucco', 'event' : 'click'});"><img src="/mobileAssets/images/brands/trucco.gif" alt="trucco" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/montblanc-extreme/N-2qik" onclick="dataLayer.push({'eventCategory' : 'banner_columna16', 'eventAction' : 'click', 'eventLabel': 'mont', 'event' : 'click'});"><img src="/mobileAssets/images/brands/mont.gif" alt="Mont Blanc" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/cole-haan/N-1z101w7" onclick="dataLayer.push({'eventCategory' : 'banner_columna17', 'eventAction' : 'click', 'eventLabel': 'cole_haan', 'event' : 'click'});"><img src="/mobileAssets/images/brands/cole.gif" alt="cole_haan" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/aéropostale/N-1z135im" onclick="dataLayer.push({'eventCategory' : 'banner_columna18', 'eventAction' : 'click', 'eventLabel': 'aeropostale', 'event' : 'click'});"><img src="/mobileAssets/images/brands/aeropostale.gif" alt="aeropostale" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/polo-ralph-lauren/cat4930016" onclick="dataLayer.push({'eventCategory' : 'banner_columna19', 'eventAction' : 'click', 'eventLabel': 'polo', 'event' : 'click'});"><img src="/mobileAssets/images/brands/polo.gif" alt="Polo Ralph Lauren" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/kenneth-cole/cat3700002" onclick="dataLayer.push({'eventCategory' : 'banner_columna20', 'eventAction' : 'click', 'eventLabel': 'kenneth', 'event' : 'click'});"><img src="/mobileAssets/images/brands/kenneth.gif" alt="Kenneth Cole" class="prodimg"/></a></li>
-            <li><a href="/tienda/m/lacoste/N-1z13yam" onclick="dataLayer.push({'eventCategory' : 'banner_columna21', 'eventAction' : 'click', 'eventLabel': 'lacoste', 'event' : 'click'});"><img src="/mobileAssets/images/brands/lacoste.gif" alt="Lacoste" class="prodimg"/></a></li>
-          </ul>
-          <div class="lrpl-slider-rightarrow next"></div>
-        </div>
+        <!--.lrpl-sub-banner-slider.container-fluid.globalslidercontainer
+        input.itemCount(type='hidden', hreflang='3', value='6')
+        .lrpl-slider-leftarrow.prev
+        ul.globalslider
+          li
+            a(href='/tienda/m/dkny/N-1z13cm4', onclick="dataLayer.push({'eventCategory' : 'banner_columna1', 'eventAction' : 'click', 'eventLabel': 'dkny', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/dkny.gif', alt='DKNY')
+          li
+            a(href='/tienda/m/etam/N-1z12ynd', onclick="dataLayer.push({'eventCategory' : 'banner_columna2', 'eventAction' : 'click', 'eventLabel': 'etam', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/etam.gif', alt='Etam')
+          li
+            a(href='/tienda/m/calvin-klein/N-1z1413x', onclick="dataLayer.push({'eventCategory' : 'banner_columna3', 'eventAction' : 'click', 'eventLabel': 'calvin', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/calvin.gif', alt='Calvin Klein')
+          li
+            a(href='/tienda/m/vera-wang/N-1z13bx4', onclick="dataLayer.push({'eventCategory' : 'banner_columna3', 'eventAction' : 'click', 'eventLabel': 'vera', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/vera.gif', alt='Vera Wang')
+          li
+            a(href='/tienda/m/nautica/N-1z14046', onclick="dataLayer.push({'eventCategory' : 'banner_columna4', 'eventAction' : 'click', 'eventLabel': 'nautica', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/nautica.gif', alt='Nautica')
+          li
+            a(href='/tienda/mac/cat4450237', onclick="dataLayer.push({'eventCategory' : 'banner_columna4', 'eventAction' : 'click', 'eventLabel': 'mac', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/mac.gif', alt='MAC')
+          li
+            a(href='/tienda/m/that-s-it/N-1z1020r', onclick="dataLayer.push({'eventCategory' : 'banner_columna6', 'eventAction' : 'click', 'eventLabel': 'thatsit', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/thatsit.gif', alt="That's it")
+          li
+            a(href='/tienda/m/guess/N-1z14064', onclick="dataLayer.push({'eventCategory' : 'banner_columna8', 'eventAction' : 'click', 'eventLabel': 'guess', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/guess.gif', alt='Guess')
+          li
+            a(href='/tienda/m/tommy-hilfiger/N-1z14099', onclick="dataLayer.push({'eventCategory' : 'banner_columna9', 'eventAction' : 'click', 'eventLabel': 'tommy', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/tommy.gif', alt='Tommy Hilfiger')
+          li
+            a(href='/tienda/m/destination-maternity/cat1250612', onclick="dataLayer.push({'eventCategory' : 'banner_columna10', 'eventAction' : 'click', 'eventLabel': 'destination', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/destination.gif', alt='Destination Maternity')
+          li
+            a(href='/tienda/biography/N-0Z1z136p5', onclick="dataLayer.push({'eventCategory' : 'banner_columna12', 'eventAction' : 'click', 'eventLabel': 'biography', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/biography.gif', alt='Biography')
+          li
+            a(href='/tienda/m/mon-caramel/N-1z1413v', onclick="dataLayer.push({'eventCategory' : 'banner_columna13', 'eventAction' : 'click', 'eventLabel': 'moncaramel', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/moncaramel.gif', alt='Moncarmel')
+          li
+            a(href='/tienda/m/carter-s/N-1z1304y', onclick="dataLayer.push({'eventCategory' : 'banner_columna14', 'eventAction' : 'click', 'eventLabel': 'carters', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/carters.gif', alt='Carters')
+          li
+            a(href='/tienda/m/trucco/N-1z11tie', onclick="dataLayer.push({'eventCategory' : 'banner_columna16', 'eventAction' : 'click', 'eventLabel': 'trucco', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/trucco.gif', alt='trucco')
+          li
+            a(href='/tienda/m/montblanc-extreme/N-2qik', onclick="dataLayer.push({'eventCategory' : 'banner_columna16', 'eventAction' : 'click', 'eventLabel': 'mont', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/mont.gif', alt='Mont Blanc')
+          li
+            a(href='/tienda/m/cole-haan/N-1z101w7', onclick="dataLayer.push({'eventCategory' : 'banner_columna17', 'eventAction' : 'click', 'eventLabel': 'cole_haan', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/cole.gif', alt='cole_haan')
+          li
+            a(href='/tienda/m/aéropostale/N-1z135im', onclick="dataLayer.push({'eventCategory' : 'banner_columna18', 'eventAction' : 'click', 'eventLabel': 'aeropostale', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/aeropostale.gif', alt='aeropostale')
+          li
+            a(href='/tienda/m/polo-ralph-lauren/cat4930016', onclick="dataLayer.push({'eventCategory' : 'banner_columna19', 'eventAction' : 'click', 'eventLabel': 'polo', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/polo.gif', alt='Polo Ralph Lauren')
+          li
+            a(href='/tienda/m/kenneth-cole/cat3700002', onclick="dataLayer.push({'eventCategory' : 'banner_columna20', 'eventAction' : 'click', 'eventLabel': 'kenneth', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/kenneth.gif', alt='Kenneth Cole')
+          li
+            a(href='/tienda/m/lacoste/N-1z13yam', onclick="dataLayer.push({'eventCategory' : 'banner_columna21', 'eventAction' : 'click', 'eventLabel': 'lacoste', 'event' : 'click'});")
+              img.prodimg(src='/mobileAssets/images/brands/lacoste.gif', alt='Lacoste')
+        .lrpl-slider-rightarrow.next
+        -->
         <!-- End: cat-brands-slider-->
         <!-- Start :brand promo slot-->
         <div class="content-container brand-promo-slot tabnavigationcontainer">
@@ -8970,6 +9195,7 @@
       <!-- End: liverpool-page-content-->
       <script type="text/javascript" src="/mobileAssets/js/homePage.js"></script>
       <div class="clear"></div>
+      <div id="go-ini"><span><i class="icon-chevron-up chevron-arrow-block"></i></span><span>Ir al inicio de la página</span></div>
       <footer class="footer">
         <div class="footer-top">
           <div class="footer-header">
@@ -8977,13 +9203,19 @@
               <div class="row-fluid">
                 <div class="span12">
                   <div class="span2 footer-textleft">Horarios tiendas: Lun - Dom | 11am - 9pm</div>
-                  <div class="span3 footer-imageleft"><a href="/tiendas/localizador.html"><img src="/mobileAssets/images/icons/store-locator-hover-icon1.png" alt="X"/></a> Mis tiendas</div>
+                  <div class="span3 footer-imageleft"><a href="/tiendas/localizador.html">
+                      <div id="locator_pf_icn"></div>
+                      <!--img(src='/mobileAssets/images/icons/store-locator-hover-icon1.png', alt='X')--></a> Mis tiendas</div>
                 </div>
               </div>
             </div>
           </div>
           <div class="footer-contact">
-            <div class="row-fluid">Ventas por teléfono <span><a href="tel:5262 9999 ">5262 9999 </a> <a href="tel:018007135555">01                                                                                                                 800 713 5555</a></span></div>
+            <div class="row-fluid">
+              <div id="call_af_icn"></div><span>
+                 
+                Ventas por teléfono: </span><span><a href="tel:5262 9999 ">5262 9999 |</a> <a href="tel:018007135555">01                                                                                                                 800 713 5555</a></span>
+            </div>
           </div>
         </div>
         <div class="clear"></div>
@@ -8991,6 +9223,11 @@
         <div class="footer-bottom">
           <div class="row-fluid footerbtcontent">
             <div class="span12">
+              <div class="span3">
+                <div class="sub-section">
+                  <h3 class="mt0"><font size="+0"><font sixe="+0"><font><font><a href="http://liverpool.com.mx/">Mis pedidos</a></font></font></font></font></h3>
+                </div>
+              </div>
               <div class="span3">
                 <div class="sub-section">
                   <h3 class="mt0"><font size="+0"><font size="+0"><font><font><a href="/tienda/m/users/credit/creditLandingPage.jsp">Crédito                                                                                                                                                                                                                 Liverpool</a></font></font></font></font></h3>
@@ -9013,16 +9250,16 @@
                 </div>
               </div>
               <div class="span3">
-                <div class="sub-section">
-                  <h3 class="mt0"><font size="+0"><font size="+0"><font><font><a>Tiempo                                                                                                                                                                                                                 aire</a></font></font></font></font></h3>
+                <div class="sub-section"><a>
+                    <h3 class="mt0"><font size="+0"><font size="+0"><font><font>Tiempo                                                                                                                                                                                                                 aire</font></font></font></font></h3></a>
                   <div class="phone-hide">
                     <p><a href="/tienda/m/checkout/airtimeTicket.jsp">Compra tiempo aire para cualquier compañía telefónica en México.</a></p>
                   </div>
                 </div>
               </div>
               <div class="span3">
-                <div class="sub-section">
-                  <h3 class="mt0"><font size="+0"><font size="+0"><font><font>Soporte                                                                                                                                                                                                 al cliente</font></font></font></font></h3>
+                <div class="sub-section"><a>
+                    <h3 class="mt0"><font size="+0"><font size="+0"><font><font>Soporte                                                                                                                                                                                                 al cliente</font></font></font></font></h3></a>
                   <div class="phone-hide">
                     <p><a href="/tienda/m/users/orderHistory.jsp">Seguimiento a pedido.</a></p>
                     <p><a href="/tienda/m/gift-registry?pram2=collapseOne#collapseSeven">Ayuda al cliente.</a></p>
@@ -9033,8 +9270,14 @@
                 </div>
               </div>
               <div class="span3">
+                <div class="sub-section"><a href="http://liverpool.com.mx/">
+                    <h3 class="mt0"><font size="+0"><font sixe="+0"><font><font>Iniciar sesión</font></font></font></font></h3></a>
+                  <div class="phone-hide"></div>
+                </div>
+              </div>
+              <div class="span3">
                 <div class="sub-section"><a href="http://evaluanos.liverpool.com.mx/" target="_blank">
-                    <h3 class="mt0"><font size="+0"><font size="+0"><font><font>Evalúanos</font></font></font></font></h3></a>
+                    <h3 class="mt0"><font size="+0"><font size="+0"><font><font>Buscar por departamentos</font></font></font></font></h3></a>
                   <div class="phone-hide"> </div>
                 </div>
               </div>
@@ -9049,9 +9292,8 @@
               <li><a target="_self" href="http://www.liverpool.com.mx/tienda?param=web">Ir a Sitio Completo</a></li>
             </ul>
             <ul class="breadcrumb bread-rights">
-              <li><a href="#" class="derechos">2015</a><span class="divider">/</span></li>
-              <li><a href="#" class="derechos">Liverpool</a><span class="divider">/</span></li>
-              <li><a href="#" class="derechos">Todos los derechos                                                                                                                 reservados D.R.</a></li>
+              <li><a href="#" class="derechos">&copy; 2016 Liverpool</a><span class="divider"> </span></li>
+              <li><a href="#" class="derechos">Todos los derechos                                                                                                                 reservados D.R. &reg;</a></li>
             </ul>
           </div>
         </div>
@@ -9111,6 +9353,8 @@
       <script src="/mobileAssets/js/md5.js"></script>
       <script src="/mobileAssets/js/akam_image_handler.js"></script>
       <script src="/mobileAssets/js/mac_akamai.js"></script>
+      <script src="/mobileAssets/js/bootstrap3/jquery.bxslider.js"></script>
+      <script src="/mobileAssets/js/bootstrap3/home-banner-slider.js"></script>
       <!--
       START :: APP SERVER SNIPPET by PA
       Server: atgaplp7+PRD/store14

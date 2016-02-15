@@ -1,0 +1,82 @@
+/*content*/
+.liverpool-home{
+	padding-right: 0px!important;
+	padding-left: 0px!important;
+	padding: 0px!important;
+}
+.brand-promo-slot{
+	padding-right: 5px!important;
+	padding-left: 5px!important;
+	margin-bottom: 16px!important;
+}
+/*content*/
+/*Slider promos*/
+ul.baner-content{
+	margin:0px 0px 0px 0px !important
+}
+.bx-wrapper .bx-viewport{
+-webkit-box-shadow: 0 0 0px;
+box-shadow: 0 0 0px; 
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom:1em!important;
+}
+.bx-wrapper {
+    position: relative;
+    margin: 0 auto 0px!important;
+    }
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+background:#d5d5d5;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+background:#fff;
+}
+/*Slider promos*/
+/*header*/
+
+.login-home.myaccount-icon span {
+	font-family: "Roboto regular";
+    font-size: 16px;
+}
+.shops-home a span{
+	font-family: "Roboto regular";
+	font-size: 16px;
+}
+/*header*/
+/*footer*/
+#go-ini{
+  width:100%;
+  height: 4em;
+  text-align: center;
+  vertical-align:middle;
+  line-height: 2em;
+  border:1px solid #ccc ;
+  margin-bottom: 0;
+  background: #fbfbfb;
+  }
+ #go-ini span{
+ 	    font-family: "Roboto regular";
+ 	    font-size: 13px;
+ }
+.footer-top {
+    padding: 0px 0!important;
+}
+.chevron-arrow-block{
+	display:block;
+	clear: both;
+	text-align: center;
+	    margin: 3px auto 0 auto;
+}
+[class^="icon-"], [class*=" icon-"]{
+	background-image: url("/mobileAssets/images/glyphicons-halflings.png");
+}
+.footer-schedules{
+	font-size: 12px!important;
+}
+.footer-contact{
+	font-size: 12px!important;
+}
+.footer .footer-bottom .sub-section a, .footer .footer-bottom .sub-section h3 font font font font {
+    font-size: 18px!important;
+}
+/*footer*/

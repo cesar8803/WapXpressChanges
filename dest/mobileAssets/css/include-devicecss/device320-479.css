@@ -1349,7 +1349,7 @@ text-align: center;
 }
 
 .header_search-button {
-  background: #FF0084 url('/mobileAssets/images/wapSprite.png') no-repeat -23px -23px;
+  background: #e10098 url('/mobileAssets/images/wapSprite.png') no-repeat -23px -23px;
   background-size: calc(405px *.38) calc(1152px *.38)!important;
   border-radius: 0;
   height: 2.7em!important;

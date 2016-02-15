@@ -8,7 +8,8 @@ script(type='text/javascript', charset='utf-8', src='/mobileAssets/js/atgsvcs.js
   .home-banner-content
     // Start: banner-container
     .content-container.banner-container
-      .span12.imgLow
+      include ./banner-slider-new.jade
+      //.span12.imgLow
         .banner-container-lt.row-fluid
           ul.homelslider.rotatingbanner
             li
@@ -99,7 +100,7 @@ script(type='text/javascript', charset='utf-8', src='/mobileAssets/js/atgsvcs.js
           br
           .lvpool-caroufredsel-pag  
       // Banners para tablet
-      .span12.imgTablet
+      //.span12.imgTablet
         .banner-container-lt.row-fluid
           ul.tabletslider.rotatingbanner
             li
@@ -188,12 +189,12 @@ script(type='text/javascript', charset='utf-8', src='/mobileAssets/js/atgsvcs.js
                 img.prodimg(title='Medio Mes del Bebe', alt='Medio Mes del Bebe', src='http://www.liverpool.com.mx/assets/web/images/targeted_promotions/es/bc_080216_beb.jpg')
                 .visible-phone.swipecontainer  
           br
-          .lvpool-caroufredsel-pag-tab  
+          .lvpool-caroufredsel-pag-tab
     // End: banner-container
   // End: home-banner
   // End: home-banner-content
   // Start: cat-brands-slider  departmentsTargeter.jsp
-  .lrpl-sub-banner-slider.container-fluid.globalslidercontainer
+  //.lrpl-sub-banner-slider.container-fluid.globalslidercontainer
     input.itemCount(type='hidden', hreflang='3', value='6')
     .lrpl-slider-leftarrow.prev
     ul.globalslider

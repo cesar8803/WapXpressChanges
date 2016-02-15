@@ -1,3 +1,4 @@
+include ./home-go.jade
 footer.footer
   .footer-top
     .footer-header
@@ -7,13 +8,16 @@ footer.footer
             .span2.footer-textleft Horarios tiendas: Lun - Dom | 11am - 9pm
             .span3.footer-imageleft
               a(href='/tiendas/localizador.html')
-                img(src='/mobileAssets/images/icons/store-locator-hover-icon1.png', alt='X')
+                div#locator_pf_icn
+                //img(src='/mobileAssets/images/icons/store-locator-hover-icon1.png', alt='X')
               |  Mis tiendas
     .footer-contact
       .row-fluid
-        | Ventas por teléfono 
+        div#call_af_icn
+        span 
+         | Ventas por teléfono: 
         span
-          a(href='tel:5262 9999 ') 5262 9999 
+          a(href='tel:5262 9999 ') 5262 9999 |
           | 
           a(href='tel:018007135555')
             | 01                                                                                                                 800 713 5555
@@ -22,6 +26,16 @@ footer.footer
   .footer-bottom
     .row-fluid.footerbtcontent
       .span12
+        .span3
+          .sub-section
+            h3.mt0
+              font(size='+0')
+                font(sixe='+0')
+                  font
+                    font
+                      a(href='http://liverpool.com.mx/')
+                        | Mis pedidos
+
         .span3
           .sub-section
             h3.mt0
@@ -58,24 +72,25 @@ footer.footer
                 a(href='/tienda/m/giftregistry/giftRegistry.jsp?eventNo=1') Busca por evento.
         .span3
           .sub-section
-            h3.mt0
-              font(size='+0')
-                font(size='+0')
-                  font
-                    font
-                      a
-                        | Tiempo                                                                                                                                                                                                                 aire
+            a
+              h3.mt0
+               font(size='+0')
+                 font(size='+0')
+                   font
+                     font
+                       | Tiempo                                                                                                                                                                                                                 aire
             .phone-hide
               p
                 a(href='/tienda/m/checkout/airtimeTicket.jsp') Compra tiempo aire para cualquier compañía telefónica en México.
         .span3
           .sub-section
-            h3.mt0
-              font(size='+0')
-                font(size='+0')
-                  font
-                    font
-                      | Soporte                                                                                                                                                                                                 al cliente
+            a
+              h3.mt0
+               font(size='+0')
+                 font(size='+0')
+                   font
+                     font
+                       | Soporte                                                                                                                                                                                                 al cliente
             .phone-hide
               p
                 a(href='/tienda/m/users/orderHistory.jsp') Seguimiento a pedido.
@@ -89,12 +104,22 @@ footer.footer
                 a(href='/ayuda/click&collect.html') Click & Collect 
         .span3
           .sub-section
+            a(href='http://liverpool.com.mx/')
+             h3.mt0
+               font(size='+0')
+                 font(sixe='+0')
+                   font
+                     font
+                       | Iniciar sesión
+            .phone-hide
+        .span3
+          .sub-section
             a(href='http://evaluanos.liverpool.com.mx/', target='_blank')
               h3.mt0
                 font(size='+0')
                   font(size='+0')
                     font
-                      font Evalúanos
+                      font Buscar por departamentos
             .phone-hide  
     .bootom-footer
       ul.breadcrumb.bread-terms
@@ -108,14 +133,11 @@ footer.footer
           a(target='_self', href='http://www.liverpool.com.mx/tienda?param=web') Ir a Sitio Completo
       ul.breadcrumb.bread-rights
         li
-          a.derechos(href='#') 2015
-          span.divider /
-        li
-          a.derechos(href='#') Liverpool
-          span.divider /
+          a.derechos(href='#') &copy; 2016 Liverpool
+          span.divider 
         li
           a.derechos(href='#')
-            | Todos los derechos                                                                                                                 reservados D.R.
+            | Todos los derechos                                                                                                                 reservados D.R. &reg;
   // Included google analytics in footer
   script.
     dataLayer = [];

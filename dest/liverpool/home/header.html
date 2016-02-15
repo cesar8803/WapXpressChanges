@@ -5,11 +5,22 @@
     <div class="header-navigation-main">
       <div id="headernev" data-spy="affix" data-offset-top="100" class="header-navigation navbar row-fluid">
         <div class="header-navigation-left span1">
-          <button type="button" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="navbtn-txt">Navegar</span></button>
+          <!--Icono:  hamburguer menu líneas menú pricipal-->
+          <div id="menu_icn"></div>
+          <!--button.btn.btn-navbar(type='button')
+          //span.icon-bar
+          //span.icon-bar
+          //span.icon-bar
+          //span.navbtn-txt Navegar
+          -->
         </div>
         <!-- start: header navigation right content-->
-        <div class="header-navigation-right span2">
-          <div class="logo pull-left"><a href="/tienda/m" title="liverpool"><img src="/mobileAssets/images/logo.png" alt="Liverpool - es parte de mi vida" title="Liverpool - es parte de mi vida"/></a></div>
+        <div class="header-navigation-right span2"><a href="/tienda/m" title="liverpool" class="logo">
+            <div id="logo_icn"></div></a>
+          <!--.logo.pull-left
+          a(href='/tienda/m', title='liverpool')
+            img(src='/mobileAssets/images/logo.png', alt='Liverpool - es parte de mi vida', title='Liverpool - es parte de mi vida')
+          -->
           <div id="testHeaderCartContent">
             <input id="mobilePage_contextPath" type="hidden" value="/tienda/m"/>
             <div class="header-nav-utility pull-left hidden-phone">
@@ -59,7 +70,10 @@
                 </div>
               </div>
             </div>
-            <div class="lp-header-search-icon"><a href="/tienda/m/cart/cart.jsp" title="cart" rel="/tienda/m/cart/cart.jsp" class="cart-link visible-phone touchEvent"><span>cart</span>
+            <div class="lp-header-search-icon"><a href="/tienda/m/cart/cart.jsp" title="cart" rel="/tienda/m/cart/cart.jsp" class="cart-link visible-phone touchEvent">
+                <!--Icono: bolsa carrito de compra-->
+                <div id="bag_icn"></div>
+                <!--span cart-->
                 <div class="cart-bubble">0</div></a></div>
           </div>
           <div id="homephonesearchipad" class="hidden-phone input-group homesearch-position">
@@ -73,8 +87,10 @@
               <button class="btn" type="button">
               <img src="/mobileAssets/images/icons/mega-menu-close.png" alt="X" />
               </button>
-              --><span class="input-group-btn btn-Searc-head">
-                <button type="submit" class="header_search-button"></button></span>
+              -->
+              <button id="search_wh_icn" type="submit"></button>
+              <!--span.input-group-btn.btn-Searc-headbutton.header_search-button(type='submit')
+              -->
               <!--
               <div class="input-append">
               <input class="field-search cross_site_script_val_pop valid" id="appendedInputButtons" type="text">
@@ -108,6 +124,7 @@
         <div class="pdp_addtocartConfirm"><span>1 elemento añadido a su bolsa</span></div>
         <!-- end: header navigation right content catalogNavigation.jsp-->
         <!-- Modified for Performance Defect 5365 - Replace LPBrowseCacheDroplet with OOTB Cache Droplet-->
+        <!--Start: Mega Menu-->
         <div class="mega-menu-cont-main">
           <div class="row-fluid">
             <div class="span12 mega-menu-cont hidden-phone">
@@ -8682,12 +8699,18 @@
             </div>
           </div>
         </div>
+        <!--End: Mega Menu-->
       </div>
       <div class="visableinphone">
         <div class="mobile-menu-cont lp-mble-cont">
           <div class="buttons-header">
-            <div class="login-home myaccount-icon"><i class="home-user-icon"></i><span>Iniciar sesión</span></div>
-            <div class="shops-home"><a title="Store Locator" href="/tienda/m/browse/store.jsp"><i class="home-store-icon"></i><span>Localiza tu tienda</span></a></div>
+            <div class="login-home myaccount-icon">
+              <!--icono botón para ir a iniciar sesión-->
+              <div id="sesion_h_icn"></div><span>Iniciar sesión</span>
+            </div>
+            <div class="shops-home"><a title="Store Locator" href="/tienda/m/browse/store.jsp">
+                <!--Icono: botón para ir a localizador-->
+                <div id="locator_h_icn"></div><span>Localiza tu tienda</span></a></div>
           </div>
         </div>
         <div class="input-group homesearch-position">
@@ -8701,8 +8724,10 @@
             <button class="btn" type="button">
             <img src="/mobileAssets/images/icons/mega-menu-close.png" alt="X" />
             </button>
-            --><span class="input-group-btn btn-Searc-head">
-              <button type="submit" class="header_search-button"></button></span>
+            -->
+            <button id="search_wh_icn" type="submit"></button>
+            <!--span.input-group-btn.btn-Searc-headbutton.header_search-button(type='submit')
+            -->
             <!--
             <div class="input-append">
             <input class="field-search cross_site_script_val_pop valid" id="appendedInputButtons" type="text">
