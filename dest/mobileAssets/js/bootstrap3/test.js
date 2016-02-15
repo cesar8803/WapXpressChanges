@@ -9,6 +9,11 @@ $(document).ready(function(){
         placement : 'bottom',
         html:true
         });
+  var stage = document.getElementById('gesture');
+  $stage = jQuery(stage);
+  hammertime.on('pinch', function(ev) {
+      console.log(ev);
+  });
 });
 
 

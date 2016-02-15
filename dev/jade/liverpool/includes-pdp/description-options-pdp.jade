@@ -14,7 +14,7 @@
           a.list-group-item.size-pago(data-toggle='modal', data-target='.bs-example-modal-lg3')
             .row
               .col-xs-10
-                h4.list-group-item-heading Opciones de pago
+                h4.list-group-item-heading Opciones de Pago
               .img-arrow
                 img(src='/mobileAssets/images/arrow_forward.png')
         p(class="separator-pdp-buttons")  
@@ -60,39 +60,51 @@
                       p Importado.
                   p(class="separator-pdp-buttons")
       #myModal3.modal.fade.bs-example-modal-lg3(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel2', aria-hidden='true')
-      .modal-size.modal-dialog.modal-lg
-        .modal-size.modal-content
-          .col-md-12.bg-Modal(data-dismiss='modal')
-            p <  REGRESAR
-          .descripton-product.center-img-modal
-            h4 Opciones de pago
-            hr.divider
-            .bg-tarjetas
-              ul
-                li
-                  img(src='/mobileAssets/images/card_liver1.png')
-                li
-                  img(src='/mobileAssets/images/card_liver2.png')
-                li
-                  h6
-                    b Con tarjetas Liverpool
-            p  
-            ul.bg-pdp-cell.lppromos.tarejtas-liverpool
-              li(type='disc')
-                | PRESUPUESTO LIVERPOOL/FABRICAS
-                br
-            hr.divider
-            .bg-tarjetas
-              ul
-                li
-                  img(src='/mobileAssets/images/card_visa.png')
-                li
-                  img(src='/mobileAssets/images/card_master.png')
-                li
-                  h6
-                    b Otras Tarjetas
-            p  
-            ul.bg-pdp-cell.otherpromos.tarjetas-externas
-              li(type='disc')
-                | CUENTA CORRIENTE EXTERNAS
-                br
+        .modal-size.modal-dialog.modal-lg
+          .modal-size.modal-content
+            .col-md-12.bg-Modal(data-dismiss='modal')
+              p < REGRESAR
+            .descripton-product.center-img-modal
+              h4 Opciones de Pago
+              hr.divider
+              .bg-tarjetas
+                ul
+                  li
+                    img(src='/mobileAssets/images/card_liver1.png')
+                  li
+                    img(src='/mobileAssets/images/card_liver2.png')
+                  li
+                    h6
+                      b Con tarjetas Liverpool
+              p  
+              ul.bg-pdp-cell
+                li(type='disc')
+                  p
+                    | 20% de descuento - presupuesto
+                    | Liverpool/Fábricas.
+                li(type='disc')
+                  p
+                    | 20% de descuento - 9 meses sin
+                    | intereses.
+                li(type='disc')
+                  p 9 meses sin intereses.
+              hr.divider
+              .bg-tarjetas
+                ul
+                  li
+                    img(src='/mobileAssets/images/card_visa.png')
+                  li
+                    img(src='/mobileAssets/images/card_master.png')
+                  li
+                    h6
+                      b Otras Tarjetas
+              p  
+              ul.bg-pdp-cell
+                li(type='disc')
+                  p
+                    | 20% de descuento - cuenta corriente
+                    | externas.
+                li(type='disc')
+                  p 20% de descuento.
+                li(type='disc')
+                  p 6 meses sin intereses.

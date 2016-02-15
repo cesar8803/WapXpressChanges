@@ -6,11 +6,11 @@
     <meta charset="X-UA-Compatible" content="IE=egde"/>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
     <link rel="stylesheet" href="/mobileAssets/css/bootstrap3/jquery.bxslider.css"/>
-    <link rel="stylesheet" href="/mobileAssets/css/bootstrap3/bootstrap.min.css"/>
     <link rel="stylesheet" href="/mobileAssets/css/bootstrap3/bootstrap-select.min.css"/>
     <link rel="stylesheet" href="/mobileAssets/css/bootstrap3/pdp-style.css"/>
     <link rel="stylesheet" href="/mobileAssets/css/bootstrap3/star-rating.css"/>
     <link rel="stylesheet" href="/mobileAssets/css/bootstrap3/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="/mobileAssets/css/bootstrap3/bootstrap.min.css"/>
     <script src="/mobileAssets/js/bootstrap3/jquery-1.11.2.min.js"></script>
     <script src="/mobileAssets/js/bootstrap3/jquery.bxslider.js"></script>
     <script src="/mobileAssets/js/bootstrap3/test.js"></script>
@@ -24,10 +24,10 @@
       <div class="col-md-12">
         <div id="slider">
           <ul class="bxslider">
-            <li><img src="http://media11.liverpool.com.mx/web/images/products/es_MX/xl/1036094971.jpg" alt=""></li>
-            <li><img src="http://media17.liverpool.com.mx/web/images/products/es_MX/xl/1036094971_1p.jpg" alt=""></li>
-            <li><img src="http://media20.liverpool.com.mx/web/images/products/es_MX/xl/1036094971_2p.jpg" alt=""></li>
-            <li><img src="http://media14.liverpool.com.mx/web/images/products/es_MX/xl/1036094971_10p.jpg" alt=""></li>
+            <li data-toggle="modal" data-target=".bs-example-modal-lg"><img src="http://media11.liverpool.com.mx/web/images/products/es_MX/xl/1036094971.jpg" alt=""></li>
+            <li data-toggle="modal" data-target=".bs-example-modal-lg"><img src="http://media17.liverpool.com.mx/web/images/products/es_MX/xl/1036094971_1p.jpg" alt=""></li>
+            <li data-toggle="modal" data-target=".bs-example-modal-lg"><img src="http://media20.liverpool.com.mx/web/images/products/es_MX/xl/1036094971_2p.jpg" alt=""></li>
+            <li data-toggle="modal" data-target=".bs-example-modal-lg"><img src="http://media14.liverpool.com.mx/web/images/products/es_MX/xl/1036094971_10p.jpg" alt=""></li>
           </ul>
         </div>
       </div>
@@ -188,7 +188,7 @@
         <div class="col-md-12"><a data-toggle="modal" data-target=".bs-example-modal-lg3" class="list-group-item size-pago">
             <div class="row">
               <div class="col-xs-10">
-                <h4 class="list-group-item-heading">Opciones de pago</h4>
+                <h4 class="list-group-item-heading">Opciones de Pago</h4>
               </div>
               <div class="img-arrow"><img src="/mobileAssets/images/arrow_forward.png"></div>
             </div></a></div>
@@ -249,42 +249,68 @@
           </div>
         </div>
       </div>
-      <div id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel2" aria-hidden="true" class="modal fade bs-example-modal-lg3"></div>
-      <div class="modal-size modal-dialog modal-lg">
-        <div class="modal-size modal-content">
-          <div data-dismiss="modal" class="col-md-12 bg-Modal">
-            <p><  REGRESAR</p>
-          </div>
-          <div class="descripton-product center-img-modal">
-            <h4>Opciones de pago</h4>
-            <hr class="divider">
-            <div class="bg-tarjetas">
-              <ul>
-                <li><img src="/mobileAssets/images/card_liver1.png"></li>
-                <li><img src="/mobileAssets/images/card_liver2.png"></li>
-                <li>
-                  <h6><b>Con tarjetas Liverpool</b></h6>
+      <div id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel2" aria-hidden="true" class="modal fade bs-example-modal-lg3">
+        <div class="modal-size modal-dialog modal-lg">
+          <div class="modal-size modal-content">
+            <div data-dismiss="modal" class="col-md-12 bg-Modal">
+              <p>< REGRESAR</p>
+            </div>
+            <div class="descripton-product center-img-modal">
+              <h4>Opciones de Pago</h4>
+              <hr class="divider">
+              <div class="bg-tarjetas">
+                <ul>
+                  <li><img src="/mobileAssets/images/card_liver1.png"></li>
+                  <li><img src="/mobileAssets/images/card_liver2.png"></li>
+                  <li>
+                    <h6><b>Con tarjetas Liverpool</b></h6>
+                  </li>
+                </ul>
+              </div>
+              <p> </p>
+              <ul class="bg-pdp-cell">
+                <li type="disc">
+                  <p>
+                    20% de descuento - presupuesto
+                    Liverpool/Fábricas.
+                  </p>
+                </li>
+                <li type="disc">
+                  <p>
+                    20% de descuento - 9 meses sin
+                    intereses.
+                  </p>
+                </li>
+                <li type="disc">
+                  <p>9 meses sin intereses.</p>
+                </li>
+              </ul>
+              <hr class="divider">
+              <div class="bg-tarjetas">
+                <ul>
+                  <li><img src="/mobileAssets/images/card_visa.png"></li>
+                  <li><img src="/mobileAssets/images/card_master.png"></li>
+                  <li>
+                    <h6><b>Otras Tarjetas</b></h6>
+                  </li>
+                </ul>
+              </div>
+              <p> </p>
+              <ul class="bg-pdp-cell">
+                <li type="disc">
+                  <p>
+                    20% de descuento - cuenta corriente
+                    externas.
+                  </p>
+                </li>
+                <li type="disc">
+                  <p>20% de descuento.</p>
+                </li>
+                <li type="disc">
+                  <p>6 meses sin intereses.</p>
                 </li>
               </ul>
             </div>
-            <p> </p>
-            <ul class="bg-pdp-cell lppromos tarejtas-liverpool">
-              <li type="disc">PRESUPUESTO LIVERPOOL/FABRICAS<br></li>
-            </ul>
-            <hr class="divider">
-            <div class="bg-tarjetas">
-              <ul>
-                <li><img src="/mobileAssets/images/card_visa.png"></li>
-                <li><img src="/mobileAssets/images/card_master.png"></li>
-                <li>
-                  <h6><b>Otras Tarjetas</b></h6>
-                </li>
-              </ul>
-            </div>
-            <p> </p>
-            <ul class="bg-pdp-cell otherpromos tarjetas-externas">
-              <li type="disc">CUENTA CORRIENTE EXTERNAS<br></li>
-            </ul>
           </div>
         </div>
       </div>
