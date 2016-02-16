@@ -1,0 +1,112 @@
+body{
+	padding: 0;
+	margin:0;
+}
+
+.login-header{
+	width:100%;
+	height: 2.5em;
+	background: #d5d5d5;
+	text-align: right; 
+}
+.login-header span{
+	font-family: 'Roboto Regular', arial, sans-serif;
+	line-height: 2.9em;
+	font-size: 13px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+#login-content{
+	width: 95%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#login-content h1{
+	font-family: 'Roboto Condensed', arial, sans-serif;
+	font-size: 26px;
+
+}
+#login-content form {
+	width: 100%;
+}
+#content-form-login{
+	width: 100%;
+}
+#content-form-login label{
+	width:100%;
+	display: block;
+	font-family: 'Roboto Regular', arial, sans-serif;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+#content-form-login input
+{
+	width:100%;
+	height: 40px;
+	display: block;
+	font-family: 'Roboto Regular', arial, sans-serif;
+	font-size: 16px;
+	border:1px solid #d5d5d5;
+	margin-bottom: 5px;
+}
+.line-title-pink{
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.line-title-pink a{
+	color:#e10098;
+	font-family:  'Roboto Regular', arial, sans-serif;
+	font-size: 13px;
+	display: block;
+	line-height:30px;
+}
+.line-title-gray{
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	margin-bottom: 15px;
+	margin-top: 6em;
+}
+.line-title-gray span{
+	color:#000;
+	font-family:  'Roboto Regular', arial, sans-serif;
+	font-size: 13px;
+	display: block;
+	line-height:30px;
+}
+.login-pink-btn{
+    font-family:  'Roboto Condensed', arial, sans-serif;
+    font-size: 20px;
+    color:#fff;
+    background: #e10098;
+    width: 100%;
+    height: 45px;
+    border: 0;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.login-gray-btn{
+    font-family:  'Roboto Condensed', arial, sans-serif;
+    font-size: 20px;
+    color:#000;
+    background: #f2f2f2;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #d5d5d5;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.login-gray-strong-btn{
+    font-family:  'Roboto Condensed', arial, sans-serif;
+    font-size: 20px;
+    color:#fff;
+    background: #bfbfbf;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #bfbfbf;
+    font-weight: 400;
+    margin-bottom: 10px;
+}

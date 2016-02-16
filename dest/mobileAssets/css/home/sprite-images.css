@@ -4,7 +4,7 @@ _wh = white header
 _pf = pink footer
 _af = action footer
 */
-#menu_icn, #logo_icn,#bag_icn,#sesion_h_icn,#locator_h_icn, #search_wh_icn,#locator_pf_icn, #call_af_icn, #arrow_up_icn, #arrow_down_icn{
+#menu_icn, #logo_icn,#bag_icn,#sesion_h_icn,#locator_h_icn, #search_wh_icn,#locator_pf_icn, #call_af_icn, #arrow_up_icn, #arrow_down_icn,#cerrar-vista-icn{
 	background-image: url('/mobileAssets/images/sprite/redisign_SPRITE.png');
     background-repeat: no-repeat;
 }
@@ -82,6 +82,15 @@ _af = action footer
     height: 14px;
     background-position: -167px -250px;
     margin: 0 auto 0 auto;
+}
+#cerrar-vista-icn{
+	width: 14px;
+    height: 14px;
+    background-position: -20px -311px;
+    display: inline-block;
+    vertical-align:middle;
+    margin-right: 15px;
+    margin-bottom: 3px;
 }
 /*.header_search-button {
   background-color:#e10098;

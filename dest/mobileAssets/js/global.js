@@ -3425,6 +3425,7 @@ $(document).ready(function(){
 	$("#cat610036 > div > div:nth-child(1) > div.right-menu > ul > li:nth-child(13)").hide();
 
     $("#cat5020003 > div > div:nth-child(1) > div.right-menu > ul > li:nth-child(12)").hide();
+    $("#go-ini").click(function(){$("body,html,.wrapper,.mobmenu").animate({ scrollTop: 0 }, "fast");});
 });
 //Add a text in footer
 $(document).ready(function(){
