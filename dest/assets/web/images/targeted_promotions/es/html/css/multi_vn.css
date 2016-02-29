@@ -1,0 +1,183 @@
+.g3 {
+	width: 992px;
+	position: relative;
+	background: #212746;
+}
+
+/*--------------------------------------------------*/
+/*ESTRUCTURA BASICA*/
+/*--------------------------------------------------*/
+
+.bn-linea-1 {
+	height: 150px;
+	border-bottom: 1px solid #FFF;
+}
+
+/*--------------------------------------------------*/
+/*altura de todas las columnas*/
+/*--------------------------------------------------*/
+
+.bn-columna-central,.bn-columna {
+	height: 200px;
+}
+
+#bn-columnas-3 {
+	width: 100%;
+}
+
+#bn-columnas-3 .bn-columna {
+	width: 225px;
+	float: left;
+}
+
+.bn-columna-central {
+	width: 520px; /*-2px por el border*/
+	float: left;
+}
+
+/*--------------------------------------------------*/
+/*banners estilos especificos por banner
+columna 1 row 1*/
+/*--------------------------------------------------*/
+.bn-c1-r1 {
+	background:
+		url("/web/images/targeted_promotions/es/html/img/bp03_rec.jpg")
+	/*			url("../img/bp03_rec.jpg")*/
+		no-repeat top left;
+	height: 129px;
+	border-bottom: 0px solid #000;
+	border-right: 0px solid #000;
+	padding-right: 4px;
+}
+
+.bn-c1-r1 .bn-especial1 {
+	float: right;
+	width: 100px;
+	padding-top: 10px;
+	text-align: right;
+	color: #000;
+}
+
+.bn-c1-r1 .bn-especial2 {
+	float: right;
+	color: #000;
+	padding-right: 5px;
+}
+
+.bn-c1-r1 .bn-titulo {
+	clear: both;
+	text-align: right;
+	padding-right: 5px;
+	text-transform: uppercase;
+}
+
+.bn-c1-r1 a.bn-link {
+	text-align: right;
+	padding-right: 5px;
+	float: right;
+	clear: both;
+	margin-top: 13px;
+}
+
+/*--------------------------------------------------*/
+/*Estilos relativos a columna 1 row 2*/
+/*--------------------------------------------------*/
+.bn-c1-r2 {
+	background:
+		url("/web/images/targeted_promotions/es/html/img/bp03_mot.jpg")
+		/*url("../img/bp03_mot.jpg")*/
+		no-repeat top left;
+	border-right: 0px solid #000;
+	height: 252px;
+	padding-right: 5px;
+}
+
+.bn-c1-r2 .bn-titulo {
+	text-transform: uppercase;
+	text-align: right;
+	padding-top: 30px;
+}
+
+.bn-c1-r2 .bn-texto-negro-sm {
+	line-height: .8em;
+	text-align: right;
+}
+
+.bn-c1-r2 a.bn-link {
+	margin-top: 1px;
+	float: right;
+}
+/*--------------------------------------------------*/
+/*Estilos relativos a columna 2 row 1*/
+/*--------------------------------------------------*/
+
+.bn-c2-r1 {
+	width: 603px;
+	background:
+		url("/web/images/targeted_promotions/es/html/img/bp03_com.jpg")
+				/*url("../img/bp03_com.jpg")*/
+		no-repeat 0px 0px;
+	padding-right: 0px;
+	height: 128px;
+	border-bottom: 0px solid #000;
+	border-right: 0px solid #000;
+}
+
+.bn-c2-r1 .bn-texto-negro-sm {
+	float: right;
+	margin-top: 35px;
+	margin-right: 0px;
+}
+.bn-c2-r1 a.bn-link {
+	float: right;
+	clear: both;
+	margin-right: 0px;
+}
+
+/*--------------------------------------------------*/
+/*Estilos relativos columna 2 row 2*/
+/*--------------------------------------------------*/
+
+.bn-c2-r2 {
+	width: 598px;
+	background:
+		url("/web/images/targeted_promotions/es/html/img/bp03_pan.jpg")
+	/*	url("../img/bp03_pan.jpg")*/
+		no-repeat -1px -1px;
+	padding-right: -4px;
+	height: 254px;
+	border-right: 2px solid #000;
+}
+
+.bn-c2-r2 .bn-caja-md {
+	margin-top: 50px;
+}
+
+.bn-c2-r2 .bn-precio-rg {
+	margin-top: -13px;
+	font-size: 2.8em;
+	letter-spacing: -3px;
+}
+
+/*--------------------------------------------------*/
+/*Estilos relativos columna 3 row 1*/
+/*--------------------------------------------------*/
+.bn-c3-r1 {
+	width: 148px;
+	background:
+	url("/web/images/targeted_promotions/es/html/img/bp03_lbn.jpg")
+	/*url("../img/bp03_lbn.jpg")*/
+	
+	no-repeat 0px -68px;
+	padding: 10px;
+	height: 362px;
+	border-left: none;
+}
+
+.bn-c3-r1 div{
+	margin-top: -6px;
+}
+
+.bn-c3-r1 .bn-texto-negro-xl {
+    margin-top: 0px;
+}

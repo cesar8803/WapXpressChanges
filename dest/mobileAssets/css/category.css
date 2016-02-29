@@ -1,5 +1,8 @@
+
 .category-container{
 padding: 0 1.5%;
+overflow-y:scroll;
+-webkit-overflow-scrolling: auto; 
 }
 .cat-banner-container .caroufredsel_wrapper{
 margin: 0!important;

@@ -1,0 +1,50 @@
+doctype html
+// Start: Html
+html(lang='en')
+  // Start: Head
+  head
+    include ./includes-plp/metas.jade
+    include ./includes-plp/includes-css-js.jade
+    head
+      meta(charset='utf-8')
+      title Liverpool
+      meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+      meta(name='description', content='Liverpool')
+      meta(name='author', content='Liverpool')
+      meta(name='format-detection', content='telephone=no')
+      // <link rel="stylesheet" href="/mobileAssets/css/jquery.raty.css">
+      // <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header-tyle.css"/>
+      link(href='/mobileAssets/css/device.css?test=1111', rel='stylesheet')
+      // Google Tag Manager
+    // End: Head
+    // Start: Body
+  body
+    // start: wrapper
+    .wrapper
+      // Start: header
+      include ./includes-plp/includes-css-js.jade
+      include ./includes-plp/header-plp.jade
+      include ./includes-plp/bread-crumb.jade
+      include ./includes-plp/product-listing-container.jade
+      include ./includes-plp/recomendations.jade
+      include ./includes-plp/page_overlay.jade
+      // Start: footer
+      include ./includes-plp/footer-plp.jade
+      .page-overlay
+      #userLoginPopUp.hide.modal.fade.view-promo-modal(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+      #page-loading.hidden-phone
+        div
+          img#bodyloader(src='/mobileAssets/images/icons/ajax-loader.gif', alt='ajaxloader')
+      #box-overlay-first.hidden-phone
+      // End: wrapper
+      include ./includes-plp/footer-javascript-includes.jade
+  // End: Body
+  // End: Html
+  input#recm_eventCategory(type='hidden', value='twocolumnpage', name='recm_eventCategory')
+  input#cP(type='hidden', name='cP', value='0', scope='session')
+  input#totalRecord(type='hidden', name='totalRecord', value='139')
+  input#recsPerPage(type='hidden', name='recsPerPage', value='40')
+  input#queryString(type='hidden', name='queryString', value='')
+  input#Ns_Val(type='hidden', name='Ns_Val', value='')
+  input#contextPATH(type='hidden', name='contextPATH', value='/tienda/m')
+  input#navValue(type='hidden', name='navValue', value='N=2szi')

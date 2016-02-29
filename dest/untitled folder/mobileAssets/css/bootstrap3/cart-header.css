@@ -1,0 +1,277 @@
+.border-header{
+  border: solid;
+  border-width: thin;
+  /*border-color: #E9E9E9;*/
+  border-color: #B9B9B9;
+}
+.btn-back-head{
+  background-color: #dc027c;
+  border: none;
+  height: 52px;
+  margin-left: -1px;
+}
+.btn-Searc-head{
+  background-color: #dc027c;
+  border: none;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  float: right;
+  right: 0; /* WAP1 */
+  font-size:13px;
+}
+.loggin-modal-body{
+  padding: 10px;
+}
+
+.loggin-modal-body .row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#button_loggin{
+  padding-bottom: 10px;
+}
+#myTab li{
+  width: 50%;
+  text-align: center;
+}
+.modal-close-btn {
+  position: absolute;
+  top: -15px;
+  right: -7px;
+  background: url('/mobileAssets/images/buttons/modal-close-btn.png') no-repeat center center;
+  width: 50px;
+  height: 53px;
+  background-size: 50px;
+  z-index: 1;
+  
+}
+
+
+.tab-content{
+  padding-top: 20px;
+}
+
+.back-button img{
+  max-width: 40px;
+}
+.img-sea{
+    max-width: 20px;
+    max-height: 20px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
+.logo{
+    margin: 8px;
+  max-width: 125px;
+  max-height: 36px;
+  /* margin-left: -10px; */
+}
+.search-position{
+    margin: 8px;
+  float: right;
+  width: 22em;
+    margin-right: -9px;
+}
+.img-size-icon{
+padding-top: 8px;
+width: 2em;
+margin-left: 5px;
+display: block;
+float: right;
+}
+.img-group{
+  width: 20px;
+}
+.img-size-badge{
+  padding-top: 5px;
+  width: 3em;
+}
+.img-size-icon-bag{
+  width: 52px;
+  height: 30px;
+  display: block;
+}
+.btn-group-user{
+  background-color: #f8f8f8;
+  border: none;
+  height: 51px;
+  /* width: 116px; */
+  font-size: 0.75em;
+}
+.bg-Group{
+    background-color: #F8F8F8;
+    margin-left: -15px;
+}
+.badge-position{
+  margin-left: -5em;
+}
+.badge-img{
+  position: absolute;
+  right: 0px;
+  background-color: #DC027C;
+  margin-top: 8px;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+.search-position {
+  margin: 8px;
+  float: right;
+  width: 13em;
+    margin-right: -9px;
+}
+.badge-position{
+  margin-left: -1em;
+}
+.badge-img {
+  position: absolute;
+  right: 0px;
+  background-color: #DC027C;
+  margin-top: 8px;
+  margin-right: -14px;
+}
+ }
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+ .logo {
+  margin: 8px;
+  max-width: 125px;
+  max-height: 36px;
+  margin-left: 15px;
+}
+}
+.input-group .form-control
+{
+  width: 89%;
+  border-radius: 4px 0 0 4px; /* WAP1 */
+}
+.iphone
+{
+  position: relative;
+}
+.iphone .btn-Searc-head
+{/*08082015 - PA css 774*/
+    top: 0;
+	z-index: 2;
+}
+/*21may 2014 - pa css*/
+.type-line img {
+height: 50px;
+width: 50px;
+}
+/*27 May 2014 - PA css*/
+#typeahead { /* W */
+float: left;
+width: 95%;
+position: absolute;
+min-height: auto;
+z-index: 1;
+left: 1px;
+border-radius: 5px;
+background: #fff;
+border: 1px solid #EBEBEB;
+top: 34px; /* WAP1 */
+  min-height: 200px;
+  max-height: 300px;
+  overflow-y: scroll;
+
+}
+#typeahead .type-line { /* W */
+background: #fff;
+border-bottom: 1px solid #EBEBEB;
+float: left;
+font-family: arial;
+font-size: 12px;
+padding: 1% 1%;
+width: 100%;
+margin-top: 5px;
+}
+#typeahead .type-line a {
+color:#000;
+font-family: 'Roboto Regular', arial, sans-serif;
+font-size: 11px;
+padding: 0;
+background: none;
+
+}
+#typeahead .type-line.selected {
+background: #ccc;
+}
+
+#typeahead .type-line:hover {
+color: #000;
+background-color: #e6eff7;
+}
+#typeahead img {
+vertical-align: middle;
+width: 12%;
+background-color: #f7f7f7 !important;
+border: 1px solid #ccc;
+height: 28px;
+}
+#typeahead span {
+color: rgb(248, 6, 168);
+font-family: 'Roboto Regular', arial, sans-serif;
+font-size: 15px;
+padding: 0;
+background: none;
+font-weight: bold;
+}
+/* mini cart item confirm message*/
+
+.header_search-button {
+  background: #CE036F url('/mobileAssets/images/icons/search_header.png') no-repeat center center;
+  height: 2.625em!important;
+  width: 2.625em!important;
+  display: inline-block;
+  text-indent: -9999px;
+  background-size: 20px!important;
+  border: 0;
+}
+.modal-size .modal-dialog .modal-lg{
+  margin:0!important;
+}
+.header-image{
+  margin-left:0 !important;
+}
+.pl0{
+  padding-left : 0;
+}
+.header_phone{
+
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+header > div.visible-xs.border-header.row.header-mobile.pdpphone > div:nth-child(3) > div.col-xs-7{
+  display: none;
+}
+
+header > div.visible-xs.border-header.row.header-mobile.pdpphone > div:nth-child(3) > div.col-xs-5{
+  width:100%;
+}
+header > div.visible-xs.border-header.row.header-mobile.pdpphone > div:nth-child(3) > div.col-xs-5 > a{
+  float:right;
+}
+.head_container{
+  background-color:white;
+}
+@media(max-width: 767px){
+  .logo-container{
+    width:36%;
+    position:static;
+    top: 0;
+    z-index: 0;
+  }
+  .img-responsive.logo{
+    margin: 0 auto
+  }
+}
+header > div.visible-xs.border-header.row.header-mobile.pdpphone > div:nth-child(3){
+  float:right;
+}
+
+#externalnumber_sec { /*PA LP SIRE Redesign chnages made for shipping page*/
+	clear: both;
+}

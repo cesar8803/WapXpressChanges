@@ -1,0 +1,182 @@
+.g3 {
+	width: 992px;
+	position: relative;
+}
+
+/*--------------------------------------------------*/
+/*ESTRUCTURA BASICA*/
+/*--------------------------------------------------*/
+
+.bn-linea-1 {
+	height: 150px;
+	border-bottom: 1px solid #F1F1F1;
+}
+
+/*--------------------------------------------------*/
+/*altura de todas las columnas*/
+/*--------------------------------------------------*/
+
+.bn-columna-central,.bn-columna {
+	height: 200px;
+}
+
+#bn-columnas-3 {
+	width: 100%;
+}
+
+#bn-columnas-3 .bn-columna {
+	width: 220px;
+	float: left;
+}
+
+.bn-columna-central {
+	width: 520px; /*-2px por el border*/
+	float: left;
+}
+
+/*--------------------------------------------------*/
+/*banners estilos especificos por banner
+columna 1 row 1*/
+/*--------------------------------------------------*/
+.bn-c1-r1 {
+	background:
+		url("/web/images/targeted_promotions/es/html/img/gate3_01.jpg")
+	/*			url("../img/gate3_01.jpg")*/
+		no-repeat top left;
+	height: 128px;
+	border-bottom: 1px solid #F1F1F1;
+	border-right: 1px solid #F1F1F1;
+	padding-right: 5px;
+}
+
+.bn-c1-r1 .bn-especial1 {
+	float: right;
+	width: 100px;
+	padding-top: 10px;
+	text-align: right;
+	color: #000000;
+}
+
+.bn-c1-r1 .bn-especial2 {
+	float: right;
+	color: #000000;
+	padding-right: 5px;
+}
+
+.bn-c1-r1 .bn-titulo {
+	clear: both;
+	text-align: right;
+	padding-right: 5px;
+	text-transform: uppercase;
+}
+
+.bn-c1-r1 a.bn-link {
+	text-align: right;
+	padding-right: 5px;
+	float: right;
+	clear: both;
+	margin-top: 13px;
+}
+
+/*--------------------------------------------------*/
+/*Estilos relativos a columna 1 row 2*/
+/*--------------------------------------------------*/
+.bn-c1-r2 {
+	background:
+		url("/web/images/targeted_promotions/es/html/img/gate3_05.jpg")
+/*		url("../img/gate3_05.jpg")*/
+		no-repeat top left;
+	border-right: 1px solid #F1F1F1;
+	height: 250px;
+	padding-right: 5px;
+}
+
+.bn-c1-r2 .bn-titulo {
+	text-transform: uppercase;
+	text-align: right;
+	padding-top: 30px;
+}
+
+.bn-c1-r2 .bn-texto-negro-sm {
+	line-height: .8em;
+	text-align: right;
+}
+
+.bn-c1-r2 a.bn-link {
+	margin-top: 1px;
+	float: right;
+}
+/*--------------------------------------------------*/
+/*Estilos relativos a columna 2 row 1*/
+/*--------------------------------------------------*/
+
+.bn-c2-r1 {
+	width: 599px;
+	background:
+		url("/web/images/targeted_promotions/es/html/img/gate3_03.jpg")
+	/*			url("../img/gate3_03.jpg")*/
+		no-repeat 1px 1px;
+	padding-right: 5px;
+	height: 128px;
+	border-bottom: 1px solid #ECECEC;
+	border-right: 1px solid #ECECEC;
+}
+
+.bn-c2-r1 .bn-texto-negro-sm {
+	float: right;
+	margin-top: 35px;
+	margin-right: 25px;
+}
+.bn-c2-r1 a.bn-link {
+	float: right;
+	clear: both;
+	margin-right: 25px;
+}
+
+/*--------------------------------------------------*/
+/*Estilos relativos columna 2 row 2*/
+/*--------------------------------------------------*/
+
+.bn-c2-r2 {
+	width: 599px;
+	background:
+		url("/web/images/targeted_promotions/es/html/img/gate3_06.jpg")
+	/*	url("../img/gate3_06.jpg")*/
+		no-repeat -1px -1px;
+	padding-right: 5px;
+	height: 250px;
+	border-right: 1px solid #ECECEC;
+}
+
+.bn-c2-r2 .bn-caja-md {
+	margin-top: 50px;
+}
+
+.bn-c2-r2 .bn-precio-rg {
+	margin-top: -13px;
+	font-size: 2.8em;
+	letter-spacing: -3px;
+}
+
+/*--------------------------------------------------*/
+/*Estilos relativos columna 3 row 1*/
+/*--------------------------------------------------*/
+.bn-c3-r1 {
+	width: 148px;
+	background:
+	url("/web/images/targeted_promotions/es/html/img/gate3_04.jpg")
+	/*url("../img/gate3_04.jpg")*/
+	
+	no-repeat 1px -69px;
+	padding: 10px;
+	height: 359px;
+	border-left: none;
+}
+
+.bn-c3-r1 div{
+	margin-top: -8px;
+}
+
+.bn-c3-r1 .bn-texto-negro-xl {
+    margin-top: 20px;
+}

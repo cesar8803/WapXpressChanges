@@ -1,0 +1,171 @@
+/*a:link{
+	text-decoration:none;
+	}*/
+	
+	a{
+	text-decoration:none;
+	}
+.centro_colchones {
+	background:
+	url("/web/images/targeted_promotions/es/html/img/bc_240913cam.jpg")
+		/*url("../img/bc_240913cam.jpg")*/
+		no-repeat top left;
+	height: 320px;
+	width: 550px;
+	position: relative;
+}
+
+#bc_240913cam .promo-main {
+position: absolute;
+width: 190px;
+top: 18px;
+right: 16px;
+/*background: cyan;*/
+
+}
+
+#bc_240913cam .promo-main .bn-texto-wh-xxl {
+position: relative;
+margin: 0px;
+display: inline-block;
+color: #264e8c;
+/*background: yellow;*/
+
+}
+
+
+#bc_240913cam .promo-main .porcentaje {
+  display: inline-block;
+  left: -2px;
+  margin: 0;
+  position: relative;
+  top: -18px;
+  width: 10px
+}
+
+
+#bc_240913cam .promo-main .mas {
+	color:#264e8c;
+display: inline-block;
+font-size: 18px;
+font-weight: bold;
+left: 2px;
+line-height: 108%;
+margin: 0 10px;
+position: relative;
+top: 32px;
+width: 10px;
+
+}
+
+#bc_240913cam .promo-main .y {
+	color:#264e8c;
+	font-weight:bold;
+	font-size:22px;
+position: relative;
+margin: 0px;
+display: inline-block;
+width: 10px;
+top: 1px;
+left: -108px !important;
+}
+
+#bc_240913cam .promo-main .promoAdiocional {
+	color:#264e8c;
+	font-weight:bold;
+	left:58px;
+position: relative;
+margin: 0px;
+display: inline-block;
+width: 10px;
+top: -21px;
+
+}
+#bc_240913cam .promo-main .promoAdiocional2 {
+color:#264e8c;
+font-weight:bold;
+position: relative;
+margin: 0px;
+display: inline-block;
+width: 200px;
+top: -19px;
+left: 1px !important;
+}
+
+.bn-texto-wh-xxlTitulo{
+	
+	color:#264e8c;
+padding:20px 40px;
+font-weight:bold;
+font-size:25px;
+	}
+
+.call2Action{
+	background:#e83d99;
+	-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+	color:#fff;
+	display:inline-block;
+	
+	font-size:12px;
+	height:21px;
+	margin:0 20px;
+	padding:0 22px;
+	width:55px;
+	}
+	
+.flecha{
+	left: 44px;
+    position: relative;
+    top: -12px;
+	}
+	
+.call2Action_texto{
+	left: -5px;
+    position: relative;
+    top: 3px;
+	}
+
+
+#bc_240913cam .bn-texto-wh-sm {
+ color: #666666;
+ display: inline-block;
+ left: 18px;
+ line-height:90%;
+ margin-left: 9px;
+ position: relative;
+ top: -17px;
+}
+
+#bc_240913cam .bn-texto-wh-smAbajo  {
+ color: #666666;
+ font-family: 'robotolight',arial,sans-serif;
+ font-size: 0.9em;
+ left: 50px;
+ position: relative;
+ top: -29px;
+}
+#bc_240913cam .restricciones{
+position: absolute;
+top: 190px;
+/*background-color: pink;*/
+right: 0px;
+width: 300px;
+height: 80px;
+
+}
+
+.p_restricciones{
+
+font-family: 'robotolight',arial,sans-serif;
+font-size: 8px;
+margin: 0px;
+padding: 5px;
+position: absolute;
+right: -30px;
+text-align: center;
+top: 224px;
+width: 300px;
+
+}

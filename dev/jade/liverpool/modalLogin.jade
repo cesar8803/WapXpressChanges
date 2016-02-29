@@ -1,0 +1,51 @@
+html
+  body
+    link(href='/mobileAssets/css/account.css', rel='stylesheet')
+    .modal-scrollable(style='z-index: 1060;')
+      #userLoginPopUp.hide.modal.fade.view-promo-modal.in(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='false', style='display: block; margin-top: -209px; ')
+        .row-fluid
+          .popUp.rad3.tabnavigationcontainer
+            ul.nav.nav-tabs.mb5.tabs
+              li.active.span6
+                a.mr0.tablink(href='javascript:void(0);')
+                  | Iniciar sesión:
+                  input.tabID(type='hidden', value='1')
+              li.span6.ml0
+                a.mr0.tablink(href='javascript:void(0);')
+                  | ¿Nueva cuenta en Liverpool?
+                  input.tabID(type='hidden', value='2')
+            a.modal-close-btn(href='javascript:void(0);', title='close')
+            .tab-content
+              form#login.form-withphone(action='/tienda/m/home.jsp', name='login')
+                input(value='utf-8', type='hidden', name='_dyncharset')
+                input(value='4351382620472060517', type='hidden', name='_dynSessConf')
+                input(value='/tienda/m', type='hidden', name='/atg/userprofiling/ProfileFormHandler.contextRoot')
+                input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.contextRoot')
+                label(for='login-email')  Correo electrónico:
+                input#login.input-block-level.su.de.correo.favor.ingrese.un.email(value='', class="{validate:{required:true, email:true, messages:{required:'Introduzca dirección electrónico', email:'Por válido'}}}", type='email', maxlength='255', name='login')
+                input(value=' ', type='hidden', name='_D:login')
+                label(for='login-pwd') Contraseña:
+                input#pass.input-block-level.favor.introduzca.la(value='', class="{validate:{required:true,messages:{required:'Por contraseña'},minlength:6}}", type='password', name='pass')
+                input(value=' ', type='hidden', name='_D:pass')
+                input.btn-pink(value='Entrar', type='submit', name='/atg/userprofiling/ProfileFormHandler.login')
+                input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.login')
+                input(value='/tienda/m/home.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                input(value='/tienda/m/home.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                input(value='/tienda/m/users/loginerror.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                a.btn-grey.btn.mt10.rad3.cancel-btn(href='/tienda/m/users/forgotPassword.jsp') Olvidaste tu contraseña
+                input(value='/m/users/frag/loginPopup.jsp', type='hidden', name='_DARGS')
+              .clearfix
+            .tab-content.create-account-tab.hidecontent
+              a.btn.btn-pink(onclick="dataLayer.push({'labelNewUser':'header;','event':'RegisterUser'}) ", href='/tienda/m/users/register.jsp') Crea tu cuenta
+              p.lead.mb5.mt20 Obtén grandes beneficios registrándote
+              ul.subList.pb0
+                li
+                  span Descuentos exclusivos en compras por internet
+                li
+                  span
+                li
+                  span Certificados de seguridad Verisign y Amipci
+    .modal-backdrop.fade.in(style='z-index: 1050; ')

@@ -1,0 +1,315 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,700,900|Roboto+Condensed:400,700");
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #90cee3;
+  background-image: url("../images/lmj/fondo.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  font-family: "Roboto", sans-serif;
+  -moz-background-size: auto 200px;
+       background-size: auto 200px;
+  font-size: 16px;
+  color: #2e3233;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.wrapper_as {
+  margin: 1em auto 2em;
+}
+.wrapper_as .w_mi {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  padding: 0.5em;
+  font-size: 1.25em;
+  text-align: center;
+  margin-bottom: -2.5em;
+  font-weight: bolder;
+  position: relative;
+  z-index: 1;
+}
+.w_a {
+  background-color: #fff;
+  border: 2px solid #b8cbc6;
+  -moz-border-radius: 0.5em;
+       border-radius: 0.5em;
+  padding-top: 1.5em;
+  margin: 0 auto;
+  max-width: 480px;
+}
+.w_b {
+  text-align: center;
+}
+.w_b a {
+  color: #fff;
+  background-color: #495462;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  display: block;
+  -moz-border-radius: 0.25em;
+       border-radius: 0.25em;
+}
+.w_b fieldset {
+  border: 0 solid;
+}
+.w_b fieldset input {
+  width: 100%;
+  padding: 0.5em 0.25em;
+  margin: 0.5em 0;
+  -moz-border-radius: 0.5em;
+       border-radius: 0.5em;
+  border: 2px solid #b8cbc6;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+.w_b fieldset input[type="submit"] {
+  background-color: #ef0565;
+  border: 0 solid;
+  position: relative;
+  background-image: url("../images/lmj/btn_entrar2.png");
+  background-position: center;
+  -moz-background-size: 130px auto;
+       background-size: 130px auto;
+  height: 2.5em;
+  background-repeat: no-repeat;
+}
+.mini_h {
+  background-color: #ef0565;
+  height: 50px;
+  margin-bottom: 3em;
+  text-align: center;
+  padding: 0.25em;
+}
+.mini_h img {
+  width: 160px;
+}
+.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened {
+  width: 340px !important;
+  overflow: hidden !important;
+}
+.form_a_as2 {
+  background-color: #f0f4f3;
+  margin: -3px -5px;
+  border: 0 solid;
+  text-align: center;
+  width: 325px;
+  overflow: hidden;
+  position: relative;
+}
+.form_a_as2 fieldset {
+  margin-top: 2em;
+  border: 0px solid;
+}
+.form_a_as2 fieldset:before {
+  content: "Registro";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: block;
+  font-weight: bolder;
+  padding-top: 0.35em;
+  font-size: 1.25em;
+}
+.form_a_as2 .regiser_btn {
+  background-image: url("../images/lmj/btn_registrar2.png");
+  background-position: center;
+  -moz-background-size: 130px auto;
+       background-size: 130px auto;
+  background-color: #ef0565;
+  height: 2.5em;
+  background-repeat: no-repeat;
+  border: 0 solid;
+}
+.form_a_as2 form {
+  margin: 0;
+  border: 0 solid;
+  overflow: hidden;
+}
+.form_a_as2 input {
+  width: 100%;
+  padding: 0.5em 0.25em;
+  margin: 0.5em 0;
+  -moz-border-radius: 0.5em;
+       border-radius: 0.5em;
+  border: 2px solid #b8cbc6;
+  overflow: hidden;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+select {
+  padding: 0.25em 1em;
+  -moz-border-radius: 0.5em;
+       border-radius: 0.5em;
+}
+.wha {
+  display: inline-block;
+}
+.fancybox-inner {
+  height: 495px !important;
+  width: 310px !important;
+  overflow: hidden !important;
+}
+.fancybox-inner iframe {
+  width: 330px;
+  overflow: hidden;
+}
+.fancybox-overlay.fancybox-overlay {
+  background-color: #495462;
+  background-color: rgba(73,84,98,0.8);
+}
+.p_a {
+  position: relative;
+  border-bottom: 1px solid #b8cbc6;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.p_a:first-child {
+  margin-top: 0.5em;
+}
+.p_a:last-child {
+  border-bottom: 0px solid;
+  padding-bottom: 0;
+  margin-bottom: 0.5em;
+}
+.p_lp {
+  color: #fff;
+  background-color: #495462;
+  padding: 0.25em 1em;
+}
+.p_b {
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.p_c {
+  display: inline-block;
+  vertical-align: middle;
+  width: 55%;
+  font-weight: bold;
+}
+.p_c h3 {
+  margin: 0;
+  color: #ef0565;
+}
+.p_e {
+  position: absolute;
+  position: absolute;
+  top: 1.5em;
+  right: 0;
+  font-weight: bolder;
+}
+.p_f {
+  position: absolute;
+  top: 3em;
+  right: 0;
+  font-weight: bolder;
+}
+.p_f .p_cu {
+  font-size: 1.7em;
+  font-weight: lighter;
+  color: #ef0565;
+}
+.e_a {
+  display: block;
+  position: absolute;
+  background-image: url("../images/lmj/btn_borrar.png");
+  -moz-background-size: 100px;
+       background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #eaeae4 !important;
+  border: 1px solid #b8cbc6 !important;
+  z-index: 9999999;
+  width: 100px;
+  height: 26px;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  cursor: pointer;
+  text-indent: -9999;
+  border: 0px solid;
+}
+.e_a:after {
+  content: "X";
+  color: #00f;
+}
+.o_p {
+  background-color: #fff;
+  max-width: 720px;
+  margin: 0 auto;
+  -moz-border-radius: 0.5em;
+       border-radius: 0.5em;
+  border: 2px solid #b8cbc6;
+  overflow: hidden;
+  padding: 0.5em;
+}
+.w_c {
+  background-color: #fff;
+  color: #495462;
+  margin: 0;
+  width: 720px;
+  padding: 0.5em;
+  margin: 0 auto -0.25em;
+  position: relative;
+  border-top: 2px solid #b8cbc6;
+  border-left: 2px solid #b8cbc6;
+  border-right: 2px solid #b8cbc6;
+  border-bottom: 1px solid #ef0565;
+  overflow: hidden;
+}
+.w_d {
+  display: inline-block;
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.w_e {
+  display: inline-block;
+}
+.w_f {
+  display: inline-block;
+  margin-left: 2em;
+}
+.w_g {
+  float: right;
+  font-size: 1.5em;
+  color: #ef0565;
+  font-weight: bold;
+}
+.w_g p {
+  line-heigth: 1rem;
+  margin: 0;
+  margin-top: 3rem;
+}
+.w_hb {
+  opacity: 1 !important;
+}
+#addTocartButton {
+  opacity: 1;
+  background-color: #ef0565;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 0 solid;
+  padding: 1em;
+  -moz-border-radius: 5px;
+       border-radius: 5px;
+  color: #fff;
+  max-width: 740px;
+  background-image: url("../images/lmj/btn_comprar_carta.png");
+  background-position: center;
+  -moz-background-size: 130px auto;
+       background-size: 130px auto;
+  background-repeat: no-repeat;
+}

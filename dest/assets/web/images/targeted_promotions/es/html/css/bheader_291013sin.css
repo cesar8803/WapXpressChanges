@@ -1,0 +1,11 @@
+#banner-top { top: -71px; position: absolute; width: 990px; display: block; }
+
+.banner_header{
+    background: #F5F5F5;
+    background: url(/web/images/targeted_promotions/es/html/img/bheader_291013sin.jpg) no-repeat;
+    width: 920px;
+    display: block;
+    height: 36px;
+    margin: 0 auto;
+}
+

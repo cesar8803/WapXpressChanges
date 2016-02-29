@@ -1,0 +1,33 @@
+.row-fluid
+        .span12.breadcrumb
+          ul
+            li
+              a(href='/tienda/m', title='Home') Home
+              // <span class="divider">/</span>
+              // Pooja
+            li(style='display:block')
+              a.actual(href='/tienda/m/deportes/cat480332') Deportes
+              // <span class="divider">/</span>
+              // Pooja
+              span#ancestorLbl(style='display:none') Deportes
+            li(style='display:block')
+              a.actual(href='/tienda/m/deportes/cat480332') Disciplinas y Accesorios
+              // <span class="divider">/</span>
+              // Pooja
+              span#ancestorLbl(style='display:none') Disciplinas y Accesorios
+            li(style='display:block')
+              a.actual(href='/tienda/m/fútbol/cat480388') Fútbol
+              // <span class="divider">/</span>
+              // Pooja
+              span#ancestorLbl(style='display:none') Fútbol
+            li(style='display:block') Jerseys
+            span#breadCrumbLbl(style='display:none') Jerseys
+            script.
+              $(document).ready(function() {
+              dataLayer.push({
+              'category' : $('#ancestorLbl').text(),
+              'subcategory' : $('#breadCrumbLbl').text(),
+              'event' : 'contentGroup'
+              });
+              });
+      // 

@@ -1,0 +1,96 @@
+header.header
+        // start: header navigation
+        .row-fluid
+          .header-navigation-main
+            #headernev.header-navigation.navbar.row-fluid(data-spy='affix', data-offset-top='100')
+              .header-navigation-left.span1
+                button.btn.btn-navbar(type='button')
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+                  span.navbtn-txt Navegar
+              // start: header navigation right content
+              .header-navigation-right.span2
+                .logo.pull-left
+                  a(href='/tienda/m', title='liverpool')
+                    img(src='/mobileAssets/images/logo.png', alt='Liverpool - es parte de mi vida', title='Liverpool - es parte de mi vida')
+                .visableinphone.plpsearchicon
+                  a.search-icon(href='#myModal_search', data-toggle='modal', title='search')
+                    img.img-size-icon(src='/mobileAssets/images/icons/search.png')
+                  #search-container.hide.modal.fade.view-promo-modal(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+                    .show_search_box.lp-search-cont.row-fluid
+                      .lp-search-header
+                        a.close-search1(href='javascript:void(0)')
+                          img(src='/mobileAssets/images/icons/mobile-menu-back-icon.png', alt='')
+                          span REGRESAR
+                      .lp-search-sub-header
+                        span ¿Qué estás buscando ?
+                      .lp-search-input-cont
+                        .category_drop.plppagesearch.iphone
+                      .category_drop
+                #testHeaderCartContent
+                  input#mobilePage_contextPath(type='hidden', value='/tienda/m')
+                  .header-nav-utility.pull-left.hidden-phone
+                    .row-fluid
+                      .span4.pull-right.header-loginlinks
+                        .row-fluid
+                          .span7.menu-utility
+                            ul.headerrightmenu
+                              li.shopping-bag
+                                a.cart-link.touchEvent(href='/tienda/m/cart/cart.jsp', title='cart', rel='shopping-cart.jsp')
+                                  span
+                                    | cart
+                                  .badge
+                                    | 0
+                                .cart-link-arw
+                                // start: mini cart container
+                                section.mini-cart-container.hidden-phone.mini-cont
+                                  .mini-cart-noitems
+                                    #minicart_noitem
+                                      span 1
+                                      span elemento añadido a su bolsa
+                                    p No tienes productos
+                                section.mini-cart-container.hidden-phone
+                                  .mini-cart-noitems.hide
+                                  // start: mini cart content
+                                // end: mini cart container
+                              li
+                                a.search-icon(href='javascript:void(0)', title='search')  search 
+                          // </div>
+                  .lp-header-search-icon
+                    a.search-icon.visible-phone(href='javascript:void(0)', title='search')  search 
+                    a.cart-link.visible-phone.touchEvent(href='/tienda/m/cart/cart.jsp', title='cart', rel='/tienda/m/cart/cart.jsp')
+                      span cart
+                      .cart-bubble 0
+                #homephonesearchipad.hidden-phone.input-group.homesearch-position
+                  form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
+                    //
+                      <input type="button" value="cl" >
+                      <input type="submit" value="" class="btn-search">
+                    input#busca.field-search.cross_site_script_val_pop.valid.form-control(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
+                    //
+                      <button class="btn" type="button">
+                      <img src="/mobileAssets/images/icons/mega-menu-close.png" alt="X" />
+                      </button>
+                    span.input-group-btn.btn-Searc-head
+                      button.header_search-button(type='submit')
+                    input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
+                    #typeahead(style='display: none;')
+                      #type-main-list
+                        #type-ver-todos
+                .hidden-phone.mobile-menu-cont.lp-mble-cont
+                  ul
+                    li.lp-loggedin-icon
+                      a.myaccount-icon(href=' javascript:void(0)', title='Log In')
+                        i.ipadhome-user-icon
+                        |                   Iniciar sesión
+                    li.lp-loggedin-icon
+                      i.home-store-icon.storeicon
+                      a.locallizecont(title='Store Locator', href='/tienda/m/browse/store.jsp') Localiza tu tienda
+              .pdp_addtocartConfirm
+                span 1 elemento añadido a su bolsa
+              // end: header navigation right content catalogNavigation.jsp
+              // Modified for Performance Defect 5365 - Replace LPBrowseCacheDroplet with OOTB Cache Droplet
+              include mega-menu.jade
+            .visableinphone
+      .clear

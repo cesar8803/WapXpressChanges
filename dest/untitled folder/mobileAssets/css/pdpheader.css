@@ -1,0 +1,161 @@
+.mini-cart-container {
+  border: 1px solid #d6d6d6;
+  border-top: none;
+  width: 318px;
+  position: absolute;
+  right: 0px;
+  background-color: #ffffff;
+  z-index: 10;
+  top: 66px;
+  color: #333333;
+  display: none;
+}
+.mini-cart-noitems {
+  color: #231f20;
+  font-family: 'Roboto Regular', arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  height: 85px;
+  margin: 0 auto;
+}
+.mini-cart-content {
+  padding: 15px 0 15px 15px;
+  width: 303px;
+  border-bottom: 1px solid #d6d6d6;
+}
+#minicart_itemcount {
+  background-color: #9fd69f;
+  padding: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: 12px;
+  display: none;
+}
+.mini-cart-itemcount {
+  font-family: 'Roboto Medium', arial, sans-serif;
+  font-size: 15px;
+  margin: 0 15px 0 0;
+  padding: 0 0 15px;
+  border-bottom: 1px solid #ECECEC;
+}
+.mini-cart-item-content {
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: visible;
+  padding-right: 5px;
+}
+.mini-cart-item {
+  width: 95%;
+  border-bottom: 1px solid #ececec !important;
+  padding: 10px 0px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .mini-cart-container {
+    top: 88px;
+  }
+  .mini-cart-item-content {
+    max-height: 450px;
+  }
+}
+
+/* pdp search section starts */
+.lp-search-sub-header {
+font-size: 17px;
+padding: 20px 0 20px 29px;
+}
+.lp-search-input-cont {
+padding-left: 32px !important;
+
+}
+.lp-search-input-cont .category_drop {
+width:93%;
+}
+.lp-search-input-cont .category_drop .input-append {
+padding-left: 0;
+width: 94%;
+}
+.category_drop .input-append input[type="text"] {
+width: 83%;
+}
+.category_drop .input-append input[type="text"] {
+padding-right: 0;
+background: #F4F4F4;
+border-left: 1px solid #ddd;
+border-right: none;
+height: 45px;
+}
+.category_drop .btn-search {
+background: url('/mobileAssets/images/icons/search.png') no-repeat;
+width: 41px;
+height: 45px;
+border: none;
+background-size: 26px;
+background-color: #AD066C;
+padding: 12px 0 0 9px;
+border-radius: 0;
+background-origin: content-box;
+margin-top: 0;
+margin-left: 0;
+}
+.category_drop .btn-search {
+float: right;
+}
+.pdpphone #myModal_search
+{
+    height: 100%;
+    position: fixed !important;
+    margin-top: 0 !important;
+    bottom: 0 !important;
+}
+.loginuser
+{
+    font-family: 'Roboto Regular', arial, sans-serif;
+  background: url("/mobileAssets/images/icons/pdp-down-arrow.png") no-repeat scroll right center transparent;
+  padding-right: 15px;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+.pdplogincontent
+{
+  position: absolute;
+  border: solid 1px #bbb;
+  background: #fbfbfb;
+  z-index: 1;
+    padding-left: 0;
+}
+.pdplogincontent li {
+   width: 100%;
+  padding: 3px;
+  border-bottom: 1px solid #ddd;
+  
+}
+/* pdp search section ends */
+#testHeaderCartContent
+{
+	display: none;
+}
+.costo-envio{
+  display: none;
+}
+.col-xs-4.col-xs-offset-1.logo-container {
+    margin-left: 0;
+}
+.img-size-icon-bag .badge-img {
+    position: absolute;
+    right: -18px;
+    background-color: #FF0084;
+    margin-top: 8px;
+}
+body > div.ui-page.ui-page-theme-a.ui-page-active > section > header > div.visible-xs.border-header.row.header-mobile > div:nth-child(3) > div.col-xs-7{
+    float:right;
+    width:50px
+}

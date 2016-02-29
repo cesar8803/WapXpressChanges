@@ -1,0 +1,81 @@
+/**************************************************************************************
+	STYLESHEET GATE 1
+	-------------------
+	BY LIVERPOOL
+	VENTAS A DISTANCIA 
+**************************************************************************************/
+/*================  SECONDARY_NAV ========================*/
+.gate1-wrapper {
+	height: 353px;
+	overflow: hidden;
+}
+
+.gate1-contenido {
+	height: 322px;
+	font-family: 'roboto', arial, sans-serif;
+	font-size: 0.8em;
+	background-color:#212746;
+}
+
+.level0-txt {
+	color: #00A4E4;
+	font-family: 'robotobold', arial, sans-serif;
+}
+
+.level1-txt {
+	font-family: 'robotobold', arial, sans-serif;
+	font-size: 1em;
+	color:#FFF;
+	text-transform: uppercase;
+}
+
+.level2-txt {
+	font-family: 'robotobold', arial, sans-serif;
+	color:#FFF;
+}
+
+.level2-wrapper {
+	text-indent: 15px;
+}
+
+.level2-txt a {
+	border-bottom: 1px dotted #747070;
+	font-family: 'robotomedium', arial, sans-serif;
+	font-size: 13px;
+	margin: 8px auto;
+	text-transform: capitalize;
+	width: auto;
+	border-bottom: 1px dotted #747070;
+	color:#FFF;
+	padding-bottom: 0px;
+	line-height: 20px;
+	text-decoration:none;
+}
+
+.level2-txt a:hover {
+	color:#ED2224;
+}
+
+.level0-txt,.level1-txt {
+	padding-bottom: 12px;
+	padding-top: 6px;
+}
+
+.level-wrapper {
+	padding: 0.3em 0 1em;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.level-wrapper li {
+	padding: 0.3em 0;
+	color:#FFF;
+}
+
+.level-wrapper a:hover {
+	color: #ED2224;
+}
+
+/*================  END SECONDARY_NAV ========================*/
+
+/****** AUX STYLES  *********/

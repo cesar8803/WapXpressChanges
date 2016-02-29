@@ -1,0 +1,127 @@
+.gift_details{
+  position: initial;
+  background-color: white;
+  margin:0;
+  overflow:auto
+}
+.wishlist_giftlist .w_e, .wishlist_giftlist .w_f{
+  height:1.5em!important;
+  top:5em;
+}
+.span12.gift_count{
+  background-color:white;
+  /* margin-top:5em; */
+  padding: .5em 1em;
+}
+.wrapper_as{
+  max-width:90%;
+  margin:0 auto!important;
+}
+.wrapper_as .wishlist_giftlist .o_p{
+  width:100%!important;
+}
+.p_a{
+  display:block;
+  overflow:hidden;
+  width:100%;
+  box-sizing:border-box;
+  margin:0 auto!important;
+  padding: 1em .5em .5em;
+  border-bottom:1px solid #ccc;
+  /* margin-bottom:.5em!important; */
+  position:relative;
+  background-color: white;
+}
+.p_lp{
+  display:none;
+}
+.apper{
+  display:none;
+}
+.wishlist_giftlist .w_e, .wishlist_giftlist .w_f{
+  font-size:16px!important;
+}
+.span3.w_g{
+  float:right;
+  text-align:rigth;
+}
+.gift_details{
+  overflow:auto;
+  width: 100%;
+  position: initial!important;
+}
+.wrapper_as .row-fluid.pull-right.wishlist_lista_comparebtn {
+  opacity: 1;
+  background-color: #ef0565;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 0 solid;
+  padding: .25em;
+  color: #fff;
+  max-width: 740px;
+  background-image: url("../images/lmj/btn_comprar_carta.png");
+  background-position: center;
+  -moz-background-size: 130px auto;
+       background-size: 130px auto;
+  background-repeat: no-repeat;
+  position:fixed;
+  box-sizing:border-box;
+  bottom:0;
+  left:0;
+}
+.gift_details{
+  overflow: visible;
+  width:100%;
+  position: initial!important;
+  height: 100%;
+  margin-bottom: 5em;
+}
+.e_a {
+  background-image: url("../images/lmj/btn_borrar.png");
+  -moz-background-size: 100px;
+       background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #eaeae4 !important;
+  border: 1px solid #b8cbc6 !important;
+  width: 100px;
+  height: 26px;
+  bottom:1em;
+  right: .5em;
+  background-color: transparent;
+  cursor: pointer;
+  //text-indent: -9999;
+  border: 0px solid;
+  color:transparent;
+  position:absolute
+}
+.wrapper_as{
+  padding-top:4em!important;
+  height: auto!important;
+}
+@media(min-width:481px){
+    .span2.p_b {
+    width: auto;
+    display: inline-block;
+}
+
+.wishlist_giftlist .p_c {
+    width:auto!important;
+}
+
+h1.p_ti {
+    font-size: 1.5em;
+}
+body > div > div > div.wrapper_as > div > div.gift_details > div{
+    margin-bottom:7em
+}
+form#addItemToCartForm1 {
+    padding: .5em;
+}
+}
+@media(max-width:480px){
+    .wishlist_giftlist p.p_nodis{
+        margin-left:-10em
+    }
+}

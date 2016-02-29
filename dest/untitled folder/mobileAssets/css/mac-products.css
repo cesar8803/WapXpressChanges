@@ -1,0 +1,325 @@
+/* Start: Mac Landing Page Styles */
+.mac-breadcrumb-cont{
+border-bottom: solid 1px #bbbbbb;
+}
+.mac-breadcrumb-cont .breadcrumb ul{
+border:none;
+}
+.mac-more{
+background: none repeat scroll 0 0 #00A4E4;
+color: #FFFFFF;
+display: none!important;
+float: right;
+font-size: 13px;
+font-weight: 400;
+margin-right: 20px;
+margin-top: -2px;
+padding: 5px;
+text-align: center;
+width: 80px;
+font-family:'Roboto Regular';
+z-index:99;
+position:absolute;
+right:0px;
+}
+.mac-more span{
+font-family:'Roboto Regular';
+font-size: 20px;
+font-weight: 400;
+display: inline-block;
+vertical-align: text-bottom;
+margin-left:5px;
+}
+.cancel-more{
+background: #da027b;
+color: #FFFFFF;
+display: block;
+float: right;
+font-size: 13px;
+font-weight: 400;
+margin-right: 20px;
+margin-top: 5px;
+padding: 5px;
+text-align: center;
+width: 80px;
+font-family:'Roboto Regular';
+display:none;
+position:absolute;
+right:0px;
+z-index:999;
+}
+.cancel-more span{
+font-family:'Roboto Regular';
+font-size: 14px;
+font-weight: 400;
+display: inline-block;
+vertical-align: bottom;
+margin-left:5px;
+}
+/* End: Mac Landing Page Styles */
+/* Start: Mac Subcategory Landing Page Styles */
+.mac-subcategory-landing{
+padding:0 1.5%;
+}
+.macsub-container{
+margin-left:3%;
+margin-right:3%;
+}
+.mac-logo-container{
+margin-top:40px;
+margin-bottom:40px;
+margin-left:10px;
+}
+.mac-prod-name{
+margin-top:40px;
+font-size:14px;
+font-weight:700;
+font-family: 'Roboto bold';
+}
+.mac-prod-desc{
+font-size:13px;
+font-weight:400;
+font-family: 'Roboto regular';
+margin-top:20px;
+width:95%;
+text-align:justify;
+}
+.showmore{
+font-size:14px;
+font-weight:500;
+font-family: 'Roboto medium';
+margin-top:5px;
+color:#da027b;
+display:block;
+}
+.showless {
+font-size:14px;
+font-weight:500;
+font-family: 'Roboto medium';
+margin-top:5px;
+color:#da027b;
+display:none;
+}
+.showless.show {
+display:block;
+}
+.showmore.hide {
+display:none;
+}
+.mac-compra{
+font-size:13px;
+font-weight:500;
+font-family: 'Roboto medium';
+color:#787878;
+text-decoration:underline;
+margin-top:10px;
+display:block;
+}
+.mac-landing-content{
+padding:1.5% 1.5%;
+}
+.mac-plp-container{
+padding:0 1.5%;
+margin-bottom:70px;
+}
+.mac-plp-buttons{
+background:#f3f3f3;
+height:70px;
+width:100%;
+margin:0px auto;
+text-align: center;
+}
+.btns-container{
+margin:15px auto;
+}
+.ordenar-marca{
+background:#fff;
+border:1px solid #a1a1a1;
+margin-right:20px;
+padding:10px 20px 10px 20px;
+border-radius:5px 5px!important;
+font-size:14px;
+font-family:'Roboto Medium';
+font-weight:500;
+}
+.ordenar-precio{
+background:#fff;
+border:1px solid #a1a1a1;
+padding:10px 20px 10px 20px;
+border-radius:5px 5px!important;
+font-size:14px;
+font-family:'Roboto Medium';
+font-weight:500;
+}
+.mac-sub-landing{
+width:100%;
+margin:0px auto;
+text-align:center;
+}
+.more-height{
+overflow:hidden;
+height:auto;
+}
+/* End: Mac Subcategory Landing Page Styles */
+/* Start: Mac Product Listing Page Styles */
+.mac-plp-container .prod-info{
+padding: 0 10px;
+}
+.mac-plp-container .pdt-list li.span3{
+border-bottom:none!important;
+}
+.mac-plp-container .pdt-list li.span3:nth-child(2){
+background: url("/mobileAssets/images/border-big.png") no-repeat right top!important;
+}
+.mac-plp-container .pdt-list li:nth-child(4n) {
+border-color: transparent !important;
+background: none !important;
+}
+.mac-plp-buttons .compare-row{
+background:none;
+display:none;
+}
+/* End: Mac Product Listing Page Styles */
+/* Start: Mac More Details Styles */
+.mac-more-details{
+position: relative;
+z-index:999;
+}
+.mac-more-nav{
+width:300px;
+position:absolute;
+top:0px;
+right: 0px;
+z-index:99;
+background:#fff;
+margin: 0px;
+padding: 0px 10px 0px 10px;
+border-top:1px solid #818181;
+border-left:1px solid #818181;
+border-bottom:1px solid #818181;
+display:none;
+overflow-y:scroll;
+}
+.mac-more-nav li a{
+padding:10px 10px 10px 10px;
+display:block;
+font-family:'Roboto light';
+font-weight:400;
+font-size:14px;
+color:#231f20;
+}
+.mac-more-nav li a.more-arrow.active{
+background: url("/mobileAssets/images/icons/nav-arw-down.png") no-repeat 95% center;
+font-family: 'Roboto Bold', arial, sans-serif;
+font-weight: 700;
+}
+.mac-more-nav li a.more-arrow{
+background: url("/mobileAssets/images/icons/nav-arw-down-unactive.png") no-repeat 95% center;
+}
+.subcat-block{
+display:none;
+}
+/* End: Mac More Details Styles */
+/* Start: Mobile Breadcrumb Styles */
+.breadcrumb-open {
+background: url(/mobileAssets/images/icons/breadcrumb-open.png) no-repeat;
+width: 35px;
+background-size: 35px;
+height: 32px;
+cursor: pointer;
+position: absolute;
+left: 17%;
+}
+.breadcrumb-close {
+display: none;
+}
+.breadcrumb-close, .breadcrumb-open.active{
+background: url(/mobileAssets/images/icons/breadcrumb-close.png) no-repeat;
+width: 35px;
+background-size: 35px;
+height: 32px;
+cursor: pointer;
+position: absolute;
+z-index: 10;
+right: 0;
+top: 0;
+}
+.mobile-breadcrumb {
+position: relative;
+float: left;
+width: 100%;
+height: 30px;
+}
+.breadcrumb-slider {
+display: none;
+height: 30px;
+}
+.breadcrumb-slider ul {
+border-bottom: none !important;
+}
+.mobile-subbreadcrumb {
+position: absolute;
+}
+.mobile-subbreadcrumb a {
+color: #505050;
+float: left;
+padding: 4px 15px;
+}
+.mobile-breadcrumb .caroufredsel_wrapper {
+margin: 0 !important;
+min-height: 30px;
+
+}
+.mobile-breadcrumb li {
+width: auto !important;
+position: relative;
+text-align: center;
+float: left;
+padding: 5px 15px;
+border-right: none;
+}
+.mobile-breadcrumb li:after {
+content: "|";
+font-size: 14px;
+position: absolute;
+right: -5px;
+}
+.mobile-breadcrumb li:last-child:after {
+content: "";
+}
+.mobile-breadcrumb li:last-child {
+background: none;
+}
+.mobile-breadcrumb li:last-child span {
+color: #E0068D;
+}
+.subcat-block.mac-subcatblock {
+display: block;
+}
+/* End: Mobile Breadcrumb Styles */
+.mac-plp .compare-row.show.affix {
+z-index:9;
+top:55px
+}
+.right-breadcrumb{
+position:relative;
+}
+/*22 may 2014 PA CSS*/
+.mac-more-nav li a.more-subarrow{
+background: url("/mobileAssets/images/icons/nav-arw-down-unactive.png") no-repeat 95% center;
+}
+.mac-more-nav li a.more-subarrow.active{
+background: url("/mobileAssets/images/icons/nav-arw-down.png") no-repeat 95% center;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-weight: 500;
+font-size: 14px;
+color: #231F20;
+}
+.subcat-subblock li a {
+font-size: 14px;
+padding: 5px 0px 5px 0px;
+color: #000000;
+}
+.subcat-subblock{
+display:none;
+}

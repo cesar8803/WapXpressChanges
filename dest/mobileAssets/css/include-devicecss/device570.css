@@ -878,15 +878,17 @@ width: 97% !important;
   right: 10%;
     
   }
-.header_search-button
-{
-  background: #FF0084 url('/mobileAssets/images/icons/search_header.png') no-repeat center center;
-  height: 3.25em!important;
-  width: 2.625em!important;
-  display: inline-block;
-  text-indent: -9999px;
-  background-size: 20px!important;
-  border: 0;
+.header_search-button {
+ background-image: url('/mobileAssets/images/sprite/redisign_SPRITE.png');
+ background-repeat: no-repeat;
+ background-color: #e10098;
+ height: 2.86em!important;
+ width: 2.625em!important;
+ margin-left: -4px;
+ background-position: -112px -115px;
+ display: inline-block;
+ border: 0;
+ vertical-align: top;
 }
 .img-size-icon {
   position: relative;
@@ -943,7 +945,7 @@ width: 97% !important;
 
 .visableinphone .header_search-button 
  {
- height: 2.75em!important;
+ height: 2.92em!important;
  }
  
  .plp-category-result span {

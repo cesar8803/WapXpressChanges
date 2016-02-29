@@ -1,0 +1,502 @@
+.customer-support-tab ul.tabs{
+margin: 0;
+}
+.customer-support-tab ul.tabs li.span1{
+margin: 0;
+width: 10%;
+background: #f0f0f0;
+padding:3px 0 4px;
+}
+.customer-support-tab ul.tabs li.span1 a{
+font-family:'Roboto Medium' ;
+font-size: 12px;
+color: #1e1e1e;
+display: block;
+text-align: center;
+padding: 0 16%;
+}
+.customer-support-tab ul.tabs li.span1.active{
+background: #00a4e4;
+}
+.customer-support-tab ul.tabs li.span1.active a p{
+color: #fff;
+}
+.customer-support-tab ul.tabs li.span1 a img{
+display: block;
+margin: 0 auto;
+}
+.support-icon{
+display: block;
+margin: 0 auto;
+height: 45px;
+width: 45px;
+background-repeat: no-repeat;
+background-position: left top;
+background-size: 45px;
+}
+.support-contact-icon{
+background-image:url(/mobileAssets/images/icons/support-contact.png);
+}
+.active .support-contact-icon{
+background-image:url(/mobileAssets/images/icons/support-contact-active.png);
+}
+.support-credit-icon{
+background-image:url(/mobileAssets/images/icons/support-credit.png);
+}
+.active .support-credit-icon{
+background-image:url(/mobileAssets/images/icons/support-credit-active.png);
+}
+.support-lock-icon{
+background-image:url(/mobileAssets/images/icons/support-lock.png);
+}
+.active .support-lock-icon{
+background-image:url(/mobileAssets/images/icons/support-lock-active.png);
+}
+.support-gift-icon{
+background-image:url(/mobileAssets/images/icons/support-gift.png);
+}
+.active .support-gift-icon{
+background-image:url(/mobileAssets/images/icons/support-gift-active.png);
+}
+.support-terms-icon{
+background-image:url(/mobileAssets/images/icons/support-terms-conditions.png);
+}
+.active .support-terms-icon{
+background-image:url(/mobileAssets/images/icons/support-terms-conditions-active.png);
+}
+.support-truck-icon{
+background-image:url(/mobileAssets/images/icons/support-truck.png);
+}
+.active .support-truck-icon{
+background-image:url(/mobileAssets/images/icons/support-truck-active.png);
+}
+.support-nip-icon{
+background-image:url(/mobileAssets/images/icons/support-nip.png);
+}
+.active .support-nip-icon{
+background-image:url(/mobileAssets/images/icons/support-nip-active.png);
+}
+.support-ebooks-icon{
+background-image:url(/mobileAssets/images/icons/support-ebooks.png);
+}
+.active .support-ebooks-icon{
+background-image:url(/mobileAssets/images/icons/support-ebooks-active.png);
+}
+.support-location-icon{
+background-image:url(/mobileAssets/images/icons/support-location.png);
+}
+.active .support-location-icon{
+background-image:url(/mobileAssets/images/icons/support-location-active.png);
+}
+.support-dollar-icon{
+background-image:url(/mobileAssets/images/icons/support-dollar.png);
+}
+.active .support-dollar-icon{
+background-image:url(/mobileAssets/images/icons/support-dollar-active.png);
+}
+.customer-support-tab ul.tabs li.span1 p{
+margin: 0;
+line-height: 16px;
+height: 35px;
+}
+.customer-support-tab ul.tabs li.span1.active p{
+color:#fff;
+}
+.customer-support-tab .tab-content{
+float: left;
+width: 96%;
+padding: 2%;
+}
+h2.support-head{
+color: #00a4e4;
+font-family:'Roboto Medium' ;
+font-size: 20px;
+font-weight: normal;
+}
+.customer-support-tab .accordion-group{
+border:none;
+border-top: 1px solid #E5E5E5;
+border-radius:0;
+}
+.customer-support-tab .accordion-group:last-child{
+border-bottom: 1px solid #E5E5E5;
+}
+.customer-support-tab .accordion-inner,.support-content{
+border:none;
+font-size: 13px;
+font-family: 'Roboto Regular';
+padding: 9px 5%;
+}
+.customer-support-tab .accordion-heading .accordion-toggle{
+font-family: 'Roboto Medium';
+font-size: 18px;
+color: #505050;
+padding: 12px 0px;
+position: relative;
+}
+.customer-support-tab .accordion-heading .accordion-toggle:after{
+content: '+';
+position: absolute;
+right: 1%;
+font-size: 28px;
+color: #E0068D;
+}
+.customer-support-tab .accordion-heading.active .accordion-toggle:after{
+content: '-';
+position: absolute;
+right: 1%;
+font-size: 28px;
+color: #E0068D;
+}
+.customer-support-tab h5,.customer-support-tab h4{
+color:#303030;
+font-family: 'Roboto Medium';
+font-weight: normal;
+margin: 0 0 5px;
+}
+.customer-support-tab h4{
+font-size: 16px;
+margin-bottom: 10px;
+}
+.customer-support-tab p{
+color:#494949;
+margin-bottom: 20px;
+}
+.support-tab-mobile{
+float: left;
+}
+.support-tab-mobile .leftnavbar {
+margin-left: 18px;
+}
+.leftnavbar .btn-navbar {
+float: none;
+padding: 3px 4px 4px;
+text-align: center;
+width: 35px;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-ms-border-radius: 4px;
+-moz-border-radius: 4px;
+margin:0px 5px 0px 0px;
+background: #FFFFFF;
+border:1px solid #686868;
+}
+.leftnavbar .btn-navbar .icon-bar {
+background: #ee459e;
+border-radius: 0px;
+-webkit-border-radius: 0px;
+-ms-border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+box-shadow: none;
+height: 3px;
+width: 25px;
+display: block;
+}
+.leftnavbar .btn-navbar:first-child {
+margin-top: 0;
+}
+.leftnavbar .btn-navbar .icon-bar + .icon-bar{
+margin-top: 4px;
+}
+.leftnavbar .btn-navbar .icon-bar:second-child {
+margin-top: 2px;
+}
+.leftnavbar.active-nav .btn-navbar {
+background: #ee459e;
+outline: none;
+}
+.leftnavbar:focus .btn-navbar{
+background: none;
+outline: none;
+}
+
+.leftnavbar.active-nav .btn-navbar .icon-bar
+{
+background: #ffffff;
+}
+
+.support-tab-mobile .leftnavbar.active-nav a {
+color:#EB0A8C;
+}
+.support-tab-mobile .leftnavbar a {
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size: 16px;
+color: #454545;
+vertical-align: middle;
+}
+.view-video-link{
+padding: 10px 30px;
+}
+.text-important{
+font-family: 'Roboto Medium';
+color: #878787 !important;
+float:left;
+}
+.cambios-content .cambios-icon-small,.cambios-content .cambios-icon-big{
+width:10%;
+}
+.cambios-icon-small img{
+height: 44px;
+}
+.cambios-icon-big img{
+width: 60px;
+}
+
+/*Start : Help Index Page CSS */
+.help-header{
+padding:10px 10px;
+}
+.help-phone-icon{
+background:url(/mobileAssets/images/icons/phone-icon.png)no-repeat;
+width:13px;
+height:12px;
+background-size:13px;
+display:inline-block;
+margin-right:7px;
+}
+.help-email-icon{
+background:url(/mobileAssets/images/icons/letter-icon.png)no-repeat;
+width:14px;
+height:10px;
+background-size:14px;
+display:inline-block;
+margin-right:7px;
+}
+.help-area-icons li{
+font-family:'Roboto Regular',arial,sans-serif;
+font-size:12px;
+font-weight:400;
+color:#656565;
+}
+.help-content-container{
+padding:20px 25px 20px 25px;
+}
+.help-banner{
+margin:0px auto;
+text-align: center;
+width: 100%;
+}
+.help-index-list{
+padding-top:25px;
+}
+.help-index-list .row-fluid {
+margin-bottom: 10px;
+}
+.help-index-list .row-fluid:last-child {
+margin-bottom: 0px;
+}
+ul.help-list{
+list-style: disc inside none;
+margin:0px;
+}
+ul.help-list li{
+color: #00a4e4;
+margin-bottom:10px;
+}
+ul.help-list li a{
+font-family:'Roboto Regular',arial,sans-serif;
+font-size:14px;
+font-weight:400;
+color:#606060;
+margin-bottom:0px;
+display:inline-block;
+}
+.help-each-list{
+padding:30px 30px;
+border:1px solid #e1e1e1;
+min-height:320px !important;
+}
+.help-each-list a{
+font-family:'Roboto Medium',arial,sans-serif;
+font-size:15px;
+font-weight:500;
+color:#231f20;
+margin-top:0px;
+margin-bottom: 30px;
+display:block;
+}
+.help-icons-style{
+display:inline-block;
+vertical-align: middle;
+margin-right:15px;
+}
+.contacto-icon{
+background:url(/mobileAssets/images/icons/contact.png)no-repeat;
+width:40px;
+height:40px;
+background-size:40px;
+}
+.credito-icon{
+background:url(/mobileAssets/images/icons/credit.png)no-repeat;
+width:40px;
+height:40px;
+background-size:40px;
+}
+.tnc-icon{
+background:url(/mobileAssets/images/icons/terms-conditions.png)no-repeat;
+width:40px;
+height:40px;
+background-size:40px;
+}
+.gift-msg-icon{
+background:url(/mobileAssets/images/icons/gift.png)no-repeat;
+width:40px;
+height:40px;
+background-size:40px;
+}
+.help-ebooks-icon{
+background:url(/mobileAssets/images/icons/ebooks.png)no-repeat;
+width:40px;
+height:40px;
+background-size:40px;
+}
+.nip-container{
+background:#f1f1f1;
+padding:30px 30px 25px 30px;
+margin-bottom:15px;
+}
+.nip-content a{
+font-family:'Roboto Medium',arial,sans-serif;
+font-size:16px;
+font-weight:500;
+color:#231f20;
+margin-top:0px;
+margin-bottom:30px;
+display:block;
+}
+.nip-content a span{
+display:inline-block;
+float:left;
+margin-right:15px;
+}
+.mb12{
+margin-bottom:12px !important;
+}
+.nip-content p{
+font-family:'Roboto Regular',arial,sans-serif;
+font-size:13px;
+font-weight:400;
+color:#494949;
+}
+.nip-icon{
+background:url(/mobileAssets/images/icons/help-search.png)no-repeat;
+width:40px;
+height:30px;
+background-size:40px;
+}
+.pedidos-icon{
+background:url(/mobileAssets/images/icons/truck.png)no-repeat;
+width:45px;
+height:30px;
+background-size:45px;
+}
+.opciones-icon{
+background:url(/mobileAssets/images/icons/dollar.png)no-repeat;
+width:32px;
+height:30px;
+background-size:32px;
+}
+.tiendas-icon{
+background:url(/mobileAssets/images/icons/help-location.png)no-repeat;
+width:23px;
+height:30px;
+background-size:23px;
+}
+/* End : Help Index Page CSS */
+/* Start : Help Store Locator Page CSS */
+.store-locator-container{
+padding:23px 23px;
+float:left;
+}
+.store-loc-heading{
+font-family:'Roboto Medium',arial,sans-serif;
+font-size:20px;
+font-weight:500;
+color:#22b0e8;
+margin: 0 0 40px 0;
+}
+.store-left-container{
+float:left;
+}
+.store-left-container p{
+font-family:'Roboto Regular',arial,sans-serif;
+font-size:13px;
+font-weight:400;
+color:#494949;
+}
+.store-left-container h5{
+font-family:'Roboto Medium',arial,sans-serif;
+font-size:14px;
+font-weight:500;
+color:#111111;
+margin-top:10px;
+}
+.location-txt{
+width:95%;
+padding:2% 2% !important;
+border-radius:5px 5px !important;
+}
+.store-buscar-btn{
+padding:3% 10% !important;
+float:right;
+margin:5px 5px 30px 0px;
+font-size:18px;
+}
+.store-filter select{
+width:98%;
+border-radius:5px 5px !important;
+font-family:'Roboto Medium',arial,sans-serif;
+font-size:14px;
+font-weight:500;
+color:#585858;
+margin-bottom:15px;
+float:left;
+}
+.store-right-container{
+text-align:center;
+}
+/* End : Help Store Locator Page CSS */
+/* Start: Help Order Track Tab CSS */
+ol.help-ordr-track{
+list-style-type:decimal;
+}
+.lens-imagen{
+background:url(/mobileAssets/images/icons/help-search-icon.png)no-repeat;
+width:27px;
+height:27px;
+background-size:27px;
+display:inline-block;
+vertical-align:middle;
+margin-right:14px;
+}
+.help-var{
+font-family:'Roboto Regular',arial,sans-serif;
+font-size:13px;
+font-weight:400;
+color:#616161;
+}
+.help-ordr-track li p{
+font-family:'Roboto Regular',arial,sans-serif;
+font-size:13px;
+font-weight:400;
+color:#616161;
+}
+.help-ordr-track-container{
+margin-left:5%;
+}
+/* End: Help Order Track Tab CSS */
+#support-video {
+width:580px !important;
+left:22%;
+margin-top:0 !important;
+}
+#support-video iframe {
+width:581px;
+height:300px;
+}
+.video_pop {
+height:295px;
+}

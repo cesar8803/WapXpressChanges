@@ -154,11 +154,14 @@ $.each(textareaelm,function(index,value){
 
 	$(".addmore_container a > strong").text("Agregar dirección");
 
-	if(window.location.href.indexOf("shipping") > -1) {
+	if(window.location.href.indexOf("shipping") > -1 ) {
 
-		renderShippingMessage();
+		renderShippingMessage("shipping");
 
-	}	
+	}else if (window.location.href.indexOf("cart") > -1) {
+		renderShippingMessage("cart");
+
+	};
 });
 
 
@@ -613,41 +616,20 @@ function isNumberKeys(evt){
 
 
 
-function renderShippingMessage(){
+function renderShippingMessage(parameter){
 
-	var strVar="";
-	strVar += "<div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\">";
-	strVar += "  <div class=\"modal-dialog\" role=\"document\">";
-	strVar += "    <div class=\"modal-content\">";
-	strVar += "      <div class=\"modal-header\">";
-	strVar += "        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;<\/span><\/button>";
-	strVar += "        <h4 class=\"modal-title\" id=\"exampleModalLabel\">Tiempo de entrega<\/h4>";
-	strVar += "      <\/div>";
-	strVar += "      <div class=\"modal-body\">";
-	strVar += "<img class=\"img-responsive\" src=\"http:\/\/www.liverpool.com.mx\/assets\/images\/tiempos_entrega_390px.jpg\" alt=\"image\">";
-	strVar += "      <\/div>";
-	strVar += "    <\/div>";
-	strVar += "  <\/div>";
-	strVar += "<\/div>";
-	strVar += "";
-	strVar += "";
-	strVar += "<div class=\"panel panel-default\" onclick=\"showTiemposEntrega();\" data-target=\"#exampleModal\"> ";
-	strVar += "<div class=\"panel-heading panel-h-mod\" role=\"tab\" id=\"headingTiempo\">";
-	strVar += "<h4 class=\"panel-title\">";
-	strVar += "<a onclick=\"showTiemposEntrega();\" data-target=\"#exampleModal\"class=\"envio-domicilio font-max\">";
-	strVar += "<span class=\"glyphicon glyphicon-time\" aria-hidden=\"true\"><\/span>";
-	strVar += "Tiempos de entrega&nbsp;&nbsp;";
-	strVar += "<\/a>";
-	strVar += "<i class=\"arrow-icon clickpick\"><\/i>";
-	strVar += "<\/h4>";
-	strVar += "<\/div>";
-	strVar += "<div id=\"collapseOne\" class=\"panel-collapse collapse \" role=\"tabpanel\" aria-labelledby=\"headingTiempo\">";
-	strVar += "<div class=\"panel-body guest-panel-body\">";
-	strVar += "<\/div>";
-	strVar += "<\/div>";
-	strVar += "<\/div>";
+var strVar="";
+strVar += "<img class=\"img-responsive\" src=\"http:\/\/www.liverpool.com.mx\/assets\/images\/tiempos_entrega_390px.jpg\" alt=\"image\">";
+strVar += "";
 
-	$('#accordion').after(strVar);
+	if(parameter == "shipping"){
+			$('#accordion').after(strVar);
+
+	}else if(parameter == "cart"){
+			$('.label-confident').after(strVar);
+	}
+
+	//$('.label-confident').after(strVar);
 
 
 }

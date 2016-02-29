@@ -1,0 +1,160 @@
+/*Start : Make Invoice Flow Page */
+.factura-container{
+padding:20px 20px;
+}
+.factura-container h5{
+margin:0px;
+font-family:'Roboto Medium',arial,sans-serif;
+font-size:20px;
+font-weight:500;
+}
+.mk-inv-ventas{
+color:#767676;
+font-family:'Roboto Medium',arial,sans-serif;
+font-size:15px;
+font-weight:500;
+}
+.mk-inv-ventas span{
+color:#353535;
+}
+.invoice-flow-steps{
+border-top:1px solid #ebebeb;
+border-bottom:1px solid #ebebeb;
+}
+.invoice-flow-steps{
+padding:20px 20px;
+}
+.steps-width{
+width:20%;
+float:left;
+text-align: center;
+}
+.steps-width a{
+text-align: center;
+display: block;
+margin-top: 10px;
+}
+.mk-inv-steps{
+display:inline-block;
+text-align: center;
+margin-right:10px;
+font-family:'Roboto Medium',arial,sans-serif;
+font-size:16px;
+font-weight:500;
+color:#7c7c7c;
+padding-top: 5px;
+}
+.mk-inv-steps.bck-color{
+background:url(../img/icons/roundbg.png)no-repeat;
+width:32px;
+height:32px;
+background-size:32px;
+}
+.steps-width.active .mk-inv-steps{
+background:url(../img/icons/roundbg-mo.png)no-repeat;
+width:32px;
+height:32px;
+background-size:32px;
+color:#fff;
+}
+.screen-container{
+padding:25px 20px;
+}
+.screen-container p{
+font-family:'Roboto Medium',arial,sans-serif;
+font-size:15px;
+font-weight:500;
+color:#424242;
+}
+.step-screen{
+width:80%;
+margin:40px auto;
+}
+ul.steps-list{
+list-style: disc inside none;
+margin:0px 0px 20px 0px ;
+float:left;
+width:100%;
+}
+ul.steps-list li{
+color:#00a4e4;
+float: left;
+width: 100%;
+}
+ul.steps-list li span{
+float: right;
+width: 98%;
+font-family:'Roboto Medium',arial,sans-serif;
+font-size:15px;
+font-weight:500;
+color:#353535;
+}
+
+/*End : Make Invoice Flow Page */
+/*Css for the about-us-slider Starts here */
+.about-us-slider{
+padding: 0 2%;
+}
+.timeline-container{
+background: #ffffff;
+}
+.timeline-content-heading{
+padding-left: 2%;
+font-size: 15px;
+font-family: 'Roboto Regular';
+color: #010101;
+}
+.aboutus-nav{
+border-bottom: 1px solid #c2c2c2;
+}
+.about-us-nav-tabs{
+margin-left: 27%;
+}
+.aboutus-events{
+background: #ebebeb;
+float: left;
+position: relative;
+top: 1px;
+cursor: pointer;
+width: 30%;
+height: 10%;
+}
+.aboutus-events a{
+font-size: 15px;
+font-family: 'Roboto Regular';
+color: #010101;
+display: block;
+text-align: center;
+height: 70px;
+line-height: 70px;
+}
+.mission.aboutus-events{
+margin-right: 2%;
+}
+.aboutus-events.active{
+background: #ffffff;
+border: 1px solid #c2c2c2;
+border-bottom: none;
+}
+.timeline-event-description{
+font-size: 13px;
+font-family: 'Roboto Regular';
+color: #525252;
+padding: 0 2%;
+}
+.mission-description, .vision-description{
+margin-top: 40px;
+}
+.timeline-event-description p{
+width: 60%;
+margin: 0;
+margin-bottom: 10px;
+}
+.mission-description p, .vision-description p{
+width: 100%;
+}
+.timeline-event img{
+padding-left: 10%;
+width: 200px;
+}
+/*Css for the about-us-slider ends here */

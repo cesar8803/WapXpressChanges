@@ -1,0 +1,131 @@
+.centro_sna {
+	background:
+		   url("/web/images/targeted_promotions/es/html/img/bc_260913sna.jpg")
+	/*	url("../img/bc_260913sna.jpg")  */
+		no-repeat top left;
+	height: 320px;
+	width: 550px;
+	position: relative;
+}
+
+#bc_260913sna .bn-cn-main {
+position: absolute;
+width: 240px;
+top: 80px;
+right: 0px;
+
+
+
+}
+#bc_260913sna .bn-cn-main .bn-texto-wh-xxl {
+position: relative;
+font-weight:bold;
+margin: 0px;
+display: inline-block;
+font-size: 1.2em;
+color:#069;
+}
+
+#bc_260913sna .titulo2 {
+font-family: 'arial', robotolight, sans-serif; 
+font-weight:bold;
+position: relative;
+top: 4px;
+margin: 0px;
+display: inline-block;
+font-size: 1em;
+color:#666;
+}
+#bc_260913sna .promo1 {
+font-family: 'arial', robotolight, sans-serif; 
+font-weight:bold;
+position: relative;
+top: 15px;
+margin: 0px;
+display:inherit;
+font-size: 1.3em;
+color:#F00;
+}
+#bc_260913sna .promo2 {
+font-family: 'arial', robotolight, sans-serif; 
+font-weight:bold;
+position: relative;
+top: 15px;
+margin: 0px;
+display:inherit;
+font-size: 1em;
+color:#006699;
+}
+#bc_260913sna .promo3 {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 5px;
+margin: 0px;
+display:inherit;
+font-size: 1em;
+color:#06C;
+}
+#bc_260913sna .boton {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 110px;
+margin: 0px;
+display:inherit;
+font-size: 1.12em;
+color:#00CCFF;
+}
+#bc_260913sna .restricciones {
+font-family: 'arial', robotolight, sans-serif; 
+font-weight:regular;
+position: relative;
+top: 115px;
+margin: 0px;
+display:inherit;
+font-size: .6em;
+color:#333:
+}
+
+#bc_260913sna .bn-cn-main .mas {
+position: relative;
+margin: 0px;
+display:inherit;
+width: 10px;
+top: -8px;
+left: 2px;
+}
+
+#bc_260913sna .bn-cn-main .bn-texto-wh-xxl {
+position: relative;
+margin: 0px;
+display: inline-block;
+
+}
+#bc_260913sna .bn-texto-wh-sm {
+width: 130px;
+position: relative;
+margin: 0px;
+left: 14px;
+}
+#bc_260913sna .flag_{
+position: absolute;
+top: 190px;
+background-color: #EEE;
+opacity: 0.5;
+right: 0px;
+width: 472px;
+height: 80px;
+
+}
+
+#bc_260913sna .p_flag_{
+position: absolute;
+font-size: 41px;
+width: 500px;
+right: -30px;
+margin: 0px;
+padding: 0px;
+top: 205px;
+
+}

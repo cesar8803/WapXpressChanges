@@ -1,0 +1,193 @@
+/* .container_main{
+	position: relative;
+  	display: block;
+  	top: 40px;	
+}
+Facturacion electronica */
+body{
+	  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  background: #FFF;
+  color: #333;
+  font: normal normal normal 13px/1.5 'Helvetica Neue', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.invoice_tab_fisica_wap {
+	float:left; 
+	border-right:#E2E2E2 solid; 
+	text-align:center
+}
+.invoice_section_title {
+
+	  font-size: 14px;
+	  color: #161616;
+	  letter-spacing: 0px;
+	  font-family: "robotolight", arial, sans-serif;
+    text-align: center;
+}
+.invoice_confirmacion {
+  background-color: #19B698;
+  width: 100%;
+  height: 210px;
+  position: absolute;
+  color: #FFF;
+  position: relative;
+}
+.modal-content{
+	background-color: #19B698;
+}
+.btn-Modal{
+  background-color: #CF0078;
+  border: none;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  color: #FFF;
+  background-color: #CF0078;
+  border-color: #CF0078;
+}
+.invoice_confirmation_txt {
+  position: relative;
+  width: 17em;
+  margin: 0 auto;
+  display: block;
+  font-size: 15px;
+}
+.modal-size{
+  width: 100%;
+}
+.tittle-modal{
+  text-align: center;
+  font-size: 2em;
+  color: #FFF;
+}
+.btn_select_address {
+  background-color: #CF0078;
+  border-color: #D9DADA;
+  color: #FFF;
+  width: 90%;
+}
+.invoice_icon_confirmation {	
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  float: left;
+}
+
+
+.save_adress{
+	 width: 160px;
+  height: 40px;
+	border: none;
+  background: #DC027C;
+  color: #FFF;
+  font-size: 18px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.size-form{
+	display: inline-block !important;
+}
+.nota{
+	font-size: 11px;
+}
+.pink{
+	color: #DC027C;
+}
+.bootom_buttons{
+	
+}
+.bootom_buttons button {
+  border: none;
+  background: #DC027C;
+  color: #FFF;
+  font-size: 18px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 35px;
+  top: -9px;
+}
+.borderLine{
+	border-right: none;
+}
+
+.legend_terms_conditions{
+	text-align: center;
+}
+.message_area{
+  background-color: #E3E3E3;
+}
+.message_area h3{
+  text-align: center;
+  color: #DC027C;
+}
+.message_area p{
+text-align: center;
+
+}
+.email_massage{
+  font-weight: bold;
+}
+.txt_message{
+  font-size: 10px;
+}
+.pdf_button{
+  color: #1aa7bf;
+  border: solid 1px #1aa7bf;
+  background-color: #FFF;
+  width: 160px;
+  height: 40px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.buttons_success{
+  padding: 0px !important;
+}
+.separator_div{
+  border-right: none;
+}
+ /* Iphone 6 media querie*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) { 
+
+	.back_celda_buro{
+	border-bottom: 2px solid #CCC;
+	height: 243px;
+	}
+}
+ /* IPHONE 5 5S MEDIA QUERIE*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	.back_celda_buro{
+	border-bottom: 2px solid #CCC;
+	height: 243px;
+}
+
+}
+
+ /* IPAD MEDIA QUERIE */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+
+	.borderLine{
+	border-right: 2px solid #DC027C;
+}
+.back_celda_buro{
+	background: #FFF;
+  height: 243px;
+}
+.message_area p{
+text-align: center;
+}
+.message_area{
+  background-color: #E3E3E3;
+  height: 320px;
+}
+.separator_div{
+  border-right: thin solid #CBCBCB;
+}
+
+}

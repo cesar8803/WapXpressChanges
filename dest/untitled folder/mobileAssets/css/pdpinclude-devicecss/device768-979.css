@@ -1,0 +1,19 @@
+.verticalipadsearch
+{
+  width: 94%;
+  position: relative;
+  left: 6%;
+}  
+.search-position
+{
+	  margin: 8px;
+  float: right;
+  width: 18em;
+  margin-right: -54px; /* WAP1 */
+}
+.badge-position {
+  margin-left: -4.75em;
+}
+.btn-Searc-head{
+  right: -4px; /* WAP1 */
+}

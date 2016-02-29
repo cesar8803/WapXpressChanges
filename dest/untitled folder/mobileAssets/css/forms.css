@@ -1,0 +1,110 @@
+.content-area-form{
+	padding-top: 1%;
+	padding-left: 5%;
+	/* padding: 5%; */
+	padding-right: 5%;
+	margin-bottom: 5%;
+}
+.panel-primary{
+	border-style: none;
+	border-radius: 0px;
+	padding: 3px;
+	background-color: #939C9F;
+	color: #fff;
+}
+
+
+.form-section{
+	background-color: #fff;	
+}
+
+.form-control{
+		background-color: #F6F6F6;
+		border-radius: 0px;
+		text-align: center;
+}
+/*Cambios john*/
+.submit-form-button{
+	margin-left: 0%;
+	margin-right: 0%;
+	width: 100%;
+}
+
+#submit_button {
+    margin-right: 0px!important;
+    margin-left: -30px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    width: 118%;
+}
+
+/*Cambios Mau*/
+.field_aling{
+	margin-top: 25px;
+	clear: both;
+}
+.left-a{
+	text-align: left;
+}
+/*End Cambios Mau*/
+
+
+/*Optional fields in the address that could appear and disappear*/
+
+#middlename{
+	display: none;
+}
+
+label[for="middlename"] {
+	display: none;
+}
+
+
+.second_name-container{
+ 	display: none;
+ }
+ #guest_form_checkout_express_pay_method input#phoneNumber {
+    width: 72%;
+    float: left;
+    margin-left: 13px;
+}
+
+#guest_form_checkout_express_pay_method  input#lada {
+    width: 20%;
+    float: left;
+}
+
+/*Optional fields in the address that could appear and disappear*/
+/*PAL:start, SR_ updated for billing page*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 979px)
+and (orientation : portrait) {
+.field_aling{
+	margin-top: 0px;
+}
+
+}
+label.error {
+    color: #E9322D !important;
+    font-size: 11px;
+    margin: -4px 0 2px !important;
+    line-height: 14px;
+    clear: both;
+}
+input.error, select.error, textbox.error {
+border-color:#e9322d;
+-webkit-box-shadow:0 0 6px #f8b9b7;
+-moz-box-shadow:0 0 6px #f8b9b7;
+box-shadow:0 0 6px #f8b9b7;
+color:#000000 !important;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+/* STYLES GO HERE */ 
+#submit_button > .col-md-12.text-center {
+    min-height: 30px!important;
+    height: 30px;
+}
+}
+/*PAL:end, SR_ updated for billing page*/

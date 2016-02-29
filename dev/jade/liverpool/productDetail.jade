@@ -1,0 +1,743 @@
+html
+  input#productId(type='hidden', value='1041579702')
+  head
+    meta(http-equiv='content-Type', content='text/html; charset=utf-8')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0', name='viewport')
+    meta(name='format-detection', content='telephone=no')
+    script(type='text/javascript', src='/mobileAssets/js/atgsvcs.js')
+    include ./includes-pdp/detail_impor_css_js.jade
+  body
+    section.main-wrapper
+      // Section Wrapper
+      // PDP header starts here
+      // defect:7228 fix start
+      // defect:7228 fix end
+      header.head_container
+        .visible-xs.border-header.row.header-mobile
+          #TapZoom.col-xs-2.back-button
+            button.btn-back-head(onclick="window.location.href='http://www.liverpool.com.mx/tienda/m/lavadoras/cat861227'")
+              img#btnClass(src='/mobileAssets/images/arrow_header.png')
+          .col-xs-4.col-xs-offset-1.logo-container
+            a(href='/tienda/m', rel='external')
+              img.img-responsive.logo(src='/mobileAssets/images/logo.png')
+          .col-xs-4.col-xs-offset-1
+            .col-xs-5
+              // <a href="/tienda/m"><img class="img-size-icon" src="/mobileAssets/images/search_pdp.png"></a>
+              a.search-icon(href='#myModal_search', data-target='.bs-example-modal-lg-search', data-toggle='modal', title='search')
+                img.img-size-icon(src='/mobileAssets/images/search_pdp.png')
+            .col-xs-7
+              a.img-size-icon-bag(href='/tienda/m/cart/cart.jsp', rel='external')
+                span.badge-img.badge
+                  // defect:7228 fix start
+                  | 0
+                  // defect:7228 fix end
+                img.img-size-badge(src='/mobileAssets/images/bag.png')
+          // starts: search popup for mobile
+          #myModal_search.modal.fade.bs-example-modal-lg-search(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
+            .modal-size.modal-dialog.modal-lg
+              .modal-size.modal-content
+                .bg-Modal(data-dismiss='modal')
+                  p < REGRESAR
+                hr
+                //
+                  <div class="lp-search-sub-header">
+                  <span>QuÃÂÃÂ© estÃÂÃÂ¡s buscando ?</span>
+                  </div>
+                .lp-search-input-cont
+                  .category_drop.iphone.input-group
+                    form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
+                      //
+                        <input type="button" value="cl" >
+                        <input type="submit" value="" class="btn-search">
+                      input#busca.form-control.pdpSearchInput(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
+                      span.input-group-btn
+                        button.btn-Searc-head(type='submit')
+                          img.img-sea(src='/mobileAssets/images/icons/search_header.png')
+                      //
+                        <div class="input-append">
+                        <input class="field-search cross_site_script_val_pop valid" id="appendedInputButtons" type="text">
+                        <button class="btn" type="button">Close</button>
+                        <input type="submit" value="" class="btn btn-search">
+                        </div>
+                      //
+                        <div class="visible-phone lp-search-cont">
+                        <div class="row-fluid input-append">
+                        <input class="input-block-level field-search valid cross_site_script_val_pop" id="busca" type="text" name="s" autocomplete="off" placeholder="Que estas buscando?" >
+                        <input type="submit" class="btn btn-search" value="search" />
+                        </div>
+                        </div>
+                      input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
+                      #typeahead(style='display: none;')
+                        #type-main-list
+                          #type-ver-todos
+          // ends: search popup for mobile
+        // Header Movil
+        .hidden-xs.border-header.row.header-ipad
+          .col-xs-1.back-button-ipad
+            button.btn-back-head(onclick="window.location.href='http://www.liverpool.com.mx/tienda/m/lavadoras/cat861227'")
+              img(src='/mobileAssets/images/arrow_header.png')
+          .col-xs-6.logo-container
+            .col-xs-2
+              a(href='/tienda/m', rel='external')
+                img.img-responsive.logo(src='/mobileAssets/images/logo.png')
+            .col-xs-10
+              .input-group.search-position
+                form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
+                  //
+                    <input type="button" value="cl" >
+                    <input type="submit" value="" class="btn-search">
+                  input#busca.form-control.pdpSearchInput(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
+                  span.input-group-btn
+                    button.btn-Searc-head(type='submit')
+                      img.img-sea(src='/mobileAssets/images/icons/search_header.png')
+                  //
+                    <div class="input-append">
+                    <input class="field-search cross_site_script_val_pop valid" id="appendedInputButtons" type="text">
+                    <button class="btn" type="button">Close</button>
+                    <input type="submit" value="" class="btn btn-search">
+                    </div>
+                  //
+                    <div class="visible-phone lp-search-cont">
+                    <div class="row-fluid input-append">
+                    <input class="input-block-level field-search valid cross_site_script_val_pop" id="busca" type="text" name="s" autocomplete="off" placeholder="Que estas buscando?" >
+                    <input type="submit" class="btn btn-search" value="search" />
+                    </div>
+                    </div>
+                  input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
+                  #typeahead(style='display: none;')
+                    #type-main-list
+                      #type-ver-todos
+              // /input-group
+          .col-xs-5
+            .col-xs-10
+              .btn-group.bg-Group(role='group')
+                // user profile I pad
+                a(data-toggle='modal', data-target='#myLogginAlert', title='Iniciar sesión')
+                  button.btn-group-user(type='button')
+                    img.img-group.myaccount-icon(src='/mobileAssets/images/icons/header_usericonipad.png')
+                    | Iniciar sesión
+                a(href='/tienda/m/browse/store.jsp', rel='external')
+                  button.btn-group-user
+                    img.img-group(src='/mobileAssets/images/icons/header_storesiconipad.png')
+                    span Localiza tu tienda
+                // user profile
+            .col-xs-2.badge-position
+              a.img-size-icon-bag(href='/tienda/m/cart/cart.jsp', rel='external')
+                span.badge-img.badge
+                  // defect:7228 fix start
+                  | 0
+                  // defect:7228 fix end
+                img.img-size-badge(src='/mobileAssets/images/bag.png')
+      #testHeaderCartContent
+        input#mobilePage_contextPath(type='hidden', value='/tienda/m')
+        .header-nav-utility.pull-left.hidden-phone
+          .row-fluid
+            .span4.pull-right.header-loginlinks
+              .row-fluid
+                // <div id="testHeaderCartContent">
+                //
+                  <div class="span7 menu-utility">
+                  <ul>
+                  <li class="shopping-bag">
+                  <a class="cart-link touchEvent" href="/tienda/m/cart/cart.jsp" title="cart" rel="shopping-cart.jsp"><span>cart</span><div class="cart-bubble">(0)</div></a>
+                  <div class="cart-link-arw">
+                  </div>
+                  </li>
+                  <li>
+                  <a class="store-locator-link" href="javascript:void(0)" title="store locator">store locator</a>
+                  </li>
+                  <li>
+                  <a class="search-icon" href="javascript:void(0)" title="search">search</a>
+                  </li>
+                  </ul>
+                  </div>
+                .span7.menu-utility
+                  ul.headerrightmenu
+                    li.shopping-bag
+                      a.cart-link.touchEvent(href='/tienda/m/cart/cart.jsp', title='cart', rel='shopping-cart.jsp')
+                        span
+                          | cart
+                        .badge
+                          | 0
+                      .cart-link-arw
+                      // start: mini cart container
+                      section.mini-cart-container.hidden-phone.mini-cont
+                        .mini-cart-noitems
+                          #minicart_noitem
+                            span 1
+                            span elemento añadido a su bolsa
+                          p No tienes productos
+                      section.mini-cart-container.hidden-phone
+                        .mini-cart-noitems.hide
+                        // start: mini cart content
+                      // end: mini cart container
+                // </div>
+        .lp-header-search-icon
+          a.cart-link.visible-phone.touchEvent(href='/tienda/m/cart/cart.jsp', title='cart', rel='/tienda/m/cart/cart.jsp')
+            span cart
+            .cart-bubble 0
+      // PDP header ends here
+      // bread crumbs start
+      .row
+        ul.breadcrumb
+          li
+            a(href='/tienda/m', rel='external') Home
+          span#ancestorLbl(style='display:none') Línea Blanca
+          span#breadCrumbLbl(style='display:none') Lavado y Secado
+          li
+            a.actual(href='/tienda/m/línea-blanca/cat610025', rel='external') Línea Blanca
+          li
+            a.actual(href='/tienda/m/', rel='external') Línea Blanca
+          li
+            a.actual(href='/tienda/m//lavado-y-secado/cat610027', rel='external') Lavado y Secado
+          li Lavadoras
+          script.
+            $(document).ready(function(){
+            dataLayer.push({ 'category':$('#ancestorLbl').text(), 'subcategory':$('#breadCrumbLbl').text(),
+            'event':'contentGroup'
+            });
+            });
+      // bread crumbs end
+      hr
+      // Main PDP content Start
+      div(itemscope='', itemtype='http://schema.org/Product')
+        div
+          .col-md-6
+             include ./includes-pdp/detail_gallery.jade
+          script.
+            completeGallery(1041579702);
+          // images images end1
+          #sc-page-spinner.a-row.a-hidden
+            .a-row.sc-overwrap
+            .a-row.sc-spinner
+              img(alt='', src='/mobileAssets/images/icons/loader_liverpool.gif')
+          // Div Modal preview Images
+          #myModal.modal.fade.bs-example-modal-lg(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
+            .modal-size.modal-dialog.modal-lg
+              .modal-size.modal-content
+                .bg-Modal(data-dismiss='modal')
+                  p <  REGRESAR
+                #carousel-example-generic.carousel.slide.size-modal-preview(data-ride='carousel')
+                  ol.carousel-indicators
+                    li.active(data-target='#myCarousel', data-slide-to='0')
+                    //
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                  // Wrapper for slides
+                  .carousel-inner
+                    .item.active.size-img-prev
+                      img.img-responsive.center-img-modal.bigImage(src='http://media14.liverpool.com.mx/web/images/products/es_MX/xl/1041579702.jpg', onerror="pdCDNImage('xl','1041579702')", alt='no image')
+                      .carousel-caption
+                  // Controls
+          // End Div Modal Preview Image
+          .col-md-6
+            // Div Config Product
+            p.upper-text(itemprop='name') Lavadora 19 Kg. Whirlpool Blanca 7MWTW4915EW
+            .row
+              .col-md-12
+                .prod-model-text
+                  | Código de Producto 
+                  span(itemprop='sku') 1041579702
+              // logged in user:start
+              .col-md-12
+                hr
+                form
+                  a.popover-show(tabindex='0', data-toggle='popover', data-trigger='focus', title='Aviso', data-content="Para poder calificar los productos, debes\
+                  <a href='javascript: void(0);' data-toggle='modal' data-target='#myLogginAlert' title='iniciar sesión'>Iniciar sesión</a>")
+                    input#input-21f.rating(value='5.0', type='number', disabled='true', min='0', max='5', step='0.5', data-size='xs')
+            // defect 7217
+            // defect 7217
+            input#requiredlistprice(type='hidden', value='12199.0')
+            input#requiredsaleprice(type='hidden', value='12199.0')
+            input#requiredpromoprice(type='hidden', value='8295.0')
+            input#contextpath(type='hidden', value='/tienda/m')
+            input#minimumListPrice(type='hidden', value='12199.0')
+            input#maximumListPrice(type='hidden', value='12199.0')
+            input#minimumPromoPrice(type='hidden', value='8295.0')
+            input#maximumPromoPrice(type='hidden', value='8295.0')
+            input#numRecords(type='hidden', value='1')
+            #finalSkuIdPrice
+            #pdpromos
+              .row
+                .col-xs-3(itemprop='offers', itemscope='', itemtype='http://schema.org/Offer')
+                  meta(itemprop='priceCurrency', content='MXN')
+                  p.precio-tachado-modulo.col-xs-6.col-sm-6(itemprop='price')
+                    | $12,199
+                .col-xs-6
+                  p.newprice
+                    | $8,295
+            br
+            // <div class="flags-module">
+            // </div>
+            .row.col-md-12.flags_container
+              i#preventa.sprite_flags.disp_image
+              p.text_Flags
+                | Entrega a Domicilio
+            .row.col-md-12.flags_container
+              i#preventa.sprite_flags.especial_paypal_image
+              p.text_Flags Especial Paypal
+            // Div Modal Preview Forma de Pago
+            #myModal3.modal.fade.bs-example-modal-lg3(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel2', aria-hidden='true')
+              .modal-size.modal-dialog.modal-lg
+                .modal-size.modal-content
+                  .col-md-12.bg-Modal(data-dismiss='modal')
+                    p <  REGRESAR
+                  .descripton-product.center-img-modal
+                    h4 Opciones de pago
+                    hr.divider
+                    .bg-tarjetas
+                      ul
+                        li
+                          img(src='/mobileAssets/images/card_liver1.png')
+                        li
+                          img(src='/mobileAssets/images/card_liver2.png')
+                        li
+                          h6
+                            b Con tarjetas Liverpool
+                    p  
+                    ul.bg-pdp-cell.lppromos.tarejtas-liverpool
+                      li(type='disc')
+                        | 32.00% DE DESCUENTO - PRESUPUESTO LIVERPOOL/FABRICAS
+                        br
+                      li(type='disc')
+                        | 20.00% DE DESCUENTO - PRESUPUESTO LIVERPOOL/FABRICAS
+                        br
+                      li(type='disc')
+                        | 32.00% DE DESCUENTO - 6 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 32.00% DE DESCUENTO - 9 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 32.00% DE DESCUENTO - 15 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 20.00% DE DESCUENTO - 6 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 20.00% DE DESCUENTO - 9 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 20.00% DE DESCUENTO - 15 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 6 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 9 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 15 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | PRESUPUESTO LIVERPOOL/FABRICAS
+                        br
+                    hr.divider
+                    .bg-tarjetas
+                      ul
+                        li
+                          img(src='/mobileAssets/images/card_visa.png')
+                        li
+                          img(src='/mobileAssets/images/card_master.png')
+                        li
+                          h6
+                            b Otras Tarjetas
+                    p  
+                    ul.bg-pdp-cell.otherpromos.tarjetas-externas
+                      li(type='disc')
+                        | 32.00% DE DESCUENTO - CUENTA CORRIENTE EXTERNAS
+                        br
+                      li(type='disc')
+                        | 32.00% DE DESCUENTO
+                        br
+                      li(type='disc')
+                        | 20.00% DE DESCUENTO - CUENTA CORRIENTE EXTERNAS
+                        br
+                      li(type='disc')
+                        | 20.00% DE DESCUENTO
+                        br
+                      li(type='disc')
+                        | 32.00% DE DESCUENTO - 3 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 32.00% DE DESCUENTO - 6 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 32.00% DE DESCUENTO - 13 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 20.00% DE DESCUENTO - 3 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 20.00% DE DESCUENTO - 6 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 20.00% DE DESCUENTO - 13 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 3 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 6 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | 13 MESES SIN INTERES
+                        br
+                      li(type='disc')
+                        | CUENTA CORRIENTE EXTERNAS
+                        br
+            // End Div Modal Forma de Pago
+            script(type='text/javascript').
+              var keys;
+              var pdpPriceVal=
+              [
+              {"SkuId":"1041579702"
+              ,
+              "listPrice":"12199.0","promoPrice":"8295.0 ","salePrice":"12199.0"
+              },
+              ]
+            // PRICE DIV
+            //
+              <div class="row"><div class="col-xs-3">	<p class="precio-tachado-modulo">$899</p></div>	<div class="col-xs-6"><p class="newprice">$719</p></div>
+              </div>
+            // varient jsp// add to cart :: starts
+            body
+              #lenseOverlayDiv(style='display: none')
+              script.
+                var keys;
+                var allVariants={
+                "skuVriant" :[
+                {"SkuId":"1041579702"
+                ,"color":"BLANCO"
+                ,"dimension":".60 X 1.20"
+                ,"material":"METAL-VIDRIO"
+                },
+                ]
+                }
+              span#skumap.hide
+                | {"1041579702_th":"http://media14.liverpool.com.mx/web/images/products/es_MX/xl/1041579702.jpg","1041579702_sm":"http://media16.liverpool.com.mx/web/images/products/es_MX/sm/1041579702.jpg","1041579702_lg":"http://media20.liverpool.com.mx/web/images/products/es_MX/lg/1041579702.jpg"}
+              #dynaDDL
+              script.
+                LoadProductData('{"1041579702_th":"http://media14.liverpool.com.mx/web/images/products/es_MX/xl/1041579702.jpg","1041579702_sm":"http://media16.liverpool.com.mx/web/images/products/es_MX/sm/1041579702.jpg","1041579702_lg":"http://media20.liverpool.com.mx/web/images/products/es_MX/lg/1041579702.jpg"}');
+                $(function(){
+                var color = $("#dynaDDL").find('select:first').val();
+                var size = $("#dynaDDL").find('select:last').val();
+                var key;
+                for(var k in allVariants.skuVriant) {//console.log(allVariants.skuVriant[k].color + '-'+allVariants.skuVriant[k].size);
+                if(allVariants.skuVriant[k].color.replace(/ /gi, '') === color.replace(/ /gi, '') && allVariants.skuVriant[k].size.replace(/ /gi, '') === size.replace(/ /gi, '')) {
+                key = k;
+                break;
+                }
+                }
+                $("#skuId").val(allVariants.skuVriant[key].SkuId);
+                });
+              form#addItemToCartForm(method='post', action='/tienda/m/browse/pdAddtoCart.jsp?_DARGS=/m/browse/productVarients.jsp.addItemToCartForm', name='addItemToCartForm')
+                input(value='utf-8', type='hidden', name='_dyncharset')
+                input(value='-2373058680953179633', type='hidden', name='_dynSessConf')
+                input(value='1041579702', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.productId')
+                input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.productId')
+                input(value='32.0', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.value.promoDiscountAmount')
+                input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.value.promoDiscountAmount')
+                input(value='PD', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.value.promoType')
+                input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.value.promoType')
+                // 7
+                input#skuId(value='1041579702', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.catalogRefIds')
+                input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.catalogRefIds')
+                input(value='Big Ticket', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.value.productType')
+                input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.value.productType')
+                // 8
+                // not lense common normal product
+                button.btn-pdp(onclick="submitAddToCartPagar('addItemToCartForm','1041579702','false');")
+                  img(src='/mobileAssets/images/cta_paynow.png')
+                  span Pagar ahora
+                input#selectedQuantity(value='1', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.quantity')
+                input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.quantity')
+                // <div class="">
+                // row-fluid share-container tabnavigationcontainer
+                input#itemToGiftId(value='false', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.value.itemToGift')
+                input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.value.itemToGift')
+                p  
+                input(value='Big Ticket', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.value.productType')
+                input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.value.productType')
+                input(value='false', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.skipInventory')
+                input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.skipInventory')
+                input#selectedQuantity(value='1', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.quantity')
+                input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.quantity')
+                input(value='LP_SITE_400', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.siteId')
+                input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.siteId')
+                a.btn-pdp-bag(title='Comprar', onclick="submitAddToCart(addItemToCartForm,'1041579702','false'); javascript:pdpAddToCartButton('Lavadora 19 Kg. Whirlpool Blanca 7MWTW4915EW','1041579702','8295.0','WHIRLPOOL');", href='#')
+                  img(src='/mobileAssets/images/cta_paylater.png')
+                  span Agregar a mi bolsa
+                  input#addTocartButton(value='submit', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.addItemToOrder')
+                  input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.addItemToOrder')
+                input(value='/m/browse/productVarients.jsp.addItemToCartForm', type='hidden', name='_DARGS')
+            // varient jsp// add to cart :: ends
+            // Div Agregar bolsa alerta
+            #myModalAlert.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel2', aria-hidden='true')
+              .modal-dialog
+                .modal-content
+                  .modal-body
+                    .col-xs-10
+                      h5.color-rosa 1 ARTÍCULO
+                      p.color-g FUE AGREGADO A TU BOLSA DE COMPRAS
+                    .col-xs-2
+                      button.close(type='button', data-dismiss='modal') ×
+                    div
+                      p  
+                      button.btn-pdp(onclick="window.location.href='/tienda/m/cart/cart.jsp'")
+                        span Proceder a pagar
+                      p  
+                      button.btn-pdp-con(data-dismiss='modal')
+                        span Continuar comprando
+                      p  
+            // End Div Agregar Bolsa alerta
+            // Div Agregar bolsa error alerta
+            #myModalAlertError.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel3', aria-hidden='true')
+              .modal-dialog
+                .modal-content
+                  .modal-body
+                    .row
+                      .col-xs-10
+                        .col-xs-3
+                          img(src='/mobileAssets/images/symbol_alert_sb.png')
+                        .col-xs-9
+                          p.color-rosa-Alert.text-center
+                      .col-xs-2
+                        button.close(type='button', data-dismiss='modal') ×
+                    .row
+                      .bgAlertError
+                        #formError  
+                        p.color-g.text-center
+                        p.color-g.text-center
+            // End Div Agregar Bolsa Error alerta
+            input#currentProductDetailsPageUrl(value='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', type='hidden')
+            // Div Loggin Modal
+            #myLogginAlert.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel2', aria-hidden='true')
+              .modal-dialog
+                a.modal-close-btn.checkout-login-close(href='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', rel='external', title='close')
+                .modal-content
+                  .modal-body.loggin-modal-body
+                    ul#myTab.nav.nav-tabs(role='tablist')
+                      li.active(role='presentation')
+                        a#home-tab(href='#home', role='tab', data-toggle='tab', aria-controls='home', aria-expanded='true')  Inicia sesión
+                      li(role='presentation')
+                        a#profile-tab(href='#profile', role='tab', data-toggle='tab', aria-controls='profile', aria-expanded='false')  ¿Nueva cuenta en Liverpool?
+                    #myTabContent.tab-content
+                      #home.tab-pane.fade.active.in(role='tabpanel', aria-labelledby='home-tab')
+                        form#login.form-horizontal.form-withphone(target='_top', action='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', novalidate='novalidate', name='login')
+                          input(value='utf-8', type='hidden', name='_dyncharset')
+                          input(value='-2373058680953179633', type='hidden', name='_dynSessConf')
+                          // 6981 defect Fix
+                          input(value='/tienda/m', type='hidden', name='/atg/userprofiling/ProfileFormHandler.contextRoot')
+                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.contextRoot')
+                          // 6981 defect Fix
+                          #data_receiver.row.form-section
+                            div
+                              .form-group
+                                label.col-md-4.control-label(for='email')
+                                  | Correo electrónico:
+                                .col-md-8
+                                  //
+                                    <input type="email" class="form-control" id="email"
+                                    placeholder="">
+                                  input#login.form-control.input-block-level(value='', data-error='Por favor ingrese un email válido', mandatory='true', type='email', maxlength='255', name='login', data-msg-email='111')
+                                  input(value=' ', type='hidden', name='_D:login')
+                                  .help-block.with-errors
+                            div
+                              .form-group
+                                label.col-md-4.control-label(for='password')
+                                  // Contraseña:
+                                  | Contraseña:
+                                .col-md-8
+                                  //
+                                    <input type="password" class="form-control" id="password"
+                                    placeholder="">
+                                  input#pass.form-control.input-block-level(value='', min='6', data-error='Por favor introduzca la contraseña', mandatory='true', type='password', name='pass')
+                                  input(value=' ', type='hidden', name='_D:pass')
+                                  .help-block.with-errors
+                          input.btn-pdp(value='Entrar', type='submit', name='/atg/userprofiling/ProfileFormHandler.login')
+                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.login')
+                          // 
+                          input(value='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', type='hidden', name='/atg/userprofiling/ProfileFormHandler.pdpLoginSuccessUrl')
+                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.pdpLoginSuccessUrl')
+                          input(value='true', type='hidden', name='/atg/userprofiling/ProfileFormHandler.isWapPdp')
+                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.isWapPdp')
+                          input(value='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                          input(value='/tienda/m/users/pdpLoginerror.jsp?pdrid=1041579702', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                          p  
+                          input(value='/m/users/frag/pdpLoginPopup.jsp', type='hidden', name='_DARGS')
+                        a(href='/tienda/m/users/forgotPassword.jsp', rel='external')
+                          button.btn-pdp-con
+                            span Olvidaste tu contraseña
+                      #profile.tab-pane.fade(role='tabpanel', aria-labelledby='profile-tab')
+                        div
+                          p  
+                          a(href='/tienda/m/users/register.jsp', rel='external')
+                            button.btn-pdp
+                              span Crea tu cuenta
+                          p.lead.mb5.mt20 Obtén grandes beneficios registrándote
+                          ul.subList.pb0
+                            li
+                              span Descuentos exclusivos en compras por internet
+                            li
+                              span Asistencia telefónica
+                            li
+                              span Certificados de seguridad Verisign y Amipci
+            // End  Loggin Modal
+            .row
+              .social-rating
+                #tools_producto
+                  .clear
+                  .col-xs-2.btn-pdp-redes.lpfirstsocialicon
+                    a.addthis_button_email.at300b(target='_blank', title='Correo')
+                      img(src='/mobileAssets/images/pdp_message.png', alt='MESSENGER')
+                  .col-xs-2.btn-pdp-redes
+                    a.addthis_button_facebook.at300b(onclick="window.open('','_blank');return false;", title='Facebook')
+                      img(src='/mobileAssets/images/pdp_face.png', alt='FACEBOOK')
+                  .col-xs-2.btn-pdp-redes
+                    a.addthis_button_twitter.at300b(onclick="window.open('','_blank');return false;", style='background-image:https://www.liverpool.com.mx/web/images/tweet_btn.png; background-repeat:no-repeat', tw:via='LiverpoolMexico', tw:text='#EsParteDeMiVida', title='Tweet')
+                      img(src='/mobileAssets/images/pdp_twitter.png', alt='TWITTER')
+                  .col-xs-2.btn-pdp-redes
+                    a.addthis_button_google_plusone_share.at300b(g:plusone:size='medium', title='Google+')
+                      img(src='/mobileAssets/images/pdp_google.png', alt='GOOGLE PLUS')
+                  .col-xs-2.btn-pdp-redes.btn-pdp-redes-last
+                    | COMPARTE
+                  script(type='text/javascript').
+                    var addthis_config = {
+                    ui_language: "es",
+                    data_ga_property: 'UA-4668284-1',
+                    data_ga_social: true
+                    };
+                    addthis_config.ui_email_from = '';
+                  script(type='text/javascript', src='http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-537712a30d2b9bd8')
+                .clear-fix
+          // End Div Config Product
+        .col-md-12.bg-pdp-description
+          // Div Description Product
+          .row
+            p  
+            .list-group
+              .col-md-12
+                a.list-group-item(href='#myModal2', data-toggle='modal', data-target='.bs-example-modal-lg2')
+                  .row
+                    .col-md-6
+                      h4.list-group-item-heading Descripción
+                    .col-md-6
+                      | Lavadora 19 Kg. Whirlpool Blanca 7MWTW4915EW
+                    .img-arrow
+                      img(src='/mobileAssets/images/arrow_forward.png')
+              .col-md-12
+                a.list-group-item.size-pago(href='#myModal3', data-toggle='modal', data-target='.bs-example-modal-lg3')
+                  .row
+                    .col-xs-10
+                      h4.list-group-item-heading Opciones de pago
+                    .img-arrow
+                      img(src='/mobileAssets/images/arrow_forward.png')
+              p  
+            // Div Modal Preview Description
+            #myModal2.modal.fade.bs-example-modal-lg2(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel2', aria-hidden='true')
+              .modal-size.modal-dialog.modal-lg
+                .modal-size.modal-content
+                  .col-md-12.bg-Modal(data-dismiss='modal')
+                    p <  REGRESAR
+                  .descripton-product.center-img-modal
+                    h4 Lavadora 19 Kg. Whirlpool Blanca 7MWTW4915EW
+                    hr.divider
+                    ul.bg-pdp-cell
+                      span(itemprop='description')
+                        p
+                        h3
+                        ol#detalle_producto_bullets
+                          li
+                            | Características generales: Lavadora de carga superior con agitador HE, tapa metálica con apertura amplia, tina de acero, cuenta con depósito automático de blanqueador y de suavizante.
+                          li Marca: Whirlpool.
+                          li Modelo: 7MWTW4915EW.
+                          li Capacidad: 19 kg.
+                          li Color y diseño: Blanco.
+                          li
+                            | Niveles de programación: 9 ciclos automáticos: Ropa delicada, jeans, ropa casual, edredones, ropa de color Xpert Cycle, ropa blanca Xpert Cycle, lavado rápido, llenado profundo, ciclo limpieza lavadora, y 2 ciclos manuales: Enjuagar y exprimir, drenar y exprimir.
+                          li Panel de mando: Display LED con indicador de estatus del ciclo y 4 perillas.
+                          li
+                            | Funciones especiales: 5 temperaturas con autocontrol, opción remojo automático, opción nivel de suciedad, opción suavizante.
+                          li Potencia: Motor 1/3 hp - Velocidad de centrifugado: 800 RPM.
+                          li Dimensiones: Alto 109 cm. x Ancho 70 cm. x Profundo 67 cm. aproximado.
+                        br
+                        li No incluye kit de instalación, ni la instalación del producto.
+                        p
+            // End Div Modal Preview Description
+            // End Div Modal Preview Description
+        // End Div Description Product
+      // Div Recomendations starts
+      // Start: product-carousel-slot
+      #cs-cfg.notranslate.displayNone(style='display: none;')
+        dl.cs-cfg.displayNone(style='display: none;')
+          dt retailerId
+          dd 8ba3f9f2
+          dt customerId
+          dd 1690084220
+          dt view
+          dd
+      .row
+        // Div Recomendations
+        .col-xs-12
+          p  
+          .recomendations-section
+            p
+        .col-md-12
+          #myCarousel.carousel.slide
+            // Carousel items
+            .carousel-inner
+              input.itemCount(type='hidden', hreflang='2', value='4')
+              .item.active
+                ul#home-slot.globalslider.pdt-list.cs-slot
+                  span(style='display: none;')
+                    dl.cs-cfg.displayNone
+                      dt numRecs
+                      dd 8
+                      dt -inc-price
+                      dd true
+                      dt -rec-builder
+                      dd build_scroll_recomm
+                      dt dataItems
+                      dd
+                        dl
+                          dt lowPrice
+          // /myCarousel
+      // End Div Recomendations
+      //
+        <script type="text/javascript">
+        window.onload = function(){
+        var x = document.getElementById("home-slot").getElementsByClassName("cs-rec").length;
+        var d=document.getElementById("home-slot").getElementsByClassName("cs-rec");
+        var i;
+        for(i= 0; i < x ; i++){
+        d[i].className = d[i].className +" thumbnail col-xs-4";
+        }
+        };
+        </script>
+      // Div Recomendations Ends
+      // End Div Recomendations
+      // dynamic Recomendations
+      // End dynamic Recomendations
+    // End Section wrapper
+    script.
+      dataLayer = [];
+    noscript
+      iframesrc(www.googletagmanager.com='', ns.html?id='GTM-MDXLRB"', height='0', width='0', style='display:none;visibility:hidden')
+    script.
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MDXLRB');
+    input#ga_price(type='hidden', value='8295.0')
+    input#ga_prod_name(type='hidden', value='Lavadora 19 Kg. Whirlpool Blanca 7MWTW4915EW')
+    input#ga_skuid(type='hidden', value='1041579702')
+    input#ga_brand(type='hidden', value='WHIRLPOOL')
+    input#ga_colour(type='hidden', value='')
+    script.
+      window.onload=gaProductDetail();

@@ -1,0 +1,52 @@
+h1{
+	font-size: 1.8em;
+	color: #333;
+	margin: 0;
+	padding: 0.5em 0 0;
+	font-family: "robotobold", helvetica, arial, sans-serif;
+	letter-spacing: 0;
+}
+#lanzamientos-main-banner{
+	width: 994px;
+	height: 342px;
+	border: 1px solid #ccc;
+	margin: 20px auto;
+	float: left;
+}
+.lanzamientos-banners-wrapper{
+	margin: 10px 0;
+}
+.lanzamientos-banners-wrapper ul li{
+	width: 238px;
+	height: 212px;
+	float: left;
+	margin: 0 10px 10px 0;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.lanzamientos-banners-wrapper ul li a{
+	display: block;
+	cursor: pointer;
+}
+.lanzamientos-banners-wrapper ul li.last{
+	margin-right: 0;
+}
+.lanzamientos-banners-wrapper ul li.last:after{
+	clear: right;
+}
+.lazamientos-left, .lazamientos-right{
+	width: 500px;
+	float: left;
+}
+.lazamientos-megabanner{
+	width: 490px !important;
+	height: 436px !important;
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+ul.bjqs{
+	display: block !important;
+}
+li.bjqs-slide{
+	
+}

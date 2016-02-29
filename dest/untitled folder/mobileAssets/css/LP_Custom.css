@@ -1,0 +1,506 @@
+.is-gift, .giftRibbonColors, .isWrapNeeded{
+	display: none;
+}
+
+
+#testHeaderCartContent{
+	display:none;
+}
+
+.nav-tabs > li.active > a > .mono_color_container #x{
+	color: #fff;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.mono_color_container{
+	  width: 3em !important;
+  height: 3em !important;
+}
+
+/*.list_Color > li{
+	  height: 11%;
+}*/
+
+textarea{
+	width:100%;
+}
+
+#promo-code-container #couponId{
+	width: 100%;
+}
+//START PA LP SiteRedesign Demo isssues fixing
+/* .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+padding-left: 0px;
+} */
+//END PA LP SiteRedesign Demo isssues fixing
+/* order seccess page WAP:: start */
+
+.order-success.img-responsive{
+padding-left: 5px;
+}
+
+.mono_color_container{
+	  width: 3em !important;
+  height: 3em !important;;
+}
+
+ .txtA {
+	color: #000;
+	font-size: 17px;
+}
+
+.txtB {
+	color: #cf0078;
+	font-size: 15.5px;
+}
+
+.txtC {
+	color: #6f777a;
+	font-size: 11px;
+}
+
+.txtD {
+	color: #6f777a;
+	font-size: 13px;
+}
+
+.imagen-bolsa {
+	display: block;
+	width: 174px;
+	height: 196px;
+	background-position: -168px -101px;
+}
+
+.cols-no-padding {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.txt-upper {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.bg-panel-white {
+	background: #fff !important;
+	background-color: #fff;
+}
+
+.bg-panel-fecha {
+	background: #fff !important;
+	background-color: #fff;
+}
+
+.bg-btn-reg {
+	background: #9aa6a6 !important;
+	padding: 5px;
+	color: #fff;
+}
+
+.bg-btn-reg img {
+	height: 15px;
+	float: right;
+	margin: 5px 5px 0px 0px;
+}
+
+.bg-btn-rsd {
+	background: #f51e83 !important;
+	padding: 5px;
+	color: #fff;
+}
+
+.bg-btn-rsd img {
+	height: 15px;
+	float: right;
+	margin: 5px 5px 0px 0px;
+}
+
+.pink-color {
+	color: #cf0078;
+	font-size: 12px;
+}
+
+.pd-title a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.pd-precio-tx {
+	color: #808080;
+	text-decoration: line-through;
+}
+
+.pd-precio-rs {
+	color: #ef154f;
+}
+
+.panel-no-margin {
+	margin-bottom: 0px !important;
+}
+
+.row-no-border-paint {
+	border: 0 !important;
+}
+
+.row-border-paint {
+	border: 1px solid #ccc;
+}
+
+.row-right-bottom {
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.row-border-bottom {
+	border-bottom: 1px solid #ccc;
+}
+
+.row-border-right {
+	border-right: 1px solid #ccc;
+}
+
+.row-border-left {
+	border-left: 1px solid #ccc;
+}
+
+.num-title {
+	font-weight: bold;
+	color: #000;
+	font-size: 12px;
+}
+
+.num-info {
+	color: #6f777a;
+	font-size: 12px;
+}
+
+.no-border-bottom {
+	padding-bottom: 0 !important;
+}
+
+.social-no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.social-no-margin {
+	margin: 0;
+}
+
+.no-margin-nothing {
+	margin: 0;
+	padding: 0;
+}
+
+.bg-red-price {
+	background: #f4f4f4;
+	color: #f21d57;
+	padding: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.row-margin-bottom {
+	margin-bottom: 10px;
+}
+//START PA LP SiteRedesign Demo isssues fixing
+/* .row {
+margin-right: 0px;
+margin-left: 0px;
+margin-top: 3px;
+} */
+//END PA LP SiteRedesign Demo isssues fixing
+/* order seccess page WAP:: end */
+
+
+.item-delete-button-container{
+	  top: -13px;
+}
+/*Start: ipad changes*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 979px) 
+and (orientation : portrait) { 
+.search-position .input-group-btn{
+	float: left;
+  left: 0;
+}
+
+.search-position #busca{
+width:90%;
+margin-left: -30px;
+}
+
+.logo-container .img-responsive{
+	  margin-left: 5px;
+}
+
+.search-position .img-sea{
+	top: 1px;
+  left: -3px;
+}
+
+.logo-container .logo {
+margin-left: 20px;
+}
+.btn-Searc-head {
+margin-left: 92px;
+}
+
+.field_aling {
+margin-top: 0px;
+}
+
+/*Start:SiteRedesign Defect:205*/
+.img-size-icon-bag .img-size-badge{
+	margin-left: 30px;
+}
+/*End:SiteRedesign Defect:205*/
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 979px) 
+and (orientation : landscape) { 
+.search-position .input-group-btn{
+	float: left;
+  left: 0;
+}
+
+.search-position #busca{
+width:100%;
+}
+.search-position .img-sea{
+	top: 1px;
+  left: -3px;
+}
+/*.btn-Searc-head {
+margin-left: 200px;
+}*/
+}
+/*end: ipad changes*/
+
+/* start: site redesign */
+.mono_color_container.orderSuccessSec {
+width: 2em !important;
+height: 1.5em !important;
+max-width: 61px;
+float: left;
+}
+/* end: site redeisign */
+
+/* start: site redesign PDP Searchbox*/
+.input-group .pdpSearchInput{
+width:72%;	
+}
+/* End: site redesign PDP Searchbox*/
+//START PA LP SiteRedesign Demo isssues fixing
+/* .img-size-icon-bag {
+padding-left: 16px;
+} */
+//END PA LP SiteRedesign Demo isssues fixing
+/*START PA SITE REDESIGN : Defects Fixing*/
+.ebook-list-section .ebookimg.foto-list{
+	height: 92px !important;
+	width: 100%;
+}
+span.cuppon_validation_message#error{
+	color:red;
+	font-size:13px;
+	}
+.item-list-attributes .product-title{ /*start PA: siteredesign 070815 Defect-738*/
+color:#000;
+}
+.category_drop .btn-Searc-head{ /*start PA: siteredesign 070815 Defect-738*/
+	height: 34px !important;
+    right: 9px !important;
+}
+/*END PA SITE REDESIGN : Defects Fixing*/
+/*START PA LP SiteRedesign : WAP fixes 080815 */
+#catrchecking .resume-container
+{       
+       padding-left: 1%;
+}
+#catrchecking  .resume-container table tr td:first-child {
+width: 65%;
+padding-right: 4%;
+text-align: right;
+font: normal normal normal 13px/1.5 'Roboto', Arial, Helvetica, sans-serif;
+}
+#catrchecking .resume-container table tr td:last-child {
+width: 40%;
+padding-right: 0px;
+text-align: left;
+font: normal normal normal 13px/1.5 'Roboto', Arial, Helvetica, sans-serif;
+}
+/*END PA LP SiteRedesign : WAP fixes 080815 */
+/*START PA LP SiteRedesign : WAP fixes 100815 */
+
+.ebook-list-section .lrpl-thumbnail a {
+    position: relative;
+    text-align: center;
+}
+img.lazy.foto-modulo.ebookimg {
+    max-height: 100%;
+    height: auto !important;
+}
+.ebook-list-section .prod-info.ebookpdpdp {
+    position: relative;
+    float: left;
+    top: 0;
+    margin-top: 0;
+    height: auto;
+}
+.ebook-list-section .pdt-list li.span3 .rating-str {
+    left: 1em;
+    position: initial;
+    margin-top: -4em;
+}
+.rating-str .rat-empty {
+    background-position: -148px -814px !important;
+}
+.prod-title {
+    height: 50px;
+    line-height: 15px;
+}
+/*END PA LP SiteRedesign : WAP fixes 100815 */
+/*END PA LP SiteRedesign : WAP fixes 080815 */
+
+.envio-domicilio .clickpick {
+    /*start: PA SITE REDESIGN :defect-224*/
+    
+    background-position: -6px -14px !important;
+}
+/*start: PA SITE REDESIGN :defect-973*/
+
+@media (max-width: 767px) {
+    .logged-in ul.loggedin-menu {
+        left: 165px;
+    }
+}
+
+/*Start: UAT defect-4680*/
+.modal-title{
+	text-transform: lowercase;
+}
+
+.modal-title:first-letter{
+	text-transform: uppercase;
+}
+/*End: UAT defect-4680*/
+/*START PA LP SiteRedesign Demo isssues fixing*/
+.step_0_shopping_cart .gift-panel form{
+margin-bottom:0px;
+}
+.product-list-section .rating-str i[class^="icon-"] {
+padding: 10px 0px 10px 3px;
+background: url(/mobileAssets/images/endeca-sprite.png) no-repeat -126px -809px;
+}
+/*END PA LP SiteRedesign Demo isssues fixing*/
+/*PA LP Site Redesign : fixed for 21082015 1200 */ 
+#data_receiver #month_year_div_id + .col-sm-6.col-lg-4{
+	clear : both;
+}
+/*START PA LP SiteRedesign Demo isssues fixing*/
+.pdfDownloadimg{
+height: 15px;
+float: right;
+margin: 5px 5px 0px 0px;
+position: relative;
+top: 30px;
+right: 6px;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+#form_checkout_express_pay_method .radio label.error::before,
+#form_checkout_express_pay_method .radio label.error::after{
+       content:none;
+}
+#form_checkout_express_pay_method .radio label.error{
+    color: #a94442;
+}
+#myModalQuantitySelect .modal-dialog.dialog-numbers{
+top: -30px;
+}
+/*END PA LP SiteRedesign Demo isssues fixing*/
+
+#externalnumber_sec { /*PA LP SIRE Redesign chnages made for shipping page*/
+	clear: both;
+}
+/*START PA LP SITE REDESIGN : Fixed for ModalQuantitySelect*/
+#myModalQuantitySelect .content_numbers{
+	top:21px;
+} 
+#myModalQuantitySelect .numbers-body{
+height: 40rem;
+}
+#form_checkout_express_pay_method #cvv1{
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+	text-align: center;
+	-webkit-text-security: disc;
+}
+/*END PA LP SITE REDESIGN : Fixed for ModalQuantitySelect*/
+
+/* bugzila defect id-5275 */
+.badge-position {
+	margin-left: -3em;
+}
+
+/* bugzila defect id-5273 */
+.btn-Searc-head .header_search-button {
+background: #FF0084 url('/mobileAssets/images/icons/search_header.png') no-repeat center center;
+height: 34px;
+width: 34px;
+display: inline-block;
+text-indent: -9999px;
+background-size: 20px!important;
+border: 0;
+}
+
+/*Quantity Modal start*/
+#myModalQuantitySelect .content_numbers{
+	max-height: 80vh;
+	padding-bottom:1em;
+}
+
+#myModalQuantitySelect .numbers-body {
+    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    overflow-y: scroll;
+    height: 45rem;
+    max-height: 60vh!important;
+    overflow-y: scroll;
+}
+/*Quantity Modal end*/
+.panel.panel-default.gift-panel .nav.nav-tabs.list_Color li{
+	width: 23%;
+	display: inline-block;
+	vertical-align: top;
+}
+.panel.panel-default.gift-panel .nav.nav-tabs.list_Color li a div{
+	border:1px solid #ccc;
+}
+.panel.panel-default.gift-panel .activeclass.active a{
+	background-color:#f2f2f2!important;
+}

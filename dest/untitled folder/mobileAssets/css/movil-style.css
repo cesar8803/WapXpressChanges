@@ -1,0 +1,77 @@
+body{
+background:#efefef;
+}
+.right-content{
+width:45%;
+float:left;
+}
+.left-img{
+width:50%;
+margin-right:20px;
+float:left;
+}
+.bottom-img{
+width:100%;
+}
+.second-row-image{
+clear:both;
+}
+.bottom-img{
+width:100%;
+margin-top:25px;
+}
+.pdf-img{
+width:48px;
+}
+.mobile-image{
+/*background:url('img/icons/trasparent.png') repeat-x;*/
+padding: 5px;
+border-bottom: 2px solid #d3d3d3;
+margin-bottom: 20px;
+background:#ffffff;
+}
+.mobile-image img{
+padding-right:20px;
+}
+.right-lists{
+padding:0px;
+margin:0px;
+list-style-type:disc;
+padding-left: 20px;
+}
+.img-max-width{
+width:100%;
+}
+.back-color{
+background:#fff;
+}
+.mobile-wrapper { width: 100%; font: 12px robotoregular, arial, sans-serif; margin-bottom: 20px;}
+.mobile-title { height: 75px; border-bottom: 1px solid #E4E4E4; display: block; background: url(/mobileAssets/images/stripes-texture.png); -webkit-box-shadow: 0 2px 6px -4px inset;
+box-shadow: 0 2px 6px -4px inset;}
+.mobile-title h1 { float: left; background: url(/mobileAssets/images/logo_mobile.png) no-repeat; width: 195px;height: 54px; display: block; position: relative; top: 12px; left: 20px; text-indent: -999px;}
+.mobile-title hgroup { float: right; text-align: right; margin: 14px 20px 0 0;}
+.mobile-title hgroup h2 { font: 16px robotolight, arial, sans-serif; color: #000; letter-spacing:0;}
+.mobile-title hgroup h4 { font: 20px robotobold, arial, sans-serif; color: #000; }
+.mobile-module { }
+.intro { height: 455px; background: url(/mobileAssets/images/mobile_intro.jpg) 0% 70% no-repeat; padding: 40px 35px;}
+.benefits { height: 295px; background: url(/mobileAssets/images/mobile_benefits.jpg) 0% 100% no-repeat; padding: 65px 35px 0;}
+.requisits { height: 385px; background: url(/mobileAssets/images/mobile_requisits.jpg) 0% 100% no-repeat #f8f8f8; border-bottom: 1px solid #E4E4E4; padding: 40px 35px;}
+.mobile-module h2 { font: 18px robotobold, arial, sans-serif; color: #000; margin-bottom: 15px;}
+.mobile-module span { font: 12px robotobold, arial, sans-serif; }
+.pink { color: #EF0078 !important; }
+.r-content { float: right; }
+.l-content { width: 410px; float: left; }
+.mobile-module p { margin-bottom: 15px; }
+.mobile-module ul { }
+.mobile-module ul li { margin-bottom: 15px;}
+.intro ul { padding-left: 15px; margin-bottom: 20px;}
+.intro li { margin-bottom: 0 !important; list-style: disc;}
+.intro a { font-size: 12px; color: #0091dc; text-decoration: underline;}
+.intro .icons { background: url(/mobileAssets/images/carriers_credit.jpg) 0 0 no-repeat; width: 447px; height: 74px; position: relative; top: -10px; left: -20px;}
+.benefits li { background: url(/mobileAssets/images/bullet1.jpg) 0 5px no-repeat; padding-left: 15px; }
+.benefits li span { }
+span.support-text { font-family: robotolight, arial, sans-serif; position: relative; top: -20px;}
+span.support-text2 { font-family: robotolight, arial, sans-serif; position: relative; top: 0;}
+
+img.reader { background: url(/mobileAssets/images/pdf.png) 0 0 no-repeat; width: 48px; height: 48px; margin-right: 15px; }
+.requisits p span { }
