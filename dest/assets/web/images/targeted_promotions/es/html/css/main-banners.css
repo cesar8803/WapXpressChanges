@@ -1,0 +1,771 @@
+html, body {
+    font-family: 'Roboto-regular', "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+    color: #000;
+}
+p {
+margin: 0px;
+font-family: inherit;
+}
+.clear {
+    clear: both;
+    float: left;
+    padding: 10px;
+    display: block;
+    width: 1200px;
+    margin: 10px auto;
+}
+.main-content {
+    display: block;
+    width: 1250px;
+    margin: 0px auto;
+}
+#banner_1 {
+    background: #ededed;
+}
+#banner_2 {
+    background: #ededed;
+}
+#banner_3 {
+    background: #ededed;
+}
+#banner_4 {
+    background: #ededed;
+}
+#banner_5 {
+    background: #ededed;
+}
+#banner_6 {
+    background: #ededed;
+}
+.top-banner {
+    height: 460px;
+    width: 1250px;
+    position: relative;
+    overflow: hidden;
+
+}
+.logo-promo {
+    position: absolute;
+}
+.logo-promo.block {
+    position: relative;
+    display: inline-block;
+    margin: 20px 0px;
+}
+.top-left {
+    top: 20px;
+    left: 30px;
+}
+.top-right {
+    top: 20px;
+    right: 30px;
+}
+.bottom-left {
+    bottom: 20px;
+    left: 30px;
+}
+.bottom-right {
+    bottom: 20px;
+    right: 30px;
+}
+.top-center {
+    top: 10px;
+    text-align: center;
+}
+.bottom-center {
+    bottom: 10px;
+    text-align: center;
+}
+.align-left {
+    float: left;
+    left: 0px;
+}
+.align-right {
+    float: right;
+    right: 0px;
+}
+.align-center {
+    margin: 0px auto;
+    display: block;
+    left: 25%;
+    right: 25%;
+}
+.image-promo {
+    width: 100%;
+    height: 100% overflow: hidden;
+}
+.image-promo img {
+    width: 100%;
+    height: 100%
+}
+.txt-promo {
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    text-align: center;
+    font-size: 1em;
+    height: 400px;
+    min-width: 460px;
+}
+.title-promo {
+    font-size: 3.375em;
+    margin: 0px;
+    text-transform: uppercase;
+    font-family: 'RobotoCondensed-Bold', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    display: block;
+}
+.subtitle-promo {
+    font-size: 1em;
+    color: #000;
+    margin: 0px auto;
+    font-family: 'Roboto-Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.promo-and {
+    display: inline-block;
+    font-family: inherit;
+}
+
+h2.title-promo {
+color: inherit;
+font: inherit;
+letter-spacing: normal;
+}
+
+
+.sub-text, .sup-text{font-family: 'RobotoCondensed-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.promo-txt{font-family: 'RobotoCondensed-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.promotion, .off-promotion {
+    font-family: 'Roboto-light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    font-size: 1.050em;
+    text-transform: uppercase;
+    margin: 10px auto;
+}
+.promo {
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    line-height: 1;
+    text-align: center;
+}
+.promo span {
+    font-family: 'Roboto-black', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.300em;
+    margin: 0px 5px;
+}
+.off-promotion {
+    text-align: center;
+}
+.sup-promotion, .sub-promotion {
+    font-size: 1em;
+    color: #000;
+    font-weight: bold;
+}
+.button-promo {
+    width: 135px;
+    display: block;
+    margin: 10px auto 10px;
+    text-align: center;
+    padding: 5px 0px;
+    clear: both;
+}
+.button-promo:hover {
+    cursor: pointer;
+}
+.button-promo a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'RobotoCondensed-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8950em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.restrictions {
+    font-size: 0.750em;
+    color: #667;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    font-family: 'Roboto-regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: absolute;
+    width: 460px;
+    bottom: 20px;
+}
+.num-promotion {
+    font-size: 1.625em;
+    font-weight: bold;
+    font-family: 'Roboto-black', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.off-price {
+    font-size: 1.250em;
+    font-family: 'Roboto-light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+.big.liver.letter {
+letter-spacing: -2px;
+
+}
+
+p.num-promotion.promo-price > span {
+    margin-right: 10px;
+    font-size: 0.75em;
+    font-weight: normal;
+}
+.central-banner {
+position: relative;
+display: block;
+overflow: hidden;
+}
+.central-banner > div.txt-promo {
+    top: 0%;
+}
+.central-banner > div.image-promo {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.central-banner > div.image-promo img {
+    height: 100%;
+    width: 100%;
+}
+.button-more {
+    width: 130px;
+    display: block;
+    margin: 10px auto 10px;
+    text-align: center;
+    padding: 5px 0px;
+    cursor: pointer;
+    position: absolute;
+}
+.button-more a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'RobotoCondensed-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8950em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.transparent {
+    border: solid 1pt #fff;
+}
+h3.prod-title {
+    font-size: 26px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'RobotoCondensed-Bold', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px auto;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #D8D8D8;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+}
+.side-banner {
+    width: 340px;
+    height: 380px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.side-banner > div.image-promo {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0px auto;
+}
+.side-banner > div.image-promo img {
+    height: 100%;
+    width: 100%;
+}
+.side-banner > div.txt-banner {
+    position: absolute;
+    text-align: center;
+    display: block;
+    width: 340px;
+}
+.txt-banner.bottom-center {
+    bottom: 10px;
+    text-align: center;
+}
+.second-promo {
+    font-size: 0.875em;
+}
+.txt-banner > span.promotion {
+    margin: 2px;
+}
+.prom-title {
+    font-family: 'Roboto-light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: #000;
+    display: block;
+    margin: 0px auto;
+    text-transform: uppercase;
+}
+.txt-banner > span.off-promotion > p.off-price {
+    font-size: 0.875em;
+}
+.txt-banner > span.off-promotion > p.promo-price {
+    font-size: 1.500em
+}
+.full-central-banner {
+    height: 320px;
+    width: 1250px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+
+}
+.full-central-banner > div.image-promo {
+    width: 100%;
+    height: 100%;
+}
+.full-central-banner > div.txt-promo {
+    position: absolute;
+    top: 0px;
+    height: 320px;
+}
+.promotion.single {
+    margin-top: 40px!important;
+}
+.top-banner-especial {
+    width: 1250px;
+    height: 460px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.top-banner-especial .sub-text {
+text-align: left;
+padding-left: 5px;
+}
+.txt-promo-especial {
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    text-align: center;
+    font-size: 1em;
+    height: 250px;
+    width: 200px;
+    background-color: #fff;
+}
+.txt-promo-especial.align-center {
+    margin: 0px auto;
+    display: block;
+}
+.txt-promo-especial .title-promo {
+    font-size: 1.563em;
+    margin: 0px auto;
+    text-transform: uppercase;
+    font-family: 'Roboto-regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    display: block;
+    line-height: 1;
+}
+.txt-promo-especial .promotion, .txt-promo-especial .off-promotion {
+    font-family: 'RobotoCondensed-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 1.500em;
+    position: relative;
+    display: inline-block;
+}
+.txt-promo-especial.large {
+    width: 400px;
+    height: 250px;
+    text-align: left;
+    padding: 10px;
+}
+.percent {
+    font-family: 'Roboto-black', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 56px;
+    display: inline-block;
+    line-height: 1;
+    margin-left: 5px;
+}
+.promo-txt {
+    display: block;
+    line-height: 1;
+    clear: both;
+    margin: 0px auto 5px;
+}
+.msi {
+    font-family: 'RobotoCondensed-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    width: 80px;
+    line-height: 1;
+}
+.bigger {
+    font-size: 111px;
+    font-family: 'Roboto-black', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline-block;
+    line-height: 0.8em;
+    margin: 0px auto;
+    max-height: 100px;
+    letter-spacing: -10px;
+}
+.big {
+    font-size: 48px!important;
+    font-family: 'Roboto-black', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline-block;
+    line-height: 0.9em;
+    position: relative;
+    margin: 0px auto;
+}
+.medium {
+    font-size: 44px!important;
+    font-family: 'Roboto-black', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+}
+.hard {
+    font-size: 55px;
+    font-family: 'Roboto-black', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+    line-height: 1;
+}
+.small {
+    display: inline-block;
+    font-size: 26px!important;
+    font-family: 'Roboto-black', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    margin: 0px 5px;
+}
+.smallest {
+    display: inline-block;
+    font-size: 24px!important;
+    font-family: 'Roboto-black', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    margin: 0px 5px;
+}
+.large .promo-txt {
+    font-size: 18px;
+}
+.bold {
+    font-family: 'Roboto-black', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.button-promo-especial {
+    width: 135px;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 0px;
+    clear: both;
+    font-family: inherit;
+    padding: 4px 0px;
+}
+.button-promo-especial:hover {
+    cursor: pointer;
+}
+.button-promo-especial a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: inherit;
+}
+.aside-txt {
+    clear: none;
+    display: inline-block;
+    width: 160px;
+    font-size: 20px!important;
+    font-family: 'RobotoCondensed-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.inlined {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+    clear: both;
+    display: block;
+    width: 230px;
+    color: #000;
+    font-size: 18px;
+    margin: 5px 0px;
+
+}
+.inlined:before {
+    border-top: 2px solid #dfdfdf;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+.inlined p {
+    display: inline-block;
+    padding: 0px 10px;
+    background: #F5F5F5;
+    font-family: 'RobotoCondensed-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.inlined p .white{background: #FFF;}
+.centered-text {
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    float: none;
+    display: inline-block;
+}
+.left-text {
+    text-align: left;
+}
+.right-text {
+    text-align: right;
+    display: inline-block;
+}
+.side-banner-especial {
+    width: 340px;
+    height: 380px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.side-banner-especial > div.image-promo {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0px auto;
+}
+.side-banner-especial > div.image-promo img {
+    height: 100%;
+    width: 100%;
+}
+.side-banner-especial > div.txt-banner-especial {
+    position: absolute;
+    text-align: center;
+    display: block;
+    width: 340px;
+    bottom: 20px;
+}
+div.txt-banner-especial.double-promo {
+    bottom: 5px
+}
+.side-banner-especial .aside-txt {
+    width: 90px;
+    font-size: 18px!important;
+    font-family: 'RobotoCondensed-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.txt-banner-especial .prom-title {
+    font-size: 23px;
+    font-weight: bold;
+}
+.txt-banner-especial .promotion {
+    margin: 0px auto;
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+}
+.fit-display {
+    display: inline-block;
+}
+.txt-banner-especial .promo span {
+    margin: 0
+}
+.full-central-banner-especial {
+    height: 320px;
+    width: 1250px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.full-central-banner-especial > div.image-promo {
+    width: 100%;
+    height: 100%;
+}
+.full-central-banner-especial > div.txt-promo {
+    position: absolute;
+    height: 300px;
+    min-width: inherit;
+    line-height: 1;
+    display: inline-block;
+    padding: 20px 50px;
+    top: 0px;
+}
+.full-central-banner-especial .title-promo {
+    font-size: 23px;
+    font-family: 'Roboto-regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: normal;
+}
+.full-central-banner-especial .promotion {
+    font-family: 'RobotoCondensed-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    margin: 5px 0px 0px;
+}
+.full-central-banner-especial span.promotion.liver > p.sup-text {
+    font-size: 18px;
+    display: block;
+}
+.full-central-banner-especial .restrictions {
+bottom: 35px;
+display: inline-block;
+margin: 0px auto;
+width: auto;
+}
+.full-central-banner-especial .aside-txt {
+    width: 120px;
+    display: inline-block;
+    font-size: 18px!important;
+    font-family: 'RobotoCondensed-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin:0px;
+    text-align: left;
+}
+.half-side-banner {
+    width: 620px;
+    height: 380px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.half-side-banner > div.image-promo {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0px auto;
+}
+.half-side-banner > div.image-promo img {
+    height: 100%;
+    width: 100%;
+}
+.half-side-banner > div.txt-banner-especial {
+    position: absolute;
+    text-align: center;
+    display: block;
+    bottom: 20px;
+}
+.half-side-banner .aside-txt {
+    font-size: 18px!important;
+    font-family: 'RobotoCondensed-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100px;
+    margin:0px;
+}
+
+.txt-promo > .promotion > p > span.medium {
+margin: 0px;
+}
+
+.half-side-banner.promo span{margin-top: 0px;}
+.half-side-banner .title-promo {
+    font-size: 23px;
+    font-family: 'Roboto-regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+.half-side-banner .txt-promo {
+    position: absolute;
+    min-width: inherit;
+    line-height: 1;
+    display: inline-block;
+    padding: 20px 20px 0px;
+    top: 0px;
+}
+.half-side-banner .restrictions {
+    width: auto;
+    bottom: 5px;
+}
+.half-side-banner .single {
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+.half-side-banner .promotion {
+    margin: 3px 0px;
+    display: inline-block;
+}
+.half-side-banner .off-promotion {
+    text-align: center;
+    margin: 20px 0px 10px;
+}
+.half-side-banner .inlined {
+    width: 190px;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.small-banner {
+    width: 300px;
+    height: 320px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.small-banner .title-promo {
+    font-size: 23px;
+    font-family: 'Roboto-regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    display: block;
+}
+.small-banner .txt-promo {
+    position: absolute;
+    height: auto;
+    display: inline-block;
+    min-width: inherit;
+    display: inline-block;
+    padding: 20px 0px 0px;
+    top: 160px;
+    line-height: 1;
+}
+.small-banner .aside-txt {
+    display: inline-block;
+    width: 80px;
+    font-family: 'RobotoCondensed-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px!important;
+}
+.small-banner .inlined {
+    width: auto;margin: 0px
+
+}
+
+.small-banner .promotion{width: 280px; padding: 0px 10px;}
+
+.small-banner .txt-promo.single{padding-top: 75px;}
+
+
+
+/****Estilos de color****/
+
+.liver {
+    color: #e51d9b
+}
+.fabricas {
+    color: #ef3e42
+}
+.black {
+    color: #000;
+}
+.back-liver {
+    background: #e51d9b
+}
+.back-fabricas {
+    background: #ef3e42
+}
+.back-none {
+    background: none!important;
+}
+
+.clear-p{margin-top: 5px;}
+
+.inline-p{display: inline-block;}
+/****Estilos de color****/

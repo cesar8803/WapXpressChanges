@@ -1,0 +1,460 @@
+/*
+* Sliding Tabs - jQuery Plugin
+* Copyright 2011, Christian André
+*
+* CHANGING THE WIDTH: To change the width of the tabs layout see line 14.
+*
+------------------------------------------------------------------------------------- */
+
+div.st_horizontal { /* The main container */
+position:relative;
+float:left;
+clear:both;
+width:100%; /* Set the full width */
+color:#616161;
+font:12px Arial, Helvetica, sans-serif;
+}
+
+a.see_all_promos {
+position: absolute;
+right: 10px;
+top: 10px;
+font-size:12px;
+color: #E0068D;
+z-index: 120;
+}
+
+a.see_all_promos:hover {
+text-decoration: underline;
+}
+
+/* Control buttons
+------------------------------------------------------------------------------------- */
+div.st_horizontal a.st_prev,
+div.st_horizontal a.st_next { /* Directional buttons (previous/next) */
+position:absolute;
+top:0px;
+z-index:110;
+display:none;
+height:38px;
+width:39px;
+border:1px solid #d4d4d4;
+outline:none;
+background:#fff url(../img/btn_arrows.gif) no-repeat;
+}
+
+div.st_horizontal a.st_prev { /* Previous button */
+left:0px;
+background-position:13px 13px;
+border-top-left-radius:4px;
+-moz-border-radius-topleft:4px;
+-webkit-border-top-left-radius:4px;
+}
+
+div.st_horizontal a.st_prev:hover { /* Previous button hover */
+background-position:-50px 13px;
+background-color:#f5f5f5;
+}
+
+div.st_horizontal a.st_next { /* Next button */
+right:0px;
+background-position:14px -14px;
+border-top-right-radius:4px;
+-moz-border-radius-topright:4px;
+-webkit-border-top-right-radius:4px;
+}
+
+div.st_horizontal a.st_next:hover { /* Next button hover */
+background-position:-49px -14px;
+background-color:#f5f5f5;
+}
+
+div.st_horizontal a.st_prev.st_btn_disabled,
+div.st_horizontal a.st_next.st_btn_disabled { /* Previous and next buttons disabled state */
+cursor:default;
+background-color:#f7f7f7;
+}
+
+div.st_horizontal a.st_prev.st_btn_disabled { /* Previous button disabled state */
+background-position:-113px 13px;
+}
+
+div.st_horizontal a.st_next.st_btn_disabled { /* Next button disabled state */
+background-position:-112px -14px;
+}
+
+/* Tabs
+------------------------------------------------------------------------------------- */
+div.st_horizontal div.st_tabs_container { /* Tabs main container */
+position:relative;
+z-index:10;
+width:100% !important;
+height:30px;
+margin-bottom:-1px;
+overflow:hidden;
+
+}
+
+div.st_horizontal div.st_slide_container { /* Tabs slide-container */
+position:relative !important; /* The tabs position will be calculated from ul.tabs first parent element with position:relative */
+}
+
+div.st_horizontal div.st_sliding_active div.st_slide_container { /* The .st_sliding_active class is added to the div.st_tabs_container element when tab sliding is activated */
+margin:0px 40px; /* Adds side margins to make space for the arrow buttons */
+}
+
+div.st_horizontal ul.st_tabs { /* Tabs unordered list */
+width:10000px; /* Set to an arbitrary high value */
+height:40px;
+
+padding:0px;
+list-style:none;
+margin: 0px;
+}
+ul.st_tabs.tabs_centrado{
+/*margin:0 43% 0 43%;!important*/
+}
+
+div.st_horizontal ul.st_tabs li { /* Tab list elements */
+float:left;
+}
+
+div.st_horizontal ul.st_tabs li a { /* Tab links */
+display:block;
+margin:0px;
+padding:5px 20px;
+font-size:11px;
+line-height:18px; /* Aligns the tabs to the bottom of the content container */
+color:#6a6a6a;
+font-weight:bold;
+text-decoration:none;
+outline:none;
+border-top:1px solid #d4d4d4;
+border-right:1px solid #d4d4d4;
+border-bottom:1px solid #d4d4d4;
+background:#fff url(../img/h_tab_bg.jpg) repeat-x 0px bottom;
+}
+
+div.st_horizontal ul.st_tabs a:hover { /* Tabs hover state */
+color:#333;
+}
+
+div.st_horizontal ul.st_tabs li a.st_first_tab {
+border-left:1px solid #d4d4d4;
+}
+
+div.st_horizontal ul.st_tabs a.st_tab_active { /* Tab active/highlighted state */
+color:#1ca5ec;
+border-bottom-color:#fff;
+background:#fff;
+cursor:default;
+}
+
+/* Content
+------------------------------------------------------------------------------------- */
+div.st_horizontal div.st_view_container { /* Main content container */
+position:relative;
+z-index:5;
+padding:20px 20px 23px; /* Set the padding for the content here */
+border:1px solid #d4d4d4;
+background-color:#fff;
+overflow:hidden; /* To make the content scroll if Javascript is disabled, set to: auto */
+}
+
+div.st_view_container.alto_fijo {
+/*height:830px!important;*/
+/*border:1px solid #F2F2F2!important;*/
+padding:10px 8px 10px 10px!important; /* Set the padding for the content here */
+position: relative;
+margin-bottom:20px;
+}
+li.wide{
+width:496px;
+height:20px;
+text-align:center;
+}
+.promos{
+width:300px;
+height:38px;
+position:absolute;
+margin:-11px 0 0 0;
+background: url(../../../images/iconos/icon_sales.png) no-repeat 22px top !important;
+
+/*ie7*/
+*background: url(../../../images/iconos/icon_sales.png) no-repeat -50px top!important;
+
+}
+div.st_horizontal div.st_view { /* Slide-container for the content */
+position:relative;
+
+}
+
+div.st_horizontal div.st_tab_view { /* Individual content containers */
+display:none; /* Hides the content when Javascript is disabled */
+width:100%;
+}
+
+div.st_horizontal div.st_first_tab_view {
+display:block;
+}
+#st_content_1,#st_content_2{position: static !important;}
+#st_horizontal .st_view{height:auto !important}
+
+
+.pdpromotions{
+max-height: 200px !important;
+overflow-y: scroll !important;
+
+}
+
+
+div.st_horizontal div.st_view section > h2 {
+margin:6px 0 10px;
+padding:0 0 5px;
+position: relative;
+}
+
+div.st_horizontal div.st_view section > h2 span {
+font-size:24px;
+color: #1CA5EC;
+}
+
+nav.pagination_promos {
+clear: both;
+}
+
+nav.pagination_promos li {
+display: inline;
+}
+
+nav.pagination_promos li a {
+padding: 0 7px;
+border: 1px solid #d4d4d4;
+font-size: 12px;
+color: #333;
+}
+
+nav.pagination_promos li a:hover {
+border: 1px solid #1CA5EC;
+}
+
+nav.pagination_promos li a.pagination_current,
+nav.pagination_promos li a.pagination_current:hover {
+border: 1px solid #d4d4d4;
+color: #1CA5EC;
+background: #eaeaea;
+}
+
+nav#bottom_pagination {
+position: absolute;
+bottom: 0;
+}
+
+div#promo_gallery {
+padding: 10px 0 0 0;
+clear: both;
+overflow: hidden;
+}
+
+div#promo_gallery ul.gallery_thumbnails {
+width: 468px;
+float: left;
+padding: 0;
+position: relative;
+overflow: hidden;
+}
+
+div#promo_gallery ul.gallery_thumbnails li {
+width: 141px;
+float: left;
+margin: 0 0 8px 16px;
+position: relative;
+}
+
+div#promo_gallery ul.gallery_thumbnails li a {
+float: left;
+display: block;
+}
+
+div#promo_gallery ul.gallery_thumbnails li a img {
+border: 2px solid #d4d4d4;
+}
+
+div#promo_gallery ul.gallery_thumbnails li:hover a img {
+border: 2px solid #E0068D;
+}
+
+div#promo_gallery ul.gallery_thumbnails li.thumbnails_current a img,
+div#promo_gallery ul.gallery_thumbnails li.thumbnails_current a img:hover {
+border: 2px solid #1CA5EC;
+}
+
+div#promo_gallery ul.gallery_thumbnails li a span.interests_outer {
+position: absolute;
+left: 2px;
+bottom: 4px;
+width: 100%;
+font-size: 14px;
+color: #000;
+background: #fff;
+opacity: .85;
+/* For IE 5-7 */
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+/* For IE 8 */
+-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+div#promo_gallery ul.gallery_thumbnails li a span.interests_outer span {
+display: block;
+padding: 8px;
+}
+
+div#promo_gallery ul.gallery_thumbnails li.left_thumbnail {
+margin-left: 0;
+}
+
+div#promo_description_block {
+width: 468px;
+float: right;
+position: relative;
+}
+
+div#promo_description_block h2 {
+padding: 0 0 5px;
+border-bottom: 1px solid #ddd;
+margin: 0 0 10px;
+font-size: 24px;
+color: #333;
+line-height: 1.25;
+}
+
+div#promo_description_block img {
+width: 468;
+margin: 0 auto;
+display: block;
+}
+
+div#promo_description_block ul {
+padding-bottom: 16px;
+font-size: 14px;
+line-height: 1.5;
+list-style: disc;
+list-style-position: inside;
+}
+
+div#promo_description_block h3 {
+padding: 0 0 10px 0;
+font-size: 20px;
+color: #1CA5EC;
+position: relative;
+clear: both;
+}
+
+div#promo_description_block h3 span {
+font-size: 14px;
+color: #333;
+}
+
+div#promo_description_block a.add_promo {
+width: 170px;
+height: 34px;
+float: right;
+padding: 5px 0;
+margin: 10px 0;
+text-indent: -9999px;
+background: url("../../../images/btns/btn_anadir_bolsa.png") no-repeat left top;
+clear: both;
+display: block;
+}
+
+div#promo_description_block a.add_promo:hover {
+background-position: left -44px;
+}
+
+div#promo_description_block h3 a#top_add_promo {
+position: absolute;
+right: 0;
+top: -14px;
+}
+
+div.st_horizontal div.st_view section p {
+margin:14px 0 0;
+padding:0 0 10px;
+line-height: 1.25;
+}
+
+div.st_horizontal div.st_view section blockquote {
+float:left;
+width:315px;
+margin:18px 14px 0 0;
+padding:0 0 0 10px;
+border-left:2px solid #5c5c5c;
+font:italic 17px/21px Georgia, "Times New Roman", Times, serif;
+color:#A8A8A8;
+}
+
+div.st_horizontal div.st_view section blockquote p {
+margin:0px;
+}
+
+/* Bottom aligned tabs
+------------------------------------------------------------------------------------- */
+div.st_horizontal.align_bottom a.st_prev,
+div.st_horizontal.align_bottom a.st_next { /* Directional buttons (previous/next) */
+border-bottom:1px solid #d4d4d4;
+}
+
+div.st_horizontal.align_bottom a.st_prev { /* Previous button */
+/* Reset top borders */
+border-top-left-radius:0px;
+-moz-border-radius-topleft:0px;
+-webkit-border-top-left-radius:0px;
+/* Set bottom borders */
+border-bottom-left-radius:4px;
+-moz-border-radius-bottomleft:4px;
+-webkit-border-bottom-left-radius:4px;
+}
+
+div.st_horizontal.align_bottom a.st_next { /* Next button */
+/* Reset top borders */
+border-top-right-radius:0px;
+-moz-border-radius-topright:0px;
+-webkit-border-top-right-radius:0px;
+/* Set bottom borders */
+border-bottom-right-radius:4px;
+-moz-border-radius-bottomright:4px;
+-webkit-border-bottom-right-radius:4px;
+}
+
+div.st_horizontal.align_bottom div.st_tabs_container { /* Tabs main container */
+position:absolute; /* Absolute position the tabs container at the bottom of the main container */
+bottom:-39px;
+left:0px;
+margin-bottom:0px;
+}
+
+div.st_horizontal.align_bottom ul.st_tabs a.st_tab_active { /* Tab active/highlighted state */
+border-top-color:#fff;
+border-bottom-color:#d4d4d4;
+}
+.text p {
+font-size:1em!important;
+}
+
+.text ul{
+font-size:1em!important;
+list-style-type: disc;
+list-style-position: inside;
+}
+
+
+.headli{
+color:#D20584;
+list-style-type: none;
+}
+.links_movil{
+color:#0091D0;
+}
+.liver_pink{
+color:#D20584;
+}

@@ -1,0 +1,698 @@
+html
+  head
+    // <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    title
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0', name='viewport')
+    meta(name='format-detection', content='telephone=no')
+    title
+    // Bootstrap
+    link(href='/mobileAssets/css/bootstrap3/bootstrap.css', rel='stylesheet')
+    link(href='/mobileAssets/css/cart.css', rel='stylesheet')
+    // <link href="/mobileAssets/css/style.css" rel="stylesheet" />
+    link(href='/mobileAssets/css/bootstrap3/awesome-bootstrap-checkbox.css', rel='stylesheet')
+    // <link rel="stylesheet" href="/mobileAssets/mobileAssets/css/bootstrap3/jquery.mobile-1.4.5.min.css">
+    link(href='/mobileAssets/css/m5.css', rel='stylesheet')
+    link(href='/mobileAssets/css/account.css', rel='stylesheet')
+    link(href='/mobileAssets/css/header-checkout.css', rel='stylesheet')
+    link(rel='stylesheet', type='text/css', href='/mobileAssets/css/pdpheader.css')
+    link(href='/mobileAssets/css/pdpdevice.css', rel='stylesheet')
+    link(rel='stylesheet', type='text/css', href='/mobileAssets/css/bootstrap3/header-tyle.css')
+    link(rel='stylesheet', type='text/css', href='/mobileAssets/css/LP_Custom.css')
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(type='text/javascript', src='/mobileAssets/js/bootstrap3/jquery-1.11.2.min.js')
+    script(type='text/javascript', src='/mobileAssets/js/bootstrap3/bootstrap.js')
+    script(type='text/javascript', src='/mobileAssets/js/bootstrap3/checkout_cart.js')
+    script(type='text/javascript', src='/mobileAssets/js/jquery.form.js')
+    script(src='/mobileAssets/js/bootstrap3/validator.js')
+    script(type='text/javascript', src='/mobileAssets/js/bootstrap3/cart.js')
+    script(type='text/javascript', src='/mobileAssets/js/jquery-ui.js')
+    script(type='text/javascript', src='/mobileAssets/js/endeca_common.js')
+    script(type='text/javascript', src='/mobileAssets/js/endeca-auto-suggest.js')
+    script(type='text/javascript', src='/mobileAssets/js/akam_image_handler.js')
+    script(type='text/javascript', src='/mobileAssets/js/md5.js')
+    script(type='text/javascript', src='/mobileAssets/js/jquery.validate.js')
+    script(type='text/javascript', src='/mobileAssets/js/bootstrap3/forms.js')
+    script(type='text/javascript', src='/mobileAssets/js/LP_Custom.js')
+    script(type='text/javascript', src='/mobileAssets/js/analytics.js')
+    input#contextroot(type='hidden', value='/tienda/m')
+  body.step_0_shopping_cart
+    .root_container
+      // defect:7228 fix start
+      // defect:7228 fix end
+      header.head_container
+        .visible-xs.border-header.row.header-mobile
+          #TapZoom.col-xs-2.back-button
+            button.btn-back-head(onclick="window.location.href='http://www.liverpool.com.mx/tienda/m/malla-reebok-para-dama/1043685751'")
+              img#btnClass(src='/mobileAssets/images/arrow_header.png')
+          .col-xs-4.col-xs-offset-1.logo-container
+            a(href='/tienda/m', rel='external')
+              img.img-responsive.logo(src='/mobileAssets/images/logo.png')
+          .col-xs-4.col-xs-offset-1
+            .col-xs-offset-4.col-xs-5
+              a.search-icon(href='#myModal_search', data-target='.bs-example-modal-lg-search', data-toggle='modal', title='search')
+                img.img-size-icon(src='/mobileAssets/images/search_pdp.png')
+          // starts: search popup for mobile
+          #myModal_search.modal.fade.bs-example-modal-lg-search(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
+            .modal-size.modal-dialog.modal-lg
+              .modal-size.modal-content
+                .bg-Modal(data-dismiss='modal')
+                  p < REGRESAR
+                hr
+                //
+                  <div class="lp-search-sub-header">
+                  <span>QuÃÂÃÂ© estÃÂÃÂ¡s buscando ?</span>
+                  </div>
+                .lp-search-input-cont
+                  .category_drop.iphone.input-group
+                    form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
+                      //
+                        <input type="button" value="cl" >
+                        <input type="submit" value="" class="btn-search">
+                      input#busca.field-search.cross_site_script_val_pop.valid.form-control(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
+                      //
+                        <button class="btn" type="button">
+                        <img src="/mobileAssets/images/icons/mega-menu-close.png" alt="X" />
+                        </button>
+                      span.input-group-btn.btn-Searc-head
+                        button.header_search-button(type='submit')
+                      //
+                        <div class="input-append">
+                        <input class="field-search cross_site_script_val_pop valid" id="appendedInputButtons" type="text">
+                        <button class="btn" type="button">Close</button>
+                        <input type="submit" value="" class="btn btn-search">
+                        </div>
+                      //
+                        <div class="visible-phone lp-search-cont">
+                        <div class="row-fluid input-append">
+                        <input class="input-block-level field-search valid cross_site_script_val_pop" id="busca" type="text" name="s" autocomplete="off" placeholder="Que estas buscando?" >
+                        <input type="submit" class="btn btn-search" value="search" />
+                        </div>
+                        </div>
+                      input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
+                      #typeahead(style='display: none;')
+                        #type-main-list
+                          #type-ver-todos
+          // ends: search popup for mobile
+        // Header Movil
+        .hidden-xs.border-header.row.header-ipad
+          .col-xs-1.back-button-ipad
+            button.btn-back-head(onclick="window.location.href='http://www.liverpool.com.mx/tienda/m/malla-reebok-para-dama/1043685751'")
+              img(src='/mobileAssets/images/arrow_header.png')
+          .col-xs-6.logo-container
+            .col-xs-2
+              a(href='/tienda/m', rel='external')
+                img.img-responsive.logo(src='/mobileAssets/images/logo.png')
+            .col-xs-10
+              .input-group.search-position
+                form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
+                  //
+                    <input type="button" value="cl" >
+                    <input type="submit" value="" class="btn-search">
+                  input#busca.field-search.cross_site_script_val_pop.valid.form-control(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
+                  //
+                    <button class="btn" type="button">
+                    <img src="/mobileAssets/images/icons/mega-menu-close.png" alt="X" />
+                    </button>
+                  span.input-group-btn.btn-Searc-head
+                    button.header_search-button(type='submit')
+                  //
+                    <div class="input-append">
+                    <input class="field-search cross_site_script_val_pop valid" id="appendedInputButtons" type="text">
+                    <button class="btn" type="button">Close</button>
+                    <input type="submit" value="" class="btn btn-search">
+                    </div>
+                  //
+                    <div class="visible-phone lp-search-cont">
+                    <div class="row-fluid input-append">
+                    <input class="input-block-level field-search valid cross_site_script_val_pop" id="busca" type="text" name="s" autocomplete="off" placeholder="Que estas buscando?" >
+                    <input type="submit" class="btn btn-search" value="search" />
+                    </div>
+                    </div>
+                  input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
+                  #typeahead(style='display: none;')
+                    #type-main-list
+                      #type-ver-todos
+              // /input-group
+          .col-xs-5
+            .col-xs-10
+              .btn-group.bg-Group(role='group')
+                // user profile I pad
+                a(data-toggle='modal', data-target='#myLogginAlert', title='Iniciar sesión')
+                  button.btn-group-user(type='button')
+                    img.img-group.myaccount-icon(src='/mobileAssets/images/icons/header_usericonipad.png')
+                    | Iniciar sesión
+                a(href='/tienda/m/browse/store.jsp', rel='external')
+                  button.btn-group-user
+                    img.img-group(src='/mobileAssets/images/icons/header_storesiconipad.png')
+                    span Localiza tu tienda
+                // user profile
+            .col-xs-2.badge-position
+              a.img-size-icon-bag(href='/tienda/m/cart/cart.jsp', rel='external')
+                span.badge-img.badge
+                  // defect:7228 fix start
+                  | 1
+                  // defect:7228 fix end
+                img.img-size-badge(src='/mobileAssets/images/bag.png')
+      script.
+        window.onload = function(){
+        dataLayer.push({ 'category':'Cart',
+        'subcategory':'Cart',
+        'event':'contentGroup'
+        });
+        }
+      #testHeaderCartContent
+        input#mobilePage_contextPath(type='hidden', value='/tienda/m')
+        .header-nav-utility.pull-left.hidden-phone
+          .row-fluid
+            .span4.pull-right.header-loginlinks
+              .row-fluid
+                // <div id="testHeaderCartContent">
+                //
+                  <div class="span7 menu-utility">
+                  <ul>
+                  <li class="shopping-bag">
+                  <a class="cart-link touchEvent" href="/tienda/m/cart/cart.jsp" title="cart" rel="shopping-cart.jsp"><span>cart</span><div class="cart-bubble">(1)</div></a>
+                  <div class="cart-link-arw">
+                  </div>
+                  </li>
+                  <li>
+                  <a class="store-locator-link" href="javascript:void(0)" title="store locator">store locator</a>
+                  </li>
+                  <li>
+                  <a class="search-icon" href="javascript:void(0)" title="search">search</a>
+                  </li>
+                  </ul>
+                  </div>
+                .span7.menu-utility
+                  ul.headerrightmenu
+                    li.shopping-bag
+                      a.cart-link.touchEvent(href='/tienda/m/cart/cart.jsp', title='cart', rel='shopping-cart.jsp')
+                        span
+                          | cart
+                        .badge
+                          | 1
+                      .cart-link-arw
+                      // start: mini cart container
+                      section.mini-cart-container.hidden-phone
+                        .mini-cart-noitems.hide
+                        // start: mini cart content
+                        .mini-cart-content
+                          #minicart_itemcount
+                            span 1
+                            span elemento añadido a su bolsa
+                          p.mini-cart-itemcount
+                            | 1 Productos en mi bolsa
+                        // end: mini cart content
+                        // start: mini cart footer
+                        .mini-cart-footer
+                          a(href='/tienda/m/cart/cart.jsp')
+                            input.btn.btn-pink-small.mt10(type='button', value='Comprar')
+                        // end: mini cart footer
+                      // end: mini cart container
+                // </div>
+        .lp-header-search-icon
+          a.cart-link.visible-phone.touchEvent(href='/tienda/m/cart/cart.jsp', title='cart', rel='/tienda/m/cart/cart.jsp')
+            span cart
+            .cart-bubble 1
+      .panel.panel-default
+        .panel-heading.text-center
+          span.txt-black MI Bolsa
+          span.txt-pink Liverpool
+      #main.content-area.area-shopping-card
+        // Page content
+        input#logged(type='hidden', name='logged', value='true')
+        script(type='text/javascript', src='/mobileAssets/js/script_filler.js')
+        input#commerceItemCountId(type='hidden', value='1')
+        input#contextroot(type='hidden', value='/tienda/m')
+        // Page content
+        input#logged(type='hidden', name='logged', value='true')
+        #checkoutmyLogginAlert.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel2', aria-hidden='true')
+          .modal-dialog
+            .modal-content
+              .row
+                // start: tabnavigationcontainer
+                .popUp.rad3.tabnavigationcontainer
+                  ul.nav.nav-tabs.mb5.tabs
+                    li.col-md-6.chk-login-tab1.active
+                      a.mr0.tablink.login-button(href='javascript:void(0);')
+                        | Usuario existente
+                        input.tabID(type='hidden', value='1')
+                    li.col-md-6.ml0.chk-login-tab2
+                      a.mr0.tablink.login-button(href='javascript:void(0);')
+                        | Nuevo usuario
+                        input.tabID(type='hidden', value='2')
+                  a.modal-close-btn.btn-default.checkout-login-close(href='/tienda/m/cart/cart.jsp', title='close')
+                  .tab-content.firsttab(style='display: block;')
+                    .row
+                      .col-md-12
+                        #divWarningForEbook1(name='divWarningForEbook', style='display: none;')
+                          span.error
+                            | Tu Orden contiene eBooks por lo que solo podrás realizar tu compra a través de un usuario registrado
+                    form#checkout-login.form-withphone(action='/tienda/m/home.jsp', role='form', data-toggle='validator', name='checkout-login')
+                      input(value='utf-8', type='hidden', name='_dyncharset')
+                      input(value='4089569500095013079', type='hidden', name='_dynSessConf')
+                      input(value='/tienda/m', type='hidden', name='/atg/userprofiling/ProfileFormHandler.contextRoot')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.contextRoot')
+                      input(value='true', type='hidden', name='/atg/userprofiling/ProfileFormHandler.checkoutRedirect')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.checkoutRedirect')
+                      label(for='login-email') Inicia sesión para terminar tu compra
+                      .form-group
+                        input#inputEmail.checkout-login-email.form-control(value='', placeholder='Correo electrónico', data-error='Introduzca su dirección de correo electrónico', mandatory='true', type='email', name='checkout-login-email')
+                        input(value=' ', type='hidden', name='_D:checkout-login-email')
+                        .help-block.with-errors
+                      .form-group
+                        input#inputPassword.checkout-login-email.form-control(value='', placeholder='Contraseña', data-error='Por favor introduzca la contraseña', mandatory='true', type='password', name='checkout-login-pwd')
+                        input(value=' ', type='hidden', name='_D:checkout-login-pwd')
+                        .help-block.with-errors
+                      input.btn-pink(value='Inicia Sesión', type='submit', name='/atg/userprofiling/ProfileFormHandler.login')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.login')
+                      input(value='/tienda/m/home.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                      input(value='/tienda/m/cart/checkoutLoginError.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                      .row
+                        .col-md-6
+                          a.btn-grey.btn.mt10.rad3.signin-btn.btn-1(href='/tienda/m/checkout/newDeliveryAddressAdd.jsp')
+                            | Compra sin registro
+                        .col-md-6
+                          a.btn-grey.btn.mt10.rad3.cancel-btn.btn-2(href='/tienda/m/users/forgotPassword.jsp') ¿Olvidaste tu contraseña?
+                      input(value='/m/users/frag/checkoutpopup.jsp', type='hidden', name='_DARGS')
+                    .clearfix
+                  .tab-content.create-account-tab.hidecontent(style='display: none;')
+                    .row
+                      .col-md-12
+                        #divWarningForEbook(name='divWarningForEbook', style='display: none;')
+                          span.error
+                            | Tu Orden contiene eBooks por lo que solo podrás realizar tu compra a través de un usuario registrado
+                    .row.checkout-newuser-content
+                      .col-md-6.checkout-newuser-tab1
+                        .row.mb20
+                          .col-md-12
+                            label Compra sin registro
+                            span
+                              | Realiza tu compra sin crear cuenta
+                        .row
+                          .col-md-12
+                            a(href='/tienda/m/checkout/newDeliveryAddressAdd.jsp')
+                              input.btn-pink(type='submit', value='Compra sin registro')
+                      .col-md-6.checkout-newuser-tab2
+                        .row.mb20
+                          .col-md-12
+                            span.chk-new-userinfo  ¿No Tienes cuenta Liverpool? 
+                        .row
+                          .col-md-12
+                            a(href='/tienda/m/users/register.jsp?checkoutRegister=true', onclick="dataLayer.push({'labelNewUser':'shoppingCart;','event':'RegisterUser'})")
+                              input.btn-pink(type='submit', value='Crear cuenta')
+                // end: tabnavigationcontainer
+        input#currentProductDetailsPageUrl(value='/tienda/m/cart/cart.jsp', type='hidden')
+        // Div Loggin Modal
+        #myLogginAlert.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel2', aria-hidden='true')
+          .modal-dialog
+            a.modal-close-btn.checkout-login-close(href='/tienda/m/cart/cart.jsp', rel='external', title='close')
+            .modal-content
+              .modal-body.loggin-modal-body
+                ul#myTab.nav.nav-tabs(role='tablist')
+                  li.active(role='presentation')
+                    a#home-tab(href='#home', role='tab', data-toggle='tab', aria-controls='home', aria-expanded='true')  Iniciar sesión:
+                  li(role='presentation')
+                    a#profile-tab(href='#profile', role='tab', data-toggle='tab', aria-controls='profile', aria-expanded='false')  ¿Nueva cuenta en Liverpool?
+                #myTabContent.tab-content
+                  #home.tab-pane.fade.active.in(role='tabpanel', aria-labelledby='home-tab')
+                    form#login.form-horizontal.form-withphone(target='_top', action='/tienda/m/cart/cart.jsp', novalidate='novalidate', name='login')
+                      input(value='utf-8', type='hidden', name='_dyncharset')
+                      input(value='4089569500095013079', type='hidden', name='_dynSessConf')
+                      // 6981 defect Fix
+                      input(value='/tienda/m', type='hidden', name='/atg/userprofiling/ProfileFormHandler.contextRoot')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.contextRoot')
+                      // 6981 defect Fix
+                      #data_receiver.row.form-section
+                        div
+                          .form-group
+                            label.col-md-4.control-label(for='email')
+                              | Correo electrónico:
+                            .col-md-8
+                              //
+                                <input type="email" class="form-control" id="email"
+                                placeholder="">
+                              input#login.form-control.input-block-level(value='', data-error='Por favor ingrese un email válido', mandatory='true', type='email', maxlength='255', name='login', data-msg-email='111')
+                              input(value=' ', type='hidden', name='_D:login')
+                              .help-block.with-errors
+                        div
+                          .form-group
+                            label.col-md-4.control-label(for='password')
+                              // Contraseña:
+                              | Contraseña:
+                            .col-md-8
+                              //
+                                <input type="password" class="form-control" id="password"
+                                placeholder="">
+                              input#pass.form-control.input-block-level(value='', min='6', data-error='Por favor introduzca la contraseña', mandatory='true', type='password', name='pass')
+                              input(value=' ', type='hidden', name='_D:pass')
+                              .help-block.with-errors
+                      input.btn-pdp(value='Entrar', type='submit', name='/atg/userprofiling/ProfileFormHandler.login')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.login')
+                      // 
+                      input(value='/tienda/m/cart/cart.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.pdpLoginSuccessUrl')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.pdpLoginSuccessUrl')
+                      input(value='true', type='hidden', name='/atg/userprofiling/ProfileFormHandler.isWapPdp')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.isWapPdp')
+                      input(value='/tienda/m/cart/cart.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                      input(value='/tienda/m/users/cartLoginerror.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                      input(value='/m/users/frag/pdpLoginPopup.jsp', type='hidden', name='_DARGS')
+                    a(href='/tienda/m/users/forgotPassword.jsp', rel='external')
+                      button.btn-pdp-con
+                        span Olvidaste tu contraseña
+                  #profile.tab-pane.fade(role='tabpanel', aria-labelledby='profile-tab')
+                    div
+                      p  
+                      a(href='/tienda/m/users/register.jsp', rel='external')
+                        button.btn-pdp
+                          span Crea tu cuenta
+                      p.lead.mb5.mt20 Obtén grandes beneficios registrándote
+                      ul.subList.pb0
+                        li
+                          span Descuentos exclusivos en compras por internet
+                        li
+                          span Asistencia telefónica
+                        li
+                          span Certificados de seguridad Verisign y Amipci
+        // End  Loggin Modal
+        #catrchecking.row
+          #submit_button_top.row.visible-xs.submit_button
+            .col-sm-12.text-center
+              input#orderId(type='hidden', value='o1560690580', name='orderId')
+              // <a href='javascript: void(0);' data-toggle='modal' data-target='#checkoutmyLogginAlert' title='iniciar sesiÃ?Â³n'>
+              input#submit_button_purchase1.btn.btn-primary.next-step-button(type='button', value='Pagar', onclick='checkoutLoginPopup()')
+              // </a>
+          .col-sm-8.all-products-container
+            // <div class="row personal-shop-container">
+            input#checkout_contextroot(type='hidden', value='/tienda/m')
+            .row.personal-shop-container
+              #item1.item
+                .panel-heading.head-address.label-personal-shop.text-center
+                  h6
+                    | TUS PRODUCTOS
+                .first_item-module
+                  .col-xs-3.item-image
+                    img.chck-img(src='http://media23.liverpool.com.mx/web/images/products/es_MX/lg/1043685763.jpg', onerror="defaultImageonCart(this,'/mobileAssets/images/fillers/filler_REC.gif')")
+                  .col-xs-9.item-attributes
+                    .col-md-7.item-descr-price-sku
+                      ul.item-list-attributes
+                        a(href='/tienda/m/malla-dama-3-4-entrena/1043685751', title='HAUS')
+                          li
+                            span.product-title
+                              | malla-dama-3-4-entrena
+                        li
+                          span.product-sku
+                            li
+                              span.product-sku
+                                | SKU:
+                                | 1043685763
+                            li.cart-size Talla:  Chica
+                            li.cart-color
+                              | Color:
+                              | Rojo
+                            li.cart-color
+                              | Texture:
+                              | ESTAMPADO
+                            li.cart-color
+                              | Materiales
+                              | POLIESTER
+                            li
+                              span.product-price
+                                span.product-old-price  $599.00
+                                span.product-price.product-new-price  $509.15
+                    .col-md-5.item-cuantity-delete
+                      .col-xs-7.item-quantity-container
+                        form#update_1(method='post', action='/tienda/m/cart/submitCart.jsp?_DARGS=/m/cart/frag/cartItems.jsp.update_1')
+                          input(value='utf-8', type='hidden', name='_dyncharset')
+                          input(value='4089569500095013079', type='hidden', name='_dynSessConf')
+                          input#chkQuant1(value='true', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.checkForChangedQuantity')
+                          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.checkForChangedQuantity')
+                          input(value='/tienda/m/cart/submitCart.jsp', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.setOrderSuccessURL')
+                          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.setOrderSuccessURL')
+                          input(value='/tienda/m/cart/submitCart.jsp', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.setOrderErrorURL')
+                          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.setOrderErrorURL')
+                          input#updQuant1(value='submit', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.setOrderByCommerceId')
+                          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.setOrderByCommerceId')
+                          .form-group
+                            label.col-xs-6.col-md-12.control-label(for='quantity') CANTIDAD:
+                            .col-xs-9.col-md-12.quantity_container
+                              span.a-button.a-button-dropdown.a-button-small.a-button-span12.quantity.a-fastclick-disable(tabindex='-1', data-a-class='quantity a-fastclick-disable')
+                                span.a-button-inner
+                                  span.a-button-text.a-declarative(data-action='a-dropdown-button', aria-haspopup='true', role='button', tabindex='0', aria-pressed='false', aria-owns='2_dropdown_combobox')
+                                    span.a-dropdown-label
+                                      span.sc-offscreen-label(aria-label='Quantity')
+                                    span.a-dropdown-prompt 1
+                                    input#update_1.a-dropdown-prompt1(type='hidden', maxlength='3', name='ci53072624864', value='1')
+                                  i.iconvector.glyphicon.glyphicon-chevron-down
+                          .input-10-plus
+                            .col-xs-6.a-input-text-wrapper.a-width-small.sc-quantity-textfield.sc-hidden.sc-small-textfield.a-spacing-micro
+                              // START: SR, fix made for UAT issue 5413
+                              input#update_1final.plus-qty(type='number', maxlength='3', pattern='([0-9]|[0-9]|[0-9])', name='ci53072624864', currentval='6', autocomplete='off', onkeypress="if (event.keyCode == 13){ submitUpdate('update_1'); return false } else{ return isNumberKeys(event)}", onchange="submitUpdate('update_1');")
+                              // END: SR, fix made for UAT issue 5413
+                            .col-xs-6.sc-quantity-update-button.a-hidden
+                              span#a-autoid-6.a-button.a-button-primary.a-button-small.sc-update-link
+                                span.a-button-inner
+                                  a#a-autoid-6-announce.a-button-text(href='javascript:void(0);', data-action='update', role='button') Actualizar
+                          // Modal de cantidades
+                          #myModalQuantitySelect.modal.fade.quantity_modal(tabindex='-1', role='dialog', aria-labelledby='myModalLabel3', aria-hidden='true')
+                            .modal-dialog.dialog-numbers
+                              .modal-content.content_numbers
+                                .modal-header
+                                  button.close(type='button', data-dismiss='modal', aria-label='Close')
+                                    span(aria-hidden='true') ×
+                                  h4.modal-title
+                                    | CANTIDAD
+                                .modal-body.numbers-body
+                                  .a-popover-inner.a-declarative(data-action='a-popover-scroll')
+                                    ul#1_dropdown_combobox.a-nostyle.a-list-link(tabindex='-1', role='listbox', aria-multiselectable='false')
+                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_0')
+                                        a#dropdown1_0.a-dropdown-link.a-active(tabindex='-1')  1
+                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_1')
+                                        a#dropdown1_1.a-dropdown-link.a-active(tabindex='-1')  2
+                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_2')
+                                        a#dropdown1_2.a-dropdown-link.a-active(tabindex='-1')  3
+                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_3')
+                                        a#dropdown1_3.a-dropdown-link.a-active(tabindex='-1')  4
+                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_4')
+                                        a#dropdown1_4.a-dropdown-link.a-active(tabindex='-1')  5
+                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_5')
+                                        a#dropdown1_5.a-dropdown-link.a-active(tabindex='-1')  6
+                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_6')
+                                        a#dropdown1_6.a-dropdown-link.a-active(tabindex='-1')  7
+                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_7')
+                                        a#dropdown1_7.a-dropdown-link.a-active(tabindex='-1')  8
+                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_8')
+                                        a#dropdown1_8.a-dropdown-link.a-active(tabindex='-1')  9
+                                      li.a-dropdown-item.quantity-option.quantity-option-10(tabindex='0', role='option', aria-selected='true', aria-labelledby='dropdown1_9')
+                                        a#dropdown1_9.a-dropdown-link(tabindex='-1', href='javascript:void(0)') 10+
+                          input(value='/m/cart/frag/cartItems.jsp.update_1', type='hidden', name='_DARGS')
+                      .col-xs-5.item-delete-button-container
+                        form#remove_1.mb0(method='post', action='/tienda/m/cart/submitCart.jsp?_DARGS=/m/cart/frag/cartItems.jsp.remove_1', name='remove_1')
+                          input(value='utf-8', type='hidden', name='_dyncharset')
+                          input(value='4089569500095013079', type='hidden', name='_dynSessConf')
+                          input#removeItemFromOrderSuccessURL_1(value='/tienda/m/cart/submitCart.jsp', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrderSuccessURL')
+                          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrderSuccessURL')
+                          input(value='/tienda/m/cart/submitCart.jsp', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrderErrorURL', id='removeItemFromOrderErrorURL{count}')
+                          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrderErrorURL')
+                          input#removalCommerceIds_1(value='ci53072624864', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.removalCommerceIds')
+                          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.removalCommerceIds')
+                          button.btn.btn-sm.delete_button(type='button', for='delete', onclick="submitUpdate('remove_1');javascript:gtmRemoveFromCart('Malla Dama 3/4 Entrena','1043685763','509.15','REEBOK','Disciplinas y Accesorios','Ella',' Rojo','1');")
+                            | Borrar
+                          input(value='submit', type='hidden', name='/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrder')
+                          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/CartModifierFormHandler.removeItemFromOrder')
+                          input(value='/m/cart/frag/cartItems.jsp.remove_1', type='hidden', name='_DARGS')
+                // -- First Gift Message
+                // PA Support : 12th Oct 2015  added for Bugzilla defect 6145
+                #accordion.panel-group(role='tablist', aria-multiselectable='true')
+                  .panel.panel-default.gift-panel
+                    form#wrapDetails_form(action='/tienda/m/cart/frag/#', novalidate='novalidate', name='wrapDetails')
+                      input(value='utf-8', type='hidden', name='_dyncharset')
+                      input(value='4089569500095013079', type='hidden', name='_dynSessConf')
+                      #headingOne.panel-heading.heading-gift(role='tab')
+                        .gift-size.collapsed(data-toggle='collapse', data-parent='#accordion', href='#1043685763_collapseOne', aria-expanded='false', aria-controls='collapseOne')
+                          input#1043685763_isWrapNeeded.is-gift(value='false', checked='', type='checkbox', name='isWrapNeeded')
+                          input(value=' ', type='hidden', name='_D:isWrapNeeded')
+                          label(for='1043685763_isWrapNeeded') Este producto es un regalo
+                          img#arrow2.Arrow_d(src='/mobileAssets/images/icons/arrow-rigth_p.png')
+                      #1043685763_collapseOne.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne')
+                        .panel-body
+                          ul.list-group
+                            li.list-group-item
+                              .chout1.radio
+                                // bean="CommitOrderFormHandler.wrapType"
+                                input#1043685763_giftWrapType.giftWrapTypeforid(type='hidden', name='giftWrapTypeforid', value='true')
+                                input(type='radio', name='giftWrapType', id='1043685763_Sin envoltura', value='Sin envoltura', checked='true')
+                                label(for='1043685763_Sin envoltura')
+                                  | Sin envoltura
+                            li.list-group-item
+                              .chout1.radio
+                                // bean="CommitOrderFormHandler.wrapType"
+                                input#1043685763_giftWrapType.giftWrapTypeforid(type='hidden', name='giftWrapTypeforid', value='false')
+                                input#1043685763_Caja(type='radio', name='giftWrapType', value='Caja', checked='false')
+                                label(for='1043685763_Caja')
+                                  | Caja
+                            li.list-group-item
+                              .chout1.radio
+                                // bean="CommitOrderFormHandler.wrapType"
+                                input#1043685763_giftWrapType.giftWrapTypeforid(type='hidden', name='giftWrapTypeforid', value='false')
+                                input#1043685763_Emplayado(type='radio', name='giftWrapType', value='Emplayado', checked='false')
+                                label(for='1043685763_Emplayado')
+                                  | Emplayado
+                            li.list-group-item
+                              .chout1.radio
+                                // bean="CommitOrderFormHandler.wrapType"
+                                input#1043685763_giftWrapType.giftWrapTypeforid(type='hidden', name='giftWrapTypeforid', value='false')
+                                input#1043685763_Papel(type='radio', name='giftWrapType', value='Papel', checked='false')
+                                label(for='1043685763_Papel')
+                                  | Papel
+                            li.list-group-item
+                              label Color de Moño:
+                              #tappanel1(role='tabpanel')
+                                ul.nav.nav-tabs.list_Color(role='tablist')
+                                  li.activeclass(role='presentation')
+                                    a(href='#1043685763_#FFFFFF', aria-controls='1043685763_giftRibbonColor', role='tab', data-toggle='tab')
+                                      .mono_color_container(id='#FFFFFF', style='background:#FFFFFF')
+                                        // bean="CommitOrderFormHandler.wrapColor"
+                                        input#1043685763_giftRibbonColor.giftRibbonColorforid(type='hidden', name='giftRibbonColorforid', value='true')
+                                        input#1043685763_Blanco.giftRibbonColors(type='radio', name='giftRibbonColor', value='Blanco', checked='true')
+                                        span#x X
+                                  li.activeclass(role='presentation')
+                                    a(href='#1043685763_#CC9900', aria-controls='1043685763_giftRibbonColor', role='tab', data-toggle='tab')
+                                      .mono_color_container(id='#CC9900', style='background:#CC9900')
+                                        // bean="CommitOrderFormHandler.wrapColor"
+                                        input#1043685763_giftRibbonColor.giftRibbonColorforid(type='hidden', name='giftRibbonColorforid', value='false')
+                                        input#1043685763_Dorado.giftRibbonColors(type='radio', name='giftRibbonColor', value='Dorado', checked='false')
+                                        span#x X
+                                  li.activeclass(role='presentation')
+                                    a(href='#1043685763_#FF0099', aria-controls='1043685763_giftRibbonColor', role='tab', data-toggle='tab')
+                                      .mono_color_container(id='#FF0099', style='background:#FF0099')
+                                        // bean="CommitOrderFormHandler.wrapColor"
+                                        input#1043685763_giftRibbonColor.giftRibbonColorforid(type='hidden', name='giftRibbonColorforid', value='false')
+                                        input#1043685763_Rosa.giftRibbonColors(type='radio', name='giftRibbonColor', value='Rosa', checked='false')
+                                        span#x X
+                                  li.activeclass(role='presentation')
+                                    a(href='#1043685763_Sin Mono', aria-controls='1043685763_giftRibbonColor', role='tab', data-toggle='tab')
+                                      .mono_color_container(id='Sin Mono', style='background:Sin Mono')
+                                        // bean="CommitOrderFormHandler.wrapColor"
+                                        input#1043685763_giftRibbonColor.giftRibbonColorforid(type='hidden', name='giftRibbonColorforid', value='false')
+                                        input.giftRibbonColors(type='radio', name='giftRibbonColor', id='1043685763_Sin mono', value='Sin mono', checked='false')
+                                        span#x X
+                          .message
+                            p
+                              | Incluye un mensaje personalizado
+                            textarea#1043685763_gWmes.form-control.textMessage.gift-text-msg(maxlength='80', rows='7', placeholder='Escribe tu mensaje.', onfocus="this.placeholder = ''", onblur="this.placeholder = 'Escribe tu mensaje.'", chars-name='chars')
+                            p.textP
+                              | Quedan 
+                              span#chars 80
+                              |  caracteres
+                      input(value='/m/cart/frag/cartItems.jsp.wrapDetails_form', type='hidden', name='_DARGS')
+                // 
+              input#cdlerror(type='hidden', value='false')
+              #compare-error.modal.fade.view-promo-modal(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+                .modal-body.row-fluid
+                  span.span2.compare-warning
+                    img(src='/mobileAssets/images/icons/warning-sign-icon.png', alt='close')
+                  span.span10.compare-error-text.phone-hide Weight Exceeds Maximum Limit
+                  span.span6.compare-error-text.hidden-desktop.hidden-tablet Weight Exceeds Maximum Limit
+                  a.close-btn(title='close', href='javascript:void(0);')
+                    img(src='/mobileAssets/images/gift-close.png', alt='close')
+            // end: cart footer
+            .cart-noproduct-container.hide
+              p
+                | No has seleccionado ningun producto para comprar.
+              a.btn-pink.continue-shop-link(href='/tienda/m') Continuar comprando
+            // end: cart container
+            #cart-delete-modal.modal.fade.delview-modal(tabindex='-1', role='dialog', aria-labelledby='cart-modal-label', aria-hidden='true')
+            #view-promo-modal.modal.fade.view-promo-modal(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+            // </div>
+          .col-sm-4.resume-container
+            input#couponErrorMsg(type='hidden', value='El código de promoción que ingresaste no es válido.')
+            #promo-code-container.panel.panel-primary.promo-code-container
+              .panel-heading.head-payment
+                h5 CÓDIGO PROMOCIONAL
+              .panel-body.body-payment
+                .input-group
+                  input#couponId.form-control(type='text', placeholder='Escribe tu código promocional', maxlength='12', onkeyup='')
+                  span#cuppon_button.input-group-addon
+                    span.glyphicon.glyphicon-ok
+              #promo-code-result.cuppon_result_validation.success
+              #promo-code-result1.cuppon_result_validation.invalid
+            #first-slot-resume.row.free-shipping
+              .col-xs-12.col-sm-12.container-ship-flag
+                .col-xs-12.col-sm-12.text-center.label-free-shipping
+                  strong.label-in-black Resumen de Mi bolsa
+              .col-xs-8.col-xs-offset-2.col-sm-8.col-md-offset-2.divisor
+                // <divisor>
+            #resume-fieldset.row.order-fielset
+              .col-xs-12.col-sm-12
+                .col-xs-12.col-sm-12.text-center
+                  table
+                    tbody.tabla-resumen
+                      tr
+                        td Subtotal  1 artículos::
+                        td $599.00
+                      tr
+                        td Descuento:
+                        td $89.85
+                      tr
+                        td Costo de envío:
+                        td
+                          | $0.00
+                      tr
+                        td Código de promoción:
+                        td $0.00
+              .col-xs-12.col-sm-12
+                .col-xs-12.col-sm-12.text-center
+                  table
+                    tbody.tabla-resumen.bordered
+                      tr
+                        td
+                          strong Total de compra:
+                        td
+                          strong.label-in-red
+                            | $509.15
+            #submit_button_bottom.row.submit_button
+              .col-sm-12.text-center
+                input#orderId(type='hidden', value='o1560690580', name='orderId')
+                input#submit_button_purchase2.btn.btn-primary.next-step-button(type='button', value='Pagar', onclick='checkoutLoginPopup()')
+              .col-sm-12.text-center
+                //
+                  <button type="submit" class="btn btn-primary continue-shopping-button">
+                  Continuar Comprando
+                  </button>
+                a#continue_shopping_purchase.btn.btn-primary.continue-shopping-button(href='/tienda/m') Continuar la compra
+              .col-sm-12.text-center
+                .col-xs-10.col-xs-offset-1.col-sm-12.label-confident
+                  i.sprite-seguro
+                  strong Comprar en Liverpool es confidencial y seguro.
+        //
+          <aside>
+          <h2>About section</h2>
+          <p>
+          Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+          </p>
+          </aside>
+          <footer>
+          <p>
+          Copyright 2009 Your name
+          </p>
+          </footer>
+        #sc-page-spinner.a-row.a-hidden
+          .a-row.sc-overwrap
+          .a-row.sc-spinner
+            img(alt='', src='/mobileAssets/images/icons/loader_liverpool.gif')
+  script.
+    dataLayer = [];
+  noscript
+    iframesrc(www.googletagmanager.com='', ns.html?id='GTM-MDXLRB"', height='0', width='0', style='display:none;visibility:hidden')
+  script.
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MDXLRB');

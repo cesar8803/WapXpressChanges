@@ -1,0 +1,34 @@
+
+<div class="row-fluid">
+  <div class="span12 breadcrumb">
+    <ul>
+      <li><a href="/tienda/m" title="Home">Home</a>
+        <!-- <span class="divider">/</span>-->
+        <!-- Pooja-->
+      </li>
+      <li style="display:block"><a href="/tienda/m/deportes/cat480332" class="actual">Deportes</a>
+        <!-- <span class="divider">/</span>-->
+        <!-- Pooja--><span id="ancestorLbl" style="display:none">Deportes</span>
+      </li>
+      <li style="display:block"><a href="/tienda/m/deportes/cat480332" class="actual">Disciplinas y Accesorios</a>
+        <!-- <span class="divider">/</span>-->
+        <!-- Pooja--><span id="ancestorLbl" style="display:none">Disciplinas y Accesorios</span>
+      </li>
+      <li style="display:block"><a href="/tienda/m/fútbol/cat480388" class="actual">Fútbol</a>
+        <!-- <span class="divider">/</span>-->
+        <!-- Pooja--><span id="ancestorLbl" style="display:none">Fútbol</span>
+      </li>
+      <li style="display:block">Jerseys</li><span id="breadCrumbLbl" style="display:none">Jerseys</span>
+      <script>
+        $(document).ready(function() {
+        dataLayer.push({
+        'category' : $('#ancestorLbl').text(),
+        'subcategory' : $('#breadCrumbLbl').text(),
+        'event' : 'contentGroup'
+        });
+        });
+      </script>
+    </ul>
+  </div>
+</div>
+<!-- -->

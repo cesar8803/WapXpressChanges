@@ -288,20 +288,16 @@ display:none;
 }
 .mega-left{
 background: #FEFEFE;
-margin-top: -3px;
-box-shadow: inset -5px 0 25px 0px #D5D5D5;
-}
+margin-top: -3px;/* box-shadow: inset -5px 0 25px 0px #D5D5D5; */}
 .mega-left ul{
 position: relative;
 margin: 0;
 }
-.mega-left li{
-border-bottom: 1px solid #D5D5D5;
+.mega-left li{border-bottom: 1px solid #dcdcdc;
 float: left;
 width: 100%;
 min-height: 40px;
-clear: both;
-}
+clear: both;}
 #megaMenu_images li a
 {
 position: relative !important;
@@ -316,17 +312,14 @@ width: 40px;
 height: 40px;
 margin-right: 16px;
 }
-.mega-left li a{
-color: #5C6161;
+.mega-left li a{color: #363636;
 float: left;
-font-family: 'Roboto Regular',arial,sans-serif;
-font-size: 14px;
+font-family: 'Roboto Regular',arial,sans-serif;font-size: 19px;
 line-height: 44px;
 padding: 0 0 0 25.5%;
 text-align: left;
 width: 75%;
-position: relative;
-}
+position: relative;}
 .mega-left li a span{
 background: url("/mobileAssets/images/icons/icons_menu.png") no-repeat scroll bottom left transparent;
 float: left;
@@ -448,9 +441,7 @@ font-weight: bold;
 .right-menu h3 a{
 color: #5C6161;
 background:none;
-margin:0px;
-font-size:14px;
-}
+margin:0px;font-size: 19px;}
 .right-menu h3 a:hover{
 color: #333333;
 background:none;
@@ -459,15 +450,13 @@ background:none;
 margin: 0;
 }
 .right-menu li a{
-color: #333;
-font-size: 14px;
+color: #333;font-size: 19px;
 font-family: 'Roboto Regular',arial,sans-serif;
 margin-bottom: 13px;
 background: none;
 padding: 0;
 float: none;
-padding-top:7px;
-}
+padding-top:7px;}
 .right-menu li a:hover{
 color: #666;
 background: none;
@@ -629,25 +618,21 @@ font-family: 'Roboto Condensed',arial,sans-serif;
 float: left;
 margin: 0 3px;
 }
-.mobile-back{
-color: #ad066c;
+.mobile-back{color: #666666;
 font-family: 'Roboto Medium',arial,sans-serif;
 font-size: 16px;
 font-size: 16px;
-line-height: 20px;
+line-height: 45px;
 display:block;
 margin: 0;
-padding-left: 30px!important;;
-padding-top: 15px;
+padding-left: 30px!important;/* padding-top: 15px; */
 float: left;
-width: 90.5%;
-background: url(/mobileAssets/images/icons/mobile-menu-back-icon.png) no-repeat 0 center transparent;
-background-position: 15px center!important;
-padding-bottom: 15px;
+width: 90.5%;background: url(/mobileAssets/images/icons/mobile-menu-back-icon.png) no-repeat 0 center #f1f1f1;
+background-position: 15px center!important;/* padding-bottom: 15px; */
 width:100%!important;
 box-sizing:border-box;
 margin:0!important;
-}
+height: 45px;}
 .menu-right-cont h2{
 font-size: 16px;
 font-family: 'Roboto Medium',arial,sans-serif;
@@ -809,6 +794,7 @@ top:0;
 }
 .header-navigation-main{
 height: 56px;
+z-index: 9999;
 }
 .search-bg {
 background: #000000;
@@ -1262,11 +1248,7 @@ background:none !important;
 .mega-left #megamenu_headerlink ul li a img
 {
 margin-left: -17%;
-padding-right: 13%;
-width: 25px;
-height: 17px;
-
-}
+padding-right: 13%;width: 45px;height: 45px;}
 .mega-left #megamenu_headerlink ul li a img.menuphone
 {
 margin-left: -25%;
@@ -1284,10 +1266,7 @@ width: 35px;
 float: right;
 }
 .phoneImage
-{
-width: 21px !important;
-height: 25px !important;
-}
+{width: 45px !important;height: 45px !important;}
 .mainmenucategories a
 {
 font-size: 14px;
@@ -1331,6 +1310,7 @@ background-size: 22px;
 height: 35px;
 width: 33px;
 border-radius: 0;
+z-index: 9999;
 }
 /* .mega-left li {
 border-bottom: 1px solid #D5D5D5;
@@ -1343,31 +1323,26 @@ background: #edefee;
 }
 .mobile-back {
 font-size: 16px;
-line-height: 20px;
+line-height: 45px;
 margin: 0;
 margin-left: 15px;
 margin-top: 15px;
 float: left;
-width: 90.5%;
-background: url(/mobileAssets/images/icons/mobile-menu-back-icon.png) no-repeat 0 center transparent;
+width: 90.5%;background: url(/mobileAssets/images/icons/mobile-menu-back-icon.png) no-repeat 0 center #f1f1f1;
 padding-left: 12px;
-margin-bottom: 10px;
-}
+margin-bottom: 10px;}
 .mega-menu-cont .menu-right-cont h2 {
-border-bottom: 1px solid #c7c7c7;
-  font-size: 16px;
+border-bottom: 1px solid #c7c7c7;font-size: 19px;
   font-family: 'Roboto Medium',arial,sans-serif;
   font-weight: bold;
   color: #5C6161;
   margin: 0;
  /*  padding: 10px 0 10px 0; */
-  line-height: 18px;
   float: left;
   
 width: 100%;
   padding-left: 6%;
-  background: #fff;
-}
+  background: #fff;}
 /* .megamenucategories .right-menu h3 {
 background: #f6f8f7;
 border-bottom: 1px solid #c7c7c7;
@@ -1642,24 +1617,23 @@ min-height: 300px;
 .login-home{
 display:block;
 width:46%;
-border-right:1px solid #d0d0d0;
 background:#f8f8f8;
 float:left;
-height:2em;
-padding:0.5em;
+height: 1em;
+padding: 0.5em;
 text-indent: 0 !important;
 cursor: pointer;
-  text-align:center;
-}
+  text-align:center;}
 .shops-home{
 /* display:none; */
-width:46%;
+width: 46.1%!important;
 background:#f8f8f8;
 float:left;
 height:2em;
 padding:0.5em;
 color: #333333;
   text-align: center;
+  border-left: 1px solid #d0d0d0;
 }
 .search-home{
   background:#e3e3e3;
@@ -1667,7 +1641,7 @@ color: #333333;
   height: 3em;
   padding:0.8em;
 }
-.home-user-icon {
+/*.home-user-icon {
     background: url('/mobileAssets/images/wapSprite-2.png') no-repeat -100px -123px;
     height: 20px!important;
     width: 15px!important;
@@ -1677,8 +1651,8 @@ color: #333333;
     border: 0;
     vertical-align: bottom;
     background-size: calc(675px *0.35) calc(1152px *.35);
-}
-.home-store-icon{
+}*/
+/*.home-store-icon{
     background: url('/mobileAssets/images/wapSprite-2.png') no-repeat -100px -205px;
     height: 20px!important;
     width: 15px!important;
@@ -1688,10 +1662,11 @@ color: #333333;
     border: 0;
     vertical-align: bottom;
     background-size: calc(675px *0.35) calc(1152px *.35);
-}
+}*/
 
 .shops-home a{
   color: #333333;
+  font-size: 16px;
 }
 .loginbuttons-header
 {
@@ -1715,7 +1690,8 @@ color: #333333;
   background: url('/mobileAssets/images/wapSprite-2.png') no-repeat -100px -123px;
   background-size: calc(675px *0.35) calc(1152px *.35);
 }
-.header_search-button{
+/*Jon Febrero 2016 martes 16*/
+/**.header_search-button{
  background: #FF0084 url('/mobileAssets/images/wapSprite-2.png') no-repeat -22px -23px;
  background-size: calc(675px *.38) calc(1152px *.38);
  height: 31px!important;
@@ -1723,8 +1699,20 @@ color: #333333;
  display: inline-block;
  text-indent: -9999px;
  border: 0;
+}**/
+.header_search-button {
+ background-image: url('/mobileAssets/images/sprite/redisign_SPRITE.png');
+ background-repeat: no-repeat;
+ background-color: #e10098;
+ height: 2.86em!important;
+ width: 2.625em!important;
+ margin-left: -4px;
+ background-position: -112px -115px;
+ display: inline-block;
+ border: 0;
+ vertical-align: top;
 }
-
+/*Jon Febrero 2016 martes 16*/
 .locallizecont
 {
  width: 60% !important;
@@ -1825,7 +1813,7 @@ a.Marcas.menuBack {
 }
 /*Inicia hover/active del menú*/
 .mega-leftul li:active, .megamenucategories .right-menu h3:active, .right-menu h3:hover, .right-menu.menu-expand h3 {
-    background-color: #d8d8d8!important;
+    background-color: #f1f1f1!important;
 }
 .right-menu ul li:active{
     background-color: #d8d8d8!important;
@@ -1881,8 +1869,9 @@ a.Marcas.menuBack {
 }
 /*Fin Menu items*/
 .mega-menu-cont #megaMenu_images li a.Marcas.menuBack {
-    background-color:rgb(237, 239, 238)!important;
+    background-color: #f1f1f1!important;
     background-position: 18px center!important;
+    color: #666666;
 }
 @media (min-width:768px){
   .span12.mega-menu-cont.hidden-phone {
@@ -1895,3 +1884,36 @@ a.Marcas.menuBack {
     vertical-align:top;
   }
 }
+/*Jon Febrero 2016 martes 16*/
+.home-store-icon {
+    background-image: url("/mobileAssets/images/sprite/redisign_SPRITE.png")!important;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    background-position: -65px -121px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 4px;
+    margin-bottom: 2px;
+}
+.home-user-icon{
+    background-image: url('/mobileAssets/images/sprite/redisign_SPRITE.png');
+    background-repeat: no-repeat;
+    width:16px;
+    height: 16px;
+    background-position: -18px -121px;
+    display:inline-block;
+    vertical-align: bottom;
+    margin-right: 4px;
+    margin-bottom: 1px;
+}
+.login-home.myaccount-icon span {
+    font-family: "Roboto regular";
+    font-size: 16px;
+}
+.shops-home a span {
+    font-family: "Roboto regular";
+    font-size: 16px;
+}
+.logged-in .mob-uname{font-size: 16px!important;}
+/*Jon Febrero 2016 martes 16*/

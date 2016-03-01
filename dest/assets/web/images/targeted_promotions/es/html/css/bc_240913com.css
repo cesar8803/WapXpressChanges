@@ -1,0 +1,110 @@
+.centro_com {
+	background:
+		/*url("../img/bc_240913com.jpg") */
+		url("/web/images/targeted_promotions/es/html/img/bc_240913com.jpg") 
+		no-repeat top left;
+	height: 320px;
+	width: 550px;
+	position: relative;
+}
+
+#bc_240913com .bn-cn-main {
+position: absolute;
+width: 235px;
+top: 90px;
+right: 0px;
+
+
+
+}
+#bc_240913com .bn-cn-main .bn-texto-wh-xxl {
+position: relative;
+margin: 0px;
+display:inherit;
+font-size: 1.2em;
+color:#FFF;
+}
+
+#bc_240913com .titulo2 {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 5px;
+margin: 0px;
+display:inherit;
+font-size: 1.9em;
+color:#FF9933;
+}
+#bc_240913com .promo1 {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 18px;
+margin: 0px;
+display:inherit;
+font-size: 1em;
+color:#3366CC;
+}
+#bc_240913com .boton {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 30px;
+margin: 0px;
+display:inherit;
+font-size: 1.12em;
+color:#00CCFF;
+}
+#bc_240913com .restricciones {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 40px;
+margin: 0px;
+display:inherit;
+font-size: .7em;
+color:#666666;
+}
+
+#bc_240913com .bn-cn-main .mas {
+position: relative;
+margin: 0px;
+display: inline-block;
+width: 10px;
+top: -8px;
+left: 2px;
+}
+
+#bc_240913com .bn-cn-main .bn-texto-wh-xxl {
+position: relative;
+margin: 0px;
+display: inline-block;
+
+}
+#bc_240913com .bn-texto-wh-sm {
+width: 130px; 
+position: relative;
+margin: 0px;
+left: 14px;
+}
+#bc_240913com .flag_{
+position: absolute;
+top: 190px;
+background-color: #EEE;
+opacity: 0.5;
+right: 0px;
+width: 472px;
+height: 80px;
+
+}
+
+#bc_240913com .p_flag_{
+position: absolute;
+font-size: 41px;
+width: 500px;
+right: -30px;
+margin: 0px;
+padding: 0px;
+top: 205px;
+
+}

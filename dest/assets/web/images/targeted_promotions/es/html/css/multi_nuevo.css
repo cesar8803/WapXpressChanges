@@ -1,0 +1,551 @@
+
+/*--------------------------------------------------*/
+/*ESTRUCTURA BASICA*/
+/*--------------------------------------------------*/
+
+
+.g3 {
+width: 992px !important;
+position: relative;
+margin: 0px auto;
+height: 520px;
+background-color: #FFF;
+}
+
+.g3 #bn-columnas-3 div {
+margin: 0 3px;
+}
+#main_content {
+background-color: #FFF;
+}
+/*cuerpo columnas*/
+#bn-columnas-3 {
+    width: 100%;
+
+}
+/*columna 1*/
+#bn-columnas-3 .bn-columna {
+    width: 220px;
+display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+vertical-align: top;
+}
+/*columna 2*/
+.bn-columna-h {
+display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+vertical-align: top;
+}
+/*columna 3*/
+.bn-c3-r1 {
+width: 172px !important;
+display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+vertical-align: top;
+}
+
+/*fila proyectos*/
+.bn-proy{
+width: 100%;
+height: 109px;
+position: relative;
+margin: 7px 0 0 0;
+    
+}
+.bn-proy div{
+margin: 0px 4px;
+}
+/*.bn-linea-1 {
+	height: 150px;
+	border-bottom: 1px solid #F1F1F1;
+}*/
+
+
+/*.bn-columna-central {
+	width: 520px; 
+	float: left;
+}
+#bn-columnas-4 {
+	width: 100%;
+	border:1px solid red;
+}
+
+#bn-columnas-4 .bn-columna {
+	width: 220px;
+display: inline-block;
+vertical-align: top;
+}*/
+/*--------------------------------------------------*/
+/*banners estilos especificos por banner
+columna 1*/
+/*--------------------------------------------------*/
+
+/*banner 1*/
+
+.bn-c1-r1 {
+background: url("/web/images/targeted_promotions/es/html/img/marca1.jpg")
+ no-repeat;
+height: 98px;
+border: 1px solid #eee;
+margin: 2px auto;
+padding: 0px;
+position: relative;
+}
+
+.bn-c1-r1 .bn-especial1 {
+	font-family: arial;
+    left: 20px;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+}
+
+.bn-c1-r1 a.bn-link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: arial;
+    font-size: 12px;
+    color: #00A2FF;
+    text-decoration: none;
+}
+
+
+/*banner 2*/
+.bn-c1-r2 {
+background: url("/web/images/targeted_promotions/es/html/img/marca2.jpg")
+ no-repeat;
+height: 98px;
+
+margin: 2px auto;
+padding: 0px;
+position: relative;
+border: 1px solid #eee;
+}
+.bn-c1-r2 .bn-especial1{
+  font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    left: 37px;
+    position: absolute;
+    text-align: center;
+    top: 60px;
+}
+
+.bn-c1-r2 a.bn-link {
+    bottom: 5px;
+    position: absolute;
+    right: 80px;
+    font-family: arial;
+    font-size: 12px;
+    color: #00A2FF;
+    text-decoration: none;
+}
+
+/*banner 3*/
+
+.bn-c1-r3 {
+background: url("/web/images/targeted_promotions/es/html/img/marca3.jpg")
+ no-repeat ;
+height: 98px;
+
+margin: 2px auto;
+padding: 0px;
+position: relative;
+border: 1px solid #eee;
+}
+
+.bn-c1-r3 .bn-especial1{
+  font-family: arial;
+    left: 20px;
+    position: absolute;
+    text-align: center;
+    top: 70px;
+}
+
+.bn-c1-r3 a.bn-link {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    font-family: arial;
+    font-size: 12px;
+    color: #00A2FF;
+    text-decoration: none;
+}
+
+/*banner 4*/
+
+.bn-c1-r4 {
+background: url("/web/images/targeted_promotions/es/html/img/marca4.jpg")
+ no-repeat ;
+height: 98px;
+
+margin: 2px auto;
+padding: 0px;
+position: relative;
+border: 1px solid #eee;
+}
+
+.bn-c1-r4 .bn-especial1{
+   font-family: arial;
+    left: 20px;
+    position: absolute;
+    text-align: center;
+    top: 60px;
+}
+
+.bn-c1-r4 a.bn-link {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    font-family: arial;
+    font-size: 12px;
+    color: #00A2FF;
+    text-decoration: none;
+}
+
+/*.bn-c1-r1 .bn-especial2 {
+	float: right;
+	color: #565656;
+	padding-right: 5px;
+}*/
+
+/*.bn-c1-r1 .bn-titulo {
+	clear: both;
+	text-align: right;
+	padding-right: 5px;
+	text-transform: uppercase;
+}*/
+
+/*.bn-c1-r2 .bn-titulo {
+	text-transform: uppercase;
+	text-align: right;
+	padding-top: 30px;
+}*/
+
+/*.bn-c1-r2 .bn-texto-negro-sm {
+	line-height: .8em;
+	text-align: right;
+}*/
+
+
+
+/*--------------------------------------------------*/
+/*Estilos relativos a columna central */
+/*--------------------------------------------------*/
+
+
+/*banner 1*/
+
+.bn-c2-r1 {
+width: 571px;
+background: url("/web/images/targeted_promotions/es/html/img/fashion1.jpg")
+ no-repeat;
+  margin: 2px auto;
+position: relative;
+height: 200px;
+border: 1px solid #eee;
+
+}
+
+.bn-c2-r1 .bn-texto-negro-sm {
+	position: absolute;
+	bottom: 50px;
+	font-family: arial;
+	right: 40px;
+	font-weight: bold;
+}
+.bn-c2-r1 a.bn-link {
+	position: absolute;
+	bottom: 30px;
+	font-family: arial;
+	right: 40px;
+	color: #00A2FF;
+	text-decoration: none;
+	
+}
+
+/*banner 2*/
+
+.bn-c2-r2 {
+	width: 571px;
+background: url("/web/images/targeted_promotions/es/html/img/fashion2.jpg")
+ no-repeat;
+ margin: 2px auto;
+position: relative;
+height: 200px;
+border: 1px solid #eee;
+}
+
+.bn-c2-r2 .bn-texto-negro-sm {
+	position: absolute;
+	top:30px;
+	font-family: arial;
+	right: 140px;
+	font-weight: bold;
+	width: 400px;
+}
+.bn-c2-r2 a.bn-link {
+	position: absolute;
+	top: 30px;
+	font-family: arial;
+	right: 40px;
+	color: #00A2FF;
+	text-decoration: none;
+	
+}
+
+.bn-link_f2{
+		position: absolute;
+	bottom: 130px;
+	font-family: arial;
+	right: 465px;
+	color: #00A2FF;
+	text-decoration: none;
+	}
+
+/*--------------------------------------------------*/
+/*Estilos relativos columna 3*/
+/*--------------------------------------------------*/
+
+/*banner 1*/
+.bn-cesto1 {
+height: 200px;
+border: 1px solid #eee;
+margin: 2px auto;
+position: relative;
+background: url("/web/images/targeted_promotions/es/html/img/hogar.jpg")
+ no-repeat;
+
+}
+.bn-cesto1 .bn-especial1{
+   font-family: arial;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    font-weight: bold;
+}
+
+.bn-cesto1 a.bn-link {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    font-family: arial;
+    font-size: 12px;
+    color: #00A2FF;
+    text-decoration: none;
+}
+
+
+/*banner 2*/
+.bn-cesto2 {
+height: 200px;
+border: 1px solid #eee;
+margin: 2px auto;
+position: relative;
+background: url("/web/images/targeted_promotions/es/html/img/deporte.jpg")
+ no-repeat;
+
+}
+
+.bn-cesto2 .bn-especial1{
+   font-family: arial;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    font-weight: bold;
+}
+
+.bn-cesto2 a.bn-link {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    font-family: arial;
+    font-size: 12px;
+    color: #00A2FF;
+    text-decoration: none;
+}
+
+
+
+
+/*.bn-c3-r1 .bn-texto-negro-xl {
+    margin-top: 20px;
+}
+.bn-c2-r1_especial {
+
+width: 562px;
+position: relative;
+margin: 0px auto;
+height: 91px;
+margin-left: 1px;
+}
+*/
+
+
+
+/*--------------------------------------------------*/
+/*Estilos relativos fila proyecto*/
+/*--------------------------------------------------*/
+
+
+/*banner 1*/
+
+.bn-proy1{
+	width: 238px;
+	display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+	vertical-align: top;
+	height: 109px;
+	border: 1px solid #eee;
+	background: url("/web/images/targeted_promotions/es/html/img/pro1.jpg")
+ no-repeat;
+ position: relative;
+}
+
+.bn-proy1 .bn-especial1{
+   font-family: arial;
+    left: 1px;
+    position: absolute;
+    text-align: center;
+    bottom:  20px;
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 12px;
+}
+
+.bn-proy1 a.bn-link {
+	position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-family: arial;
+    font-size: 12px;
+    color: #00A2FF;
+	text-decoration: none;
+}
+
+/*banner 2*/
+
+.bn-proy2{
+	width: 238px;
+	display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+	vertical-align: top;
+	height: 109px;
+	border: 1px solid #eee;
+	background: url("/web/images/targeted_promotions/es/html/img/pro2.jpg")
+ no-repeat;
+ position: relative;
+}
+
+.bn-proy2 .bn-especial1{
+   font-family: arial;
+    left: 1px;
+    position: absolute;
+    text-align: center;
+    bottom:  20px;
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 12px;
+}
+
+.bn-proy2 a.bn-link {
+	position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-family: arial;
+    font-size: 12px;
+    color: #00A2FF;
+	text-decoration: none;
+}
+
+
+/*banner 3*/
+
+.bn-proy3{
+	width: 238px;
+	display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+	vertical-align: top;
+	height: 109px;
+	border: 1px solid #eee;
+	background: url("/web/images/targeted_promotions/es/html/img/pro3.jpg")
+ no-repeat;
+ position: relative;
+}
+
+.bn-proy3 .bn-especial1{
+   font-family: arial;
+    left: 1px;
+    position: absolute;
+    text-align: center;
+    bottom:  17px;
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 12px;
+}
+
+.bn-proy3 a.bn-link {
+	position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-family: arial;
+    font-size: 12px;
+    color: #00A2FF;
+	text-decoration: none;
+}
+
+/*banner 4*/
+
+.bn-proy4{
+	width: 238px;
+	display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+	vertical-align: top;
+	height: 109px;
+	border: 1px solid #eee;
+	background: url("/web/images/targeted_promotions/es/html/img/pro4.jpg")
+ no-repeat;
+ position: relative;
+}
+
+.bn-proy4 .bn-especial1{
+   font-family: arial;
+    left: 1px;
+    position: absolute;
+    text-align: center;
+    bottom:  20px;
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 12px;
+}
+
+.bn-proy4 a.bn-link {
+	position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-family: arial;
+    font-size: 12px;
+    color: #00A2FF;
+	text-decoration: none;
+}
+
+
+
+

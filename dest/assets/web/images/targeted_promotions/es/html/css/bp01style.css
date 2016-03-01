@@ -1,0 +1,74 @@
+/**************************************************************************************
+	STYLESHEET GATE 1
+	-------------------
+	BY LIVERPOOL
+	VENTAS A DISTANCIA 
+**************************************************************************************/
+/*================  SECONDARY_NAV ========================*/
+.gate1-wrapper {
+	height: 353px;
+	overflow: hidden;
+}
+
+.gate1-content {
+	font-family: 'roboto', arial, sans-serif;
+	font-size: 0.8em;
+}
+
+.level0-txt {
+	color: #00A4E4;
+	font-family: 'robotobold', arial, sans-serif;
+}
+
+.level1-txt {
+	font-family: 'robotobold', arial, sans-serif;
+	font-size: 1em;
+	color: #696969;
+	text-transform: uppercase;
+}
+
+.level2-txt {
+	font-family: 'robotobold', arial, sans-serif;
+}
+
+.level2-wrapper {
+	text-indent: 15px;
+}
+
+.level2-txt a {
+	border-bottom: 1px dotted #747070;
+	font-family: 'robotomedium', arial, sans-serif;
+	font-size: 13px;
+	margin: 8px auto;
+	text-transform: capitalize;
+	width: auto;
+	border-bottom: 1px dotted #747070;
+	color: #000;
+	padding-bottom: 0px;
+	line-height: 20px;
+}
+
+.level2-txt a:hover {
+	color: #ff0098;
+}
+
+.level0-txt,.level1-txt {
+	padding-bottom: 12px;
+	padding-top: 6px;
+}
+
+.level-wrapper {
+	padding: 0.3em 0 1em;
+}
+
+.level-wrapper li {
+	padding: 0.3em 0;
+}
+
+.level-wrapper a:hover {
+	color: #ff0098;
+}
+
+/*================  END SECONDARY_NAV ========================*/
+
+/****** AUX STYLES  *********/

@@ -1,0 +1,501 @@
+/*identificador1*/
+.footer{
+color: #fff;
+font-family: 'Roboto Medium', sans-serif;
+}
+.footer-top{
+background: #E0068D;
+padding: 30px 0;
+clear:both;
+}
+.footer-top h1{
+font-family: arial;
+font-size: 21px;
+line-height: normal;
+}
+.footer-top p{
+}
+.footer-top a{
+color: #000;
+font-size: 11px;
+}
+.footer-top label{
+color: #fff;
+font-size: 15px;
+}
+.footer-top h2{
+font-family: 'Roboto Bold', sans-serif;
+font-size: 18px;
+line-height: normal;
+}
+.footer-top .last-section label{
+color: #231f20;
+}
+.social-icons{
+margin-bottom: 4px;
+}
+.social-icons a{
+width: 36px;
+height: 36px;
+display: inline-block;
+margin-right: 8px;
+}
+.social-icons a.facebook_icon{
+background:url('/mobileAssets/images/icons/facebook.png') no-repeat;
+background-size: 36px;
+}
+.social-icons a.pinterest_icon{
+background:url('/mobileAssets/images/icons/pinterest.png') no-repeat;
+background-size: 36px;
+}
+.social-icons a.twitter_icon{
+background:url('/mobileAssets/images/icons/twitter.png') no-repeat;
+background-size: 36px;
+}
+.footer-top button{
+color: #da027b;
+border: 1px solid #686868;
+border-radius: 4px;
+font-family: arial;
+font-size: 15px;
+font-weight: bold;
+padding: 2px 15px;
+background: #fff;
+}
+.footer-bottom{
+background: #262626;
+}
+.footer-bottom .sub-section{
+margin-top: 8px;
+}
+.sub-section h3{
+font-size: 17px;
+font-weight: normal;
+line-height: normal;
+}
+.sub-section p{
+font-family: 'Roboto Medium';
+font-size: 14px;
+margin :0;
+}
+.sub-section ul.subList{
+margin: 0;
+}
+.sub-section ul.subList li span{
+color: #fff;
+font-size: 13px;
+}
+.sub-section .cerificates{
+background: #fff;
+padding-bottom: 2px;
+}
+.sub-section .cerificates img{
+max-height: 45px;
+max-width: 58px;
+}
+.footer-bottom-last
+{
+padding: 8px 0;
+}
+.footer-bottom-last a{
+color: #fff;
+text-decoration: underline;
+padding: 0 10px;
+font-size: 11px;
+font-family: 'Roboto Light';
+}
+.footer-bottom-last p{
+color:#a9a8a8;
+font-size: 9px;
+font-family: arial;
+
+}
+
+.footer-top .location {
+background-color: #c7046c;
+padding: 9px;
+font-size: 12px;
+}
+.footer-top .location .footerlocation_arrow
+{
+margin-left: 9px;
+
+}
+.footer-top
+{
+padding: 30px 0px 4px 0px;
+}
+.footertop_phone
+{
+
+margin-bottom: 0px !important;
+}
+#footertop_contactno
+{
+
+width:30% !important;
+}
+.footertop_icon
+{
+float:left;
+margin-right:4px;
+}
+.footertop_pinloc
+{
+padding-right: 4px;
+padding-bottom: 6px;
+}
+.bootom-footer .breadcrumb{
+list-style: none;
+border-radius: 4px;
+margin-left: 0;
+min-height: 33px;
+background-color: transparent;
+margin: 0;
+margin: 0 auto;
+}
+
+ul.breadcrumb.bread-terms.tmc_wap_footer li a {
+    /* background-color: #D7D7D7; */
+    width: 100%;
+    display: block;
+    text-align: center;
+    /* color: black; */
+    padding: 10px;
+    font-size: 1.28em;
+}
+/*Jon Febrero 2016 martes 16*/
+.footer-contact span a {
+color:#e10098;
+}
+/*Jon Febrero 2016 martes 16*/
+
+.footer-bottom .sub-section h3 a, .footer-bottom .sub-section h3 font font font font {
+  color: #3d4949;
+  font-size: 15px;
+}
+.bootom-footer {
+margin-top: 4px;
+}
+.breadcrumb.bread-rights li a {
+color: #000;
+}
+.footer-icon-locator {
+background-image: url(/mobileAssets/images/icons/store-locator-hover-icon1.png);
+background-repeat: no-repeat;
+width: 1.6em;
+height: 1.6em;
+background-size: 1em;
+background-position: 5px 5px;
+display: inline-block;
+}
+/*Jon Febrero 2016 martes 16*/
+.footer-schedules {
+    font-size: 12px!important;
+}
+/*Jon Febrero 2016 martes 16*/
+
+.footer-schedules span {
+color: #ff2797;
+}
+ul.breadcrumb.bread-terms.tmc_wap_footer {
+  margin: 0 auto 0 40%;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation: portrait) {
+
+
+.bootom-footer .breadcrumb{
+width: 48%;
+}
+.footer-schedules .row-fluid{
+width:100%;
+}
+.footer-bottom .breadcrumb li{
+border:none;
+padding: 0;
+}
+.bootom-footer .breadcrumb {
+min-height : 25px;
+}
+ul.breadcrumb.bread-terms.tmc_wap_footer li a {
+
+  margin: 0px 7% 0 -8%!important;
+}
+.row-fluid.footerbtcontent .span3 .sub-section > .phone-hide > p {
+        margin-bottom: -28px;
+    margin-left: 0px;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation: landscape) {
+.bootom-footer .breadcrumb{
+width: 40%;
+}
+.footer-schedules .row-fluid{
+width:100%;
+}
+.footer-bottom .breadcrumb li{
+border:none;
+padding: 0;
+display:inline-block!important;
+float: none;vertical-align: bottom;}
+.bootom-footer .breadcrumb {
+min-height : 25px;
+}
+ul.breadcrumb.bread-terms.tmc_wap_footer li a {
+
+margin: 0!important;
+}
+.row-fluid.footerbtcontent .span3 .sub-section > .phone-hide > p {
+    margin-bottom: -28px;
+    margin-left: 0px;
+}
+}
+/*Jon Febrero 2016 martes 16*/
+.bootom-footer .breadcrumb.bread-terms li a{
+    color:#e10098;
+    font-size: 12px;
+}
+/*Jon Febrero 2016 martes 16*/
+
+.bootom-footer .breadcrumb li:first-child{
+background : none;
+margin: 0 7% 0 13%;
+}
+.bootom-footer .breadcrumb li:last-child{
+background : none;
+border : none;
+}
+.footer-textleft{
+width: 70% !important;
+float: left !important;
+position: relative;
+left: 4%;
+}
+.footer-imageleft
+{
+width: 25% !important;
+color: #FF2797;
+}
+
+.sub-section a {
+color: #949897;
+}
+
+ul.breadcrumb.bread-rights {
+  display: block!important;
+  text-align: center;
+}
+ul.breadcrumb.bread-terms {
+  display: block!important;
+}
+ul.breadcrumb.bread-terms.tmc_wap_footer li {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul.breadcrumb.bread-terms.tmc_wap_footer {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.bootom-footer ul.breadcrumb.bread-rights li:first-child {
+  background: none;
+  margin: 0;
+}
+.bootom-footer ul.breadcrumb.bread-terms{
+  text-align:center;
+  margin:0!important;
+}
+.bootom-footer ul.breadcrumb.bread-terms li:first-child{
+    margin: 0!important;
+}
+.bootom-footer ul.breadcrumb.bread-terms li{
+  display:inline-block!important;
+  float:none;
+  vertical-align:top;
+}
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+.bootom-footer ul.breadcrumb.bread-terms li:first-child{
+    margin: 0px 7% 0 9%;
+
+}
+  .bootom-footer ul.breadcrumb.bread-rights li:first-child {
+  background: none;
+  margin: 0px 7% 0 12%;
+}
+ul.breadcrumb.tmc_wap_footer li {
+  margin: 0px 7% 0 -1%!important;
+}
+.row-fluid.footerbtcontent .span3 .sub-section > .phone-hide > p {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+}
+@media only screen and (max-device-width: 568px) and (min-device-width: 320px) and (orientation: portrait) { 
+ul.breadcrumb.tmc_wap_footer li {
+  margin: 0px 7% 0 -1%!important;
+}
+.row-fluid.footerbtcontent .span3 .sub-section > .phone-hide > p {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+}
+.footer-header {
+float: left;
+background: #cbd5d7;
+color: #000000;
+padding: 1.02em;
+width:50%;
+box-sizing:border-box;
+/* height:50px
+ */}
+ @media(min-width: 768px){
+ 	.footer-header{
+ 		height: 50px;
+ 	}
+ }
+.footer-contact {
+background: #e4e8e9;
+color: #000000;
+padding: 1.02em;
+float: left;
+width:50%;
+box-sizing:border-box;
+height:50px
+}
+.span3.footer-imageleft a {
+    display: inline-block;
+    width: 80px;
+    position: absolute;
+    left:0;
+}
+/*Jon Febrero 2016 martes 16*/
+.span3.footer-imageleft{
+    padding-left:1.75em;
+    position:relative;
+    color:#e10098;
+}
+/*Jon Febrero 2016 martes 16*/
+
+.bootom-footer .divider{
+  display:inline-block!important;
+}
+.footer-header{
+    display:block!important;
+    width:50%!important;
+    padding:10px 0;
+  }
+@media(max-width:767px){
+  .footer-header{
+    display:block!important;
+    width:100%!important;
+    padding:10px 0;
+  }
+}
+.footer-schedules{
+    box-sizing:border-box;
+}
+.span3.footer-imageleft{
+    display:inline-block!important;
+    text-align:left!important;
+}
+ul.breadcrumb.bread-rights li{
+    display:inline-block!important;
+    float:none!important;
+    vertical-align:top;
+}
+.bootom-footer ul.breadcrumb.bread-rights li:first-child{
+  margin:0;
+}
+ul.breadcrumb.bread-terms.tmc_wap_footer a {
+    margin:0!important;
+}
+ul.breadcrumb.bread-terms{
+    width:100%;
+}
+ul.breadcrumb.bread-terms li {
+    float:none!important;
+    display:inline-block!important;
+}
+ul.breadcrumb.bread-terms.tmc_wap_footer li a{
+  margin:0!important;
+}
+@media(max-width:319px){
+    .footer-schedules .span12 >.span2{
+    //background-color:red;
+    display:block;
+    position:initial!important;
+    width:60%!important;
+    }
+    .footer-schedules .span12 >.span3{
+        //background-color:rebeccapurple;
+        display:block;
+        position:relative!important;
+        right:0;
+        width:35%!important;
+    }
+}
+.row-fluid.footerbtcontent .span3 .sub-section{
+    padding:0;
+}
+.row-fluid.footerbtcontent .span3 .sub-section a{
+    padding-top:14px;
+    padding-bottom:15px;
+    display:block;
+    width:100%;
+    //background-color:red;   
+
+}
+
+.row-fluid.footerbtcontent .span3 .sub-section h3{
+    margin:0;
+    padding-right:10px!important;
+    padding-left: 10px!important;
+}
+body > div.wrapper > footer > div.footer-bottom > div.row-fluid.footerbtcontent > div > div:nth-child(4) > div > h3 > font > font > font > font{
+   padding-top:14px;
+    padding-bottom:15px;
+    display:block;
+    width:100%;
+}
+.footer-bottom .sub-section h3{
+    background-position: 98% center !important;
+	padding: 0!important;
+}
+.row-fluid.footerbtcontent .span3:nth-child(4) .sub-section h3{
+	padding:0 10px!important;
+	box-sizing: border-box;
+    display:block;
+    width:100%;
+	//
+}
+.row-fluid.footerbtcontent .span3:nth-child(5) .sub-section h3{
+	padding:0!important;
+}
+.row-fluid.footerbtcontent .span3:nth-child(5) .sub-section h3 font font font font{
+	padding: 0 10px;
+	display: block!important;
+	magin:0!important;
+}
+/*Jon Febrero 2016 martes 16*/
+#locator_pf_icn{
+  background-image: url('/mobileAssets/images/sprite/redisign_SPRITE.png');
+  background-repeat: no-repeat;
+  width:18px;
+  height:18px;
+  background-position: -66px -169px;
+}
+.footer-schedules{
+  font-size: 12px!important;
+}
+.footer-contact{
+  font-size: 12px!important;
+}
+.footer .footer-bottom .sub-section a, .footer .footer-bottom .sub-section h3 font font font font {
+    font-size: 18px!important;
+}
+/*Jon Febrero 2016 martes 16*/
+

@@ -1,0 +1,131 @@
+.centro_consolasliv {
+	background:
+		 url("/web/images/targeted_promotions/es/html/img/bc_111013con.jpg")
+			 /* url("../img/bc_111013con.jpg")  */
+		no-repeat top left;
+	height: 320px;
+	width: 550px;
+	position: relative;
+}
+
+#bc_111013con .bn-cn-main {
+position: absolute;
+width: 235px;
+top: 160px;
+right: 0px;
+
+
+
+}
+#bc_111013con .bn-cn-main .bn-texto-wh-xxl {
+position: relative;
+font-weight:bold;
+margin: 0px;
+display: inline-block;
+font-size: 1.2em;
+color:#069;
+}
+
+#bc_111013con .titulo2 {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 4px;
+margin: 0px;
+display: inline-block;
+font-size: 1em;
+color:#666;
+}
+#bc_111013con .promo1 {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 5px;
+margin: 0px;
+display:inherit;
+font-size: 1.2em;
+color:#06C;
+}
+#bc_111013con .promo2 {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 5px;
+margin: 0px;
+display:inherit;
+font-size: .9em;
+color:#009933;
+}
+#bc_111013con .promo3 {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 5px;
+margin: 0px;
+display:inherit;
+font-size: 1em;
+color:#06C;
+}
+#bc_111013con .boton {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 10px;
+margin: 0px;
+display:inherit;
+font-size: 1.12em;
+color:#00CCFF;
+}
+#bc_111013con .restricciones {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:regular;
+position: relative;
+top: 15px;
+margin: 0px;
+display:inherit;
+font-size: .6em;
+color:#333:
+}
+
+#bc_111013con .bn-cn-main .mas {
+position: relative;
+margin: 0px;
+display:inherit;
+width: 10px;
+top: -8px;
+left: 2px;
+}
+
+#bc_111013con .bn-cn-main .bn-texto-wh-xxl {
+position: relative;
+margin: 0px;
+display: inline-block;
+
+}
+#bc_111013con .bn-texto-wh-sm {
+width: 130px;
+position: relative;
+margin: 0px;
+left: 14px;
+}
+#bc_111013con .flag_{
+position: absolute;
+top: 190px;
+background-color: #EEE;
+opacity: 0.5;
+right: 0px;
+width: 472px;
+height: 80px;
+
+}
+
+#bc_111013con .p_flag_{
+position: absolute;
+font-size: 41px;
+width: 500px;
+right: -30px;
+margin: 0px;
+padding: 0px;
+top: 205px;
+
+}

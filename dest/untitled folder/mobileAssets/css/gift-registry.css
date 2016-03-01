@@ -1,0 +1,844 @@
+/* Start: Gift Registration Page CSS */
+/* Start: Mobile Breadcrumb Styles */
+.breadcrumb-slider{
+width: 73%;
+}
+.breadcrumb-slider li span{
+padding-left: 20px !important;
+}
+/* End: Mobile Breadcrumb Styles */
+
+.giftregistry-left{
+float:right !important;
+}
+.gift-registry-menu{
+border-bottom:1px solid #bbb;
+}
+.gift-registry-menu ul{
+float:left;
+margin:0px;
+}
+.gift-registry-menu li{
+padding: 10px 0px;
+float: left;
+border-right: solid 1px #bbbbbb;
+color: #333;
+margin:5px 0px 5px 0px;
+}
+.gift-registry-menu li:last-child{
+border:none;
+}
+.gift-registry-menu li a{
+color: #333;
+font-size:14px;
+padding:0px 15px;
+}
+.gift-registry-container{
+padding: 0 1.5%;
+}
+.giftrg-questions ul{
+float:right;
+}
+.giftrg-questions li{
+float:left;
+padding:10px;
+margin-right:20px;
+}
+.giftrg-questions li a{
+color:#111;
+font-size:13px;
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+}
+.giftrg-mesade-logo{
+margin-top:30px;
+}
+.giftregistry-right h3{
+font-size:16px;
+color:#111;
+padding-bottom:15px;
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+
+line-height: 20px;
+}
+.giftregistry-right label{
+font-size:14px;
+color:#111;
+padding-bottom:15px;
+margin-left:2.5%;
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+}
+.giftregistry-right input[type="text"]{
+padding:10px;
+width: 182px;
+border-radius:5px;
+margin:0px 15px 15px 0px;
+float:left;
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+font-size:14px;
+color:#585858;
+height: 1.4em;
+}
+.giftregistry-right .buscar{
+width:180px;
+padding:11px 8px;
+margin:0px;
+font-size:18px;
+}
+.span5 > .row-fluid > .giftrg-boxcontainer > form.giftform > .gift-reg-rightcol > .span6 > input[type=text] {
+    height: 3em;
+}
+.span5 > .regalos-evento > form.giftform >
+ .giftrg-left > input[type="text"]{
+    height: 3em;
+ }
+
+ .span5 > .row-fluid > .celebrate > .celebrate-container 
+ > #reporteMesaForm > input[type="text"]{
+    height: 3em;
+ }
+
+@-moz-document url-prefix() {
+.giftregistry-right .buscar{
+padding:8px;
+}
+}
+.giftrg-right select{
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+font-size:14px;
+color:#585858;
+}
+.gf-vertical-devider{
+margin-top:20px;
+margin-bottom:20px;
+border-bottom:1px solid #e1e1e1;
+}
+.gift-registry-date{
+width:75px;
+padding:10px 5px 10px 5px;
+margin-right:5px;
+border-radius:5px;
+height:40px;
+}
+.gift-registry-month{
+width:75px;
+padding:10px 5px 10px 5px;
+margin-right:5px;
+border-radius:5px;
+height:40px;
+}
+.gift-registry-year{
+width: 76px;
+padding:10px 5px 10px 5px;
+border-radius:5px;
+height:40px;
+}
+.giftrg-left{
+float:left;
+width:33%;
+margin-top:40px;
+margin-left:2%;
+}
+.giftrg-right{
+float:right;
+width: 47%;
+}
+input#giftrg-no {
+    width: 101%!important;
+}
+.right-buscar{
+float:right;
+}
+.giftrg-textbox{
+margin-left:15px!important;
+}
+.giftrg-banners{
+padding: 6%;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+/* STYLES GO HERE */
+.giftrg-banners {
+    padding: 1%;
+}
+.giftrg-banners a {
+   
+    margin-left: 5px;
+}
+.giftrg-right select {
+    width: 31%;
+    font-size: 11px;
+}
+
+}
+.giftrg-banners ul{
+margin: 0;
+}
+.giftrg-eventno{
+width:150px!important;
+}
+.giftrg-right .buscar{
+margin-top:10px;
+margin-left:5px;
+}
+.giftrg-questions{
+margin-top:10px;
+}
+.giftrg-logo{
+margin-left:0px!important;
+}
+.event-list .giftrg-left{
+width: 35%;
+}
+.event-list .giftrg-eventno {
+width: 110px!important;
+margin-right: 5px!important;
+}
+.event-list .giftrg-right{
+width: 61%;
+}
+.event-list .giftrg-right .buscar{
+margin-left: 0px;
+float: right;
+}
+/* End: Gift Registration Page CSS */
+/* Start: Gift Registration Status Page CSS */
+.giftrg-status-header{
+height:50px;
+background:#2b2b2b;
+}
+.giftrg-status-header label{
+color:#fff;
+padding:15px 25px 15px 0px;
+margin-bottom:0px;
+}
+.gift-register-status{
+padding:17px;
+float:left;
+width:97%;
+min-height:610px;
+}
+.giftrg-status-logos{
+width:100%;
+float:left;
+}
+.gfstatus-vertical-devider{
+margin-top:20px;
+margin-bottom:20px;
+border-bottom:1px solid #000;
+}
+.gift-status-prod{
+float:left;
+margin-left:20px;
+}
+.status-report{
+font-size:15px;
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+color:#333;
+margin-top:40px;
+}
+.status-number{
+font-size:14px;
+font-weight:700;
+font-family:'Roboto Bold', arial, sans-serif;
+color:#333;
+}
+.status-number span{
+font-size:15px;
+color:#797979;
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+margin-top: 5px;
+display: block;
+}
+.status-full-right label{
+font-size:14px;
+font-weight:700;
+font-family:'Roboto Bold', arial, sans-serif;
+color:#333;
+}
+.status-full-right p{
+font-size:14px;
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+color:#333;
+}
+.status-full-right ul{
+list-style: disc inside none;
+margin:25px 0px 0px 0px;
+}
+.status-full-right ul li{
+color:#da027b;
+font-size:15px;
+margin-bottom:15px;
+}
+.status-full-right ul li span{
+color:#333;
+margin-left:5px;
+font-size:12px;
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+}
+.giftstatus-regresar{
+margin:40px 0px;
+float:left;
+}
+.giftstatus-regresar a{
+color:#333;
+font-size:14px;
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+}
+.regresar{
+background:url("/mobileAssets/images/icons/arrow.png")no-repeat;
+width:9px;
+height:16px;
+display:block;
+float: left;
+padding-right: 10px;
+margin-top:3px;
+background-size:9px;
+}
+.gift-status-footer{
+border-top: 1px solid #f0f0f0;
+margin-top: 40px;
+padding: 15px 0 5px;
+}
+.gift-status-footer a{
+color: #333;
+text-decoration: underline;
+padding: 0 10px;
+font-size: 11px;
+font-family: 'Roboto Light';
+}
+.gift-status-footer p{
+color:#a9a8a8;
+font-size: 11px;
+font-family: 'Roboto Light';
+}
+/* End: Gift Registration Status Page CSS */
+
+/* Start: Gift Results Page CSS */
+.gift-results-container{
+padding:0 1.5%;
+margin-bottom:30px;
+}
+.gift-results-regresar{
+margin:20px 0px 0px 0px;
+float:left;
+}
+.gift-results-regresar a{
+color:#333;
+font-size:14px;
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+}
+.gift-results-mesare{
+margin-left:5px!important;
+}
+.gift-results-logo{
+margin-top:10px;
+}
+.events-list{
+font-size:14px;
+font-weight:500;
+font-family:'Roboto Medium', arial, sans-serif;
+color:#111;
+border-bottom:1px solid #111;
+padding-bottom:10px;
+margin-top:10px;
+}
+.no-events{
+width:100%;
+margin:150px auto;
+}
+.no-events p{
+margin:0px auto;
+width:90%;
+font-size:24px;
+font-weight:700;
+font-family:Roboto bold;
+}
+/* End: Gift Results Page CSS */
+
+/* Start: Gift Events Results Page CSS */
+.gift-results-left.no-more-events{
+border-bottom:1px solid #111;
+}
+.boldText {
+font-family: 'Roboto Bold';
+}
+.gift-events-row{
+padding:15px 0px 15px 0px;
+border-bottom:1px solid #e1e1e1;
+}
+.gift-events-list{
+padding:15px 0px;
+border-bottom:1px solid #e1e1e1;
+}
+.gift-events-list label{
+margin-bottom:0px;
+}
+.gift-events-list [class*="span"]{
+min-height: 20px;
+}
+.gift-events-row a{
+margin-bottom:0px;
+vertical-align: middle;
+font-size:12px;
+font-family:'Roboto Medium', arial, sans-serif;
+font-weight:500;
+color:#111;
+}
+.gift-events-row [class*="span"]{
+min-height: 20px;
+}
+.lista-event{
+padding-bottom:10px;
+font-size:14px;
+font-family:'Roboto Medium', arial, sans-serif;
+font-weight:500;
+color:#111;
+margin-bottom:0px;
+}
+/* End: Gift Events Results Page CSS */
+
+/* Start: Gift Events Details Page CSS */
+.events-header{
+background:#333;
+padding:5px 0px;
+position:relative;
+}
+.events-header.electronic{
+margin-top:20px;
+}
+.events-lbl{
+float:left;
+color:#fff;
+margin:10px 0px 0px 0px;
+padding-left:15px;
+font-size:16px;
+font-family:'Roboto Medium', arial, sans-serif;
+font-weight:500;
+text-transform: uppercase;
+}
+.price-range{
+margin:5px 0px 0px 0px;
+background:#333;
+border:none;
+color:#fff;
+font-size:14px;
+font-family:'Roboto Medium', arial, sans-serif;
+font-weight:500;
+position:relative;
+}
+.gift_registry_detail_event_right_content .price-range
+{
+background:none !important;
+color:#000 !important;
+
+}
+.gift_registry_detail_event_right_content .price-range .selected-range
+{
+
+color:#000 !important;
+}
+
+select.price-range option{
+background:#fff;
+color:#111;
+padding:10px 0px 5px 0px;
+}
+.event-cert{
+color:#333;
+font-size:16px;
+font-family:'Roboto Medium', arial, sans-serif;
+font-weight:500;
+padding-bottom:15px;
+margin-left:12px;
+}
+.gift-btn{
+background:#E0068D;
+color:#fff;
+width:120px !important;
+padding:8px;
+border:none;
+font-family: 'Roboto',Arial;
+font-weight:400;
+font-size:14px;
+}
+/* .events-btn .gift-btn {
+position: absolute;
+top: 90px;
+} */
+.row-heading{
+padding:10px 0px 10px 10px;
+margin-left:0px ! important;
+}
+.row-heading label{
+font-weight:700;
+font-family: 'Roboto Bold';
+font-size:14px;
+text-transform: uppercase;
+color:#111;
+}
+.row-data{
+font-weight:500;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size:12px;
+color:#111;
+padding:10px 0px 10px 10px;
+}
+.table-container{
+border-top:1px solid #e1e1e1;
+padding-bottom:0px;
+padding-top:20px;
+}
+.events-camera{
+background:url(/mobileAssets/images/icons/camera-icon.png)no-repeat;
+width:27px;
+height:21px;
+background-size:27px;
+display:block;
+}
+.events-btn{
+margin-left:0px !important;
+
+position: relative;
+}
+.events-numero{
+margin-top:15px;
+float:left;
+}
+.events-numero label{
+font-weight:700;
+font-family: 'Roboto Bold';
+font-size:14px;
+}
+.events-numero p{
+font-weight:500;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size:12px;
+text-transform: uppercase;
+}
+.events-numero p.event-date{
+font-weight:500;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size:12px;
+text-transform:capitalize;
+}
+.events-left{
+float:left;
+}
+.events-right{
+float:left;
+}
+.events-right select{
+font-weight:500;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size:12px;
+text-transform: uppercase;
+margin-bottom:0px;
+}
+.events-left h2{
+margin:0px;
+}
+.mrgn-top{
+margin-top:15px;
+float:left;
+}
+.events-brdr{
+border-bottom:1px solid #cccccc;
+padding-bottom: 20px;
+}
+.dropdown-arrow{
+display:block;
+background:url(../images/icons/drop-down-arrow.png);
+width:26px;
+height:22px;
+background-size:26px;
+cursor:pointer;
+float: right;
+vertical-align: middle;
+margin-right: 10px;
+margin-left: 10px;
+}
+.mobile-dropdown-arrow {
+display:block;
+background:url(../images/icons/dropdown-arrow-m.png);
+width:26px;
+height:22px;
+background-size:26px;
+float: right;
+vertical-align: middle;
+margin-right: 10px;
+margin-left: 10px;
+cursor:pointer;
+}
+.event-btn-container{
+margin-left:0px !important;
+}
+ul.price-dropdown{
+display:none;
+position: absolute;
+color: #333;
+top: 26px;
+background: #fff;
+border:1px solid #ccc;
+margin:0px;
+width: 265px;
+right: 0px;
+z-index: 1;
+}
+
+ul.price-dropdown li{
+padding:8px 0px 8px 8px;
+border-bottom:1px solid #ccc;
+font-weight:500;
+font-family: 'Roboto Medium', arial, sans-serif;
+font-size:14px;
+}
+ul.price-dropdown li a{
+color:#111;
+}
+.price-range .selected-range{
+margin: 5px auto 0px;
+width: 100%;
+text-align: right;
+cursor:pointer;
+color: #fff;
+float: left;
+}
+.mobile-row-head{
+width:48.93617021276595% ;
+}
+.mobile-row-data{
+width: 46.93617021276595%;
+}
+.giftview-modal.modal{
+width: 400px;
+left: 30%;
+margin: 0px auto!important;
+}
+.gift-image-container{
+width:90%;
+margin:0px auto;
+}
+.gift-image-container img{
+margin:0px auto;
+width:100%;
+}
+#gift-view-modal .modal-body{
+margin-top:15px!important;
+}
+.gift-image-price{
+margin:20px auto;
+font-size:20px;
+font-family: 'Roboto Bold';
+font-weight:700;
+width:60%;
+}
+.giftview-modal .modal-header{
+border:none;
+}
+.close-btn{
+margin-top:8px;
+display:block;
+cursor:pointer;
+float:right;
+}
+/*Jon*/
+.gift-results-events{
+overflow-y: scroll;
+max-height:600px;
+}
+/*Jon*/
+
+.gift-results-events.no-results{
+overflow: hidden;
+}
+.giftreg-bottom-container {
+margin-bottom: 20px;
+}
+.giftreg-bottom-container .gift-btn {
+width: auto !important;
+padding: 8px 40px;
+margin-right: 20px;
+}
+.celebrate label,
+.celebrate h3 {
+margin-left: 0;
+}
+.celebrate input[type="text"]{
+margin-left: 0 !important;
+}
+.giftregistry-right.gift-registry-right-content {
+margin-right: 2%;
+margin-left: 0;
+}
+.gift-registry-right-content #taregeta {
+width: 46.5%;
+}
+#taregeta {
+width: 44.5%;
+}
+.gift-reg-rightcol {
+
+}
+.giftrg-boxcontainer {
+margin-left: 0 !important;
+}
+.gift-registry-right-content .regalos-evento .buscar {
+float: right;
+margin-right: 13%;
+}
+.gift-reg-rightcol #gift-mname {
+margin-right: 0;
+}
+.gift-registry-right-content .gift-reg-rightcol .buscar {
+margin-left:16px;
+}
+.gift-registry-right-content .gift-reg-rightcol input[type="text"] {
+width: 74%;
+}
+.gift-reg-rightcol label.error {
+margin: 5px 0 2px !important;
+}
+.gift-list-events-container #gift-mname,
+.gift-list-events-container #buscar,
+.gift-noresuls-container #gift-mname,
+.gift-noresuls-container #buscar {
+float: right;
+}
+
+.gift-list-events-container #err-container,
+.gift-noresuls-container #err-container {
+float: right;
+}
+#gift-view-modal .close-btn img {
+height:26px;
+}
+.gift-results-mesare {
+margin-left: 0 !important;
+}
+/* End: Gift Events Details Page CSS */
+/* gift regisrtry error meassage starts*/
+#gift_errormsg
+{
+color: #E9322D !important;
+font-size: 14px;
+margin: -4px 0 2px !important;
+line-height: 14px;
+clear: both;
+padding-bottom: 15px;
+font-weight: 500;
+font-family: 'Roboto Medium', arial, sans-serif;
+}
+
+#GR_carterrormsg
+{
+color: #E9322D !important;
+float: right;
+font-size: 14px;
+line-height: 14px;
+clear: both;
+padding-bottom: 15px;
+font-weight: 500;
+font-family: 'Roboto Medium', arial, sans-serif;
+}
+.giftrg-eventno {
+width: 115px!important;
+}
+.event-details-right
+{
+margin-bottom: -43px;
+}
+
+/* gift regisrtry error meassage end*/
+.visible-phone .select-ordertxt {
+color: #000 !important;
+}
+.select-ordertxt {
+color: #fff !important;
+}
+.giftrg-banners a
+{
+float:left;
+
+    margin-bottom: 8px;
+
+}
+.spanlinebreak
+{
+float: right; width: 100%;
+}
+.eventDNo
+{
+color: #E0068D !important;
+text-decoration: underline;
+}
+/*Jon*/
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+body > div.wrapper > div.gift-registry-container > div.giftrg-banners > a:nth-child(3){display:none;}
+.giftrg-banners {
+    padding: 6%;
+}
+.giftrg-banners a {
+   
+    margin-left: 5px;
+}
+.giftrg-right select {
+    width: 31%;
+    font-size: 11px;
+}
+}
+/*Jon*/
+@media(min-width:768px){
+    .row-fluid.events-table form{
+    position:relative;
+}
+.row-fluid.events-table form>.row-fluid.table-container > .row-fluid >.span5{
+    width:78%;
+    display:inline-block!important;
+    float:none;
+    margin:0;
+    font-size:14px!important;
+    text-align:left!important;
+    line-height: 1em;
+}
+.row-fluid.events-table form .event-btn-container {
+    float:none!important;
+    display:inline-block!important;
+    width:20%!important;
+    clear:none!important;
+    padding:10px;
+    overflow:hidden;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.span6.row-data{
+    font-size:14px;
+    margin:0!important;
+}
+
+.row-fluid.events-table form .row-heading{
+    font-size:14px!important;
+    padding:0!important;
+}
+.row-fluid.events-table form>.row-fluid.table-container > .row-fluid >.span5 > div>div{
+    width:40%;
+    margin:0
+}
+.row-fluid.events-table form>.row-fluid.table-container > .row-fluid >.span5 .row-fluid{
+    height:40px!important;
+    margin:0;
+    padding:0;
+    //background:red;
+}
+}

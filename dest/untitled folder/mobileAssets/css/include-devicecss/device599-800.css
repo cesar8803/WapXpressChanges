@@ -1,0 +1,16 @@
+.acc-dob .input-large {
+margin-left: 5px;
+margin-right: 5px;
+width: 51%;
+}
+.acc-dob .input-mini {
+width: 23%;
+}
+.share-container div[class*="span"] .regalar_icon{
+margin-top: 16px;
+margin-left: 119px;
+}
+.share-container div[class*="span"] .regalar_iconText
+{
+margin-right: 126px;
+}

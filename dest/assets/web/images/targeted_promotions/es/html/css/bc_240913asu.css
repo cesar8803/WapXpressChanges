@@ -1,0 +1,131 @@
+.centro_asu  {
+	background:
+		url("/web/images/targeted_promotions/es/html/img/bc_240913asu.jpg") 
+			/* url("../img/bc_250913asu.jpg") */
+		no-repeat top left;
+	height: 320px;
+	width: 550px;
+	position: relative;
+}
+
+#bc_250913asu .bn-cn-main {
+position: absolute;
+width: 235px;
+top: 160px;
+right: 0px;
+
+
+
+}
+#bc_250913asu .bn-cn-main .bn-texto-wh-xxl {
+position: relative;
+font-weight:bold;
+margin: 0px;
+display: inline-block;
+font-size: 1.2em;
+color:#069;
+}
+
+#bc_250913asu .titulo2 {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 4px;
+margin: 0px;
+display: inline-block;
+font-size: 1em;
+color:#666;
+}
+#bc_250913asu .promo1 {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 5px;
+margin: 0px;
+display:inherit;
+font-size: 1.2em;
+color:#FF3399;
+}
+#bc_250913asu .promo2 {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 5px;
+margin: 0px;
+display:inherit;
+font-size: .9em;
+color:#FF3399;
+}
+#bc_250913asu .promo3 {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 5px;
+margin: 0px;
+display:inherit;
+font-size: 1em;
+color:#06C;
+}
+#bc_250913asu .boton {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 10px;
+margin: 0px;
+display:inherit;
+font-size: 1.12em;
+color:#00CCFF;
+}
+#bc_250913asu .restricciones {
+font-family: 'robotolight', arial, sans-serif;
+font-weight:bold;
+position: relative;
+top: 10px;
+margin: 0px;
+display:inherit;
+font-size: .7em;
+color:#666666;
+}
+
+#bc_250913asu .bn-cn-main .mas {
+position: relative;
+margin: 0px;
+display:inherit;
+width: 10px;
+top: -8px;
+left: 2px;
+}
+
+#bc_250913asu .bn-cn-main .bn-texto-wh-xxl {
+position: relative;
+margin: 0px;
+display: inline-block;
+
+}
+#bc_250913asu .bn-texto-wh-sm {
+width: 130px;
+position: relative;
+margin: 0px;
+left: 14px;
+}
+#bc_250913asu .flag_{
+position: absolute;
+top: 190px;
+background-color: #EEE;
+opacity: 0.5;
+right: 0px;
+width: 472px;
+height: 80px;
+
+}
+
+#bc_250913asu .p_flag_{
+position: absolute;
+font-size: 41px;
+width: 500px;
+right: -30px;
+margin: 0px;
+padding: 0px;
+top: 205px;
+
+}

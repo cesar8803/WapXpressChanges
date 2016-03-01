@@ -1,0 +1,111 @@
+.fifa-cintillo {
+	float: right;
+}
+#fifa-banner{
+	width: 994px;
+	height: 342px;
+	margin: 20px auto 10px;
+	position: relative;
+}
+.fifa-menu{
+	position: absolute;
+	width: 227px;
+	height: 643px;
+	left: 0;
+	top: 0;
+	background: #fff url(/assets/web/images/targeted_promotions/es/html/mundial-sony/images/logo-bg.gif) no-repeat bottom right;
+	border-radius: 0 15px 0 15px;
+	z-index: 99999;
+}
+	.fifa-menu h1{
+		font-family: "robotobold", arial, sans-serif;
+		font-size: 30px;
+		color: #1ba6da!important;
+		text-transform: uppercase;
+		margin: 15px 15px 0 15px !important;
+		border-bottom: 1px solid #ddd;
+	}
+	.fifa-menu ul{
+		padding: 10px 15px 15px 15px;
+
+	}
+		.fifa-menu a{
+			font-family: "robotomedium", arial, sans-serif;
+			font-size: 13px;
+			padding: 0.5em 0 0.5em 1em;
+			display: block;
+			background: url(/assets/web/images/targeted_promotions/es/html/mundial-sony/images/blue-arrow.gif) no-repeat left 48%;
+		}
+		.fifa-menu a:hover{
+			text-decoration: underline;
+		}
+	.fifa-menu .shadow-menu{
+		position:absolute;
+		left: 15px;
+		bottom: -5px;
+		width: 90%;
+		height: 3px;
+		background: rgba(0,0,0,0.4);
+		box-shadow: 0 0 16px 8px rgba(0,0,0,0.4);
+		border-radius: 80px;
+	}
+.fifa-brands{
+	height: 53px;
+	border:1px solid #ddd;
+	float: right;
+	width: 756px;
+}
+	.fifa-brands ul{
+		text-align: right;
+	}
+		.fifa-brands ul li{
+			display: inline-block;
+			margin: 10px 24px;
+			vertical-align: top;
+			width: 134px;
+		}
+		 	.fifa-brands ul li a{
+		 		display: block;
+		 	}
+		 	.fifa-brands ul li a img{
+		 		vertical-align: middle;
+		 	}
+.fifa-banners{
+	margin: 10px auto;
+}
+	.left-banner, .right-banner{
+		border:1px solid #ddd;
+		float: right;
+		margin-left: 10px;
+	}
+	.row-banners-bottom{
+		margin-top: 10px;
+	}
+	.row-banners-bottom	.item{
+		width: 324px;
+		height: 220px;
+		overflow: hidden;
+		float: left;
+		border: 1px solid #ddd;
+	}
+		.row-banners-bottom	.item:first-child{
+			margin-right: 6px;
+		}
+		.row-banners-bottom	.item:nth-child(3){
+			margin-left: 6px;
+		}
+		
+			.row-banners-bottom	.item a{
+				display: block;
+			}
+	.row-banners-bottom	.col-2{
+		width: 658px;
+	}	
+.dummy-search{
+	display: none!important;
+}
+#cat670055{display: none;}
+
+ul.bjqs{
+	display: block !important;
+}

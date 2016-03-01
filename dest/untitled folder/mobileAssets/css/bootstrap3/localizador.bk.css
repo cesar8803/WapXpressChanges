@@ -1,0 +1,506 @@
+html { width:100%;height: 100%; }
+body {
+	width:100%;
+	 height: 100%;
+	 margin: 0!important;
+	 padding: 0!important;
+}
+.orientleft #shell {
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:160px 160px;
+}
+ 
+.orientright #shell {
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin:230px 230px;
+} 
+.container { 
+	width:100%;
+	height: 100%;
+  padding:0!important;
+  margin:0!important;
+}
+.gl-map { 
+  position: fixed;
+	width:100%;
+	height: 90%;
+	  margin: 0;
+  padding: 0;
+z-index: 0;
+	 }
+.header{height: 10%;}
+#btn-all{
+position: absolute;
+width: 100%;
+height: 6%;
+bottom:0%;
+left: 0em;
+z-index: 4;
+}
+
+#btn-all button{
+	background:#2fbae5;
+	border-radius: 0;
+	border: 0;
+}
+.dropdown-menu{
+	width: 100%;
+}
+.dropdown-menu li{
+
+}
+.dropdown-menu li .active{
+background:#2fbae5;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus{
+	background-color:#2fbae5!important;
+	  background-image: -webkit-linear-gradient(top, #2fbae5 0%, #2fbae5 100%)!important; 
+  background-image: -o-linear-gradient(top, #2fbae5 0%, #2fbae5 100%)!important;
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#2fbae5), to(#2fbae5))!important; 
+  background-image: linear-gradient(to bottom, #2fbae5 0%, #2fbae5 100%)!important; 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='##2fbae5', endColorstr='#ff2e6da4', GradientType=0);
+  background-repeat: repeat-x;
+
+}
+
+.dropdown-menu li a{
+	color:#646464;
+}
+
+.dvth{
+	padding: 0;
+}
+.form-typeahead{
+	margin: 0;
+	padding: 0;
+	border:0.5em solid #e3e3e3;
+}
+#panel-info {
+        z-index: 8;
+        position: fixed;
+        bottom: 0%;
+        left: 0;
+        width: 100%;
+        /*min-height: 16em;*/
+        height: 0;
+        /*max-height: 20em;*/
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border-top: 0.5em solid #f42287;
+        display: none;
+      }
+#titulo-map-globo{text-align: left;height: 2em;border-bottom:1px solid #ccc;width:100%;font-size: 1.2em;color:#646464;}
+#img-globo{margin-top:0.5em;display: inline-block;}
+#descripcion-globo{margin-top:0.5em;font-size: 14px;font-family: "Roboto"; font-weight: 100;}
+.cerrar-globo{position:absolute;display:inline-block;float:right;font-size:13px;right: 5px;}
+.mas-globo{ 
+  position: absolute;
+  right: 0;
+  bottom: -7px;
+}
+/*detalle tienda*/
+#detalle-tienda{
+	position: absolute;
+	width: 100%;
+	height: 0;/*height:92%*/
+	top:50px;
+	right:0;
+	background: #fff;
+	z-index: 10;
+	display: none;
+	
+}
+.sprt-localizador{
+padding-left: 1em;
+padding-right: 1em;
+text-align: center;
+margin-left: 1em!important;
+}
+.sprt-telefono{
+padding-left: 1em;
+padding-right: 1em;
+text-align: center;
+margin-left: 1em!important;
+
+}
+.sprt-horario{
+padding-left: 1em;
+padding-right: 1em;
+text-align: center;
+  margin-left: 1em!important;
+}
+.sprt-servicios{
+padding-left: 1em;
+padding-right: 1em;
+text-align: center;
+  margin-left: 1em!important;
+}
+.box{
+  /*background: #ccc;*/
+  margin: 0 3px 20px 0;
+}
+.box:last-child{
+  /*background: yellow;*/
+  margin: 0 0 10px 0;
+
+}
+.btn-llamada{
+background: #11b24b;
+color: #fff;
+border:0;
+border-radius: 0;
+height: 4em;
+}
+.btn-llegar{
+background: #2fbae5;
+color: #fff;
+border:0;
+border-radius: 0;
+height: 4em;
+}
+.cont-dt-title{
+  position:absolute;
+  width:100%;
+  height:2em;
+  bottom:0;
+  color:#fff;
+}
+.title-dt-tienda{
+  position:absolute;
+  color:#ffffff;
+  display:inline-block;
+  margin-left:2.5em;
+  z-index:99;
+  font-size:1.2em;
+}
+.shadow-title-dt{
+  position:absolute;
+  width:100%;
+  height:2em;
+  bottom:0;
+  color:#fff;
+  background-color:black;
+  opacity:0.6;
+  padding-left:25px;
+  z-index:9;
+}
+
+.btn-c-group{
+position:fixed;
+bottom:0;
+}
+/*detalle tienda*/
+
+/*Lista de tiendas mau*/
+#sectionAllLocators{
+  display:none;
+  opacity: 0;
+  position: fixed;
+  z-index: 19;
+  right:0;
+  top:50px;
+  overflow-y:auto; 
+}
+
+#list-store ul li{
+	background-color: #f1f3f2;
+	border: 1px solid #adadad;
+}
+#list-store .panel .list-group{width:104%!important;}
+
+#sectionSearch{
+  display:none;
+}
+
+.btn-filter-local{
+
+border:0;
+background:#fff;
+border-radius: 0;
+height: 34px;
+}
+.input-filter{
+	border:0!important;
+}
+.modal-filter {
+  position: fixed;
+  top: 103px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal-dialog-filter {
+  width: 16em;
+  height: 100%;
+  float: right;
+  margin-top: 0px;
+    margin: 0;
+}
+.modal-content-filter {
+  border-radius: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.radio-filter label{
+	  min-height: 45px;
+	  font-size: 1.3em;
+}
+
+/*Lista de tiendas mau*/
+/*para lista de estados*/
+
+.modal-by-estate {
+  position: fixed;
+  top: 103px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal-dialog-estate{
+  width: 16em;
+  height: 100%;
+  float: right;
+  margin-top: 0px;
+    margin: 0;
+}
+.modal-content-estate {
+  border-radius: 0px;
+  height: 100%;
+  width: 100%;
+  overflow-y:auto; 
+}
+.radio-estate label{
+    min-height: 45px;
+    font-size: 1.3em;
+}
+.modal-backdrop.in{
+  z-index:1;
+    width: 0;
+  height: 0!important;
+  display:none;
+}
+.modal.in .modal-dialog {
+  z-index:9;
+}
+/*para lista de estados*/
+
+
+/*resteo de paddings*/
+.row{
+	  margin-right: 0!important;
+
+}
+.col-xs-12{
+	padding-right: 0px!important;
+}
+.btn-default{
+	  /* text-shadow: 0 1px 0 #FFFFFF !important; */
+}
+/*resteo de paddings*/
+#map-container-need{display:none;}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.nodisplay-iphone{
+  display: none;
+}
+
+}
+@media only screen 
+and (min-width : 600px) 
+and (max-width : 3024px)  {
+
+.nodisplay-ipad{
+  display: none;
+}
+
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { /* STYLES GO HERE */
+
+#detalle-tienda{
+  position: fixed;
+  top:55px;
+  width: 50%;
+  right:0!important;
+  max-height: 768px!important;
+  overflow-y:auto; 
+}
+.row-detalle{margin-left: -8px;}
+.btn-c-group{
+  width:100%;
+    left: 0;
+}
+
+.sprt-localizador{
+padding-left: 1em;
+padding-right: 1em;
+text-align: center;
+margin-left: 1em!important;
+}
+.sprt-telefono{
+padding-left: 1em;
+padding-right: 1em;
+text-align: center;
+margin-left: 1em!important;
+
+}
+.sprt-horario{
+padding-left: 1em;
+padding-right: 1em;
+text-align: center;
+  margin-left: 1em!important;
+}
+.sprt-servicios{
+padding-left: 1em;
+padding-right: 1em;
+text-align: center;
+  margin-left: 1em!important;
+}
+
+.box{
+  /*background: #ccc;*/
+  margin: 0 3px 20px 0;
+}
+.box:last-child{
+  /*background: yellow;*/
+  margin: 0 0 10px 0;
+
+}
+
+.btn-llamada{
+display:none;
+width: 0;
+height: 0;
+}
+.btn-llegar{
+background: #2fbae5;
+color: #fff;
+border:0;
+border-radius: 0;
+height: 4em;
+float: left;
+}
+
+.cont-dt-title{
+  position:absolute;
+  width:97%;
+  right:0;
+  height:2em;
+  bottom:0;
+  color:#fff;
+}
+.title-dt-tienda{
+  position:absolute;
+  color:#ffffff;
+  display:inline-block;
+  margin-left:2.5em;
+  z-index:99;
+  font-size:1.2em;
+}
+.shadow-title-dt{
+  position:absolute;
+  width:100%;
+  height:2em;
+  bottom:0;
+  color:#fff;
+  background-color:black;
+  opacity:0.6;
+  padding-left:25px;
+  z-index:9;
+}
+
+#sectionAllLocators{
+
+    position:absolute;
+    z-index:0;
+    right:0;
+    top:7%;
+    width: 40%;
+    display:none;
+    overflow-y:auto;
+    overflow-x:hidden; 
+
+}
+.form-typeahead
+{width:100%;}
+.navbar-form .input-group {width:113%;}
+.align-icon-header {
+  margin-top: 0.3em!important;
+  margin-right: 1em!important;
+  float: right;
+  width: 5%!important;
+}
+.col-xs-1.align-icon-header{
+
+}
+
+.gl-map { 
+  height: 95%;
+   }
+
+.nodisplay-ipad{
+  display: none;
+}
+
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { /* STYLES GO HERE */
+.btn-c-group{
+  width:100%;
+    left: 0;
+}
+#sectionAllLocators{
+
+   
+    top:5.5%;
+  
+}
+#detalle-tienda{
+    max-height: 1024px!important;
+
+  height: 97%!important;
+}
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { /* STYLES GO HERE */
+
+.btn-back-head{width:55px!important;}
+#btn-all{bottom:2%;}
+.input-group .form-control {
+  width: 100%;
+  border-radius: 0;
+}
+ }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px)  and (orientation : landscape){ /* STYLES GO HERE */
+
+.btn-back-head{width:55px!important;}
+#btn-all{bottom:2%;}
+.input-group .form-control {
+  width: 100%;
+  border-radius: 0;
+}
+ }
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) and (orientation : landscape) { /* STYLES GO HERE */
+
+
+ }

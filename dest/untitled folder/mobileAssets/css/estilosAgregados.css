@@ -1,0 +1,21 @@
+.catSubcat-title h2{
+	font-size: 23px;
+	border-bottom: 1px solid #ccc
+}
+.cat-subcats{
+	max-width: 46.5%;
+	border:1px solid #ccc;
+	margin-right: 3%;
+	margin-bottom: 1em;
+}
+.cat-subcats h3{
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 1em;
+	text-align: center;
+	color:black;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}

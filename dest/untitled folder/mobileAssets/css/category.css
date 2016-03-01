@@ -1,0 +1,323 @@
+.category-container{
+padding: 0 1.5%;
+}
+.cat-banner-container .caroufredsel_wrapper{
+margin: 0!important;
+}
+.cat-banner-container{
+margin-bottom: 15px;
+}
+.cat-banner-container .lvpool-caroufredsel-pag{
+left: 45%;
+}
+.cat-products{
+border: solid 1px #e1e1e1;
+height: 130px;
+padding-top: 15px;
+text-align: center;
+margin-bottom: 2.5641%;
+}
+.cat-products h3{
+font-family: 'Roboto Bold',arial,sans-serif;
+font-size: 15px;
+color: #000000;
+line-height: 14px;
+margin: 15px 0 2px;
+font-weight: 500;
+}
+.cat-products p{
+font-family: arial;
+color: #565656;
+font-size: 12px;
+}
+.cat-products:nth-child(4n+1){
+margin-left: 0!important
+}
+.cat-products img{
+height: 50px;
+}
+.cat-prod-slider, .promotion-content{
+margin: 30px 0;
+}
+.cat-prod-slider h4, .promotion-content h1{
+color: #000000;
+font-family: 'Roboto Medium',arial,sans-serif;
+font-size: 18px;
+line-height: 17px;
+margin: 15px 0;
+padding-left: 1.5%;
+font-weight: normal;
+}
+.cat-prod-slider .span12{
+border-bottom: dotted 1px #b9b9b9;
+border-top: dotted 1px #b9b9b9;
+padding: 1.5%;
+}
+.cat-prod-slider label{
+color: #454545;
+float: left;
+font-size: 16px;
+font-family: arial;
+vertical-align: middle;
+margin-top: 6px;
+}
+.cat-prod-slider select{
+float: left;
+color: #3d3d3d;
+font-size: 17px;
+font-family: arial;
+padding: 5px 5px 5px 7px;
+height: 33px;
+line-height: 30px;
+margin-left: 30px !important;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+border: 1px solid #acacac;
+}
+.cat-prod-count {
+color: #454545;
+font-size: 14px;
+font-family: 'Roboto Medium',arial,sans-serif;
+margin: 6px 0px 0 0;
+line-height: 22px;
+}
+.slider-category ul{
+float: left;
+margin: 20px 0;
+width: 100%;
+color: #000000;
+}
+.slider-category input{
+background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #000000;
+border-radius: 0 !important;
+font-family: 'Roboto Medium',arial,sans-serif;
+font-size: 13px;
+padding: 0 15px;
+margin: 0 33%;
+}
+.slider-category p{
+float: left;
+font-family: 'Roboto Regular',arial,sans-serif;
+font-size: 14px;
+line-height: 10px;
+margin: 15px 5%;
+text-align: center;
+width: 90%;
+}
+.promotion-content .slider-category .title {
+color: #000000;
+font-family: 'Roboto Bold',arial,sans-serif;
+font-size: 16px;
+font-weight: 500;
+max-height: 50px;
+min-height: 40px;
+text-align: left;
+line-height: 18px;
+}
+.cat-prod-info{
+font-family: 'Roboto Bold',arial,sans-serif;
+font-size: 14px;
+color: #fff;
+background: #d40177;
+width: 100%;
+text-align: center;
+text-transform: uppercase;
+padding: 10px 0;
+-webkit-border-radius:2px;
+-moz-border-radius:2px;
+border-radius:2px;
+}
+.promotion-content .cat-prod-info{
+text-transform: none;
+}
+.cat-prod-info a {
+    display: inline-block;
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    color: #ffffff;
+}
+.valid-time{
+font-family: 'Roboto Medium',arial,sans-serif;
+margin: 0 5% !important;
+color: #3d3d3d;
+font-size: 12px;
+}
+.slider-category li.span4{
+margin-left: 5px !important;
+text-align: center;
+background: url('/mobileAssets/images/border-small.png') no-repeat right center;
+}
+.promotion-content .slider-category li.span4{
+background: none;
+border-right: 1px dotted #B9B9B9;
+}
+.promotion-content .slider-category li.span4:last-child{
+border-right: none;
+}
+.slider-category li.span4:nth-child(3n){
+background: none;
+}
+.slider-category li:first-child{
+}
+.cat-recomended{
+padding: 0 1.5%;
+margin-bottom: 15px;
+}
+.slider-category div.prev{
+left: 0;
+background: url("/mobileAssets/images/icons/slider_left_arrow.png") no-repeat left top;
+float:left;
+width:24px;
+height:108px;
+position:absolute;
+top:20%;
+cursor:pointer;
+background-size:12px;
+}
+.slider-category div.next{
+right: 0;
+background: url("/mobileAssets/images/icons/slider_right_arrow.png") no-repeat left top;
+float:right;
+width:24px;
+height:108px;
+position:absolute;
+top:20%;
+cursor:pointer;
+background-size:12px;
+}
+.slider-category .pdt-description{
+color: #3D3D3D;
+font-size: 12px;
+line-height: 20px;
+margin: 0;
+max-height: 132px;
+min-height: 104px;
+overflow: hidden;
+padding: 0 15px;
+text-align: left;
+}
+.promotion-content .pdt-description{
+margin: 0;
+line-height:20px;
+font-size: 12px;
+color: #3d3d3d;
+text-align: left;
+padding: 0 20px;
+}
+.promotion-content .thumbnails li .site-promotion-img {
+min-height: 191px;
+}
+.promo-load-btn {
+color: #2d2d2d;
+font-size: 14px;
+font-family: arial;
+font-weight: 600;
+border: 1px solid #acacac;
+background: none;
+padding: 12px 16px;
+-webkit-border-radius:4px !important;
+-moz-border-radius:4px !important;
+border-radius:4px !important;
+}
+.promotion-load {
+margin: 0 auto;
+text-align: center;
+}
+.promotion-content.cat-prod-slider .span12 {
+border-bottom: none;
+}
+.promotion-load [class*='span']{
+border-top: none;
+}
+.promotion-load {
+border-top: 1px solid #cccccc;
+}
+.select-promotions {
+padding-left: 1.5%;
+float: left;
+width: 98.5%;
+margin: 5px 0 12px 0;
+}
+.bundleorderhistry-lft{
+float: left;
+width: 40%;
+}
+.bundleorderhistry-ret{
+float: left;
+width: 100%;
+}
+.orderhistry{
+border-bottom: 1px solid #cccccc;
+clear: both;
+float: left;
+width: 100%;
+}
+.firstspan
+{
+float: left;
+font-size: 11px;
+}
+.secspan
+{
+font-size:10px;
+color:#B7B4B5;
+}
+/*ESTILOS DEL NUEVO CLP*/
+.category-container .row-fluid .span3.cat-products{
+  clear: both!important;
+  display: block!important;
+  width:100%!important;
+  padding: 1em 0;
+  overflow: hidden;
+  height: auto;
+  text-align: left;
+  border:0 solid;
+}
+.category-container .row-fluid .span3.cat-products li{
+  display: inline-block;
+  max-width: 30%;
+  margin: .5em 1%;
+  width: 100%;
+  float: none;
+  text-align:  center;
+  vertical-align: top;
+}
+.category-container .row-fluid .span3.cat-products li img{
+  height: auto;
+  max-width: 100%;
+}
+.category-container .row-fluid .span3.cat-products li h3{
+  background-color: #81898b;
+  color:white;
+  padding: 0.5em 1em;
+}
+
+@media(max-width:480px){
+  .category-container .row-fluid .span3.cat-products li{
+  display: inline-block;
+  max-width: 47%;
+  margin: .5em 1%;
+  width: 100%;
+  float: none;
+  text-align:  center;
+  vertical-align: top;
+}
+}
+/*TERMINAN ESTILOS NUEVO CLP*/
+.span3.cat-products li {
+  display:inline-block;
+  position:relative;
+}
+.span3.cat-products li a{
+  display:inline-block;
+  width:100%;
+}
+.span3.cat-products li a img {
+    height: 130px!important;
+}
+.cat-prod-slider.promotion-content .select-promotions select {
+    margin-left: 0!important;
+}

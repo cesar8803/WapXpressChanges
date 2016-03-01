@@ -1,0 +1,193 @@
+/*a:link{
+	text-decoration: none;
+	}*/
+
+.centro_Mesa {
+	background:
+	url("http://www.liverpool.com.mx/web/images/targeted_promotions/es/html/img/bc_250913mes_2.jpg")
+		/*url("../img/bc_250913mes_2.jpg")*/
+		no-repeat top left;
+	height: 320px;
+	width: 550px;
+	position: relative;
+}
+
+#bc_250913mes .promo-main {
+position: absolute;
+width: 190px;
+top: 18px;
+right: 16px;
+/*background: cyan;*/
+
+}
+
+#bc_250913mes .promo-main .bn-texto-wh-xxl {
+	color:#e83d99;
+	font-size: 20px;
+font-weight: bold;
+left: -70px;
+position: relative;
+margin: 0px;
+display: inline-block;
+color: #e83d99;
+text-align:center;
+top:120px;
+width:280px;
+/*background: yellow;*/
+
+}
+
+#bc_250913mes .txtGris{
+	color:#666;
+	
+	}
+
+
+#bc_250913mes .promo-main .porcentaje {
+  display: inline-block;
+  left: -2px;
+  margin: 0;
+  position: relative;
+  top: -18px;
+  width: 10px
+}
+
+
+#bc_250913mes .promo-main .mas {
+	color:#264e8c;
+display: inline-block;
+font-size: 18px;
+font-weight: bold;
+left: 2px;
+margin: 0 10px;
+position: relative;
+top: 43px;
+width: 10px;
+
+}
+
+#bc_250913mes .promo-main .y {
+	color:#264e8c;
+	font-weight:bold;
+	font-size:22px;
+position: relative;
+margin: 0px;
+display: inline-block;
+width: 10px;
+top: 1px;
+left: -108px !important;
+}
+
+#bc_250913mes .promo-main .promoAdiocional {
+	color:#264e8c;
+	font-weight:bold;
+	left:58px;
+position: relative;
+margin: 0px;
+display: inline-block;
+width: 10px;
+top: -21px;
+
+}
+#bc_250913mes .promo-main .promoAdiocional2 {
+color:#666;
+
+position: relative;
+margin: 0px;
+display: inline-block;
+width: 200px;
+top: 180px;
+left: 1px !important;
+}
+
+#bc_250913mes .bn-texto-wh-xxlTitulo{
+	
+	color:#264e8c;
+padding:20px 40px;
+font-weight:bold;
+font-size:25px;
+	}
+
+#bc_250913mes .call2Action{
+	background:#e83d99;
+	-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+	color:#fff;
+	display:inline-block;
+	font-size:12px;
+	height:21px;
+	 left: -34px;
+	margin:0 20px;
+	padding:0 22px;
+	position:relative;
+	top: 142px;
+    width: 125px;
+	}
+	
+#bc_250913mes .flecha{
+	left: 115px;
+    position: relative;
+    top: -12px;
+	}
+	
+#bc_250913mes .call2Action_texto{
+	left: -5px;
+    position: relative;
+    top: 2px;
+	}
+
+
+#bc_250913mes .bn-texto-wh-sm {
+ color: #666666;
+ display: inline-block;
+ left: 18px;
+ line-height:90%;
+ margin-left: 9px;
+ position: relative;
+ top: -20px;
+}
+
+#bc_250913mes .bn-texto-wh-smAbajo  {
+ color: #666666;
+ font-family: 'robotolight',arial,sans-serif;
+ font-size: 0.9em;
+ left: 50px;
+ position: relative;
+ top: -29px;
+}
+#bc_250913mes .restricciones{
+position: absolute;
+top: 190px;
+/*background-color: pink;*/
+right: 0px;
+width: 300px;
+height: 80px;
+
+}
+
+#bc_250913mes .p_restricciones{
+color:#666;
+font-family: 'robotolight',arial,sans-serif;
+font-size: 10px;
+margin: 0px;
+padding: 5px;
+position: absolute;
+text-decoration:none;
+right: -30px;
+text-align: center;
+top: 224px;
+width: 300px;
+}
+
+#bc_250913mes .p_restricciones a:link{
+
+text-decoration:none;
+
+}
+
+#bc_250913mes .p_restricciones a:hover{
+
+text-decoration:none;
+
+}

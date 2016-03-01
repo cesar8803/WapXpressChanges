@@ -1,0 +1,33 @@
+#brands-slide {
+    width: 1280px;
+    margin: 10px 0 10px 0;
+    height: 50px;
+}
+
+#brands-slide ul {
+    text-align: center;
+}
+
+#brands-slide ul li {
+    display: inline-block;
+    margin: 0 25px;
+    max-width: 865px;
+    overflow: hidden;
+}
+
+#brands-slide a {
+    display: block;
+}
+
+#brands-slide a img {
+    vertical-align: middle;
+}
+
+#brands-carousel .showcase-arrow-previous,#brands-carousel .showcase-arrow-next {
+    top: 0 !important;
+	z-index:1;
+}
+
+#brands-carousel .showcase-content-container {
+    height: 50px !important;
+}

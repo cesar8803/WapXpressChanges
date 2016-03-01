@@ -1,0 +1,25 @@
+block var1
+  - var productTitle = 'Tenis Lacosteasdasd Dama'
+  - var productImage = 'http://media14.liverpool.com.mx/web/images/products/es_MX/lg/1034557400.jpg'
+  - var orderStatus = 'Preparando tu pedido'
+block var2
+  - var clickable = true
+block var3
+  - var priced = false
+block var3
+  - var canceled = false
+block main_class
+ .product.item
+  if clickable && canceled
+   .first_item-module.product_item.canceled.clickable
+     include ./product-content.jade
+  else if clickable
+   .first_item-module.product_item.clickable
+     include ./product-content.jade
+  else if priced
+   .first_item-module.product_item.ebook
+     include ./product-content.jade
+  else
+   .first_item-module.product_item.noclickable
+     include ./product-content.jade
+

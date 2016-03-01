@@ -1,0 +1,148 @@
+#map-canvas {
+
+width:100%;
+height: 390px;
+margin: 40px;
+padding: 0px
+}
+#panel {
+position: absolute;
+top: 5px;
+left: 50%;
+margin-left: -180px;
+z-index: 5;
+background-color: #fff;
+padding: 5px;
+border: 1px solid #999;
+}
+#panel {
+position: absolute;
+top: 5px;
+left: 50%;
+margin-left: -180px;
+width: 350px;
+z-index: 5;
+background-color: #fff;
+padding: 5px;
+border: 1px solid #999;
+}
+#latlng {
+width: 225px;
+}
+.storewrapper #store{
+width: 1010px;
+height: auto;
+}
+.storewrapper #map-canvas{
+
+width:100%;
+position: relative;
+margin: 0px 15px 0px 0px;
+height: 390px;
+float: right;
+background-color: rgb(229, 227, 223);
+overflow: hidden;
+}
+.store-right-container
+{
+width: 86%;
+}
+
+/*Compare CSS*/
+.compare-remove img{
+height: 16px;
+}
+#fristcompare-error,#leftcompare-error,#rightcompare-error, #compare-error-mobile {
+display:none;
+}
+#fristcompare-error,#leftcompare-error,#rightcompare-error, .modal-body, #compare-error-mobile .modal-body {
+padding:35px 10px 15px 15px;
+}
+
+.compare-error-text {
+font-family:arial;
+font-size:14px;
+font-weight:bold;
+}
+
+#fristcompare-error,#leftcompare-error,#rightcompare-error, #compare-error-mobile {
+width:54%;
+left:22%;
+}
+.compare-warning img {
+padding-left:15px;
+}
+#fristcompare-error,#leftcompare-error,#rightcompare-error, .close-btn, #compare-error-mobile .close-btn{
+position:absolute;
+top:30%;
+right:35px;
+}
+
+/*End*/
+/* pdp lence popup starts*/
+
+/* first Compare*/
+#firstcompare-error,#leftcompare-error,#rightcompare-error {
+width: 60% !important;
+left: 20%;
+}
+.compare-warning img {
+padding-left:15px;
+}
+#firstcompare-error .close-btn, #leftcompare-error .close-btn,#rightcompare-error .close-btn{
+position:absolute;
+top:5px;
+right:35px;
+}
+
+#firstcompare-error .close-btn ,#leftcompare-error .close-btn,#rightcompare-error .close-btn {
+position:absolute;
+top:12px;
+right:10px;
+}
+.liverpool_card p.card_icon {
+background: url("/mobileAssets/images/icons/dilisa-promocion-detalle.png") no-repeat 0px 3px;
+padding: 5px 0 10px 30px;
+}
+/* #firstcompare-error .modal-body, #leftcompare-error .modal-body,#rightcompare-error .modal-body {
+padding: 35px 10px 15px 15px;
+} */
+#firstcompare-error .compare-error-text ,#leftcompare-error .compare-error-text,#rightcompare-error .compare-error-text .phone-hide {
+width:80%;
+/* margin-right:12px; */
+font-family: arial;
+font-size: 14px;
+font-weight: bold;
+}
+#firstcompare-error .modal-body, #leftcompare-error .modal-body,#rightcompare-error .modal-body
+{
+width: 95% !important;
+}
+
+#leftcompare-error .modal-body {
+padding: 18px 10px 15px 15px !important;
+}
+#leftcompare-error
+{
+padding-top: 10px;
+
+}
+/* .category_drop .field-search
+{
+height: 39px !important;
+} */
+#typeahead {
+margin-top: -10px;
+float: left;
+width: 339px !important;
+position: relative;
+left: 0px !important;
+}
+
+
+/* starts: WAP code */
+.lp-search-input-cont .category_drop .input-append input[type="text"] {
+height: 45px !important;
+border-radius: 0 !important;
+}
+/* ends: WAP code */

@@ -1,0 +1,46 @@
+.container{
+width: 800px;
+margin: 0 auto;
+text-align:center;
+}
+.container h1{
+color:#eb0a8c;
+font-size:40px;
+font-family: 'Roboto Medium',arial,sans-serif;
+}
+.logo {
+width: 20%;
+}
+.logo img{
+height: 46px;
+margin:20px 20px 20px 0;
+border:0;
+}
+.error-message{
+padding: 20px;
+border: #ccc 1px solid;
+
+/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+-webkit-border-radius: 12px;
+
+/* Firefox 1-3.6 */
+-moz-border-radius: 12px;
+
+/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+border-radius: 12px;
+
+}
+.msg-1{
+font-size:40px;
+font-family: 'Roboto Medium',arial,sans-serif;
+margin:5px;
+}
+.msg-2{
+color:#eb0a8c;
+font-family: 'Roboto Medium',arial,sans-serif;
+font-size:28px;
+margin:5px;
+}
+.error-img-404{
+margin: 30px auto;
+}
