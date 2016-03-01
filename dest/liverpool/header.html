@@ -1,0 +1,65 @@
+
+<html lang="en">
+  <head>
+    <meta http-equiv="content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="description" content="Liverpool"/>
+    <meta name="author" content="Liverpool"/>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/header.css"/>
+    <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/style-font.css"/>
+  </head>
+  <body>
+    <header class="header container">
+      <div class="header-container row-fluid">
+        <div class="header-contain-left col-xs-3 col-md-2">
+          <div id="menu-icn">
+            <button class="c-hamburger c-hamburger--htla"><span>toggle menu</span></button>
+          </div>
+        </div>
+        <div class="header-contain-middle col-xs-6 col-md-6"><span class="icon-liv-logo"></span></div>
+        <div class="header-contain-right col-xs-3 col-md-2">
+          <div class="row-fluid">
+            <div id="bag-contain" class="col-xs-6"><span class="icon-liv-bolsa">
+                <div class="cart-bubble">0</div></span></div>
+            <div id="search-icon-contain" class="col-xs-6"><span class="icon-liv-search"></span></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="megaMenu container">
+      <div class="row-fluid">
+        <div class="col-xs-12 col-md-12 mega-menu-container">
+          <div class="row-fluid">
+            <div class="col-xs-12 col-md-12 mega-menu-main">
+              <div class="mega-menu-header-title">Buscar por departamento</div>
+              <div class="mega-menu-all-content"></div>
+              <div class="mega-menu-header-link"></div>
+            </div>
+            <div class="col-xs-12 col-md-12 mega-menu-second"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    (function() {
+    "use strict";
+    var toggles = document.querySelectorAll(".c-hamburger");
+    for (var i = toggles.length - 1; i >= 0; i--) {
+    var toggle = toggles[i];
+    toggleHandler(toggle);
+    };
+    function toggleHandler(toggle) {
+    toggle.addEventListener( "click", function(e) {
+    e.preventDefault();
+    (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+    });
+    }
+    })();
+  </script>
+</html>
