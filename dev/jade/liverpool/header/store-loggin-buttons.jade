@@ -7,3 +7,14 @@
       a(title='Store Locator', href='http://www.liverpool.com.mx/tiendas/localizador.html')
         i.icon-liv-ban-entrega-domicilio.icon_header_locator
         span Localiza tu tienda
+.input-group.homesearch-position.col-xs-12
+  form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
+    .col-xs-10.search_input_container
+      input#busca.field-search.cross_site_script_val_pop.valid.form-control(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
+    .col-xs-2.icon_search_container
+      span.input-group-btn.btn-Searc-head
+        button.header_search-button(type='submit')
+      input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
+      #typeahead(style='display: none;')
+        #type-main-list
+          #type-ver-todos
