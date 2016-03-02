@@ -1,1 +1,13 @@
 .icon-search-liverpool{display:none;}
+
+
+.home-banner-content {
+  height: auto;
+  min-height: 228px;
+  margin-top: 2%;
+}
+
+i {
+	background: none!important;
+	display: inline;
+}

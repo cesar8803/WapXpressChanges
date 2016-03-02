@@ -1615,26 +1615,19 @@ min-height: 300px;
   border:1px solid #d0d0d0;
 }
 .login-home{
-display:block;
-width:46%;
+display:block;/* width:46%; */
 background:#f8f8f8;
-float:left;
-height: 1em;
-padding: 0.5em;
+float:left;/* height: 1em; */padding: 0.3em;
 text-indent: 0 !important;
 cursor: pointer;
   text-align:center;}
 .shops-home{
-/* display:none; */
-width: 46.1%!important;
+/* display:none; *//* width: 46.1%!important; */
 background:#f8f8f8;
-float:left;
-height:2em;
-padding:0.5em;
+float:left;/* height: 2em; */padding: 0.3em;
 color: #333333;
   text-align: center;
-  border-left: 1px solid #d0d0d0;
-}
+  border-left: 1px solid #d0d0d0;}
 .search-home{
   background:#e3e3e3;
   width: 100%;

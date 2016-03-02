@@ -55,12 +55,15 @@ window.addEventListener("resize", function() {
                 //esconde la vista que contiene todo el megamenu y restaura el scroll del body
                 this.classList.remove("is-active");
                 hideMegaMenuMobo();
+
                 focusWrapperBody(); 
+
                 
             } else{
                 //muestra la vista que contiene todo el megamenu y modifica el scroll del body
                 this.classList.add("is-active");
                 showMegaMenuMobo();
+
                 unfocusWrapperBody(); 
                 
             }
