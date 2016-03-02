@@ -20,8 +20,6 @@ window.addEventListener("resize", function() {
 
     }else{
     heightHTML = $("body").outerHeight();
-    $(".megaMenu").css("height",heightHTML+'px');
-    $(".megaMenu").css("top",'-'+heightHTML+'px');
     $(".mega-menu-root").css("height",heightHTML+'px');
     $(".mega-menu-main").css("height",heightHTML+'px');
     $(".mega-menu-second").css("height",heightHTML+'px');
