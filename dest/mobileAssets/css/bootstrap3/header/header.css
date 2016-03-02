@@ -117,7 +117,7 @@ overflow-y:scroll;
     border: none !important;
     background: #FEFEFE;
     z-index: 2;
-        
+
 
 }
 .mega-menu-header-link ul{
@@ -205,7 +205,7 @@ ul.mega-menu-all-content li a{
     right: 0;
     padding-left: 30px;
     background: url(/mobileAssets/images/icons/arrow-right-grey.png) right center no-repeat rgba(0, 0, 0, 0);
-    background-position: 90% center;
+    background-position: 95% center;
         padding: 0px 0px 0px 50px;
         text-align: left;
         color: #363636;
@@ -305,9 +305,13 @@ display: inline-block;
     font-size: 19px;
     font-family: 'Roboto Regular',arial,sans-serif;
     background: url(/mobileAssets/images/icons/arrow-right-grey.png) right center no-repeat rgba(0, 0, 0, 0);
+        background-position: 95% center;
+
 }
 .mm-item-categorias h3 a.active-item-second{
         background: url(/mobileAssets/images/icons/arrow-down-grey.png) right center no-repeat rgba(0, 0, 0, 0);
+        background-position: 95% center;
+
 }
 .mm-item-categorias h3 a:hover{
     text-decoration: none;
