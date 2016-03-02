@@ -1,7 +1,7 @@
  var heightHTML = $("body").outerHeight();
  $(document).ready(function(){
 
-    $(".mm-second-content").find('div.row-fluid').hide();
+    $(".mm-second-content").find('div.row').hide();
     $(".megaMenu").css("height",heightHTML+'px');
     $(".megaMenu").css("top",'-'+heightHTML+'px');
     $(".mega-menu-root").css("height",heightHTML+'px');
@@ -35,7 +35,7 @@ window.addEventListener("resize", function() {
             e.preventDefault();
         if($(".mega-menu-second").hasClass("is-menu-second-active")===true){
             //esconde la vista que contiene el segundo y tercer nivel
-            $(".mm-second-content").find('div.row-fluid').hide();
+            $(".mm-second-content").find('div.row').hide();
             hideMegaMenuSecond();
             console.log("se ejecuta");
         } else{  

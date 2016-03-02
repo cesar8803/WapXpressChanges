@@ -150,13 +150,13 @@ text-align: center;
     background: #d8d8d8;
 }
 .mega-menu-header-link ul li a span{
-margin-left: 1em;
+margin-left: 0.6em;
 }
 .mega-menu-header-link > ul > li > a > span.icon-liv-search{
     font-size: 19px;
 }
 .mega-menu-header-link ul li a .text-header-link{
- margin-left: 2em;
+ margin-left: 1em;
 }
 
 /*mega mennu main*/
@@ -345,7 +345,7 @@ display: inline-block;
     display: block;
     clear: both;
 }
- .no-padding{
+ .no-margin{
 	margin-left: 0px!important;
 	margin-right: 0px!important;
 }
