@@ -1,24 +1,26 @@
 .header{
-	position: relative;
-	width:100%;
-	height: 56px;
-	padding: 0!important;
-	border-bottom:1px solid #d8d8d8;
-	z-index: 2;
-	background: #fff
+    position: relative;
+    width:100%;
+    height: 56px;
+    padding: 0!important;
+    border-bottom:1px solid #d8d8d8;
+    z-index: 2;
+    background: #fff
 }
 #menu-icn{
-	width: 56px;
+    width: 56px;
     height: 55px;
     background: #E0068D;
 }
 .header-container{
-	width:100%;
-	padding: 0!important;
+    width:100%;
+    padding: 0!important;
+    margin-left :0px;
+    margin-right: 0px;
 }
 .header-contain-left{
-	height: 56px;
-	padding-left: 0px;
+    height: 56px;
+    padding-left: 0px;
 }
 
 .header-contain-middle{
@@ -28,7 +30,7 @@ text-align: center;
 }
 
 .header-contain-right{
-	height: 56px;
+    height: 56px;
     float: right;
     padding-right: 0px;
     padding-left: 0px;
@@ -40,22 +42,22 @@ text-align: center;
 }
 
 #search-icon-contain{
-	height: 56px;
-	padding: 0px!important;
+    height: 56px;
+    padding: 0px!important;
 }
 .icon-liv-search{
-	font-size: 35px;
-	line-height: 56px!important;
-	height: 56px;
+    font-size: 35px;
+    line-height: 56px!important;
+    height: 56px;
 }
 .icon-liv-bolsa{
     font-size: 40px;
-	line-height: 56px!important;
+    line-height: 56px!important;
     height: 56px;
 }
 .icon-liv-logo{
     font-size: 9.3em;
-	line-height: 56px!important;
+    line-height: 56px!important;
     height: 56px;
     color: #E0068D;
 }
@@ -80,7 +82,7 @@ text-align: center;
 }
 
 .megaMenu{
-	position: absolute;
+    position: absolute;
     top: -110%;
     left: 0%;
     width: 100%;
@@ -92,36 +94,36 @@ text-align: center;
 
 
 .mega-menu-container{
-	position: relative;
-	padding-left: 0px;
-	padding-right: 0px;
-	-webkit-overflow-scrolling:touch;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    -webkit-overflow-scrolling:touch;
     overflow-y: scroll;
 }
 /*mega menu root*/
 .mega-menu-root{
-	-webkit-overflow-scrolling:touch;
+    -webkit-overflow-scrolling:touch;
     overflow-y: scroll;
     width: 100%;
     background: #FEFEFE;
     padding: 0px;
 }
 .mega-menu-header-link{
-	clear: both;
-	border: none !important;
-	background: #FEFEFE;
-	-webkit-overflow-scrolling:touch;
+    clear: both;
+    border: none !important;
+    background: #FEFEFE;
+    -webkit-overflow-scrolling:touch;
     overflow-y: scroll;
 }
 .mega-menu-header-link ul{
-	    position: relative;
-	    list-style-type: none;
-	    background: #FEFEFE;
-	    padding-left: 0px;
+        position: relative;
+        list-style-type: none;
+        background: #FEFEFE;
+        padding-left: 0px;
 
 }
 .mega-menu-header-link ul li{
-	border-bottom: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
     width: 100%;
     min-height: 40px;
     clear: both;
@@ -140,17 +142,17 @@ text-align: center;
     display: inline-block;
 }
 .mega-menu-header-link ul li a:hover{
-	text-decoration: none;
+    text-decoration: none;
 }
 .mega-menu-header-link ul li a:active{
-	text-decoration: none;
-	background: #d8d8d8;
+    text-decoration: none;
+    background: #d8d8d8;
 }
 .mega-menu-header-link ul li a span{
 margin-left: 1em;
 }
 .mega-menu-header-link > ul > li > a > span.icon-liv-search{
-	font-size: 19px;
+    font-size: 19px;
 }
 .mega-menu-header-link ul li a .text-header-link{
  margin-left: 2em;
@@ -158,7 +160,7 @@ margin-left: 1em;
 
 /*mega mennu main*/
 .mega-menu-main{
-	position: absolute;
+    position: absolute;
     width: 100%;
     background: #FEFEFE;
     display: inline-block;
@@ -177,7 +179,7 @@ text-align:center;
 padding:5px;
 }
 .mega-menu-header-title{
-	font-family: 'Roboto Regular',arial,sans-serif;
+    font-family: 'Roboto Regular',arial,sans-serif;
     text-align: center;
 }
 .mega-menu-all-content{
@@ -187,7 +189,7 @@ padding:5px;
     padding: 0;
 }
 ul.mega-menu-all-content li{
-	border-bottom: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
     float: left;
     width: 100%;
     min-height: 40px;
@@ -218,10 +220,10 @@ ul.mega-menu-all-content li a:active{
 
 /*Mega menu second part*/
 .mega-menu-second{
-	width:100%;
-	position: absolute;
-	display: none;
-	top:0;
+    width:100%;
+    position: absolute;
+    display: none;
+    top:0;
     left:-100%;
     overflow-y: scroll;
     -webkit-overflow-scrolling:touch;
@@ -231,12 +233,12 @@ ul.mega-menu-all-content li a:active{
     z-index: 4;
 }
 .mm-second-content{
-	width: 100%;
+    width: 100%;
     background: #FEFEFE;
     padding: 0px;
 }
 .mm-second-content div h3{
-	    font-weight: 500;
+        font-weight: 500;
     border-bottom: 1px solid #c7c7c7;
     margin: 0;
     font-weight: 500;
@@ -253,14 +255,14 @@ ul.mega-menu-all-content li a:active{
     color: #E0068D!important;
 }
 .mm-second-categorias{
-	width:100%;
-	overflow: hidden;
+    width:100%;
+    overflow: hidden;
     height: auto;
     border-bottom: 1px solid #ccc;
     background: #f6f7f8;
 }
 .mm-categorias{
-	display: block;
+    display: block;
     width: 100%;
     margin-left: 0;
     -webkit-box-sizing: border-box;
@@ -301,31 +303,31 @@ display: inline-block;
     background: url(/mobileAssets/images/icons/arrow-right-grey.png) right center no-repeat rgba(0, 0, 0, 0);
 }
 .mm-item-categorias h3 a.active-item-second{
-	    background: url(/mobileAssets/images/icons/arrow-down-grey.png) right center no-repeat rgba(0, 0, 0, 0);
+        background: url(/mobileAssets/images/icons/arrow-down-grey.png) right center no-repeat rgba(0, 0, 0, 0);
 }
 .mm-item-categorias h3 a:hover{
-	text-decoration: none;
+    text-decoration: none;
 }
 .mm-item-categorias h3:active{
-	background:#d8d8d8;
+    background:#d8d8d8;
 }
 .mm-item-categorias ul{
-	margin-left: 0;
-	margin: 0;
-	list-style-type:none;
-	list-style: none; 
-	padding-left: 0px;
-	display: none;
+    margin-left: 0;
+    margin: 0;
+    list-style-type:none;
+    list-style: none; 
+    padding-left: 0px;
+    display: none;
 }
 .mm-item-categorias ul li{
-	border-bottom: 1px solid #D5D5D5;
-	padding: 0!important;
-	line-height: 20px;
+    border-bottom: 1px solid #D5D5D5;
+    padding: 0!important;
+    line-height: 20px;
 }
 .mm-item-categorias ul li a{
-	display: block;
-	padding-left: 15%;
-	margin: 0;
+    display: block;
+    padding-left: 15%;
+    margin: 0;
     padding: 12px 0 12px 40px;
     box-sizing: border-box;
     position: initial;
@@ -336,9 +338,9 @@ display: inline-block;
     background: none;
 }
 .mm-item-categorias ul li a:hover{
-	text-decoration: none;
+    text-decoration: none;
 }
 .clear{
-	display: block;
+    display: block;
     clear: both;
 }
