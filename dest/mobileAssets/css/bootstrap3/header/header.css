@@ -85,12 +85,13 @@ text-align: center;
     position: absolute;
     top: -110%;
     left: 0%;
-    width: 100%;
-    z-index: 999;
-    overflow-y:scroll;
-    -webkit-overflow-scrolling: touch;
+    width: 100%;    
     padding-left: 0px;
     padding-right: 0px;
+    background: #FEFEFE;
+    z-index: 1;
+    display: none;
+
 }
 
 
@@ -98,23 +99,26 @@ text-align: center;
     position: relative;
     padding-left: 0px;
     padding-right: 0px;
-    -webkit-overflow-scrolling:touch;
-    overflow-y: scroll;
+   
 }
 /*mega menu root*/
 .mega-menu-root{
-    -webkit-overflow-scrolling:touch;
-    overflow-y: scroll;
+	position: relative;
+   
     width: 100%;
     background: #FEFEFE;
     padding: 0px;
+overflow-y:scroll;
+    -webkit-overflow-scrolling:touch;
 }
 .mega-menu-header-link{
+	position: relative;
     clear: both;
     border: none !important;
     background: #FEFEFE;
-    -webkit-overflow-scrolling:touch;
-    overflow-y: scroll;
+    z-index: 2;
+        
+
 }
 .mega-menu-header-link ul{
         position: relative;
@@ -169,8 +173,8 @@ margin-left: 0.6em;
     left: -100%;
     z-index: 3;
     padding: 0;
+        overflow-y:scroll;
     -webkit-overflow-scrolling:touch;
-    overflow-y: scroll;
 }
 .mega-menu-header-title{
 display:block;
@@ -191,9 +195,8 @@ padding:5px;
 }
 ul.mega-menu-all-content li{
     border-bottom: 1px solid #dcdcdc;
-    float: left;
     width: 100%;
-    min-height: 40px;
+    min-height: 45px;
     clear: both;
 }
 ul.mega-menu-all-content li a{
@@ -226,12 +229,12 @@ ul.mega-menu-all-content li a:active{
     display: none;
     top:0;
     left:-100%;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling:touch;
     width: 100%;
     background: #FEFEFE;
     padding: 0px;
     z-index: 4;
+    overflow-y:scroll;
+    -webkit-overflow-scrolling:touch;
 }
 .mm-second-content{
     width: 100%;

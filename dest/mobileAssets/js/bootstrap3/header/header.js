@@ -1,9 +1,12 @@
- var heightHTML = $("body").outerHeight();
+ var heightHTML = $(document).outerHeight();
+ heightHTML = heightHTML - 50;
+ console.log(heightHTML);
  $(document).ready(function(){
 
     $(".mm-second-content").find('div.row').hide();
-    $(".megaMenu").css("height",heightHTML+'px');
-    $(".megaMenu").css("top",'-'+heightHTML+'px');
+    /*$(".megaMenu").css("height",heightHTML+'px');
+    $(".megaMenu").css("top",'-'+heightHTML+'px');*/
+    
     $(".mega-menu-root").css("height",heightHTML+'px');
     $(".mega-menu-main").css("height",heightHTML+'px');
     $(".mega-menu-second").css("height",heightHTML+'px');
@@ -13,12 +16,16 @@
 // Listen for resize changes
 window.addEventListener("resize", function() {
     // Get screen size (inner/outerWidth, inner/outerHeight)
+    if($(".c-hamburger").hasClass("is-active")===true){
+
+    }else{
     heightHTML = $("body").outerHeight();
     $(".megaMenu").css("height",heightHTML+'px');
     $(".megaMenu").css("top",'-'+heightHTML+'px');
     $(".mega-menu-root").css("height",heightHTML+'px');
     $(".mega-menu-main").css("height",heightHTML+'px');
     $(".mega-menu-second").css("height",heightHTML+'px');
+    }
 
 
 }, false);
@@ -48,27 +55,14 @@ window.addEventListener("resize", function() {
                 //esconde la vista que contiene todo el megamenu y restaura el scroll del body
                 this.classList.remove("is-active");
                 hideMegaMenuMobo();
-                $("wrapper").css("position","");
-                $("wrapper").css("overflow-y","scroll");
-                $("wrapper").css("-webkit-overflow-scrolling","touch");
+                focusWrapperBody(); 
                 
             } else{
                 //muestra la vista que contiene todo el megamenu y modifica el scroll del body
                 this.classList.add("is-active");
                 showMegaMenuMobo();
-                $("wrapper").css("position","fixed");
-                $("wrapper").css("width","100%");
-                $("wrapper").css("overflow-y","hidden");
-                $("wrapper").css("overflow-x","hidden");
-                $("wrapper").css("-webkit-overflow-scrolling","auto");
-
-                /*$("body").css("-webkit-overflow-scrolling","auto")
-                $("body").css("overflow-y","hidden");
-                $("body").css("-webkit-transform","translate3d(0,0,0)");
-                */
-                /*document.ontouchmove = function(event){
-                event.preventDefault();
-                }*/
+                unfocusWrapperBody(); 
+                
             }
         }
         }
@@ -77,7 +71,7 @@ window.addEventListener("resize", function() {
 })();
 /*original efect*/
 showMegaMenuMobo = function(){
-
+$(".megaMenu").css("display","inline-block")
 $(".megaMenu").css("position","absolute");
 $(".megaMenu").animate({top:"56px"},200,function(){
 
@@ -85,18 +79,18 @@ $(".megaMenu").animate({top:"56px"},200,function(){
 //$(".megaMenu").css("top","56px");
 $(".megaMenu").css("left","0%");
 $(".megaMenu").css("width","100%");
-$(".megaMenu").css("height",heightHTML+'px');
+$(".megaMenu").css("height","100%");
 $(".megaMenu").css("z-index","1");
 }
 hideMegaMenuMobo = function(){
 
 $(".megaMenu").css("position","absolute");
-$(".megaMenu").animate({top:"-"+heightHTML+'px'},200,function(){
-
+$(".megaMenu").animate({top:"-110%"},200,function(){
+$(".megaMenu").css("display","none")
 });
 $(".megaMenu").css("left","0%");
 $(".megaMenu").css("width","100%");
-$(".megaMenu").css("height",heightHTML+'px');
+$(".megaMenu").css("height","100%");
 $(".megaMenu").css("z-index","0");
 }
 
@@ -141,6 +135,8 @@ $(".mega-menu-main > ul.mega-menu-all-content > li > a").on("click", function(e)
    
 });
 showMegaMenuSecond = function(){
+   var heightSecond = $(".mega-menu-main").outerHeight();
+   $(".mega-menu-second").css("height",heightSecond+"px");
    $(".mega-menu-second").css("display","inline-block");
    $(".mega-menu-second").animate({left:"0%"},200,function(){
        $(".mega-menu-second").addClass("is-menu-second-active");
@@ -173,6 +169,28 @@ $(this).addClass('showMinusIcon');
 }*/
 
 });
+unfocusWrapperBody = function(){
+
+                $(".wrapper").css("position","fixed");
+                $(".wrapper").css("overflow-y","hidden");
+                $(".wrapper").css("overflow-x","hidden");
+                $(".wrapper").css("-webkit-overflow-scrolling","auto");
+                $("body").css("position","fixed");
+                $("body").css("overflow-y","hidden");
+                $("body").css("overflow-x","hidden");
+                $("body").css("-webkit-overflow-scrolling","auto");
+}
+focusWrapperBody = function(){
+
+    $(".wrapper").css("position","");
+    $(".wrapper").css("overflow-y","");
+    $(".wrapper").css("-webkit-overflow-scrolling","");
+    $("body").css("position","");
+    $("body").css("overflow-y", "scroll");
+    $("body").css("overflow-x"," hidden");
+    $("body").css("-webkit-overflow-scrolling","touch");
+    
+}
 /*Other efect*/
 //var heightHDR = $(".megaMenu").height();
 //var heightHDR = heightHDR+"px"
