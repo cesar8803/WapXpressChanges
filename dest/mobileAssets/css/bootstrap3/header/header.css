@@ -86,8 +86,9 @@ text-align: center;
     width: 100%;
     z-index: 999;
     overflow-y:scroll;
-    overflow-x:hidden; 
     -webkit-overflow-scrolling: touch;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 
@@ -130,7 +131,7 @@ text-align: center;
 .mega-menu-header-link ul li a{
     width: 100%!important;
     position: relative;
-    padding-left: 30px;
+    padding-left: 10px;
     background: url(/mobileAssets/images/icons/arrow-right-grey.png) right center no-repeat rgba(0, 0, 0, 0);
     background-position: 90% center;
     color: #363636;
@@ -341,4 +342,8 @@ display: inline-block;
 .clear{
 	display: block;
     clear: both;
+}
+ .no-padding{
+	margin-left: 0px!important;
+	margin-right: 0px!important;
 }

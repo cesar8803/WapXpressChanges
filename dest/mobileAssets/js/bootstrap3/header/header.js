@@ -59,6 +59,7 @@ window.addEventListener("resize", function() {
                 $("body").css("position","fixed");
                 $("body").css("width","100%");
                 $("body").css("overflow-y","hidden");
+                $("body").css("overflow-x","hidden");
                 $("body").css("-webkit-overflow-scrolling","auto");
 
                 /*$("body").css("-webkit-overflow-scrolling","auto")
@@ -77,7 +78,7 @@ window.addEventListener("resize", function() {
 /*original efect*/
 showMegaMenuMobo = function(){
 
-$(".megaMenu").css("position","fixed");
+$(".megaMenu").css("position","absolute");
 $(".megaMenu").animate({top:"56px"},200,function(){
 
 });
