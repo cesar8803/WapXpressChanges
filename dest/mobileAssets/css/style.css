@@ -763,7 +763,7 @@ width: 32px;
 z-index: 1104;
 }
 #page-loading img {
-
+display:none;
 }
 #box-overlay-first {
 background-color: #fff;
@@ -778,6 +778,7 @@ height:100%;
 z-index: 100;
 -moz-opacity: 0.7;
 opacity: 0.7;
+display:none;
 }
 .mandatory{
 width: 130px;
