@@ -48,19 +48,19 @@ window.addEventListener("resize", function() {
                 //esconde la vista que contiene todo el megamenu y restaura el scroll del body
                 this.classList.remove("is-active");
                 hideMegaMenuMobo();
-                $("body").css("position","");
-                $("body").css("overflow-y","scroll");
-                $("body").css("-webkit-overflow-scrolling","touch");
+                $("wrapper").css("position","");
+                $("wrapper").css("overflow-y","scroll");
+                $("wrapper").css("-webkit-overflow-scrolling","touch");
                 
             } else{
                 //muestra la vista que contiene todo el megamenu y modifica el scroll del body
                 this.classList.add("is-active");
                 showMegaMenuMobo();
-                $("body").css("position","fixed");
-                $("body").css("width","100%");
-                $("body").css("overflow-y","hidden");
-                $("body").css("overflow-x","hidden");
-                $("body").css("-webkit-overflow-scrolling","auto");
+                $("wrapper").css("position","fixed");
+                $("wrapper").css("width","100%");
+                $("wrapper").css("overflow-y","hidden");
+                $("wrapper").css("overflow-x","hidden");
+                $("wrapper").css("-webkit-overflow-scrolling","auto");
 
                 /*$("body").css("-webkit-overflow-scrolling","auto")
                 $("body").css("overflow-y","hidden");
