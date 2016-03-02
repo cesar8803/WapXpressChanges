@@ -48,20 +48,20 @@ window.addEventListener("resize", function() {
                 //esconde la vista que contiene todo el megamenu y restaura el scroll del body
                 this.classList.remove("is-active");
                 hideMegaMenuMobo();
-                $("wrapper").css("position","");
-                $("wrapper").css("overflow-y","scroll");
-                $("wrapper").css("-webkit-overflow-scrolling","touch");
+                $(".wrapper").css("position","");
+                $(".wrapper").css("overflow-y","scroll");
+                $(".wrapper").css("-webkit-overflow-scrolling","touch");
                 
             } else{
                 //muestra la vista que contiene todo el megamenu y modifica el scroll del body
                 this.classList.add("is-active");
                 showMegaMenuMobo();
-                $("wrapper").css("position","fixed");
-                $("wrapper").css("width","100%");
-                $("wrapper").css("overflow-y","hidden");
-                $("wrapper").css("overflow-x","hidden");
-                $("wrapper").css("-webkit-overflow-scrolling","auto");
-
+                $(".wrapper").css("position","fixed");
+                $(".wrapper").css("width","100%");
+                $(".wrapper").css("overflow-y","hidden");
+                $(".wrapper").css("overflow-x","hidden");
+                $(".wrapper").css("-webkit-overflow-scrolling","auto");
+                $(".wrapper").css('z-index','0');
                 /*$("body").css("-webkit-overflow-scrolling","auto")
                 $("body").css("overflow-y","hidden");
                 $("body").css("-webkit-transform","translate3d(0,0,0)");
