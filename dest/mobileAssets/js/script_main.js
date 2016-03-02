@@ -80,14 +80,7 @@ var isLoggedIn = $("#isLoggedIn").val();
 var contextPath=$("#contextpath").val();
 var onPageLoad = 'true';
 var message=jQuery("#noPaymentSelected").val();
-/**************Start:Added for showing error msg for not selecting any payment method***********/
-if(isLoggedIn=='true'){
-jQuery("#selectPaymentMethod .btn_pagar_precheckout").live('click',function($) {
-if(jQuery("input[type=radio]:checked").size()==0) {
-showErrorMsg(message);
-}
-});
-}
+
 /**************End:Added for showing error msg for not selecting any payment method***********/
 if(paymentSelected!=null && paymentSelected=="creditCard" || paymentSelected=="CIEBancomer"){
 if(paymentSelected!=null && paymentSelected=="creditCard"){
@@ -1070,206 +1063,10 @@ $('#filtros').innerHeight(sum);
 
 
 
-/* Layout Change grid to Bigger Grid*
-$('img.foto-modulo').css({
-marginLeft: '-7px'
-});*/
-
-/* ==============================================================================================================
-EBOOKS GRID AND ENDECA GRID SWITCH VIEW
-==============================================================================================================*/
-
-$('#grid').live('click', function() {
-document.getElementById("viewType").value = "grid";
-if ( $(this).hasClass("active") ) {
-return false;
-}else{
-$('#list, #rows').removeClass("active")
-$(this).addClass("active")
-
-$('#productos').fadeOut('slow', function() {
-$('.producto-modulo').removeClass('rowsview');
-$('.producto-grid').attr('style','');
-$('img.foto-modulo').attr('style','');
-$('.comparacion-ckb').attr('style','');
-
-$('.producto-modulo').removeClass('producto-list');
-$('.foto-modulo').removeClass('foto-list');
-$('.nombre-producto-modulo').removeClass('nombre-producto-list');
-$('.col-banderas-precio-comprar').removeClass('col-list');
-
-$('.btn-ver-promociones').css('position', 'absolute');
-$('.btn-ver-promociones').css('top', 'inherit');
-$('.btn-ver-promociones').css('left', 'inherit');
-
-$('.producto-modulo').addClass('producto-grid');
-
-$('.precio-tachado-modulo, .precio-modulo').css('position', 'static');
-$('.mod-abstract').css({display : 'none'});
-/*$('.producto-modulo a.btn-comprar-modulo').css({
-bottom: '44px',
-top: 'inherit',
-right : '8px',
-width: '175px'
-});*/
-/*$('.btn-regalar-modulo').css({
-width: '156px',
-top : '-35px',
-right: 'inherit'
-});*/
-/*$('.btn-ver-promociones').css({
-right: "9px",
-bottom: "9px",
-width: "163px"
-})*/
-$('#productos').fadeIn('slow');
-});
-}
-return false;
-});
-
-$('#list').live('click', function() {
-document.getElementById("viewType").value = "list";
-if ( $(this).hasClass("active") ) {
-return false;
-$('producto-grid').css('padding-left','0px');
-$('.descuento').css({
-textAlign: 'left',
-paddingLeft: '4px'
-});
-
-}else{
-$('#grid').removeClass("active");
-$(this).addClass("active");
-$('#productos').addClass("lista");
-
-
-$('#productos').fadeOut('slow', function() {
-
-$('.producto-grid').css({
-width:'350px',
-height: '840px',
-padding: '10px 5px 5px 32px'
-});
-
-$('.comparacion-ckb').css({
-marginBottom: '0px'
-});
-
-$('.descuento').css({
-textAlign: 'left',
-paddingLeft: '29px'
-});
-
-
-
-
-$('.producto-grid:even').css({
-borderRight:'none'
-});
-
-
-
-$('img.foto-modulo').css({
-width:'378px',
-height: '278px',
-marginLeft: '-27px'
-
-});
-
-
-$('#productos').fadeIn('slow');
-
-
-});
-}
-return false;
-});
 if($('body').hasClass("ebookbody"))
 onloadrows();
 
-$('#rows').live('click', function() {
-document.getElementById("viewType").value = "rows";
-if ( $(this).hasClass("active") ) {
 
-return false;
-$('producto-grid').css('padding-left','0px');
-$('.descuento').css({
-textAlign: 'left',
-paddingLeft: '4px'
-});
-
-}else{
-
-$('#grid').removeClass("active");
-$(this).addClass("active");
-$('#productos').addClass("rows");
-
-
-$('#productos').fadeOut('slow', function() {
-$('.producto-modulo').addClass('rowsview');
-$('.producto-grid').css({
-width:'743px',
-height: 'auto',
-padding: '10px 5px 5px 32px'
-});
-
-$('.comparacion-ckb').css({
-marginBottom: '0px',
-position: 'absolute'
-});
-
-$('.descuento').css({
-textAlign: 'left',
-paddingLeft: '29px'
-});
-$('.precio-tachado-modulo').css({
-position: 'absolute',
-right: '64px',
-top: '31px'
-});
-$('.precio-modulo').css({
-position: 'absolute',
-right: '71px',
-top: '51px'
-});
-$('.nombre-producto-modulo').css({
-'margin-top': '15px'
-});
-/*$('.producto-modulo a.btn-comprar-modulo').css({
-right: '14px',
-top: '88px',
-width: '155px'
-});*/
-/*$('.btn-regalar-modulo').css({
-width: '137px',
-top: '130px',
-right: '13px'
-});*/
-$('.producto-grid:even').css({
-borderRight:'none'
-});
-/*$('img.foto-modulo').css({
-float: 'left',
-'margin-top' : '21px',
-'marginRight' : '20px'
-});*/
-$('.mod-abstract').css({
-display : 'block',
-float: 'left',
-width: '414px'
-});
-$('#productos').fadeIn('slow');
-/*$('.btn-ver-promociones').css({
-right: "14px",
-bottom: "95px",
-width: "145px"
-})*/
-
-});
-}
-return false;
-});
 function onloadrows()
 {
 $('#rows').addClass("active");
@@ -1351,9 +1148,6 @@ $('#toTop').fadeOut();
 }
 });
 
-$('#toTop').live('click', function() {
-$('body,html').animate({scrollTop:0},800);
-});
 });
 
 /* on/off talla */
@@ -1379,20 +1173,6 @@ console.log(exception);
 });
 }
 /************ END FACETS CONTROL ***********************/
-
-/*Acordion*/
-$(".fac-title").live('click', function() {
-var i=1;
-$(this).parent(".fac-wrapper").children(".fac-container").slideToggle('slow');
-});
-
-$(".fac-title").live('click', function() {
-var i=1;
-$(this).parent(".fac-wrapper").children(".fac-containerscroll").slideToggle('fast');
-$(this).toggleClass("fac-title-menos");
-
-
-});
 
 
 
@@ -1749,7 +1529,7 @@ $('ul.tallasf').innerHeight(altura);
 }
 
 
-$('.calcular_promo').live('click',function(){
+$(document).on('click','.calculo_promos',function(){
 $('.calculo_promos').slideToggle('slow');
 });
 
@@ -1820,7 +1600,7 @@ $(e).css({
 jQuery.expr[':'].Contains = function(a,i,m){
 return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
 };
-$("input.filterinput").live('keyup', function () {
+$(document).on('keyup','input.filterinput', function () {
 var filter = $(this).val();
 var inputId= $(this).attr('rel');
 var ebooksf = $('#'+inputId);
@@ -1844,30 +1624,8 @@ return false;
 
 /******************Listing Page flag auto adjustment*****************************/
 $(document).ready(function(){
-$('#grid').live('click', function() {
-$('.flagcontent').css('height','auto');
-var itemsPerRow = 4,
-items = $('.flagcontent'),
-rows = items.length /itemsPerRow,r, min, max;
-if (rows < 1) rows = 1;
-for(r = 0; r < rows; r++) {
-min = itemsPerRow * r,
-max = min + itemsPerRow;
-normalizeHeight(items.slice(min, max));
-}
-});
-$('#list').live('click', function() {
-$('.flagcontent').css('height','auto');
-var itemsPerRow = 2,
-items = $('.flagcontent'),
-rows = items.length /itemsPerRow,r, min, max;
-if (rows < 1) rows = 1;
-for(r = 0; r < rows; r++) {
-min = itemsPerRow * r,
-max = min + itemsPerRow;
-normalizeHeight(items.slice(min, max));
-}
-});
+
+
 });
 function normalizeHeight(items) {
 var maxHeight = 0, itemHeight;
@@ -2126,7 +1884,7 @@ function text_diff(first, second) {
     return second.substr(start, end - start);
 }
 /*Restrict copy and paste of '*' in searchBox page*/
-$('#buscador').live('paste', function() {
+$(document).on('paste','#buscador', function() {
     var self = $(this);
     var orig = self.val();
     setTimeout(function() {
@@ -2140,7 +1898,7 @@ $('#buscador').live('paste', function() {
     });
 });
 /*Restrict copy and paste of '*' in NoSearchResults page*/
-$('#busc').live('paste', function() {
+$(document).on('paste','#busc',function() {
     var self = $(this);
     var orig = self.val();
     setTimeout(function() {

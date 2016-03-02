@@ -1,0 +1,19 @@
+.visableinphone
+  .mobile-menu-cont.lp-mble-cont
+    .buttons-header
+      .login-home.myaccount-icon
+        i.home-user-icon
+        span Iniciar sesión
+      .shops-home
+        a(title='Store Locator', href='/tienda/m/browse/store.jsp')
+          i.home-store-icon
+          span Localiza tu tienda
+  .input-group.homesearch-position
+    form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
+      input#busca.field-search.cross_site_script_val_pop.valid.form-control(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
+      span.input-group-btn.btn-Searc-head
+        button.header_search-button(type='submit')
+      input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
+      #typeahead(style='display: none;')
+        #type-main-list
+          #type-ver-todos

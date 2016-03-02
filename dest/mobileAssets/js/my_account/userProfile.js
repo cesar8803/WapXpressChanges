@@ -939,7 +939,7 @@ $('#stateDescription').show('slow');
 }
 
 
-$('.default_shipping_address').live('change',function(){
+$(document).on('change','.default_shipping_address',function(){
 $.ajax({
 type : "POST",
 cache : false,
