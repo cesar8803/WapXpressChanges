@@ -103,7 +103,7 @@ text-align: center;
 }
 /*mega menu root*/
 .mega-menu-root{
-	position: relative;
+    position: relative;
    
     width: 100%;
     background: #FEFEFE;
@@ -112,7 +112,7 @@ overflow-y:scroll;
     -webkit-overflow-scrolling:touch;
 }
 .mega-menu-header-link{
-	position: relative;
+    position: relative;
     clear: both;
     border: none !important;
     background: #FEFEFE;
@@ -353,6 +353,45 @@ display: inline-block;
     clear: both;
 }
  .no-margin{
-	margin-left: 0px!important;
-	margin-right: 0px!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
 }
+
+
+.homesearch-position{
+    padding-left:  15px!important;
+    padding-right: 15px!important;
+    padding-top:  5px!important;
+    padding-bottom: 5px!important;
+}
+
+
+.search_input_container{
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: -2%;
+}
+
+.icon_search_container{
+        margin-left: 0px;
+    padding-left: 0px;
+
+}
+
+.search_input_container #busca{
+    height: 34px;
+}
+
+
+.login-home.myaccount-icon.col-xs-6 > span{
+    color: #333333;
+}
+
+
+.icon_header_account{
+    color: #333333;
+    font-size: 19px;
+}
+
+
+

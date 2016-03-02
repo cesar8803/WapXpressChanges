@@ -4382,22 +4382,10 @@ text-align: right;
 display:none;
 }
 .homesearch-position {
-  float: left;
-  width: 96%;
-  position: relative;
-  top: 0;
-  /* clear: both; */
-  height: 3em !important;
-  margin: 0;
-  padding: 2%;
-  background: #E3E3E3;
-  height: 32px;
-  left: 0;
+
 }
 .homesearch-position .form-control {
-  width: 96% !important;
-  /* height: 93%!important; */
-  border-radius: 4px 0 0 4px;
+
 }
 /*agregue estilos pasados en este bloque for iphone 6 or more*/
 

@@ -851,24 +851,12 @@ width: 97% !important;
   left: 0px;
 }
 .homesearch-position {
-   float: left;
-  width: 96%;
-  position: relative;
-  top: 0;
-  /* clear: both; */
- height: 3em !important;
-  margin: 0;
-  padding: 2%;
-  background: #e3e3e3;
-  height: 32px;
-  left: 0;
+
 
 }
 
 .homesearch-position .form-control {
-  width: 92% !important;
-    border-radius: 4px 0 0 4px;
-  height: 25px;
+
 }
 
 .footer-imageleft

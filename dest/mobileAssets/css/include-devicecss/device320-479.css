@@ -1233,7 +1233,8 @@ border-bottom: 1px solid #b3b4b6;/* padding: 3px 0 3px 0px; */}
 
 /* ends: WAP Changes code */
 /*Jon Febrero 2016 martes 16*/
-.homesearch-position .form-control {width: 88% !important;
+.homesearch-position .form-control {
+
 height: 25px;
 box-sizing: inherit;
 font-size: 16px;font-style: italic;}
