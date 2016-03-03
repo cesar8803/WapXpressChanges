@@ -124,7 +124,10 @@ input[type="radio"].styled:checked label:after,
     left: calc(100% + 3px)!important;
 	top: 7px!important;
 }
+.lista-filtros-principales li.list-group-item:active{
+	background: #ccc!important;
 
+}
 
 .radio label {
     display: inline-block;
@@ -313,4 +316,7 @@ margin-bottom: 0px!important;
 .btn-accion-filtro:active{
 	background: #ccc!important;
 	border:1px solid #ccc!important;
+}
+ul.sub-filtros li.sub-filtros-item:active{
+	background: #ccc!important;
 }
