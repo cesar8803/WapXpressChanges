@@ -10,6 +10,50 @@
     $(".mega-menu-root").css("height",heightHTML+'px');
     $(".mega-menu-main").css("height",heightHTML+'px');
     $(".mega-menu-second").css("height",heightHTML+'px');
+
+
+
+    $('#busca').keyup(function(){
+        var s = $(this).val();
+        console.log(s);
+        if(s.length > 2) $('#sb_cb0').css('visibility', 'visible');
+        if(s.length <= 2) $('#sb_cb0').css('visibility', 'hidden');
+
+    });
+
+
+
+  $('#busca').on('focus', function () {
+      console.log($(this).offset());
+      console.log($(this).position());
+      console.log($('body').scrollTop());
+      $('#busca').removeAttr('style');
+      var ot=parseInt($(this).offset().top),
+          pt=parseInt($(this).position().top);
+      var st=ot-108;//108 is height of up div
+      if(st-pt>0){
+          st=st-pt;
+      }
+      if(st<0){st=ot-108}
+      console.log(st,ot,pt);
+      $('wrapper').animate({
+          scrollTop: 200
+      },1000);
+
+      $('html, body').animate({scrollTop: 500}, "slow");
+
+
+  });
+
+$(document).ready(function (){
+            $("#busca").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#busca").offset().top
+                }, 2000);
+            });
+        });
+
+
  });
 
 // Listen for orientation changes

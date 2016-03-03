@@ -369,17 +369,32 @@ display: inline-block;
 .search_input_container{
     margin-right: 0px;
     padding-right: 0px;
-    margin-left: -2%;
+    /* margin-left: -2%; */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    height: 45px;
+    /* display: flex; */
+    padding: 0px;
+    border: 1px solid #d0d0d0;
+    background: whitesmoke;
 }
 
 .icon_search_container{
         margin-left: 0px;
-    padding-left: 0px;
-
+        padding-left: 0px;
+        padding-right: 0px;
 }
 
 .search_input_container #busca{
-    height: 34px;
+    height: 45px;
+    border: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: none;
+    width: 84.666667%;
+    z-index: 1;
 }
 
 
@@ -394,4 +409,44 @@ display: inline-block;
 }
 
 
+#sb_cb0{
+    font: 27px/25px arial,sans-serif;
+    visibility: hidden;
+}
 
+.gsst_b{
+    height: 34px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+
+.gsst_b{
+    height: 45px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    text-align: center;
+    padding-right: 15%;
+}
+
+.gsst_a{
+        height: 34px;
+
+}
+
+
+.col-xs-2.icon_search_container .icon-liv-search{
+    font-size: 29px;
+    line-height: 33px!important;
+    height: 45px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+.input-group.homesearch-position{
+    background-color: black;
+}
