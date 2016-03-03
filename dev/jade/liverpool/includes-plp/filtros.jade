@@ -1,0 +1,17 @@
+include ./../filtros/contador-productos.jade
+#modalFiltros.modal-filtros.modal.modal-fullscreen(tabindex='-1', role='dialog',data-easein="slideRightIn", aria-labelledby='myModalLabel', aria-hidden='true')
+	.modal-dialog(role='document')
+		.modal-content
+			.modal-header
+				div.cerrar-filtros
+					i.icon-arrow-return.icon-liv-flecha-izquierda
+					span REGRESAR
+				div.limpiar-filtros-btn
+					span Limpiar filtros
+				//h4#myModalLabel.modal-title Modal title
+			.modal-body
+				include ./../filtros/content-filter.jade
+			.modal-footer
+				button.btn.btn-default(type='button', data-dismiss='modal') Close
+				button.btn.btn-primary(type='button') Save change
+include ./../includes-plp/footer-javascript-includes.jade
