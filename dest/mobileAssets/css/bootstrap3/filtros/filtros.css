@@ -285,3 +285,32 @@ margin-bottom: 0px!important;
 	height: 40px;
 	border-bottom: 1px solid #bebebe;
 }
+.ver-contador{
+	display: block;
+	font-family: 'Roboto Regular',arial,sans-serif;
+    color: #333;
+    font-weight: normal;
+   line-height: 40px;
+}
+.btn-accion-filtro{
+	border: 1px solid #ccc;
+    background-color: #EFF2F1;
+    margin: 3px;
+    width: 100%;
+    height: 2em;
+    padding:0px!important;
+}
+.btn-accion-filtro span{
+	color: #575656;
+    margin: 0;
+    display: block;
+    font-family: 'roboto medium', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    padding:0px!important;
+}
+.btn-accion-filtro:active{
+	background: #ccc!important;
+	border:1px solid #ccc!important;
+}
