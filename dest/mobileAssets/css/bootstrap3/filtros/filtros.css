@@ -115,12 +115,13 @@ input[type="radio"].styled:checked label:after,
 }
 .radio label::before{
     border: 1px solid #e10098!important;
-    left:300px!important;
+    left: 100%!important;
     top: 4px;
 }
 .radio label::after {
 		background: #e10098!important;
-	left:303px!important;
+	left: 100%!important;
+    left: calc(100% + 3px)!important;
 	top: 7px!important;
 }
 
@@ -267,40 +268,14 @@ margin-bottom: 0px!important;
 }
 .checkbox label::before{
     border: 1px solid #e10098!important;
-    left:302px!important;
+    left: 94.6%!important;
     top: 4px;
 }
 .checkbox label::after {
     background: #e10098!important;
-    left: 305px!important;
+    left: calc(94.6% + 3px)!important;
     top: 7px!important;
     width: 11px!important;
     height: 11px!important;
         font-size: 0px!important;
-}
-@media only screen and (max-width : 320px) {
-
-.radio label::before{
-    border: 1px solid #e10098!important;
-    left:250px!important;
-    top: 5px;
-}
-.radio label::after {
-	background: #e10098!important;
-	left:253px!important;
-	top: 8px!important;
-}
-.checkbox label::before{
-    border: 1px solid #e10098!important;
-    left:252px!important;
-    top: 3px;
-}
-.checkbox label::after {
-    background: #e10098!important;
-    left: 255px!important;
-    top: 6px!important;
-    width: 11px!important;
-    height: 11px!important;
-        font-size: 0px!important;
-}
 }

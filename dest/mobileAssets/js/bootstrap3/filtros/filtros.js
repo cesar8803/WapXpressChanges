@@ -53,7 +53,7 @@ $(".modal-fullscreen").velocity({right:"-100%"});
 $(".modal-dialog").velocity({right:"-100%"});
 $(".modal-backdrop .in").velocity({right:"-100%"});
 
-$(".modal-content").velocity({right:"-100%"},function(){
+    $(".modal-content").velocity({right:"-100%"},function(){
     $('#modalFiltros').modal('toggle');
     $(".modal-fullscreen").velocity({right:"0%"});
     $(".modal-dialog").velocity({right:"0%"});
