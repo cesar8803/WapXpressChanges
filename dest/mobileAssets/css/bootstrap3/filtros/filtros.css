@@ -279,3 +279,9 @@ margin-bottom: 0px!important;
     height: 11px!important;
         font-size: 0px!important;
 }
+.contador-productos{
+	width: 100%;
+	background: #DDD;
+	height: 40px;
+	border-bottom: 1px solid #bebebe;
+}

@@ -4,8 +4,7 @@ html(lang='en')
 		include ./common/metas.jade
 		include ./includes-home/includes-css-home.jade
 	body
-		button.btn.btn-primary.btn-lg(type='button', data-toggle='modal', data-target='#modalFiltros')
-			| Launch demo modal
+		include ./filtros/contador-productos.jade
 		#modalFiltros.modal-filtros.modal.modal-fullscreen(tabindex='-1', role='dialog',data-easein="slideRightIn", aria-labelledby='myModalLabel', aria-hidden='true')
 			.modal-dialog(role='document')
 				.modal-content
