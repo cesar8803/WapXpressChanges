@@ -3,6 +3,10 @@
  console.log(heightHTML);
  $(document).ready(function(){
 
+    //Function 
+
+    $('.icon-search-liverpool').click(showLoginModal);
+
     $(".mm-second-content").find('div.row').hide();
     /*$(".megaMenu").css("height",heightHTML+'px');
     $(".megaMenu").css("top",'-'+heightHTML+'px');*/
@@ -20,24 +24,6 @@
         if(s.length <= 2) $('#sb_cb0').css('visibility', 'hidden');
 
     });
-
-
-/*
-  $('#busca').on('focus', function () {
-      console.log($(this).offset());
-      console.log($(this).position());
-      console.log($('.wrapper').scrollTop());
-      $('#busca').removeAttr('style');
-      var ot=parseInt($(this).offset().top),
-          pt=parseInt($(this).position().top);
-      var st=ot-108;//108 is height of up div
-      if(st-pt>0){
-          st=st-pt;
-      }
-    $("body,html,.wrapper,.mobmenu").animate({
-        scrollTop: st
-    },200);
-*/
 
       $('#busca').on('focus', function () {
           var ot=parseInt($(this).offset().top),
@@ -238,6 +224,12 @@ focusWrapperBody = function(){
     $("body").css("overflow-x"," hidden");
     $("body").css("-webkit-overflow-scrolling","touch");
     
+}
+
+
+
+function showLoginModal(){
+    $('#full-width').modal('show'); 
 }
 /*Other efect*/
 //var heightHDR = $(".megaMenu").height();

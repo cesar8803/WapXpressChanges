@@ -1,16 +1,5 @@
 .pdt-list-container
-  .product-diffr-options-main
-    .span6.filter-container(style='min-height: 100px!imporant')
-      .row-fluid.lp-plp-close-sec
-        .filter-close1.span9
-          i.icon-filter-arrow-left
-          span REGRESAR
-        .span3
-          span(onclick="javascript:clearAllFilters('/tienda/m','')")
-            | Limpiar
-            | filtros
-      .clear
-      include filters.jade
+include filtros.jade
 input#checkSeo(type='hidden', value='true')
 .pdt-list-container
   .row-fluid

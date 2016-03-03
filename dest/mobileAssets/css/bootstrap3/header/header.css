@@ -460,3 +460,9 @@ display: inline-block;
 .buttons-header{
   background:#f8f8f8;
 }
+
+
+.icon-search-liverpool:active{
+    color: #E0068D;
+
+}
