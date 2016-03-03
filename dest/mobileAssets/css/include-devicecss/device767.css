@@ -4283,14 +4283,7 @@ font-size : 11px;
   text-align : center;
 }
 .homesearch-position .btn-Searc-head {
-  /* background-color: #dc027c;
-  border: none;
-  width: 38px;
-  height: 33px; */
-  position: absolute;
-  float: right;
-  margin-right: 34px;
-  border-radius: 5px;
+
 }
 body .product-diffr-options {
   width:25%
@@ -4511,5 +4504,9 @@ width: 100%;
 margin-top: 0;
 margin-left: 0;
     background: #e10098;
+}
+
+.gsst_b{
+  
 }
 
