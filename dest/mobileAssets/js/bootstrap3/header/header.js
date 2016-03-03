@@ -22,11 +22,11 @@
     });
 
 
-
+/*
   $('#busca').on('focus', function () {
       console.log($(this).offset());
       console.log($(this).position());
-      console.log($('body').scrollTop());
+      console.log($('.wrapper').scrollTop());
       $('#busca').removeAttr('style');
       var ot=parseInt($(this).offset().top),
           pt=parseInt($(this).position().top);
@@ -34,24 +34,27 @@
       if(st-pt>0){
           st=st-pt;
       }
-      if(st<0){st=ot-108}
-      console.log(st,ot,pt);
-      $('wrapper').animate({
-          scrollTop: 200
-      },1000);
+    $("body,html,.wrapper,.mobmenu").animate({
+        scrollTop: st
+    },200);
+*/
 
-      $('html, body').animate({scrollTop: 500}, "slow");
+      $('#busca').on('focus', function () {
+          var ot=parseInt($(this).offset().top),
+              pt=parseInt($(this).position().top);
+          var st=ot-0;//108 is height of up div
+          var scrollTop=$('.wrapper').scrollTop();
+          if(scrollTop){
+              st=st+scrollTop;
+          }
 
+                 console.log(st-($(this).height()));
 
-  });
+          $("body,html,.wrapper,.mobmenu").animate({
+              scrollTop: 49
+          },200);
+      });
 
-$(document).ready(function (){
-            $("#busca").click(function (){
-                $('html, body').animate({
-                    scrollTop: $("#busca").offset().top
-                }, 2000);
-            });
-        });
 
 
  });

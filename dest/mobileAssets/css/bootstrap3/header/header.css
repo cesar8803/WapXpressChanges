@@ -450,3 +450,7 @@ display: inline-block;
 .input-group.homesearch-position{
     background-color: black;
 }
+
+.mobile-menu-cont.lp-mble-cont{
+    display: -webkit-box;
+}

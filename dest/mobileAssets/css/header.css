@@ -1600,7 +1600,7 @@ min-height: 300px;
        }
 .buttons-header{
   width:100%;
-  height:3em;
+  height: 40px;
   background:#f8f8f8;
   margin: -2px 0 0 0;
   border:1px solid #d0d0d0;
