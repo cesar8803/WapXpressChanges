@@ -33,7 +33,6 @@ html(lang='en')
     .wrapper
       // Start: header
       include header.jade
-      script(type='text/javascript', charset='utf-8', src='/mobileAssets/js/atgsvcs.js')
       .liverpoolpage-content.liverpool-home
         input#showLoginPopup(type='hidden', name='showLoginPopup', value='')
         // Start: home-banner-content bannerCarouselTargeter.jsp
@@ -77,5 +76,7 @@ html(lang='en')
           img#bodyloader(src='/mobileAssets/images/icons/ajax-loader.gif', alt='ajaxloader')
       #box-overlay-first.hidden-phone
       include ./includes-plp/footer-javascript-includes.jade
+      include ./includes-home/only-js-home.jade
+
   // End: Body
   // End: Html

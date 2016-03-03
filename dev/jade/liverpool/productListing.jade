@@ -23,7 +23,7 @@ html(lang='en')
     .wrapper
       // Start: header
       include ./includes-plp/includes-css-js.jade
-      include ./includes-plp/header-plp.jade
+      include header.jade
       include ./includes-plp/bread-crumb.jade
       include ./includes-plp/product-listing-container.jade
       include ./includes-plp/recomendations.jade
@@ -37,7 +37,7 @@ html(lang='en')
           img#bodyloader(src='/mobileAssets/images/icons/ajax-loader.gif', alt='ajaxloader')
       #box-overlay-first.hidden-phone
       // End: wrapper
-      
+      include ./includes-plp/footer-javascript-includes.jade
   // End: Body
   // End: Html
   input#recm_eventCategory(type='hidden', value='twocolumnpage', name='recm_eventCategory')
