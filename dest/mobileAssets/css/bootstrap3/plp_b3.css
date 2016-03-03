@@ -349,11 +349,7 @@ body[brandbar='yes'][omniprompt='yes'].no-navsteps views {
 .extra-icon {
   vertical-align: bottom;
 }
-i {
-  background-image: url("/mobileAssets/images/spritesheet_movil_final.png");
-  background-repeat: no-repeat;
-  display: block;
-}
+
 .next-step-button {
   background-color: #cf0078;
   border: none;
