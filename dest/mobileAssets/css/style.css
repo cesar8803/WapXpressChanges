@@ -1930,6 +1930,31 @@ margin-left: 10px;
     height: 251px!important;
 }
 }
+
+#modalLogin .cerrar-filtros{
+	color: red;
+ 
+}
+
+
+.cerrar-modal-login{
+     width: 35%;
+     font-size: 15px;
+     line-height: 28px;
+     color: #666;
+     display: inline-block;
+     line-height: 45px;
+     margin-left: 1em;
+     position: relative;
+     left: 73%;
+}
+
+
+.footer-modal{
+	padding-top: 10%;
+	margin-left: -15px;
+	margin-right: -15px;
+}
 /*jon*/
 /*body > div.wrapper > footer > div.footer-bottom > div.row-fluid.footerbtcontent > div > div:nth-child(4) > div > h3 > a{display:none;}
 body > div.wrapper > footer > div.footer-bottom > div.row-fluid.footerbtcontent > div > div:nth-child(4) > div > a {display:none;}

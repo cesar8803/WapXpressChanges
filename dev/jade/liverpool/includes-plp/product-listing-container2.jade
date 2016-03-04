@@ -1,51 +1,14 @@
 .pdt-list-container
-  .product-diffr-options-main
-    .span6.filter-container(style='min-height: 100px!imporant')
-      .row-fluid.lp-plp-close-sec
-        .filter-close1.span9
-          i.icon-filter-arrow-left
-          span REGRESAR
-        .span3
-          span(onclick="javascript:clearAllFilters('/tienda/m','')")
-            | Limpiar
-            | filtros
-      .clear
-      include filters.jade
-.product-diffr-options-main
-  .row-fluid
-    // fixed top bar starts
-    .span12.top-fix.affix-top(data-spy='affix', data-offset-top='150')
-      .span12.product-diffr-options
-        label
-        .span5.plp-category-result
-          link(href='/mobileAssets/css/search.css', rel='stylesheet')
-          span  139 resultados
-        .span2.filter-view-grids
-          a#small.small-veiw.active(href='javascript:void(0);', title='small-veiw')
-            img#btn-view-grid(src='/mobileAssets/images/icons/large-view-grid.png')
-        .span5.filter-btn-main
-          span.filter-btn-icon.plp_filter
-            | Filtrar
-            img(src='/mobileAssets/images/icons/plp_filter.png')
-      .prodcount
-        span#prodcount.camparatorcount 0
-      .row-fluid.compare-row
-        span.phone-hide
-          | Selecciona de 2 a 4 productos para
-          | comparar
-        span.hidden-tablet.hidden-desktop
-          | Selecciona
-          | de 2 productos para comparar
-        input.compare-btn(type='button', value='Comparar')
-    // Ends: fixed top bar
+include filtros.jade
 input#checkSeo(type='hidden', value='true')
 .pdt-list-container
   .row-fluid
-    .span12.filter-tabs-container
+    .col-xs-12.filter-tabs-container
       ul#lilength.filter-tabs-right
       ul#lilength.filter-tabs-right
         li.filter-tabs.selected(onclick="location.href='/tienda/m/fútbol/N-2szh'") Jerseys
   input#viewType(type='hidden', value='grid')
+  // <div id="productos"  class='product_listing'>
   // <div id="productos"  class='product_listing'>
   include all-list-product-ebook.jade
   include footer-pagination.jade

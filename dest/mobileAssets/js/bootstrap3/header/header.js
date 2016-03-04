@@ -5,7 +5,10 @@
 
     //Function 
 
-    $('.icon-search-liverpool').click(showLoginModal);
+    $('.login-home.myaccount-icon').click(showLoginModal);
+    $('.cerrar-modal-login').click(closeLoginModal);
+
+
 
     $(".mm-second-content").find('div.row').hide();
     /*$(".megaMenu").css("height",heightHTML+'px');
@@ -25,6 +28,8 @@
 
     });
 
+
+// This function Scroll to the TOP when the input search is selected
       $('#busca').on('focus', function () {
           var ot=parseInt($(this).offset().top),
               pt=parseInt($(this).position().top);
@@ -39,6 +44,9 @@
           $("body,html,.wrapper,.mobmenu").animate({
               scrollTop: 49
           },200);
+
+        $('#busca').removeClass(':focus');        
+
       });
 
 
@@ -229,7 +237,12 @@ focusWrapperBody = function(){
 
 
 function showLoginModal(){
-    $('#full-width').modal('show'); 
+    $('#modalLogin').modal('show'); 
+}
+
+function closeLoginModal(){
+    $('#modalLogin').modal('toggle');
+
 }
 /*Other efect*/
 //var heightHDR = $(".megaMenu").height();

@@ -1,11 +1,35 @@
-#full-width.modal.container.fade(tabindex='-1', style='display: none;')
-  .modal-header
-    button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
-    h4.modal-title Full Width
-  .modal-body
-    p This modal will resize itself to the same dimensions as the container class.
-    p
-      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin ipsum ac ante fermentum suscipit. In ac augue non purus accumsan lobortis id sed nibh. Nunc egestas hendrerit ipsum, et porttitor augue volutpat non. Aliquam erat volutpat. Vestibulum scelerisque lobortis pulvinar. Aenean hendrerit risus neque, eget tincidunt leo. Vestibulum est tortor, commodo nec cursus nec, vestibulum vel nibh. Morbi elit magna, ornare placerat euismod semper, dignissim vel odio. Phasellus elementum quam eu ipsum euismod pretium.
-  .modal-footer
-    button.btn.btn-default(type='button', data-dismiss='modal') Close
-    button.btn.btn-primary(type='button') Save changes
+#modalLogin.modal-filtros.modal.modal-fullscreen(tabindex='-1', role='dialog',data-easein="slideRightIn", aria-labelledby='myModalLabel', aria-hidden='true')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        div.cerrar-modal-login
+          span CERRAR
+          i.icon-liv-close.close2
+      .modal-body
+        .row
+        .container_login.popUp.rad3
+          .close_header
+            .cancel-container
+          .from_login_container
+            .main_label_content.col-xs-12
+              include ./titles-pages/header-title-login_modal.jade
+            .main_content.col-xs-12
+              form#login.form-withphone.col-xs-12(action='/tienda/m/home.jsp', name='login', novalidate='novalidate')
+                label.col-xs-12(for='login-email')  Correo electrónico:
+                input#login.input-block-level.col-xs-12(value='', class="{validate:{required:true, email:true, messages:{required:'Introduzca dirección electrónico', email:'Por válido'}}}", type='email', maxlength='255', name='login')
+                label.col-xs-12(for='login-pwd') Contraseña:
+                input#pass.input-block-level.col-xs-12(value='', class="{validate:{required:true,messages:{required:'Por contraseña'},minlength:6}}", type='password', name='pass')
+                a.btn-grey.btn.mt10.rad3.cancel-btn.col-xs-12(href='/tienda/m/users/forgotPassword.jsp') Olvidaste tu contraseña
+            .register_new_content.col-xs-12
+                .main_label_register.col-xs-12
+                  include ./titles-pages/header-title-new-user_modal.jade
+                a.btn.btn-pink.col-xs-12(onclick="dataLayer.push({'labelNewUser':'header;','event':'RegisterUser'}) ", href='/tienda/m/users/register.jsp') Crea tu cuenta
+            .footer-modal.col-xs-12
+              .legend1.col-xs-6
+                a(target='_blank', onclick="dataLayer.push({ 'eventCategory' : 'footer', 'eventAction' : 'click', 'eventLabel': 'terminos y condiciones', 'event' : 'click' });", href='somelink.html') Términos y condiciones
+              .legend2.col-xs-6
+                a(target='_blank', onclick="dataLayer.push({ 'eventCategory' : 'footer', 'eventAction' : 'click', 'eventLabel': 'aviso privacidad', 'event' : 'click' });", href='somelink.html') Aviso de privacidad
+              .legend3.col-xs-12
+                span.allrights  Todos los derechos reservados D.R. ®
+              .legend4.col-xs-12
+                span.allrights  Liverpool
