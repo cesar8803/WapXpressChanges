@@ -152,7 +152,7 @@ $.each(textareaelm,function(index,value){
 
 
 
-	$(".addmore_container a > strong").text("Agregar dirección");
+	//$(".addmore_container a > strong").text("Agregar dirección");
 
 	if(window.location.href.indexOf("shipping") > -1 ) {
 

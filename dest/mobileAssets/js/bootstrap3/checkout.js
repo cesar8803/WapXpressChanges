@@ -34,8 +34,15 @@ $(document).ready(function(){
 		$("#guest_form_checkout_express_pay_method > div:nth-child(8) > div").text("Datos de la tarjeta");
 		$("#guest_form_checkout_express_pay_method > #adress_content > div.panel.panel-primary").text("Dirección de la tarjeta");
         
-        
-        $("#main_grid > div:nth-child(4) > div.visible-xs.thumbnail > div > div > a > strong").text("Agregar dirección");
+        $('.item-promotion').click(showModalPromotions);
+
+
+        $('.listnoselected').click(onItemPromoClickListener);
+
+
+        $('.cerrar-modal-login.cerrar-modal-checkout').click(onModalCloseButtonListener);
+
+       // $("#main_grid > div:nth-child(4) > div.visible-xs.thumbnail > div > div > a > strong").text("Agregar dirección");
 
 
 
@@ -1100,6 +1107,38 @@ function showErrorPopupmsg(msg){
 	$('#error-alert-popup-text').html(msg);
 	/*$('#myModalAlertError').load(); */
 	$('#myModalAlertError').modal();
+}
+
+
+function showModalPromotions(someObject){
+
+	/*$('#myModalAlertError').load(); */
+	$('#modalCheckOutPromos').modal();
+
+}
+
+
+function  onItemPromoClickListener(someObject){
+
+	var listAllPromos =$('.listnoselected');
+
+	if(listAllPromos!=null){
+			 $('.listnoselected').removeClass("liselected");
+	}
+
+	$(this).addClass("liselected");
+
+	$('#modalCheckOutPromos').modal('toggle');
+
+//Dummy update code 
+	updatePromocodes("promoCode_ci53073691149","4777718946");
+
+}
+
+
+function  onModalCloseButtonListener(someObject){
+	$('#modalCheckOutPromos').modal('toggle');
+
 }
 
 $(document).ready(function(){

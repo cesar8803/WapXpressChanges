@@ -412,6 +412,17 @@ i {
 	padding-left: 15%;
 }
 
+.container_general>a{
+	padding-left: 2%;
+	text-align: center;
+}
+
+.container_general{
+	margin-left: 0%;
+	margin-right: 5%;
+	text-align: center;
+	}
+
 .address_container>h3 {
 	font-size: 16px;
 }
@@ -427,6 +438,16 @@ i {
 .common_data {
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+.sub_root_cotent{
+	padding-left: 2px!important;
+	padding-right: 2px!important;
+}
+
+.super_root_container{
+	margin-left: -15px;
+	margin-right: -15px;
 }
 
 .container_buttons_off {
@@ -863,6 +884,8 @@ i {
 .a-touch-link>strong {
 	font-size: 110%;
 	color:#333;
+	text-align: center;
+	margin: auto;
 }
 
 /*BLOQUE DE ICONOS DEL NAVBAR*/
@@ -1118,6 +1141,17 @@ i {
 	top: 50%;
 	margin-top: -7px;
 	right: 30px;
+	position: absolute;
+}
+
+
+.item-promotion .arrow-icon.right {
+	width: 14px;
+	height: 20px;
+	background-position: -95px -73px;
+	top: 50%;
+	margin-top: -7px;
+	right: 21px;
 	position: absolute;
 }
 
@@ -1978,6 +2012,27 @@ ul.a-list-link li {
 }
 
 
+.cerrar-modal-checkout{
+     width: 25%;
+     font-size: 15px;
+     line-height: 28px;
+     color: #666;
+     display: inline-block;
+     line-height: 45px;
+     margin-left: 1em;
+     position: relative;
+     text-align:right;
+     float:right;
+     padding-right:3%;
+     margin-left: 0px;
+}
+
+
+.cerrar-modal-checkout:active{
+	background-color: rgba(0,0,0,.1)
+
+}
+
 /*click & pick*/
 .elige-estado h5{color:#000;}
            .txtD{color:#6f777a; font-size: 13px;}
@@ -2091,3 +2146,422 @@ a[href="#cie_bancomer_payment_method"] {
    /* display: none!important; */
 }
 /* Finish +10 Functions */
+.modal-fullscreen{
+  position: absolute;
+  top: 0!important;
+  right: 0;
+  bottom: 0!important;
+  left: 0;
+  background: #f4f4f4;
+}
+.modal-fullscreen .modal-dialog{
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.modal-fullscreen .modal-dialog .modal-content{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #c9c9c9;
+  border-radius: 0;
+  box-shadow: none;
+  overflow-y:scroll;
+  -webkit-overflow-scrolling:touch;
+ }
+ .modal-fullscreen .modal-dialog .modal-content .modal-header{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  padding: 0px;
+  background: #f1f1f1;
+  border: 0;
+  border: 1px solid #dcdcdc;
+ }
+
+
+ #modalCheckOutPromos .modal-header{
+ 	/* position:fixed; */
+ 	/* top:0; */
+ 	/* z-index: 10; */
+ }
+
+
+.title_modal{
+	line-height: 45px;
+	font-size: initial;
+	margin-left: 7%;
+	margin-right: 2%;
+	font-weight: 700;
+}
+ .listnoselected{
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	height: 50px;
+	align-items: center;
+	text-align: center;
+	}
+ .modal-fullscreen .modal-dialog .modal-content .modal-body{
+   position: absolute;
+  top: 50px;
+  width: 100%;
+  font-weight: 300;
+  overflow-y:scroll;
+  -webkit-overflow-scrolling:touch;
+}
+ .modal-fullscreen .modal-dialog .modal-content .modal-footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  padding: 10px;
+  background: #f1f3f5;
+  display: none;
+  }
+
+.listpromos{
+  overflow: auto; 
+  height: 100%!important;
+}
+
+#modalCheckOutPromos .modal-body{padding-top: 3px;padding-bottom: 3px;}
+
+.icon-liv-close.close3{
+	background: none;
+	display: inline;
+}
+
+//FONTS 
+.icon-liv-close:before {
+  content: "\e61f";
+}
+.icon-liv-accesorios:before {
+  content: "\e601";
+}
+.icon-liv-alert:before {
+  content: "\e602";
+}
+.icon-liv-alerta:before {
+  content: "\e603";
+}
+.icon-liv-altajoyeria:before {
+  content: "\e604";
+}
+.icon-liv-anillos:before {
+  content: "\e605";
+}
+.icon-liv-ayuda:before {
+  content: "\e606";
+}
+.icon-liv-ban-compra-futura:before {
+  content: "\e607";
+}
+.icon-liv-ban-costo-envio:before {
+  content: "\e608";
+}
+.icon-liv-ban-disponible-tienda:before {
+  content: "\e609";
+}
+.icon-liv-ban-entrega-domicilio:before {
+  content: "\e60a";
+}
+.icon-liv-ban-entrega-express:before {
+  content: "\e60b";
+}
+.icon-liv-ban-entrega-solo-tienda:before {
+  content: "\e60c";
+}
+.icon-liv-ban-envio-gratis:before {
+  content: "\e60d";
+}
+.icon-liv-ban-especial-paypal:before {
+  content: "\e60e";
+}
+.icon-liv-ban-libro-digital:before {
+  content: "\e60f";
+}
+.icon-liv-ban-libros-importacion:before {
+  content: "\e610";
+}
+.icon-liv-ban-monedero-electronico:before {
+  content: "\e611";
+}
+.icon-liv-ban-paquete-exclusivo:before {
+  content: "\e612";
+}
+.icon-liv-ban-piezas-limitadas:before {
+  content: "\e613";
+}
+.icon-liv-ban-precio-exclusivo:before {
+  content: "\e614";
+}
+.icon-liv-ban-preventa:before {
+  content: "\e615";
+}
+.icon-liv-ban-promocion-exclusiva:before {
+  content: "\e616";
+}
+.icon-liv-ban-regalo-compra:before {
+  content: "\e617";
+}
+.icon-liv-bebes:before {
+  content: "\e618";
+}
+.icon-liv-belleza:before {
+  content: "\e619";
+}
+.icon-liv-caballeros:before {
+  content: "\e61a";
+}
+.icon-liv-calendario:before {
+  content: "\e61b";
+}
+.icon-liv-cdl:before {
+  content: "\e61c";
+}
+.icon-liv-celular:before {
+  content: "\e61d";
+}
+.icon-liv-chocolates:before {
+  content: "\e61e";
+}
+.icon-liv-close-08:before {
+  content: "\e61f";
+}
+.icon-liv-contacto:before {
+  content: "\e620";
+}
+.icon-liv-cosmeticos:before {
+  content: "\e621";
+}
+.icon-liv-damas:before {
+  content: "\e622";
+}
+.icon-liv-damas2:before {
+  content: "\e623";
+}
+.icon-liv-deportes:before {
+  content: "\e624";
+}
+.icon-liv-devolucion:before {
+  content: "\e625";
+}
+.icon-liv-dinero1:before {
+  content: "\e626";
+}
+.icon-liv-double-right-07:before {
+  content: "\e627";
+}
+.icon-liv-down-02:before {
+  content: "\e628";
+}
+.icon-liv-dvd:before {
+  content: "\e629";
+}
+.icon-liv-ebook:before {
+  content: "\e62a";
+}
+.icon-liv-etiqueta:before {
+  content: "\e62b";
+}
+.icon-liv-exclusivo-12:before {
+  content: "\e62c";
+}
+.icon-liv-expand:before {
+  content: "\e62d";
+}
+.icon-liv-fact-extranjero:before {
+  content: "\e62e";
+}
+.icon-liv-fact-fisica:before {
+  content: "\e62f";
+}
+.icon-liv-fact-propiedad:before {
+  content: "\e630";
+}
+.icon-liv-filtro:before {
+  content: "\e631";
+}
+.icon-liv-flecha-der:before {
+  content: "\e632";
+}
+.icon-liv-flecha-izq:before {
+  content: "\e633";
+}
+.icon-liv-flor:before {
+  content: "\e634";
+}
+.icon-liv-fon:before {
+  content: "\e635";
+}
+.icon-liv-forma-de-pago:before {
+  content: "\e636";
+}
+.icon-liv-fragancias:before {
+  content: "\e637";
+}
+.icon-liv-go-14:before {
+  /*content: "\e638";*/
+  content: "\e651";
+}
+.icon-liv-grid-03:before {
+  content: "\e639";
+}
+.icon-liv-grid-04:before {
+  content: "\e63a";
+}
+.icon-liv-grid-ebook:before {
+  content: "\e63b";
+}
+.icon-liv-home:before {
+  content: "\e63c";
+}
+.icon-liv-impresora:before {
+  content: "\e63d";
+}
+.icon-liv-indicaciones:before {
+  content: "\e63e";
+}
+.icon-liv-infantiles:before {
+  content: "\e63f";
+}
+.icon-liv-info:before {
+  content: "\e640";
+}
+.icon-liv-juguetes:before {
+  content: "\e641";
+}
+.icon-liv-listado:before {
+  content: "\e642";
+}
+.icon-liv-localizar:before {
+  content: "\e643";
+}
+.icon-liv-logo:before {
+  content: "\e644";
+}
+.icon-liv-logo-liver:before {
+  content: "\e645";
+}
+.icon-liv-manual:before {
+  content: "\e646";
+}
+.icon-liv-mas:before {
+  content: "\e647";
+}
+.icon-liv-mas-info:before {
+  content: "\e648";
+}
+.icon-liv-mensaje:before {
+  content: "\e649";
+}
+.icon-liv-moda:before {
+  content: "\e64a";
+}
+.icon-liv-new-11:before {
+  content: "\e64b";
+}
+.icon-liv-promociones:before {
+  content: "\e64c";
+}
+.icon-liv-radio-button-01:before {
+  content: "\e64d";
+}
+.icon-liv-radio-button-02:before {
+  content: "\e64e";
+}
+.icon-liv-regalos:before {
+  content: "\e64f";
+}
+.icon-liv-relojes:before {
+  content: "\e650";
+}
+.icon-liv-right-06:before {
+  content: "\e651";
+}
+.icon-liv-seguridad:before {
+  content: "\e652";
+}
+.icon-liv-servicios:before {
+  content: "\e653";
+}
+.icon-liv-settings:before {
+  content: "\e654";
+}
+.icon-liv-social-facebook:before {
+  content: "\e655";
+}
+.icon-liv-social-google:before {
+  content: "\e656";
+}
+.icon-liv-social-pinterest:before {
+  content: "\e657";
+}
+.icon-liv-social-twitter:before {
+  content: "\e658";
+}
+.icon-liv-star-09:before {
+  content: "\e659";
+}
+.icon-liv-star-10:before {
+  content: "\e65a";
+}
+.icon-liv-talla:before {
+  content: "\e65b";
+}
+.icon-liv-tarjeta-linea:before {
+  content: "\e65c";
+}
+.icon-liv-tarjeta-solida:before {
+  content: "\e65d";
+}
+.icon-liv-thin-down-05:before {
+  content: "\e65e";
+}
+.icon-liv-timer:before {
+  content: "\e65f";
+}
+.icon-liv-up-01:before {
+  content: "\e660";
+}
+.icon-liv-video:before {
+  content: "\e661";
+}
+.icon-liv-video2:before {
+  content: "\e662";
+}
+.icon-liv-videojuegos:before {
+  content: "\e663";
+}
+.icon-liv-vinos:before {
+  content: "\e664";
+}
+.icon-liv-vuelo-ida:before {
+  content: "\e665";
+}
+.icon-liv-vuelo-regreso:before {
+  content: "\e666";
+}
+.icon-liv-zapatos:before {
+  content: "\e667";
+}
+.icon-liv-zoom-13:before {
+  content: "\e668";
+}
+.icon-liv-zoom-in-15:before {
+  content: "\e669";
+}
+.icon-liv-zoom-out-16:before {
+  content: "\e66a";
+}
