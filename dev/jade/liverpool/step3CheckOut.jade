@@ -27,6 +27,9 @@ html
     link(href='/mobileAssets/css/pdpdevice.css', rel='stylesheet')
     link(href='/mobileAssets/css//bootstrap3/fcbklistselection.css', rel='stylesheet')
     link(href='/mobileAssets/css/LP_Custom.css', rel='stylesheet')
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/header.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/style.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/font-awesome.min.css")
     link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/style-font.css")
 
   body
@@ -42,17 +45,9 @@ html
     script(src='/mobileAssets/js/bootstrap3/checkout_cart.js')
     script(src='/mobileAssets/js/analytics.js')
     header.head_container
-      nav.navbar.navbar-default
-        .container-fluid.no-padding-l
-          .header_phone
-            #TapZoom.col-xs-2.back-button.no-padding-l
-              a(href='/tienda/m/checkout/billing.jsp', onclick='/tienda/m/checkout/billing.jsp', rel='external')
-                button.btn-back-head
-                  img(src='/mobileAssets/images/arrow_header.png')
-          .col-xs-4.col-xs-offset-1.logo-container
-            .navbar-header
-              a.navbar-brand(href='/tienda/m/cart/cart.jsp')
-                img.img-responsive.logo(alt='Brand', src='/mobileAssets/images/logo.png')
+      //WAP enhacements replacement of the new header of checkOut is same structure as the PLP but only included  the div.header-container  
+      include ./includes_checkout/header_checkout
+      //WAP enhacements replacement FINISH HERE
       .container.title-container
         p.navbar-text
           | Mis Promociones
@@ -226,6 +221,8 @@ html
                           .a-touch-link
                             strong 20.00% DE DESCUENTO - 15 MESES SIN INTERES
                           i.arrow-icon.right
+              //WAP enhacements replacement FINISH HERE
+
             input#cdlerror(type='hidden', value='false')
             #compare-error.modal.fade.view-promo-modal(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
               .modal-body.row-fluid
@@ -235,7 +232,9 @@ html
                 span.span6.compare-error-text.hidden-desktop.hidden-tablet Weight Exceeds Maximum Limit
                 a.close-btn(title='close', href='javascript:void(0);')
                   img(src='/mobileAssets/images/gift-close.png', alt='close')
+          //WAP enhacements here we include the moda for promotions. 
           include ./includes_checkout/modal_promotions.jade
+          //WAP enhacements replacement FINISH HERE
           .col-sm-4.resume-container.main-info-container
             #address-container.panel.panel-primary.address-container
               .panel-heading.head-address.text-center
@@ -258,12 +257,15 @@ html
                   | masterCard
                 strong.label-block(data-testid='')
                   | XXXXXXXXXXXX4100
+
+            //WAP enhacements--  Here we take out #first-slot-resume ,  #resume-fieldset , #resume-fieldset from #payment-container and 
+            // put in that special container called #order-summary-container
+            #order-summary-container
               #first-slot-resume.row.free-shipping
                 .col-xs-12.col-sm-12.container-ship-flag
                   .col-xs-12.col-sm-12.text-center.label-free-shipping
                     strong.label-in-black Resumen de Mi Bolsa
                 .col-xs-8.col-xs-offset-2.col-sm-8.col-md-offset-2.divisor
-                  // <divisor>
               #resume-fieldset.row.order-fielset
                 .col-xs-12.col-sm-12
                   .col-xs-12.col-sm-12.text-center

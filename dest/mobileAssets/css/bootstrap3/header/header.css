@@ -18,6 +18,10 @@
     margin-left :0px;
     margin-right: 0px;
 }
+
+.header-container.no-margin{
+    background-color: white;
+}
 .header-contain-left{
     height: 56px;
     padding-left: 0px;

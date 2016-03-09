@@ -413,7 +413,6 @@
     content: "\e97b";
 }
 .navIcon.home:before{
-        content: "\e91e";
-
+      /*  content: "\e91e";*/
 }
 

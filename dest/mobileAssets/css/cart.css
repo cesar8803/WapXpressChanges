@@ -741,3 +741,14 @@ div.col-md-6.checkout-newuser-tab1 > div.row.mb20 > div > label{
 }
 
 
+/*Ajustments for header showing in  CART*/
+#search-icon-contain{
+  width: 100%;
+  padding-right: 5%!important;
+  display: block!important;
+}
+
+.icon-liv-search.icon-search-liverpool{
+  float: right;
+  margin-right: 13%!important;
+}
