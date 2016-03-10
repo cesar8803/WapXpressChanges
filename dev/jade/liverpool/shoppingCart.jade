@@ -46,66 +46,11 @@ html
       // defect:7228 fix start
       // defect:7228 fix end
       header.head_container
+        //WAP enhacements replacement of the new header of checkOut is same structure as the PLP but only included  the div.header-container  
         include ./includes_checkout/header_checkout.jade
-          // starts: search popup for mobile
-          #myModal_search.modal.fade.bs-example-modal-lg-search(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
-            .modal-size.modal-dialog.modal-lg
-              .modal-size.modal-content
-                .bg-Modal(data-dismiss='modal')
-                  p < REGRESAR
-                hr
-                .lp-search-input-cont
-                  .category_drop.iphone.input-group
-                    form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
-                      input#busca.field-search.cross_site_script_val_pop.valid.form-control(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
-                      span.input-group-btn.btn-Searc-head
-                        button.header_search-button(type='submit')
-
-                      input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
-                      #typeahead(style='display: none;')
-                        #type-main-list
-                          #type-ver-todos
-          // ends: search popup for mobile
-        // Header Movil
-        .hidden-xs.border-header.row.header-ipad
-          .col-xs-1.back-button-ipad
-            button.btn-back-head(onclick="window.location.href='http://www.liverpool.com.mx/tienda/m/sill%C3%B3n-contempor%C3%A1neo-beige-alexa/1034593058'")
-              img(src='/mobileAssets/images/arrow_header.png')
-          .col-xs-6.logo-container
-            .col-xs-2
-              a(href='/tienda/m', rel='external')
-                img.img-responsive.logo(src='/mobileAssets/images/logo.png')
-            .col-xs-10
-              .input-group.search-position
-                form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
-                  input#busca.field-search.cross_site_script_val_pop.valid.form-control(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
-                  span.input-group-btn.btn-Searc-head
-                    button.header_search-button(type='submit')
-                  input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
-                  #typeahead(style='display: none;')
-                    #type-main-list
-                      #type-ver-todos
-              // /input-group
-          .col-xs-5
-            .col-xs-10
-              .btn-group.bg-Group(role='group')
-                // user profile I pad
-                a(data-toggle='modal', data-target='#myLogginAlert', title='Iniciar sesión')
-                  button.btn-group-user(type='button')
-                    img.img-group.myaccount-icon(src='/mobileAssets/images/icons/header_usericonipad.png')
-                    | Iniciar sesión
-                a(href='/tienda/m/browse/store.jsp', rel='external')
-                  button.btn-group-user
-                    img.img-group(src='/mobileAssets/images/icons/header_storesiconipad.png')
-                    span Localiza tu tienda
-                // user profile
-            .col-xs-2.badge-position
-              a.img-size-icon-bag(href='/tienda/m/cart/cart.jsp', rel='external')
-                span.badge-img.badge
-                  // defect:7228 fix start
-                  | 1
-                  // defect:7228 fix end
-                img.img-size-badge(src='/mobileAssets/images/bag.png')
+        include ./common/modal_search.jade
+        //WAP enhacements We remove the iPad header (This changue i don´t know if is for April or May release ¿¿¿  ???)
+        //WAP enhacements replacement FINISH HERE
       script.
         window.onload = function(){
         dataLayer.push({ 'category':'Cart',
@@ -414,16 +359,8 @@ html
                                         a#dropdown1_3.a-dropdown-link.a-active(tabindex='-1')  4
                                       li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_4')
                                         a#dropdown1_4.a-dropdown-link.a-active(tabindex='-1')  5
-                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_5')
-                                        a#dropdown1_5.a-dropdown-link.a-active(tabindex='-1')  6
-                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_6')
-                                        a#dropdown1_6.a-dropdown-link.a-active(tabindex='-1')  7
-                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_7')
-                                        a#dropdown1_7.a-dropdown-link.a-active(tabindex='-1')  8
-                                      li.a-dropdown-item.quantity-option(tabindex='0', role='option', aria-selected='true', aria-checked='true', aria-labelledby='dropdown1_8')
-                                        a#dropdown1_8.a-dropdown-link.a-active(tabindex='-1')  9
-                                      li.a-dropdown-item.quantity-option.quantity-option-10(tabindex='0', role='option', aria-selected='true', aria-labelledby='dropdown1_9')
-                                        a#dropdown1_9.a-dropdown-link(tabindex='-1', href='javascript:void(0)') 10+
+                                      li.a-dropdown-item.quantity-option.quantity-option-10(tabindex='0', role='option', aria-selected='true', aria-labelledby='dropdown1_5')
+                                        a#dropdown1_9.a-dropdown-link(tabindex='-1', href='javascript:void(0)') Más
                           input(value='/m/cart/frag/cartItems.jsp.update_1', type='hidden', name='_DARGS')
                       .col-xs-5.item-delete-button-container
                         form#remove_1.mb0(method='post', action='/tienda/m/cart/submitCart.jsp?_DARGS=/m/cart/frag/cartItems.jsp.remove_1', name='remove_1')

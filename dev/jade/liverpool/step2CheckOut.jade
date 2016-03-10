@@ -1,0 +1,617 @@
+doctype html
+html
+  head
+    // Google Tag Manager
+    script.
+      dataLayer = [{
+      'userId': 'df27fff93bdf60f54a778581d5ba1564'
+      }];
+    script.
+      window.onload = function(){
+      dataLayer.push({ 'category':'Checkout',
+      'subcategory':'Billing',
+      'event':'contentGroup'
+      });
+      }
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0', name='viewport')
+    title
+    // Bootstrap
+    link(href='/mobileAssets/css/bootstrap3/bootstrap.css', rel='stylesheet')
+    link(href='/mobileAssets/css/bootstrap3/awesome-bootstrap-checkbox.css', rel='stylesheet')
+    link(href='/mobileAssets/css/m5.css', rel='stylesheet')
+    link(href='/mobileAssets/css/header-checkout.css', rel='stylesheet')
+    link(href='/mobileAssets/css/pdpdevice.css', rel='stylesheet')
+    link(href='/mobileAssets/css/LP_Custom.css', rel='stylesheet')
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/header.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/style.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/font-awesome.min.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/style-font.css")
+  body
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='/mobileAssets/js/bootstrap3/jquery-1.11.2.min.js')
+    // Include all compiled plugins (below), or include individual files as needed
+    script(src='/mobileAssets/js/bootstrap3/bootstrap.js')
+    script(src='/mobileAssets/js/jquery.metadata.js')
+    script(src='/mobileAssets/js/jquery.validate.js')
+    script(src='/mobileAssets/js/bootstrap3/billing.js')
+    script(type='text/javascript', src='/mobileAssets/js/jquery.form.js')
+    script(src='/mobileAssets/js/bootstrap3/validator.js')
+    script(src='/mobileAssets/js/bootstrap3/lp_cp.js')
+    script(src='/mobileAssets/js/bootstrap3/checkout.js')
+    script(src='/mobileAssets/js/bootstrap3/cart.js')
+    header.head_container
+      //WAP enhacements replacement of the new header of checkOut is same structure as the PLP but only included  the div.header-container  
+      include ./includes_checkout/header_checkout
+      //WAP enhacements replacement FINISH HERE
+      .container.title-container
+        p.navbar-text
+          | Selecciona una forma de pago
+      // Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop
+      .container-fluid.navsteps
+        .container
+          .row
+            .col-xs-4.col-md-3.col-md-offset-1.navItem
+              i.navIcon.home
+              .navLabel
+                | Envio
+            .col-xs-4.col-md-3.navItem.active
+              i.navIcon.payment
+              .navLabel
+                | Pagos
+            .col-xs-4.col-md-3.navItem
+              i.navIcon.promotion
+              .navLabel
+                | 3. Promociones
+      //WAP enhacements it´s commented just because dont allow the render but this piece of code must not be removed 
+      //#sc-page-spinner.a-row.a-hidden(style='display: none;')
+        //.a-row.sc-overwrap
+        //.a-row.sc-spinner
+          //img(alt='', src='/mobileAssets/images/icons/loader_liverpool.gif')
+      //WAP enhacements it´s commented just because dont allow the render but this piece of code must not be removed 
+    #myModalAlertError.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel3', aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .modal-body
+            .row
+              .col-xs-10
+                .col-xs-3
+                  img(src='/mobileAssets/images/symbol_alert_sb.png')
+                .col-xs-9
+                  p.color-rosa-Alert.text-center.cart-error OCURRIO UN ERROR
+              .col-xs-2
+                button.close(type='button', data-dismiss='modal') ×
+            .row
+              .bgAlertError
+                p#error-alert-popup-text.color-g.text-center
+    input#jsp_contextroot(type='hidden', value='/tienda/m', name='jsp_contextroot')
+    input#jsp_isLoggedIn(type='hidden', value='true', name='jsp_isLoggedIn')
+    #messagesDiv
+    #errors.alertas
+    input#cieNotAvailable(type='hidden', value='true')
+    input#paymentSelected(type='hidden', value='')
+    input#contextJSPPath(type='hidden', value='/tienda/m')
+    //
+      <div class="alertas" id="hide_error">
+      <div class='alert alert-warning alerta error'>
+      <a href='javascript:void(0);' class='close' data-dismiss='alert'>&times;</a>
+      <strong></strong> <span id="formError"></span>
+      </div>
+      </div>
+    // This JSP is added as part of GTM enhancements, for adding script
+    script(type='text/javascript').
+      window.onload=function(){
+      dataLayer.push({
+      'event':'checkout',
+      'ecommerce':{
+      'checkout':{
+      'actionField':{'step':2},
+      'products':[
+      {
+      'name':'SILLON ALEXA  BEIGE CONTEMPORANEO TELA',
+      'id':'1034593058',
+      'price':'6499.35',
+      'brand':'DIXY',
+      'category': 'Alexa Beige Contemporáneo',
+      'variant':'BEIGE',
+      'quantity':'1'
+      }
+      ]
+      }
+      }
+      }
+      );
+      }
+    input#isLoggedIn(type='hidden', value='true')
+    input#contextpath(type='hidden', value='/tienda/m')
+    // Page content
+    #main.content-area
+      // Page content
+      .row
+        #submit_button_top.row.visible-xs.submit_button
+          .col-sm-12.text-center
+            button.btn.btn-primary.next-step-button.submit_button_2_step3(type='submit')
+              | Siguiente paso
+        .col-sm-8.payment-methods-container
+          div(role='tabpanel')
+            // Nav tabs
+            ul.nav.nav-tabs.list_headlines_payment(role='tablist')
+              li.active(role='presentation')
+                a(href='#credit_card_payment_method', onclick="javascript:switchAvailablePayment('creditCard', '/tienda/m', 'true', false); ", aria-controls='credit_card_payment_method', role='tab', data-toggle='tab')
+                  i#Liverpool.sprite_payments  
+                  span.headlines_payment Crédito/débito
+              li(role='presentation')
+                a(href='script:javascript(0);', aria-controls='pay_pal_payment_method', role='tab', data-toggle='tooltip', data-placement='bottom', data-original-title='Te informamos que el pago con PayPal aplica de 07:00 a 23:00 hrs. Si deseas continuar con tu compra te invitamos a elegir otra forma de pago.')
+                  i#pay_pal.sprite_payments.paypal_image  
+                  span.headlines_payment PayPal
+              li(role='presentation')
+                a(href='#cie_bancomer_payment_method', onclick="javascript:switchAvailablePayment('CIEBancomer', '/tienda/m', 'true',false);", aria-controls='cie_bancomer_payment_method', role='tab', data-toggle='tab')
+                  i#bancomer.sprite_payments.01_cie_active  
+                  span.headlines_payment Efectivo y transferencias
+            .tab-content.payment-content
+              //
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              #credit_card_payment_method.tab-pane.active.panel-group(role='tabpanel')
+                .panel.panel-default
+                  #headingOne.panel-heading(role='tab')
+                    h4.panel-title
+                      i.sprite-tc
+                      a#creditCardTabLink.upper-case(data-toggle='collapse', data-parent='#accordion', onclick="javascript:switchAvailablePayment('creditCard', '/tienda/m', 'true', false); ", href='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                        | Tarjetas de Crédito / Débito
+                  #collapseOne.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingOne')
+                    input#isCheckout(type='hidden', value='true')
+                    input#maxProfileCreditCardError(type='hidden', value='Ha llegado al límite de tarjetas permitidas para registrar en su perfil.')
+                    #main_list_cards.panel-body.panel-cards
+                      form#form_checkout_express_pay_method.validate_forms(method='post', action='/tienda/m/checkout/includes/loginBillingAjaxResponse.jsp?_DARGS=/m/checkout/includes/displayCards.jsp', accept-charset='utf-8', name='creditSelectForm')
+                        input(value='utf-8', type='hidden', name='_dyncharset')
+                        input(value='558200224591468359', type='hidden', name='_dynSessConf')
+                        input#defaultCCNickName(type='hidden', value='Unam')
+                        #change2.radio.radio-info.card_container
+                          input#radio2(type='radio', value='Unam', name='creditCardNickName', checked='checked')
+                          label(for='radio2')
+                            #container_adress2.tdc_container
+                              h5 Unam
+                              strong.label-block(data-testid='')  **** **** **** 4100
+                              strong.label-in-blue(data-testid='') Predeterminada
+                          .container.buttons_section.container_card_fields
+                            #data_receiver.row.form-section
+                              .col-sm-6.col-lg-4.cvv-field-container
+                                .form-group
+                                  label.col-xs-12.col-sm-12.control-label(for='nombre') *Código de seguridad
+                                  .col-xs-6.col-sm-5.col-sm-offset-1(role='cvv')
+                                    input#cvv1.form-control.cvv1(type='text', pattern='[0-9]*', name='cvv', inputmode='numeric', oninvalid="setCustomValidity('Este campo es obligatorio')", oninput="setCustomValidity('')", placeholder='', maxlength='4', required='')
+                                  .col-xs-4.col-xs-offset-1.col-sm-5.col-sm-offset-1(role='helpcvv')
+                                    a(tabindex='0', data-toggle='popover', data-trigger='focus', title='', data-content='Son los tres numeros al reverso de tu tarjeta', data-original-title='CVV/NIP')
+                                      strong.label-in-blue ¿Qué es esto?
+                              .clearfix
+                              .main-expdate-field-container
+                                .col-xs-6.col-sm-3.col-lg-4.expdate-field-container
+                                  .form-group
+                                    label.col-sm-12.control-label(for='middlename') *MES
+                                    .col-sm-12(role='monthexp')
+                                      select#mes.form-control.col-sm-2.mes(name='mes', oninvalid="setCustomValidity('Este campo es obligatorio')", oninput="setCustomValidity('')", required='')
+                                        option(value='') Mes
+                                        option(value='01')
+                                          | Ene (01)
+                                        option(value='02')
+                                          | Feb (02)
+                                        option(value='03')
+                                          | Mar (03)
+                                        option(value='04')
+                                          | Abr (04)
+                                        option(value='05')
+                                          | May (05)
+                                        option(value='06')
+                                          | Jun (06)
+                                        option(value='07')
+                                          | Jul (07)
+                                        option(value='08')
+                                          | Ago (08)
+                                        option(value='09')
+                                          | Sep (09)
+                                        option(value='10')
+                                          | Oct (10)
+                                        option(value='11')
+                                          | Nov (11)
+                                        option(value='12')
+                                          | Dic (12)
+                                .col-xs-6.col-sm-3.col-lg-4.expdate-field-container
+                                  .form-group
+                                    label.col-sm-12.control-label(for='apellidopaterno') *Año
+                                    .col-sm-12(role='yearexp')
+                                      select#anio.form-control.anio(name='anio', oninvalid="setCustomValidity('Este campo es obligatorio')", oninput="setCustomValidity('')", required='')
+                                        option(value='') Año
+                                        option(value='2014')
+                                          | 2014
+                                        option(value='2015')
+                                          | 2015
+                                        option(value='2016')
+                                          | 2016
+                                        option(value='2017')
+                                          | 2017
+                                        option(value='2018')
+                                          | 2018
+                                        option(value='2019')
+                                          | 2019
+                                        option(value='2020')
+                                          | 2020
+                                        option(value='2021')
+                                          | 2021
+                                        option(value='2022')
+                                          | 2022
+                                        option(value='2023')
+                                          | 2023
+                                        option(value='2024')
+                                          | 2024
+                            .container.buttons_section.container_buttons.edit-button-container
+                              a.btn_edit_credit_card.btn.btn-primary.btn_edit_address(href='javascript:void(0)', nickname='Unam')
+                                | Editar.
+                              a.btn.btn-default.btn_pay_tdc.submit_button_2_step3(href='javascript:void(0)', role='button')
+                                | Pagar con esta tarjeta
+                        #change1.radio.radio-info.card_container
+                          input#radio1(type='radio', value='Liverpool', name='creditCardNickName')
+                          label(for='radio1')
+                            #container_adress1.tdc_container
+                              h5 Liverpool
+                              strong.label-block(data-testid='')
+                                | **** **** **** 4101
+                          .container.buttons_section.container_card_fields_off
+                            #data_receiver.row.form-section
+                              .col-sm-6.col-lg-4.cvv-field-container
+                                .form-group
+                                  label.col-xs-12.col-sm-12.control-label(for='nombre') *Código de seguridad
+                                  .col-xs-6.col-sm-5.col-sm-offset-1(role='cvv')
+                                    input#cvv1.form-control.cvv1(type='text', pattern='[0-9]*', name='cvv', inputmode='numeric', oninvalid="setCustomValidity('Este campo es obligatorio')", oninput="setCustomValidity('')", required='', placeholder='', maxlength='4')
+                                  .col-xs-4.col-xs-offset-2.col-sm-5.col-sm-offset-1(role='helpcvv')
+                                    a(href='/tienda/m/gift-registry?pram1=NIP&pram2=NIP', onclick="javascript:pageTracker._trackPageview('/ayuda/tarjetas');", target='_blank')
+                                      strong.label-in-blue ¿Qué es esto?
+                              .clearfix
+                            .container.buttons_section.container_buttons.edit-button-container
+                              a.btn_edit_credit_card.btn.btn-primary.btn_edit_address(href='javascript:void(0)', nickname='Liverpool')
+                                | Editar.
+                              a.btn.btn-default.btn_pay_tdc.submit_button_2_step3(href='javascript:void(0)', role='button') Pagar con esta tarjeta
+                        #change3.radio.radio-info.card_container
+                          input#radio3(type='radio', value='Liverpool Ana ', name='creditCardNickName')
+                          label(for='radio3')
+                            #container_adress3.tdc_container
+                              h5 Liverpool Ana 
+                              strong.label-block(data-testid='')
+                                | **** **** **** 3401
+                          .container.buttons_section.container_card_fields_off
+                            #data_receiver.row.form-section
+                              .col-sm-6.col-lg-4.cvv-field-container
+                                .form-group
+                                  label.col-xs-12.col-sm-12.control-label(for='nombre') *Código de seguridad
+                                  .col-xs-6.col-sm-5.col-sm-offset-1(role='cvv')
+                                    input#cvv1.form-control.cvv1(type='text', pattern='[0-9]*', name='cvv', inputmode='numeric', oninvalid="setCustomValidity('Este campo es obligatorio')", oninput="setCustomValidity('')", required='', placeholder='', maxlength='4')
+                                  .col-xs-4.col-xs-offset-2.col-sm-5.col-sm-offset-1(role='helpcvv')
+                                    a(href='/tienda/m/gift-registry?pram1=NIP&pram2=NIP', onclick="javascript:pageTracker._trackPageview('/ayuda/tarjetas');", target='_blank')
+                                      strong.label-in-blue ¿Qué es esto?
+                              .clearfix
+                            .container.buttons_section.container_buttons.edit-button-container
+                              a.btn_edit_credit_card.btn.btn-primary.btn_edit_address(href='javascript:void(0)', nickname='Liverpool Ana ')
+                                | Editar.
+                              a.btn.btn-default.btn_pay_tdc.submit_button_2_step3(href='javascript:void(0)', role='button') Pagar con esta tarjeta
+                        #change4.radio.radio-info.card_container
+                          input#radio4(type='radio', value='SPIRA', name='creditCardNickName')
+                          label(for='radio4')
+                            #container_adress4.tdc_container
+                              h5 SPIRA
+                              strong.label-block(data-testid='')
+                                | **** **** **** 9342
+                          .container.buttons_section.container_card_fields_off
+                            #data_receiver.row.form-section
+                              .col-sm-6.col-lg-4.cvv-field-container
+                                .form-group
+                                  label.col-xs-12.col-sm-12.control-label(for='nombre') *Código de seguridad
+                                  .col-xs-6.col-sm-5.col-sm-offset-1(role='cvv')
+                                    input#cvv1.form-control.cvv1(type='text', pattern='[0-9]*', name='cvv', inputmode='numeric', oninvalid="setCustomValidity('Este campo es obligatorio')", oninput="setCustomValidity('')", required='', placeholder='', maxlength='4')
+                                  .col-xs-4.col-xs-offset-2.col-sm-5.col-sm-offset-1(role='helpcvv')
+                                    a(href='/tienda/m/gift-registry?pram1=NIP&pram2=NIP', onclick="javascript:pageTracker._trackPageview('/ayuda/tarjetas');", target='_blank')
+                                      strong.label-in-blue ¿Qué es esto?
+                              .clearfix
+                              .main-expdate-field-container
+                                .col-xs-6.col-sm-3.col-lg-4.expdate-field-container
+                                  .form-group
+                                    label.col-sm-12.control-label(for='middlename') *MES
+                                    .col-sm-12(role='monthexp')
+                                      select#mes.form-control.col-sm-2.mes(name='mes', oninvalid="setCustomValidity('Este campo es obligatorio')", oninput="setCustomValidity('')", required='')
+                                        option(value='') Mes
+                                        option(value='01')
+                                          | Ene (01)
+                                        option(value='02')
+                                          | Feb (02)
+                                        option(value='03')
+                                          | Mar (03)
+                                        option(value='04')
+                                          | Abr (04)
+                                        option(value='05')
+                                          | May (05)
+                                        option(value='06')
+                                          | Jun (06)
+                                        option(value='07')
+                                          | Jul (07)
+                                        option(value='08')
+                                          | Ago (08)
+                                        option(value='09')
+                                          | Sep (09)
+                                        option(value='10')
+                                          | Oct (10)
+                                        option(value='11')
+                                          | Nov (11)
+                                        option(value='12')
+                                          | Dic (12)
+                                .col-xs-6.col-sm-3.col-lg-4.expdate-field-container
+                                  .form-group
+                                    label.col-sm-12.control-label(for='apellidopaterno') *Año
+                                    .col-sm-12(role='yearexp')
+                                      select#anio.form-control.anio(name='anio', oninvalid="setCustomValidity('Este campo es obligatorio')", oninput="setCustomValidity('')", required='')
+                                        option(value='') Año
+                                        option(value='2014')
+                                          | 2014
+                                        option(value='2015')
+                                          | 2015
+                                        option(value='2016')
+                                          | 2016
+                                        option(value='2017')
+                                          | 2017
+                                        option(value='2018')
+                                          | 2018
+                                        option(value='2019')
+                                          | 2019
+                                        option(value='2020')
+                                          | 2020
+                                        option(value='2021')
+                                          | 2021
+                                        option(value='2022')
+                                          | 2022
+                                        option(value='2023')
+                                          | 2023
+                                        option(value='2024')
+                                          | 2024
+                            .container.buttons_section.container_buttons.edit-button-container
+                              a.btn_edit_credit_card.btn.btn-primary.btn_edit_address(href='javascript:void(0)', nickname='SPIRA')
+                                | Editar.
+                              a.btn.btn-default.btn_pay_tdc.submit_button_2_step3(href='javascript:void(0)', role='button') Pagar con esta tarjeta
+                        #change5.radio.radio-info.card_container
+                          input#radio5(type='radio', value='Bancomer', name='creditCardNickName')
+                          label(for='radio5')
+                            #container_adress5.tdc_container
+                              h5 Bancomer
+                              strong.label-block(data-testid='')
+                                | **** **** **** 7015
+                          .container.buttons_section.container_card_fields_off
+                            #data_receiver.row.form-section
+                              .col-sm-6.col-lg-4.cvv-field-container
+                                .form-group
+                                  label.col-xs-12.col-sm-12.control-label(for='nombre') *Código de seguridad
+                                  .col-xs-6.col-sm-5.col-sm-offset-1(role='cvv')
+                                    input#cvv1.form-control.cvv1(type='text', pattern='[0-9]*', name='cvv', inputmode='numeric', oninvalid="setCustomValidity('Este campo es obligatorio')", oninput="setCustomValidity('')", required='', placeholder='', maxlength='4')
+                                  .col-xs-4.col-xs-offset-2.col-sm-5.col-sm-offset-1(role='helpcvv')
+                                    a(href='/tienda/m/gift-registry?pram1=NIP&pram2=NIP', onclick="javascript:pageTracker._trackPageview('/ayuda/tarjetas');", target='_blank')
+                                      strong.label-in-blue ¿Qué es esto?
+                              .clearfix
+                              .main-expdate-field-container
+                                .col-xs-6.col-sm-3.col-lg-4.expdate-field-container
+                                  .form-group
+                                    label.col-sm-12.control-label(for='middlename') *MES
+                                    .col-sm-12(role='monthexp')
+                                      select#mes.form-control.col-sm-2.mes(name='mes', oninvalid="setCustomValidity('Este campo es obligatorio')", oninput="setCustomValidity('')", required='')
+                                        option(value='') Mes
+                                        option(value='01')
+                                          | Ene (01)
+                                        option(value='02')
+                                          | Feb (02)
+                                        option(value='03')
+                                          | Mar (03)
+                                        option(value='04')
+                                          | Abr (04)
+                                        option(value='05')
+                                          | May (05)
+                                        option(value='06')
+                                          | Jun (06)
+                                        option(value='07')
+                                          | Jul (07)
+                                        option(value='08')
+                                          | Ago (08)
+                                        option(value='09')
+                                          | Sep (09)
+                                        option(value='10')
+                                          | Oct (10)
+                                        option(value='11')
+                                          | Nov (11)
+                                        option(value='12')
+                                          | Dic (12)
+                                .col-xs-6.col-sm-3.col-lg-4.expdate-field-container
+                                  .form-group
+                                    label.col-sm-12.control-label(for='apellidopaterno') *Año
+                                    .col-sm-12(role='yearexp')
+                                      select#anio.form-control.anio(name='anio', oninvalid="setCustomValidity('Este campo es obligatorio')", oninput="setCustomValidity('')", required='')
+                                        option(value='') Año
+                                        option(value='2014')
+                                          | 2014
+                                        option(value='2015')
+                                          | 2015
+                                        option(value='2016')
+                                          | 2016
+                                        option(value='2017')
+                                          | 2017
+                                        option(value='2018')
+                                          | 2018
+                                        option(value='2019')
+                                          | 2019
+                                        option(value='2020')
+                                          | 2020
+                                        option(value='2021')
+                                          | 2021
+                                        option(value='2022')
+                                          | 2022
+                                        option(value='2023')
+                                          | 2023
+                                        option(value='2024')
+                                          | 2024
+                            .container.buttons_section.container_buttons.edit-button-container
+                              a.btn_edit_credit_card.btn.btn-primary.btn_edit_address(href='javascript:void(0)', nickname='Bancomer')
+                                | Editar.
+                              a.btn.btn-default.btn_pay_tdc.submit_button_2_step3(href='javascript:void(0)', role='button') Pagar con esta tarjeta
+                        input(value='/tienda/m/home.jsp', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.sessionExpirationURL')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.sessionExpirationURL')
+                        input(value='true', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.usingProfileCreditCard')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.usingProfileCreditCard')
+                        input(value='/tienda/m/checkout/includes/loginBillingAjaxResponse.jsp', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmSuccessURL')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmSuccessURL')
+                        input(value='/tienda/m/checkout/includes/loginBillingAjaxResponse.jsp', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmErrorURL')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmErrorURL')
+                        input#onChangeFormBtn.hide(value='submit', type='hidden', name='onChangeFormBtn')
+                        input(value=' ', type='hidden', name='_D:onChangeFormBtn')
+                        input#selecttarjetaId(type='hidden', name='selecttarjeta', value='')
+                        input#ccVerNoId(type='hidden', name='ccVerNo', value='')
+                        input#monthId(type='hidden', name='monthCard', value='')
+                        input#yearId(type='hidden', name='yearCard', value='')
+                        .col-sm-12.addmorecard_container
+                          div
+                            i.sprite-agregar
+                            a.a-touch-link.btn_add_New_Credit_Card(data-action='page-spinner-show', href='javascript:void(0)', onclick='')
+                              strong Agregar una tarjeta
+                            i.sprite-siguiente_gris
+                        input#isProfileCreditCardError(type='hidden', value='false')
+                        input(value='/m/checkout/includes/displayCards.jsp', type='hidden', name='_DARGS')
+              #pay_pal_payment_method.tab-pane(role='tabpanel')
+                .panel.panel-default
+                  #headingTwo.panel-heading(role='tab')
+                    h4.panel-title
+                      i.sprite-paypal_logo
+                      a(data-toggle='tooltip', data-placement='bottom', data-original-title='Te informamos que el pago con PayPal aplica de 07:00 a 23:00 hrs. Si deseas continuar con tu compra te invitamos a elegir otra forma de pago.') PAGA CON PAYPAL
+                      // <i class="sprite-siguiente_gris"></i>
+                  #collapseTwo.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingTwo')
+                    #main_list_cards.panel-body.panel-cards
+                      form#form_guest_paypal_method.validate_forms(method='POST', action='/tienda/m/checkout/includes/?_DARGS=/m/checkout/includes/addPaypalPayment.jsp.ciePaymentForm', accept-charset='utf-8', novalidate='novalidate', name='form_guest_pay_method')
+                        input(value='utf-8', type='hidden', name='_dyncharset')
+                        input(value='558200224591468359', type='hidden', name='_dynSessConf')
+                        input#contextpath(type='hidden', value='/tienda/m')
+                        input#cieBancomerSuccessUrl(value='/tienda/m/checkout/includes/guestBillingAjaxResponse.jsp', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmSuccessURL')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmSuccessURL')
+                        input(value='/tienda/m/checkout/includes/guestBillingAjaxResponse.jsp', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmErrorURL')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmErrorURL')
+                        input(value='paypal', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.selectedPaymentGroup')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.selectedPaymentGroup')
+                        input#payPalPaymentMethod.formsubmitter.hide(value='Continuar', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.billingWithPaypalInBilling')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.billingWithPaypalInBilling')
+                        input(value='/m/checkout/includes/addPaypalPayment.jsp.ciePaymentForm', type='hidden', name='_DARGS')
+                      .panel-body
+                        h3.option-title Esta forma de pago no aplica para compra de servicios, sólo de mercancía.
+                        ul.bancome-options
+                          li.span3
+                            img(src='/mobileAssets/images/icons/paypal-checkout.gif', alt='PayPal')
+                        .span12
+                          img(src='/mobileAssets/images/icons/paypal-checkout-methods-1.gif', alt='Pagos PayPal')
+                          img(src='/mobileAssets/images/icons/paypal-checkout-methods-2.gif', alt='Pagos PayPal')
+                          p.payform_legend
+                            | Si ya estás registrado, puedes usar tu cuenta PayPal para pagar tus compras. ¿No tienes cuenta? ¡Ábrela ahora! PayPal te permite hacer pagos de manera fácil y segura en millones de tiendas en línea con sólo proporcionar tu correo y contraseña. Mantén tus datos seguros: PayPal no comparte tu información financiera y después de registrarte, ya no tendrás que ingresar los números ni códigos de seguridad de tus tarjetas de crédito y/o débito.
+              #cie_bancomer_payment_method.tab-pane(role='tabpanel')
+                .panel.panel-default
+                  #headingThree.panel-heading(role='tab')
+                    h4.panel-title
+                      i.sprite-cie_logo
+                      a#CIEBancomerTabLink.collapsed(data-toggle='collapse', data-parent='#accordion', onclick="javascript:switchAvailablePayment('CIEBancomer', '/tienda/m', 'true',false);", href='#collapseThree', aria-expanded='false', aria-controls='collapseThree') EFECTIVO Y TRANSFERENCIAS
+                      // <i class="sprite-siguiente_gris"></i>
+                  #collapseThree.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingThree')
+                    #main_list_cards.panel-body.panel-cards
+                      form#form_guest_bancomer_pay_method.validate_forms(method='POST', action='/tienda/m/checkout/includes/?_DARGS=/m/checkout/includes/addCIEPayment.jsp.ciePaymentForm', accept-charset='utf-8', novalidate='novalidate', name='form_guest_pay_method')
+                        input(value='utf-8', type='hidden', name='_dyncharset')
+                        input(value='558200224591468359', type='hidden', name='_dynSessConf')
+                        input#contextpath(type='hidden', value='/tienda/m')
+                        input#cieBancomerSuccessUrl(value='/tienda/m/checkout/includes/guestBillingAjaxResponse.jsp', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmSuccessURL')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmSuccessURL')
+                        input(value='/tienda/m/checkout/includes/guestBillingAjaxResponse.jsp', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmErrorURL')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.moveToConfirmErrorURL')
+                        input(value='CIEBancomer', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.selectedPaymentGroup')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.selectedPaymentGroup')
+                        input#bancomerPaymentMethod.pull-right.btn.btn-pink.order-con-finish-buy.hide(value='Continuar', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.billingWithCIEBancomerInBilling')
+                        input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.billingWithCIEBancomerInBilling')
+                        input(value='/m/checkout/includes/addCIEPayment.jsp.ciePaymentForm', type='hidden', name='_DARGS')
+                      .panel-body
+                        i.sprite-cie_square
+                        i.sprite-cie_seven
+                        i.sprite-cie_spei
+                        i.sprite-cie_logo
+        .col-sm-4.resume-container
+         //WAP enhacements--  Here we take out #first-slot-resume ,  #resume-fieldset , #resume-fieldset and 
+         // put in that special container called #order-summary-container same as step3
+         #order-summary-container
+          #first-slot-resume.row.free-shipping
+            .col-xs-12.col-sm-12.container-ship-flag
+              .col-xs-12.col-sm-12.text-center.label-free-shipping
+                // <i class="sprite-envio"></i>
+                strong.label-in-black RESUMEN DE MI BOLSA
+            .col-xs-8.col-xs-offset-2.col-sm-8.col-md-offset-2.divisor
+              // <divisor>
+          #resume-fieldset.row.order-fielset
+            .col-xs-12.col-sm-12
+              .col-xs-12.col-sm-12.text-center
+                table
+                  tbody.tabla-resumen
+                    tr
+                      td Subtotal 1 artículos:
+                      td
+                        | $9,999.00
+                    tr
+                      td  Descuento: 
+                      td $3,499.65
+                    tr
+                      td Costo de envío:
+                      td
+                        | $0.00
+                    tr
+                      td  Código de promoción:
+                      td $0.00
+            .col-xs-12.col-sm-12
+              .col-xs-12.col-sm-12.text-center
+                table
+                  tbody.tabla-resumen.bordered
+                    tr
+                      td
+                        strong Total de compra:
+                      td
+                        strong.label-in-red
+                          | $6,499.35
+          #submit_button_bottom.row.submit_button
+            .col-sm-12.text-center
+              button.btn.btn-primary.next-step-button.submit_button_2_step3(type='submit')
+                | Siguiente paso
+            .col-sm-12.text-center
+              .col-xs-10.col-sm-12.label-confident
+                i.sprite-seguro
+                strong Comprar en Liverpool es confidencial y seguro.
+    form#creditCardEditForm(method='post', action='/tienda/m/checkout/includes/?_DARGS=/m/checkout/includes/selectPaymentMethod.jsp#', name='creditCardEditForm')
+      input(value='utf-8', type='hidden', name='_dyncharset')
+      input(value='558200224591468359', type='hidden', name='_dynSessConf')
+      input(value='/tienda/m', type='hidden', name='/atg/userprofiling/ProfileFormHandler.contextRoot')
+      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.contextRoot')
+      input#editCreditCardNickName(value='', type='hidden', name='/atg/userprofiling/ProfileFormHandler.editCard')
+      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editCard')
+      input(value='/tienda/m/checkout/newCreditCard.jsp?editCard=true', type='hidden', name='/atg/userprofiling/ProfileFormHandler.editCreditCardSuccessURL')
+      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editCreditCardSuccessURL')
+      input#editCreditCardSubmit.hide(value='submit', type='submit', name='/atg/userprofiling/ProfileFormHandler.editCreditCard')
+      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editCreditCard')
+      input(value='/m/checkout/includes/selectPaymentMethod.jsp', type='hidden', name='_DARGS')
+    form#checkout_billing_credit_card_select_form(method='post', action='/tienda/m/checkout/includes/creditCardSelection.jsp?_DARGS=/m/checkout/includes/selectPaymentMethod.jsp.checkout_billing_credit_card_select_form', name='checkout_billing_credit_card_select_form')
+      input(value='utf-8', type='hidden', name='_dyncharset')
+      input(value='558200224591468359', type='hidden', name='_dynSessConf')
+      input#selecttarjeta(type='hidden', value='', name='selecttarjeta')
+      input(value='/tienda/m/home.jsp', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.sessionExpirationURL')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.sessionExpirationURL')
+      input(value='true', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.usingProfileCreditCard')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.usingProfileCreditCard')
+      input(value='/tienda/m/checkout/includes/creditCardSelection.jsp', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.setInfoForPromoDropletSuccessUrl')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.setInfoForPromoDropletSuccessUrl')
+      input(value='/tienda/m/checkout/includes/creditCardSelection.jsp', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.setInfoForPromoDropletErrorUrl')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.setInfoForPromoDropletErrorUrl')
+      input#onChangeFormBtn.hide(value='Submit', type='hidden', name='/atg/commerce/order/purchase/PaymentGroupFormHandler.setInfoForPromoDroplet')
+      input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/PaymentGroupFormHandler.setInfoForPromoDroplet')
+      input(value='/m/checkout/includes/selectPaymentMethod.jsp.checkout_billing_credit_card_select_form', type='hidden', name='_DARGS')
+    input#noSelectPaymentOptionMsg(name='noSelectPaymentOptionMsg', value='Por favor, selecciona una forma de pago.', type='hidden')
+    input#isLoggedInId(name='isLoggedIn', value='true', type='hidden')

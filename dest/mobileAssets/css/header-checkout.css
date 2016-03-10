@@ -75,8 +75,8 @@ float: right;
   top: 35%;
 }
 .radio label::after {
-  left: calc(5% + 3px);
-  top: calc(35% + 3px);
+  left: calc(5% + 4px);
+  top: calc(35% + 4px);
 }
 /*clases chia*/
 .chout1 {
@@ -177,6 +177,10 @@ font-size: 0;
   
    border-bottom-left-radius: 4px;
    padding-left: 20px;
+}
+
+#main > div.col-md-8 > div:nth-child(1) > a{
+  display:none;
 }
 .btn-toolbar > .btn-group{
   margin-left: 16px;
@@ -351,7 +355,7 @@ font-size: 0;
     }
     
 #data_receiver #mes_ano_sec {
-	clear :both;
+  clear :both;
 }
 .badge-position {
     margin-left: 0em!important;
@@ -393,3 +397,30 @@ body > div > header > div.visible-xs.border-header.row.header-mobile > div.col-x
     width:180px;
     margin:0 auto;
 }
+
+
+.radio label::before {
+      width: 22px;
+    height: 22px;
+}
+
+.radio label::after {
+    width: 14px;
+    height: 14px;
+}
+
+.radio label::before {
+      border: 2px solid #cccccc;
+
+}
+
+
+.radio-info input[type="radio"]:checked + label::before {
+    border-color: #E0068D; 
+
+  }
+
+
+  .radio-info input[type="radio"]:checked + label::after {
+      background-color: #E0068D;
+     }

@@ -1,0 +1,202 @@
+doctype html
+input#storePage_contextPath(type='hidden', value='/tienda/m')
+html
+  head
+    // Google Tag Manager
+    script.
+      dataLayer = [{
+      'userId': 'df27fff93bdf60f54a778581d5ba1564'
+      }];
+    script.
+      window.onload = function(){
+      dataLayer.push({ 'category':'Checkout',
+      'subcategory':'Shipping Store Address',
+      'event':'contentGroup'
+      });
+      }
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0', name='viewport')
+    title
+    // Bootstrap
+    link(href='/mobileAssets/css/bootstrap3/bootstrap.css', rel='stylesheet')
+    link(href='/mobileAssets/css/bootstrap3/awesome-bootstrap-checkbox.css', rel='stylesheet')
+    link(href='/mobileAssets/css/m5.css', rel='stylesheet')
+    link(href='/mobileAssets/css/header-checkout.css', rel='stylesheet')
+    link(href='/mobileAssets/css/pdpdevice.css', rel='stylesheet')
+    link(href='/mobileAssets/css/LP_Custom.css', rel='stylesheet')
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/header.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/style.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/font-awesome.min.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/style-font.css")
+  body
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='/mobileAssets/js/bootstrap3/jquery-1.11.2.min.js')
+    // Include all compiled plugins (below), or include individual files as needed
+    script(src='/mobileAssets/js/bootstrap3/bootstrap.js')
+    script(type='text/javascript', src='/mobileAssets/js/jquery.form.js')
+    script(src='/mobileAssets/js/bootstrap3/validator.js')
+    script(src='/mobileAssets/js/bootstrap3/lp_cp.js')
+    script(src='/mobileAssets/js/bootstrap3/checkout.js')
+    script(src='/mobileAssets/js/bootstrap3/cart.js')
+    header.head_container
+      //WAP enhacements replacement of the new header of checkOut is same structure as the PLP but only included  the div.header-container  
+      include ./includes_checkout/header_checkout
+      //WAP enhacements replacement FINISH HERE
+      .container.title-container
+        p.navbar-text Recoge en tienda
+      // Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop
+      .container-fluid.navsteps
+        .container
+          .row
+            .col-xs-4.col-md-3.col-md-offset-1.navItem
+              i.navIcon.home
+              .navLabel
+                | Envio
+            .col-xs-4.col-md-3.navItem
+              i.navIcon.payment
+              .navLabel
+                | Pagos
+            .col-xs-4.col-md-3.navItem
+              i.navIcon.promotion
+              .navLabel
+                | 3. Promociones
+      #sc-page-spinner.a-row.a-hidden
+        .a-row.sc-overwrap
+        .a-row.sc-spinner
+          img(alt='', src='/mobileAssets/images/icons/loader_liverpool.gif')
+    // Div Agregar bolsa error alerta
+    #myModalAlertError.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel3', aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .modal-body
+            .row
+              .col-xs-10
+                .col-xs-3
+                  img(src='/mobileAssets/images/symbol_alert_sb.png')
+                .col-xs-9
+                  p.color-rosa-Alert.text-center.cart-error OCURRIO UN ERROR
+              .col-xs-2
+                button.close(type='button', data-dismiss='modal') ×
+            .row
+              .bgAlertError
+                p#error-alert-popup-text.color-g.text-center
+    input#jsp_contextroot(type='hidden', value='/tienda/m', name='jsp_contextroot')
+    input#jsp_isLoggedIn(type='hidden', value='true', name='jsp_isLoggedIn')
+    script(src='/mobileAssets/js/custom/click_pick1.0.js')
+    #messagesDiv
+    #errors.alertas
+    #main.content-area-form.row
+      .col-md-8
+        // Page content
+        .list-group
+          a.list-group-item.font-min(href='#')
+            | Recoge en tienda.
+        .list-group.filtrar-estado
+          a.list-group-item.font-max(data-toggle='modal', data-target='#listaEstados', href='#')
+            | Elige tu estado 
+            span.glyphicon.glyphicon-chevron-right.row-right(aria-hidden='true')
+        // tiendas
+        #contenedor-tiendas
+        // tiendas
+      .col-md-4
+        form#form_checkout_ship_add(method='post', action='?_DARGS=/m/checkout/shippingStoreAddress.jsp.shippingSelectForm#', data-toggle='validator', name='shippingSelectForm')
+          input(value='utf-8', type='hidden', name='_dyncharset')
+          input(value='558200224591468359', type='hidden', name='_dynSessConf')
+          input#selected-location-Id(value='', type='hidden', name='/atg/commerce/order/purchase/ShippingGroupFormHandler.selectedLocationId')
+          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.selectedLocationId')
+          input#selected-state-Id(value='', type='hidden', name='/atg/commerce/order/purchase/ShippingGroupFormHandler.selectedStateId')
+          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.selectedStateId')
+          input(value='true', type='hidden', name='/atg/commerce/order/purchase/ShippingGroupFormHandler.shipToStore')
+          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.shipToStore')
+          input#shipToThisAddress(value='', type='hidden', name='shippingRadio')
+          input(value=' ', type='hidden', name='_D:shippingRadio')
+          input(value='/tienda/m/checkout/billing.jsp', type='hidden', name='/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingSuccessURL')
+          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingSuccessURL')
+          input(value='/tienda/m/users/login.jsp', type='hidden', name='/atg/commerce/order/purchase/ShippingGroupFormHandler.sessionExpirationURL')
+          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.sessionExpirationURL')
+          input(value='/tienda/m/checkout/shippingStoreAddress.jsp', type='hidden', name='/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingErrorURL')
+          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingErrorURL')
+          input#shipToThisAddressSubmit.hide(value='Continuar', type='submit', name='/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBilling')
+          input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBilling')
+          input(value='/m/checkout/shippingStoreAddress.jsp.shippingSelectForm', type='hidden', name='_DARGS')
+    #listaEstados.modal-fullscreen.modal.fade
+      .modal-dialog
+        .modal-content
+          .modal-header(style='background:#E5E5E5;')
+            // <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            a(href='####', data-dismiss='modal', aria-hidden='true')
+              i.icon-filter-arrow-left
+              span.pink-return REGRESAR
+          .modal-body.full-estados
+            .list-group.full-estados
+              .row
+                .col-xs-12.col-md-12.text-center
+                  h5 ELIGE TU ESTADO
+              a.list-group-item.estados-lista(href='#', name='01')
+                | AGUASCALIENTES
+              a.list-group-item.estados-lista(href='#', name='02')
+                | BAJA CALIFORNIA
+              a.list-group-item.estados-lista(href='#', name='03')
+                | BAJA CALIFORNIA SUR
+              a.list-group-item.estados-lista(href='#', name='04')
+                | CAMPECHE
+              a.list-group-item.estados-lista(href='#', name='05')
+                | COAHUILA
+              a.list-group-item.estados-lista(href='#', name='06')
+                | COLIMA
+              a.list-group-item.estados-lista(href='#', name='07')
+                | CHIAPAS
+              a.list-group-item.estados-lista(href='#', name='08')
+                | CHIHUAHUA
+              a.list-group-item.estados-lista(href='#', name='09')
+                | DISTRITO FEDERAL
+              a.list-group-item.estados-lista(href='#', name='10')
+                | DURANGO
+              a.list-group-item.estados-lista(href='#', name='11')
+                | GUANAJUATO
+              a.list-group-item.estados-lista(href='#', name='12')
+                | GUERRERO
+              a.list-group-item.estados-lista(href='#', name='13')
+                | HIDALGO
+              a.list-group-item.estados-lista(href='#', name='14')
+                | JALISCO
+              a.list-group-item.estados-lista(href='#', name='15')
+                | MÉXICO
+              a.list-group-item.estados-lista(href='#', name='16')
+                | MICHOACÁN
+              a.list-group-item.estados-lista(href='#', name='17')
+                | MORELOS
+              a.list-group-item.estados-lista(href='#', name='18')
+                | NAYARIT
+              a.list-group-item.estados-lista(href='#', name='19')
+                | NUEVO LEÓN
+              a.list-group-item.estados-lista(href='#', name='20')
+                | OAXACA
+              a.list-group-item.estados-lista(href='#', name='21')
+                | PUEBLA
+              a.list-group-item.estados-lista(href='#', name='22')
+                | QUERÉTARO
+              a.list-group-item.estados-lista(href='#', name='23')
+                | QUINTANA ROO
+              a.list-group-item.estados-lista(href='#', name='24')
+                | SAN LUIS POTOSÍ
+              a.list-group-item.estados-lista(href='#', name='25')
+                | SINALOA
+              a.list-group-item.estados-lista(href='#', name='26')
+                | SONORA
+              a.list-group-item.estados-lista(href='#', name='27')
+                | TABASCO
+              a.list-group-item.estados-lista(href='#', name='28')
+                | TAMAULIPAS
+              a.list-group-item.estados-lista(href='#', name='30')
+                | VERACRUZ
+              a.list-group-item.estados-lista(href='#', name='31')
+                | YUCATÁN
+              a.list-group-item.estados-lista(href='#', name='32')
+                | ZACATECAS
+        // /.modal-content
+      // /.modal-dialog
+    // /.modal

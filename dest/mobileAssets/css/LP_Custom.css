@@ -451,9 +451,9 @@ top: -30px;
 height: 40rem;
 }
 #form_checkout_express_pay_method #cvv1{
-	margin-left: 20%;
-	margin-right: 20%;
-	width: 60%;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
 	text-align: center;
 	-webkit-text-security: disc;
 }
