@@ -269,6 +269,9 @@ margin-bottom: 0px!important;
     position: relative;
     padding-left: 5px;
 }
+.number-products-filters{
+  color: #333;
+}
 .checkbox label::before{
     border: 1px solid #e10098!important;
     left: 94.6%!important;
