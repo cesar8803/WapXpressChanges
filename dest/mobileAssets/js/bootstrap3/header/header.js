@@ -7,6 +7,9 @@
 
     $('.login-home.myaccount-icon').click(showLoginModal);
     $('.cerrar-modal-login').click(closeLoginModal);
+    $('.cerrar-modal-search').click(closeSearchModal);
+    $('.icon-liv-search.icon-search-liverpool').click(showSearchModal);
+    
 
 
 
@@ -234,6 +237,15 @@ focusWrapperBody = function(){
     
 }
 
+function showSearchModal(){
+    $('#myModal_search').modal('show'); 
+}
+
+
+function closeSearchModal(){
+    $('#myModal_search').modal('toggle');
+
+}
 
 
 function showLoginModal(){

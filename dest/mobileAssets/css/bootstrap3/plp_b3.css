@@ -539,6 +539,17 @@ body[brandbar='yes'][omniprompt='yes'].no-navsteps views {
   color: #d02054;
   font-size: 18px;
 }
+.pdivisor{
+  color: #e4e4e4;
+  font-size: 30px;
+  padding-right: 2px;
+
+}
+.pdivisor.saledivisor{
+  color: #d02054;
+  font-size: 30px;
+  padding-right: 2px;
+}
 .item-image {
   height: 125px;
 }
@@ -2072,6 +2083,7 @@ div#container_adress3 {
 .arrow-enable {
   background: #fff;
   color: #000;
+  font-weight: 700;
 }
 .arrow-block {
   width: 100%;

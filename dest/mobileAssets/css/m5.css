@@ -2198,6 +2198,7 @@ div#container_adress5{color: #818181}
   padding-left: 0!important;
   padding-right: 0!important;
   text-decoration: none!important;
+  color: white;
 }
 
 .a-input-text-wrapper input {
@@ -2234,6 +2235,8 @@ div#container_adress5{color: #818181}
 
 .sc-update-link.different{
 		display: block;
+		background-color: #E0068D;
+		color: white!important;
 }
 
 
