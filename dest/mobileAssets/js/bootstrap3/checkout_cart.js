@@ -193,9 +193,9 @@ $(function() {
 	    // When the modal hide it enables the scroll…
 		
 	 	 
-	 	$('body').css('overflow-x','hidden');
-	 	$('body').css('overflow-y','scroll');
-		$('body').css('position','relative');
+	 	$('body').css('overflow','hidden');
+//	 	$('body').css('overflow-y','scroll');
+//		$('body').css('position','relative');
 	})
 	
 	
@@ -381,9 +381,9 @@ function onClickQuantity(event) {
 	//('.a-dropdown-prompt');
 
 	/*LP PA SITE Redesign : Fix for quantity update for 2nd time regression testing 09092015*/
- 	$('body').css('overflow-x','hidden');
- 	$('body').css('overflow-y','scroll');
-	$('body').css('position','relative');
+ 	$('body').css('overflow','hidden');
+// 	$('body').css('overflow-y','scroll');
+//	$('body').css('position','relative');
 	
 	
   	$("#myModalQuantitySelect").modal('toggle');
@@ -467,7 +467,7 @@ function updateQuantity( index){
  	 $("#myModalQuantitySelect").modal('toggle');
  	if(currentSpanActive!=null){
  		
- 		if(index!="9"){
+ 		if(index!="5"){
  			//10-- condition
  			
  			if(currentSpanActive!=null){

@@ -445,10 +445,10 @@ top: -30px;
 }
 /*START PA LP SITE REDESIGN : Fixed for ModalQuantitySelect*/
 #myModalQuantitySelect .content_numbers{
-	top:21px;
+	top: 98px;
 } 
 #myModalQuantitySelect .numbers-body{
-height: 40rem;
+/*height: 40rem;*/  /*fix for Extra space is displayed below “Mas” link*/
 }
 #form_checkout_express_pay_method #cvv1{
 	margin-left: 5%;
@@ -477,8 +477,10 @@ border: 0;
 
 /*Quantity Modal start*/
 #myModalQuantitySelect .content_numbers{
-	max-height: 80vh;
-	padding-bottom:1em;
+	max-height: 60vh;
+	/*padding-bottom:1em;*/  /*fix for Extra space is displayed below “Mas” link*/
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 #myModalQuantitySelect .numbers-body {
@@ -488,7 +490,7 @@ border: 0;
     padding-bottom: 0px;
     padding-left: 0px;
     overflow-y: scroll;
-    height: 45rem;
+    /*height: 45rem;*/   /*fix for Extra space is displayed below “Mas” link*/
     max-height: 60vh!important;
     overflow-y: scroll;
 }

@@ -1415,6 +1415,7 @@ a.estados-lista.active {
 
 .filtrar-estado {
 	margin-bottom: 0;
+    font-weight: 700; /*Select state is not bold as per Wireframe.*/
 }
 
 .guest-list-group {
@@ -1922,7 +1923,7 @@ ul.a-list-link li {
 .numbers-body {
 	padding: 0px;
 	overflow-y: scroll;
-	height: 45rem;
+	/*height: 45rem;*/   /*fix for Extra space is displayed below “Mas” link*/
 }
 
 .dialog-numbers {
