@@ -1,91 +1,54 @@
-div(style='min-height: 50px;')
-      // Jssor Slider Begin
-      // To move inline styles to css file/block, please specify a class name for each element.
-      // ==================================================
-      #slider1_container(style='visibility: hidden; position: relative; margin: 0 auto;\
-      top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;')
-        // Loading Screen
-        div(u='loading', style='position: absolute; top: 0px; left: 0px;')
-          div(style='filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;\
-          top: 0px; left: 0px; width: 100%; height: 100%;')
-          div(style='position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;\
-          top: 0px; left: 0px; width: 100%; height: 100%;')
-        // Slides Container
-        div(u='slides', style='cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;')
-          div
-            img(u='image', src2='../img/1920/red.jpg')
-          div
-            img(u='image', src2='../img/1920/purple.jpg')
-          div
-            img(u='image', src2='../img/1920/blue.jpg')
-        // #region Bullet Navigator Skin Begin
-        // Help: http://www.jssor.com/development/slider-with-bullet-navigator-jquery.html
-        style.
-          /* jssor slider bullet navigator skin 21 css */
-          /*
-          .jssorb21 div           (normal)
-          .jssorb21 div:hover     (normal mouseover)
-          .jssorb21 .av           (active)
-          .jssorb21 .av:hover     (active mouseover)
-          .jssorb21 .dn           (mousedown)
-          */
-          .jssorb21 {
-          position: absolute;
-          }
-          .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
-          position: absolute;
-          /* size of bullet elment */
-          width: 19px;
-          height: 19px;
-          text-align: center;
-          line-height: 19px;
-          color: white;
-          font-size: 12px;
-          background: url(../img/b21.png) no-repeat;
-          overflow: hidden;
-          cursor: pointer;
-          }
-          .jssorb21 div { background-position: -5px -5px; }
-          .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
-          .jssorb21 .av { background-position: -65px -5px; }
-          .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
-        // bullet navigator container
-        .jssorb21(u='navigator', style='bottom: 26px; right: 6px;')
-          // bullet navigator item prototype
-          div(u='prototype')
-        // #endregion Bullet Navigator Skin End
-        // #region Arrow Navigator Skin Begin
-        // Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html
-        style.
-          /* jssor slider arrow navigator skin 21 css */
-          /*
-          .jssora21l                  (normal)
-          .jssora21r                  (normal)
-          .jssora21l:hover            (normal mouseover)
-          .jssora21r:hover            (normal mouseover)
-          .jssora21l.jssora21ldn      (mousedown)
-          .jssora21r.jssora21rdn      (mousedown)
-          */
-          .jssora21l, .jssora21r {
-          display: block;
-          position: absolute;
-          /* size of arrow element */
-          width: 55px;
-          height: 55px;
-          cursor: pointer;
-          background: url(../img/a21.png) center center no-repeat;
-          overflow: hidden;
-          }
-          .jssora21l { background-position: -3px -33px; }
-          .jssora21r { background-position: -63px -33px; }
-          .jssora21l:hover { background-position: -123px -33px; }
-          .jssora21r:hover { background-position: -183px -33px; }
-          .jssora21l.jssora21ldn { background-position: -243px -33px; }
-          .jssora21r.jssora21rdn { background-position: -303px -33px; }
-        // Arrow Left
-        span.jssora21l(u='arrowleft', style='top: 123px; left: 8px;')
-        // Arrow Right
-        span.jssora21r(u='arrowright', style='top: 123px; right: 8px;')
-        // #endregion Arrow Navigator Skin End
-        a(style='display: none', href='http://www.jssor.com') Bootstrap Carousel
-      // Jssor Slider End
+div(style='min-height: 300px;')
+    #demo
+        .container
+          .row
+            .span12
+              #owl-demo.owl-carousel
+                .item.centerImg(href="/mobileAssets/images/products/chamara-nike-brasil.jpg", data-size="1600x1600", data-med='/mobileAssets/images/products/chamara-nike-brasil.jpg', data-med-size='600x400', itemprop="contentUrl" )
+                  img.lazyOwl(data-src='/mobileAssets/images/products/chamara-nike-brasil.jpg', alt='chamara-nike-brasil')
+                .item.centerImg(href="/mobileAssets/images/products/Chamara-nike-cfm.jpg", data-size="600x400", data-med='/mobileAssets/images/products/Chamara-nike-cfm.jpg', data-med-size='600x400', itemprop="contentUrl" )
+                  img.lazyOwl(data-src='/mobileAssets/images/products/Chamara-nike-cfm.jpg', alt='Chamara-nike-cfm')
+                .item.centerImg(href="/mobileAssets/images/products/Chamara-nike-fcb.jpg", data-size="600x400", data-med='/mobileAssets/images/products/Chamara-nike-fcb.jpg', data-med-size='600x400', itemprop="contentUrl" )
+                  img.lazyOwl(data-src='/mobileAssets/images/products/Chamara-nike-fcb.jpg', alt='Chamara-nike-fcb')
+                .item.centerImg(href="/mobileAssets/images/products/Jersey-adidas-chivas.jpg" data-size="600x400", data-med='/mobileAssets/images/products/Jersey-adidas-chivas.jpg', data-med-size='600x400' itemprop="contentUrl" )
+                  img.lazyOwl(data-src='/mobileAssets/images/products/Jersey-adidas-chivas.jpg', alt='Jersey-adidas-chivas')
+                .item.centerImg(href="/mobileAssets/images/products/Jersey-nike-fcb.jpg", data-size="600x400", data-med='/mobileAssets/images/products/Jersey-nike-fcb.jpg', data-med-size='600x400', itemprop="contentUrl" )
+                  img.lazyOwl(data-src='/mobileAssets/images/products/Jersey-nike-fcb.jpg', alt='Jersey-nike-fcb')
+
+    // Root element of PhotoSwipe. Must have class pswp.
+    .pswp(tabindex='-1', role='dialog', aria-hidden='true')
+      //
+        Background of PhotoSwipe.
+        It's a separate element as animating opacity is faster than rgba().
+      .pswp__bg
+      // Slides wrapper with overflow:hidden.
+      .pswp__scroll-wrap
+        //
+          Container that holds slides.
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on.
+        .pswp__container
+          .pswp__item
+          .pswp__item
+          .pswp__item
+        // Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed.
+        .pswp__ui.pswp__ui--hidden
+          .pswp__top-bar
+            // Controls are self-explanatory. Order can be changed.
+            .pswp__counter
+            button.pswp__button.pswp__button--close(title='Close (Esc)')
+            button.pswp__button.pswp__button--share(title='Share')
+            button.pswp__button.pswp__button--fs(title='Toggle fullscreen')
+            button.pswp__button.pswp__button--zoom(title='Zoom in/out')
+            // Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR
+            // element will get class pswp__preloader--active when preloader is running
+            .pswp__preloader
+              .pswp__preloader__icn
+                .pswp__preloader__cut
+                  .pswp__preloader__donut
+          .pswp__share-modal.pswp__share-modal--hidden.pswp__single-tap
+            .pswp__share-tooltip
+          button.pswp__button.pswp__button--arrow--left(title='Previous (arrow left)')
+          button.pswp__button.pswp__button--arrow--right(title='Next (arrow right)')
+          .pswp__caption
+            .pswp__caption__center

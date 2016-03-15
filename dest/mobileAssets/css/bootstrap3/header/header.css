@@ -499,3 +499,7 @@ display: inline-block;
     color: #E0068D;
 
 }
+
+.centerImg{
+    text-align: center;
+}

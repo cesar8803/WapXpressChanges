@@ -1042,3 +1042,20 @@ function formatNumber(number) {
     }
     return x1;
 }
+
+$(document).ready(function(){ 
+    $("#owl-demo").owlCarousel({
+        items : 1,
+       // autoPlay : 1000,
+        stopOnHover : true,
+        navigation:false,
+        paginationSpeed : 1000,
+        goToFirstSpeed : 2000,
+        singleItem : true,
+        autoHeight : true,
+        lazyLoad : true,
+      });
+
+});
+
+
