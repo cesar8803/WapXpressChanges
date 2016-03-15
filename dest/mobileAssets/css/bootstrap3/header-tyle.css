@@ -197,3 +197,6 @@ body > div.ui-page.ui-page-theme-a.ui-page-active > section > header > div.hidde
 .badge-position {
     margin-left: -4em!important;
 }
+.mobile-menu-cont, .homesearch-position{
+    display: none !important;
+}
