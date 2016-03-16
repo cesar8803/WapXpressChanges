@@ -50,14 +50,16 @@
     <!-- liverpool styles Includes-->
     <!--link(href='/mobileAssets/css/bootstrap.min.css', rel='stylesheet', media='all')-->
     <link rel="stylesheet" href="/mobileAssets/css/bootstrap3/bootstrap.min.css">
+    <link href="/mobileAssets/css/bootstrap3/bootstrap-modal.css" rel="stylesheet">
     <link href="/mobileAssets/css/fonts.css" rel="stylesheet" media="all">
     <link href="/mobileAssets/css/style.css" rel="stylesheet" media="all">
     <link href="/mobileAssets/css/jquery.jscrollpane.css" rel="stylesheet">
     <link href="/mobileAssets/css/category.css" rel="stylesheet">
-    <!-- Important Owl stylesheet-->
+    <!-- New recomendations CSS-->
     <link rel="stylesheet" href="/mobileAssets/css/owl.carousel.css">
-    <!-- Default Theme-->
+    <!-- New recomendations CSS-->
     <link rel="stylesheet" href="/mobileAssets/css/owl.theme.css">
+    <!-- New recomendations CSS-->
     <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/plp_b3.css">
     <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/home/style-home.css">
     <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/header.css">
@@ -68,7 +70,14 @@
     <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/filtros/awesome-bootstrap-checkbox.css">
   </head>
   <body>
-    <button type="button" data-toggle="modal" data-target="#modalFiltros" class="btn btn-primary btn-lg">Launch demo modal</button>
+    <div class="row">
+      <div class="col-xs-12 contador-productos no-margin">
+        <div class="col-xs-8 ver-contador no-margin"><span>1,200 Resultados</span></div>
+        <div class="col-xs-4 btn-filtro no-margin pull-right">
+          <button type="button" data-toggle="modal" data-target="#modalFiltros" class="btn btn-lg btn-accion-filtro"><span>Filtrar</span></button>
+        </div>
+      </div>
+    </div>
     <div id="modalFiltros" tabindex="-1" role="dialog" data-easein="slideRightIn" aria-labelledby="myModalLabel" aria-hidden="true" class="modal-filtros modal modal-fullscreen">
       <div role="document" class="modal-dialog">
         <div class="modal-content">
@@ -106,30 +115,14 @@
                   <h3><a>Categoría</a></h3>
                   <div class="clear">
                     <ul class="sub-filtros">
-                      <li class="sub-filtros-item">
-                        <div class="checkbox">
-                          <input id="checkbox1" type="checkbox">
-                          <label for="checkbox1">Categoría 1</label>
-                        </div>
-                      </li>
-                      <li class="sub-filtros-item">
-                        <div class="checkbox">
-                          <input id="checkbox2" type="checkbox">
-                          <label for="checkbox2">Categoría 2</label>
-                        </div>
-                      </li>
-                      <li class="sub-filtros-item">
-                        <div class="checkbox">
-                          <input id="checkbox3" type="checkbox">
-                          <label for="checkbox3">Categoría 3</label>
-                        </div>
-                      </li>
-                      <li class="sub-filtros-item">
-                        <div class="checkbox">
-                          <input id="checkbox4" type="checkbox">
-                          <label for="checkbox4">Categoría 4</label>
-                        </div>
-                      </li>
+                      <li class="sub-filtros-item"><a>
+                          <label>Categoría 1</label><span class="number-products-filters">(3)</span></a></li>
+                      <li class="sub-filtros-item"><a>
+                          <label>Categoría 1</label><span class="number-products-filters">(3)</span></a></li>
+                      <li class="sub-filtros-item"><a>
+                          <label>Categoría 1</label><span class="number-products-filters">(3)</span></a></li>
+                      <li class="sub-filtros-item"><a>
+                          <label>Categoría 1</label><span class="number-products-filters">(3)</span></a></li>
                     </ul>
                   </div>
                 </div>
@@ -142,25 +135,25 @@
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox5" type="checkbox">
-                          <label for="checkbox5">Marca 1</label>
+                          <label for="checkbox5">Marca 1<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox6" type="checkbox">
-                          <label for="checkbox6">Marca 2</label>
+                          <label for="checkbox6">Marca 2<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox7" type="checkbox">
-                          <label for="checkbox7">Marca 3</label>
+                          <label for="checkbox7">Marca 3<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox8" type="checkbox">
-                          <label for="checkbox8">Marca 4</label>
+                          <label for="checkbox8">Marca 4<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                     </ul>
@@ -175,25 +168,25 @@
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox9" type="checkbox">
-                          <label for="checkbox9">$100 - $200</label>
+                          <label for="checkbox9">$100 - $200<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox10" type="checkbox">
-                          <label for="checkbox10">$300 - $400</label>
+                          <label for="checkbox10">$300 - $400<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox11" type="checkbox">
-                          <label for="checkbox11">$500 - $600</label>
+                          <label for="checkbox11">$500 - $600<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox12" type="checkbox">
-                          <label for="checkbox12">$700 - $800</label>
+                          <label for="checkbox12">$700 - $800<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                     </ul>
@@ -208,25 +201,25 @@
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox13" type="checkbox">
-                          <label for="checkbox13">Rojo</label>
+                          <label for="checkbox13">Rojo<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox14" type="checkbox">
-                          <label for="checkbox14">Azul</label>
+                          <label for="checkbox14">Azul<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox15" type="checkbox">
-                          <label for="checkbox15">Negro</label>
+                          <label for="checkbox15">Negro<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                       <li class="sub-filtros-item">
                         <div class="checkbox">
                           <input id="checkbox16" type="checkbox">
-                          <label for="checkbox16">Amarillo</label>
+                          <label for="checkbox16">Amarillo<span class="number-products-filters">(3)</span></label>
                         </div>
                       </li>
                     </ul>
@@ -248,7 +241,7 @@
     -->
     <!-- Placed at the end of the document so the pages load faster-->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="/mobileAssets/js/bootstrap3/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="/mobileAssets/js/jquery.lazyload.min.js"></script>
     <!-- script(src='/mobileAssets/js/endeca_common.js')-->
     <script src="/mobileAssets/js/jquery-ui.js"></script>
@@ -282,12 +275,10 @@
     <!-- NEW SCRIPTS-->
     <script type="text/javascript" src="/mobileAssets/js/bootstrap3/bootstrap.min.js"></script>
     <script type="text/javascript" src="/mobileAssets/js/bootstrap3/listingTemp.js"></script>
-    <script type="text/javascript" src="/mobileAssets/js/jssor.slider.debug.js"></script>
-    <script type="text/javascript" src="/mobileAssets/js/homePage.js"></script>
     <script src="/mobileAssets/js/bootstrap3/header/header.js"></script>
     <script src="/mobileAssets/js/bootstrap3/filtros/filtros.js"></script>
-    <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
-    <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script>
+    <script src="/mobileAssets/js/bootstrap3/velocity.min.js"></script>
+    <script src="/mobileAssets/js/bootstrap3/velocity.ui.min.js"></script>
     <!-- Include js plugin-->
     <script src="/mobileAssets/js/bootstrap3/owl.carousel.js"></script>
   </body>
