@@ -30,6 +30,10 @@ $(document).ready(function(){
 		    onCardTypeChange();
 		}
 		
+		//For modal Promotions
+		$('.item-promotion').onClick(showModalPromotions);
+
+
 		/* End  PA Support : : 09th Oct 2015  Modified: hide date internal card*/
 });
 /*END PA LP SITE REDESIGN : Fixed for Billing page*/
@@ -1082,6 +1086,13 @@ function showErrorPopupmsg(msg){
 	$('#myModalAlertError').modal();
 }
 
+function showModalPromotions(someObject){
+
+	/*$('#myModalAlertError').load(); */
+	$('#modalCheckOutPromos').modal();
+
+}
+
 $(document).ready(function(){
 	var textNotNull = $("#main > div > div.col-sm-4.no-margin-nothing > div.row.text-center > div > span");
 
@@ -1097,6 +1108,6 @@ $(document).ready(function(){
 		}
 
 	}*/
-	$(".visible-xs.addmore_container a.a-touch-link strong").text("Agregar dirección")
+	//$(".visible-xs.addmore_container a.a-touch-link strong").text("Agregar dirección")
 
 	});

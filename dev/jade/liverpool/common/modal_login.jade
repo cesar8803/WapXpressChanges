@@ -1,3 +1,4 @@
+//WAP Enhancements New login Modal
 #modalLogin.modal-filtros.modal.modal-fullscreen(tabindex='-1', role='dialog',data-easein="slideRightIn", aria-labelledby='myModalLabel', aria-hidden='true')
   .modal-dialog(role='document')
     .modal-content
@@ -20,16 +21,26 @@
                 label.col-xs-12(for='login-pwd') Contraseña:
                 input#pass.input-block-level.col-xs-12(value='', class="{validate:{required:true,messages:{required:'Por contraseña'},minlength:6}}", type='password', name='pass')
                 a.btn-grey.btn.mt10.rad3.cancel-btn.col-xs-12(href='/tienda/m/users/forgotPassword.jsp') Olvidaste tu contraseña
+                input#loggin_main_button.btn-pink.col-xs-12(value='Entrar', type='submit', name='/atg/userprofiling/ProfileFormHandler.login')
+            .col-xs-12.checkout-newuser
+              .row.mb20
+                .col-xs-12.text-center
+                  span
+                    | Realiza tu compra sin crear cuenta
+              .row
+                .col-xs-12
+                  a(href='/tienda/m/checkout/newDeliveryAddressAdd.jsp')
+                    input.btn-pink(type='submit', value='Compra sin registro')
+
             .register_new_content.col-xs-12
                 .main_label_register.col-xs-12
                   include ./titles-pages/header-title-new-user_modal.jade
                 a.btn.btn-pink.col-xs-12(onclick="dataLayer.push({'labelNewUser':'header;','event':'RegisterUser'}) ", href='/tienda/m/users/register.jsp') Crea tu cuenta
             .footer-modal.col-xs-12
-              .legend1.col-xs-6
+              .legend1.col-xs-6.text-center
                 a(target='_blank', onclick="dataLayer.push({ 'eventCategory' : 'footer', 'eventAction' : 'click', 'eventLabel': 'terminos y condiciones', 'event' : 'click' });", href='somelink.html') Términos y condiciones
-              .legend2.col-xs-6
+              .legend2.col-xs-6.text-center
                 a(target='_blank', onclick="dataLayer.push({ 'eventCategory' : 'footer', 'eventAction' : 'click', 'eventLabel': 'aviso privacidad', 'event' : 'click' });", href='somelink.html') Aviso de privacidad
-              .legend3.col-xs-12
-                span.allrights  Todos los derechos reservados D.R. ®
-              .legend4.col-xs-12
-                span.allrights  Liverpool
+              .legend3.col-xs-12.text-center
+                span.allrights  Todos los derechos reservados D.R. ® Liverpool
+//WAP Enhancements FINISH New login Modal

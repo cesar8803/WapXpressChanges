@@ -1,0 +1,246 @@
+doctype html
+html
+  head
+    // Google Tag Manager
+    script.
+      dataLayer = [{
+      'userId': 'df27fff93bdf60f54a778581d5ba1564'
+      }];
+    script.
+      window.onload = function(){
+      dataLayer.push({ 'category':'Checkout',
+      'subcategory':'Shipping',
+      'event':'contentGroup'
+      });
+      }
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0', name='viewport')
+    title
+    // Bootstrap
+    link(href='/mobileAssets/css/bootstrap3/bootstrap.css', rel='stylesheet')
+    link(href='/mobileAssets/css/bootstrap3/awesome-bootstrap-checkbox.css', rel='stylesheet')
+    link(href='/mobileAssets/css/m5.css', rel='stylesheet')
+    link(href='/mobileAssets/css/header-checkout.css', rel='stylesheet')
+    link(href='/mobileAssets/css/pdpdevice.css', rel='stylesheet')
+    link(href='/mobileAssets/css/LP_Custom.css', rel='stylesheet')
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/header.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/style.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/font-awesome.min.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/style-font.css")
+  body
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='/mobileAssets/js/bootstrap3/jquery-1.11.2.min.js')
+    // Include all compiled plugins (below), or include individual files as needed
+    script(src='/mobileAssets/js/bootstrap3/bootstrap.js')
+    script(type='text/javascript', src='/mobileAssets/js/jquery.form.js')
+    script(src='/mobileAssets/js/bootstrap3/validator.js')
+    script(src='/mobileAssets/js/bootstrap3/lp_cp.js')
+    script(src='/mobileAssets/js/bootstrap3/checkout.js')
+    script(src='/mobileAssets/js/bootstrap3/cart.js')
+    header.head_container
+      //WAP enhacements replacement of the new header of checkOut is same structure as the PLP but only included  the div.header-container  
+      include ./includes_checkout/header_checkout
+      //WAP enhacements replacement FINISH HERE
+      .container.title-container
+        p.navbar-text
+          | Dirección de envío
+      // Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop
+      .container-fluid.navsteps
+        .container
+          .row
+            .col-xs-4.col-md-3.col-md-offset-1.navItem
+              i.navIcon.home
+              .navLabel
+                | Envio
+            .col-xs-4.col-md-3.navItem
+              i.navIcon.payment
+              .navLabel
+                | Pagos
+            .col-xs-4.col-md-3.navItem
+              i.navIcon.promotion
+              .navLabel
+                | 3. Promociones
+      #sc-page-spinner.a-row.a-hidden
+        .a-row.sc-overwrap
+        .a-row.sc-spinner
+          img(alt='', src='/mobileAssets/images/icons/loader_liverpool.gif')
+    // Div Agregar bolsa error alerta
+    #myModalAlertError.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel3', aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .modal-body
+            .row
+              .col-xs-10
+                .col-xs-3
+                  img(src='/mobileAssets/images/symbol_alert_sb.png')
+                .col-xs-9
+                  p.color-rosa-Alert.text-center.cart-error OCURRIO UN ERROR
+              .col-xs-2
+                button.close(type='button', data-dismiss='modal') ×
+            .row
+              .bgAlertError
+                p#error-alert-popup-text.color-g.text-center
+    input#jsp_contextroot(type='hidden', value='/tienda/m', name='jsp_contextroot')
+    input#jsp_isLoggedIn(type='hidden', value='true', name='jsp_isLoggedIn')
+    #main.content-area
+      #accordion.panel-group(role='tablist', aria-multiselectable='true')
+        .panel.panel-default(onclick="location.href='shippingStoreAddress.jsp';")
+          #headingOne.panel-heading.panel-h-mod(role='tab')
+            h4.panel-title
+              a.envio-domicilio.font-max(href='shippingStoreAddress.jsp')
+                span.glyphicon.glyphicon-map-marker(aria-hidden='true')
+                | Recoger en tienda
+              i.arrow-icon.clickpick
+          #collapseOne.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne')
+            .panel-body.guest-panel-body
+        .panel.panel-default
+          #headingTwo.panel-heading.panel-h-mod(role='tab')
+            h4.panel-title
+              a.collapsed.envio-domicilio.font-max(data-toggle='collapse', data-parent='#accordion', aria-expanded='false', aria-controls='collapseTwo')
+                span.glyphicon.glyphicon-home(aria-hidden='true')
+                |   Envío a domicilio.
+              i.arrow-icon.clickpick.down
+          #collapseTwo.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingTwo')
+            .panel-body
+              // Page content
+              #main_grid.row
+                .col-sm-6.col-md-4
+                  .dir-div
+                    .caption
+                      .radio.radio-info
+                        input#radio1(type='radio', value='Dirección Predeterminada', name='radioAdress', checked='checked')
+                        label(for='radio1')
+                          #container_adress1.address_container
+                            h3 Dirección Predeterminada
+                            p.shipping-address-info
+                              | Mixcoac 14,
+                              | METROPOLITANA TERCERA SECCION, 57750,
+                              | NEZAHUALCOYOTL, Nezahualcoyotl
+                        .container.buttons_section.container_buttons
+                          a.btn.btn-primary.btn_edit_address(href='javascript:void(0)', role='button', nickname='Dirección Predeterminada') Editar
+                          a.btn.btn-default.btn_send_address(href='javascript:void(0)', role='button', nickname='Dirección Predeterminada') Enviar a esta dirección
+                .col-sm-6.col-md-4
+                  .dir-div
+                    .caption
+                      .radio.radio-info
+                        input#radio2(type='radio', value='CASA ', name='radioAdress')
+                        label(for='radio2')
+                          #container_adress2.address_container
+                            h3 CASA 
+                            p.shipping-address-info
+                              | Mixcoac 14,
+                              | METROPOLITANA TERCERA SECCION, 57750,
+                              | NEZAHUALCOYOTL, Nexahulacoyotl
+                        .container.buttons_section.container_buttons_off
+                          a.btn.btn-primary.btn_edit_address(href='javascript:void(0)', role='button', disabled='disabled', nickname='CASA ') Editar
+                          a.btn.btn-default.btn_send_address(href='javascript:void(0)', role='button', disabled='disabled', nickname='CASA ') Enviar a esta dirección
+                .col-sm-6.col-md-4
+                  .dir-div
+                    .caption
+                      .radio.radio-info
+                        input#radio3(type='radio', value='Carolina', name='radioAdress')
+                        label(for='radio3')
+                          #container_adress3.address_container
+                            h3 Carolina
+                            p.shipping-address-info
+                              | Hacienda de corralejo  mza 831  Lote 54,
+                              | LAS ANTENAS O CLAUSTRO DE SOR JUANA INES DE LA C, 57130,
+                              | NEZAHUALCOYOTL, Nezahualcóyotl
+                        .container.buttons_section.container_buttons_off
+                          a.btn.btn-primary.btn_edit_address(href='javascript:void(0)', role='button', disabled='disabled', nickname='Carolina') Editar
+                          a.btn.btn-default.btn_send_address(href='javascript:void(0)', role='button', disabled='disabled', nickname='Carolina') Enviar a esta dirección
+                .col-sm-6.col-md-4
+                  .dir-div
+                    .caption
+                      .radio.radio-info
+                        input#radio4(type='radio', value='asdasdasd', name='radioAdress')
+                        label(for='radio4')
+                          #container_adress4.address_container
+                            h3 asdasdasd
+                            p.shipping-address-info
+                              | asdasdasd 12,
+                              | METROPOLITANA TERCERA SECCION, 57750,
+                              | NEZAHUALCOYOTL, Mexico
+                        .container.buttons_section.container_buttons_off
+                          a.btn.btn-primary.btn_edit_address(href='javascript:void(0)', role='button', disabled='disabled', nickname='asdasdasd') Editar
+                          a.btn.btn-default.btn_send_address(href='javascript:void(0)', role='button', disabled='disabled', nickname='asdasdasd') Enviar a esta dirección
+                .col-sm-6.col-md-4
+                  .dir-div
+                    .caption
+                      .radio.radio-info
+                        input#radio5(type='radio', value='trabajo', name='radioAdress')
+                        label(for='radio5')
+                          #container_adress5.address_container
+                            h3 trabajo
+                            p.shipping-address-info
+                              | mario pani 200,
+                              | SANTA FE CUAJIMALPA, 05348,
+                              | CUAJIMALPA DE MORELOS, mexico
+                        .container.buttons_section.container_buttons_off
+                          a.btn.btn-primary.btn_edit_address(href='javascript:void(0)', role='button', disabled='disabled', nickname='trabajo') Editar
+                          a.btn.btn-default.btn_send_address(href='javascript:void(0)', role='button', disabled='disabled', nickname='trabajo') Enviar a esta dirección
+                form#editForm(method='post', action='/tienda/m/checkout/addNewAddress.jsp?_DARGS=/m/checkout/includes/deliveryAddresses.jsp.editForm')
+                  input(value='utf-8', type='hidden', name='_dyncharset')
+                  input(value='1983206362885901894', type='hidden', name='_dynSessConf')
+                  input#selectedAddressForEdit(value='', type='hidden', name='/atg/userprofiling/ProfileFormHandler.editNickName')
+                  input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editNickName')
+                  input#editAddressForm.hide(value='Editar', type='submit', name='/atg/userprofiling/ProfileFormHandler.editAddress')
+                  input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editAddress')
+                  input(type='hidden', name='updateAddr', value='true')
+                  input(type='hidden', name='successurl', value='/tienda/m/checkout/shipping.jsp')
+                  input(value='/m/checkout/includes/deliveryAddresses.jsp.editForm', type='hidden', name='_DARGS')
+                form#form_checkout_ship_add(method='post', action='/tienda/m/checkout/includes/?_DARGS=/m/checkout/includes/deliveryAddresses.jsp.shippingSelectForm#', name='shippingSelectForm')
+                  input(value='utf-8', type='hidden', name='_dyncharset')
+                  input(value='1983206362885901894', type='hidden', name='_dynSessConf')
+                  input#shipToThisAddress(value='', type='hidden', name='shippingRadio')
+                  input(value=' ', type='hidden', name='_D:shippingRadio')
+                  input(value='/tienda/m/checkout/billing.jsp', type='hidden', name='/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingSuccessURL')
+                  input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingSuccessURL')
+                  input(value='/tienda/m/users/login.jsp', type='hidden', name='/atg/commerce/order/purchase/ShippingGroupFormHandler.sessionExpirationURL')
+                  input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.sessionExpirationURL')
+                  input(value='/tienda/m/checkout/shipping.jsp', type='hidden', name='/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingErrorURL')
+                  input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingErrorURL')
+                  input#shipToThisAddressSubmit.hide(value='Continuar', type='submit', name='/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBilling')
+                  input(value=' ', type='hidden', name='_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBilling')
+                  input(value='/m/checkout/includes/deliveryAddresses.jsp.shippingSelectForm', type='hidden', name='_DARGS')
+                .col-sm-6.col-md-4
+                  .visible-xs.thumbnail
+                    .caption
+                      .visible-xs.addmore_container
+                        i.icon-agregar
+                        a.a-touch-link(data-action='page-spinner-show', href='/tienda/m/checkout/addNewAddress.jsp')
+                          strong Agregar dirección
+                        i.arrow-icon.right
+                  .hidden-xs.thumbnail.ipad-add-other-shipping-address
+                    .caption
+                      .hidden-xs.addmore_container-m-l
+                        a.a-touch-link-ipad(data-action='page-spinner-show', href='/tienda/m/checkout/addNewAddress.jsp')
+                          i.add_address_agregar_bco
+                          strong.text-center.label-add-address
+    // This JSP is added as part of GTM enhancements, for adding script
+    script(type='text/javascript').
+      window.onload=function(){
+      dataLayer.push({
+      'event':'checkout',
+      'ecommerce':{
+      'checkout':{
+      'actionField':{'step':1},
+      'products':[
+      {
+      'name':'SILLON ALEXA  BEIGE CONTEMPORANEO TELA',
+      'id':'1034593058',
+      'price':'6499.35',
+      'brand':'DIXY',
+      'category': 'Alexa Beige Contemporáneo',
+      'variant':'BEIGE',
+      'quantity':'1'
+      }
+      ]
+      }
+      }
+      }
+      );
+      }

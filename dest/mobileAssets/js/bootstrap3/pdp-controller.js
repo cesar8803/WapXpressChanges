@@ -109,7 +109,12 @@ $("#input-21f").on("rating.change", function(event, value, caption) {
 
 	//setTimeout(explode, 2000);
 
-		
+    $("#search-icon-contain").click(function(){
+        $("#myModal_search").modal();
+    });
+    $(".close_search").click(function(){
+        $("#myModal_search").modal("hide");
+    });
 		
 });  
 

@@ -1,0 +1,14 @@
+.input-group.homesearch-position.col-xs-12
+  form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
+    .col-xs-10.search_input_container
+      input#busca.field-search.cross_site_script_val_pop.valid.form-control.col-xs-11(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
+      #gs_st0.gsst_b.col-xs-1(dir='ltr')
+        a.gsst_a(href='javascript:void(0)')
+          span#sb_cb0.sbcb_a(aria-label='Borrar búsqueda') ×
+    .col-xs-2.icon_search_container
+      span.input-group-btn.btn-Searc-head-more
+        button.header_search-button.icon-liv-search(type='submit')
+      input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
+      #typeahead(style='display: none;')
+        #type-main-list
+          #type-ver-todos

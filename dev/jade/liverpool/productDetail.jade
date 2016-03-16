@@ -15,169 +15,14 @@ html
       // defect:7228 fix start
       // defect:7228 fix end
       header.head_container
-        .visible-xs.border-header.row.header-mobile
-          #TapZoom.col-xs-2.back-button
-            button.btn-back-head(onclick="window.location.href='http://www.liverpool.com.mx/tienda/m/lavadoras/cat861227'")
-              img#btnClass(src='/mobileAssets/images/arrow_header.png')
-          .col-xs-4.col-xs-offset-1.logo-container
-            a(href='/tienda/m', rel='external')
-              img.img-responsive.logo(src='/mobileAssets/images/logo.png')
-          .col-xs-4.col-xs-offset-1
-            .col-xs-5
-              // <a href="/tienda/m"><img class="img-size-icon" src="/mobileAssets/images/search_pdp.png"></a>
-              a.search-icon(href='#myModal_search', data-target='.bs-example-modal-lg-search', data-toggle='modal', title='search')
-                img.img-size-icon(src='/mobileAssets/images/search_pdp.png')
-            .col-xs-7
-              a.img-size-icon-bag(href='/tienda/m/cart/cart.jsp', rel='external')
-                span.badge-img.badge
-                  // defect:7228 fix start
-                  | 0
-                  // defect:7228 fix end
-                img.img-size-badge(src='/mobileAssets/images/bag.png')
+        include header-active.jade
+          // Header Movil
+
           // starts: search popup for mobile
-          #myModal_search.modal.fade.bs-example-modal-lg-search(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel', aria-hidden='true')
-            .modal-size.modal-dialog.modal-lg
-              .modal-size.modal-content
-                .bg-Modal(data-dismiss='modal')
-                  p < REGRESAR
-                hr
-                //
-                  <div class="lp-search-sub-header">
-                  <span>QuÃÂÃÂ© estÃÂÃÂ¡s buscando ?</span>
-                  </div>
-                .lp-search-input-cont
-                  .category_drop.iphone.input-group
-                    form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
-                      //
-                        <input type="button" value="cl" >
-                        <input type="submit" value="" class="btn-search">
-                      input#busca.form-control.pdpSearchInput(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
-                      span.input-group-btn
-                        button.btn-Searc-head(type='submit')
-                          img.img-sea(src='/mobileAssets/images/icons/search_header.png')
-                      //
-                        <div class="input-append">
-                        <input class="field-search cross_site_script_val_pop valid" id="appendedInputButtons" type="text">
-                        <button class="btn" type="button">Close</button>
-                        <input type="submit" value="" class="btn btn-search">
-                        </div>
-                      //
-                        <div class="visible-phone lp-search-cont">
-                        <div class="row-fluid input-append">
-                        <input class="input-block-level field-search valid cross_site_script_val_pop" id="busca" type="text" name="s" autocomplete="off" placeholder="Que estas buscando?" >
-                        <input type="submit" class="btn btn-search" value="search" />
-                        </div>
-                        </div>
-                      input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
-                      #typeahead(style='display: none;')
-                        #type-main-list
-                          #type-ver-todos
-          // ends: search popup for mobile
-        // Header Movil
-        .hidden-xs.border-header.row.header-ipad
-          .col-xs-1.back-button-ipad
-            button.btn-back-head(onclick="window.location.href='http://www.liverpool.com.mx/tienda/m/lavadoras/cat861227'")
-              img(src='/mobileAssets/images/arrow_header.png')
-          .col-xs-6.logo-container
-            .col-xs-2
-              a(href='/tienda/m', rel='external')
-                img.img-responsive.logo(src='/mobileAssets/images/logo.png')
-            .col-xs-10
-              .input-group.search-position
-                form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
-                  //
-                    <input type="button" value="cl" >
-                    <input type="submit" value="" class="btn-search">
-                  input#busca.form-control.pdpSearchInput(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
-                  span.input-group-btn
-                    button.btn-Searc-head(type='submit')
-                      img.img-sea(src='/mobileAssets/images/icons/search_header.png')
-                  //
-                    <div class="input-append">
-                    <input class="field-search cross_site_script_val_pop valid" id="appendedInputButtons" type="text">
-                    <button class="btn" type="button">Close</button>
-                    <input type="submit" value="" class="btn btn-search">
-                    </div>
-                  //
-                    <div class="visible-phone lp-search-cont">
-                    <div class="row-fluid input-append">
-                    <input class="input-block-level field-search valid cross_site_script_val_pop" id="busca" type="text" name="s" autocomplete="off" placeholder="Que estas buscando?" >
-                    <input type="submit" class="btn btn-search" value="search" />
-                    </div>
-                    </div>
-                  input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
-                  #typeahead(style='display: none;')
-                    #type-main-list
-                      #type-ver-todos
-              // /input-group
-          .col-xs-5
-            .col-xs-10
-              .btn-group.bg-Group(role='group')
-                // user profile I pad
-                a(data-toggle='modal', data-target='#myLogginAlert', title='Iniciar sesión')
-                  button.btn-group-user(type='button')
-                    img.img-group.myaccount-icon(src='/mobileAssets/images/icons/header_usericonipad.png')
-                    | Iniciar sesión
-                a(href='/tienda/m/browse/store.jsp', rel='external')
-                  button.btn-group-user
-                    img.img-group(src='/mobileAssets/images/icons/header_storesiconipad.png')
-                    span Localiza tu tienda
-                // user profile
-            .col-xs-2.badge-position
-              a.img-size-icon-bag(href='/tienda/m/cart/cart.jsp', rel='external')
-                span.badge-img.badge
-                  // defect:7228 fix start
-                  | 0
-                  // defect:7228 fix end
-                img.img-size-badge(src='/mobileAssets/images/bag.png')
-      #testHeaderCartContent
-        input#mobilePage_contextPath(type='hidden', value='/tienda/m')
-        .header-nav-utility.pull-left.hidden-phone
-          .row-fluid
-            .span4.pull-right.header-loginlinks
-              .row-fluid
-                // <div id="testHeaderCartContent">
-                //
-                  <div class="span7 menu-utility">
-                  <ul>
-                  <li class="shopping-bag">
-                  <a class="cart-link touchEvent" href="/tienda/m/cart/cart.jsp" title="cart" rel="shopping-cart.jsp"><span>cart</span><div class="cart-bubble">(0)</div></a>
-                  <div class="cart-link-arw">
-                  </div>
-                  </li>
-                  <li>
-                  <a class="store-locator-link" href="javascript:void(0)" title="store locator">store locator</a>
-                  </li>
-                  <li>
-                  <a class="search-icon" href="javascript:void(0)" title="search">search</a>
-                  </li>
-                  </ul>
-                  </div>
-                .span7.menu-utility
-                  ul.headerrightmenu
-                    li.shopping-bag
-                      a.cart-link.touchEvent(href='/tienda/m/cart/cart.jsp', title='cart', rel='shopping-cart.jsp')
-                        span
-                          | cart
-                        .badge
-                          | 0
-                      .cart-link-arw
-                      // start: mini cart container
-                      section.mini-cart-container.hidden-phone.mini-cont
-                        .mini-cart-noitems
-                          #minicart_noitem
-                            span 1
-                            span elemento añadido a su bolsa
-                          p No tienes productos
-                      section.mini-cart-container.hidden-phone
-                        .mini-cart-noitems.hide
-                        // start: mini cart content
-                      // end: mini cart container
-                // </div>
-        .lp-header-search-icon
-          a.cart-link.visible-phone.touchEvent(href='/tienda/m/cart/cart.jsp', title='cart', rel='/tienda/m/cart/cart.jsp')
-            span cart
-            .cart-bubble 0
+        //WAP enhancements modal search included  
+        include ./common/modal_search.jade
+        //WAP enhancements finish modal search included  
+
       // PDP header ends here
       // bread crumbs start
       .row
@@ -285,6 +130,7 @@ html
                 .modal-size.modal-content
                   .col-md-12.bg-Modal(data-dismiss='modal')
                     p <  REGRESAR
+                  //WAP Enhancements new promo format 
                   .descripton-product.center-img-modal
                     h4 Opciones de pago
                     hr.divider
@@ -300,40 +146,124 @@ html
                     p  
                     ul.bg-pdp-cell.lppromos.tarejtas-liverpool
                       li(type='disc')
-                        | 32.00% DE DESCUENTO - PRESUPUESTO LIVERPOOL/FABRICAS
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses
                         br
                       li(type='disc')
-                        | 20.00% DE DESCUENTO - PRESUPUESTO LIVERPOOL/FABRICAS
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                        
                         br
                       li(type='disc')
-                        | 32.00% DE DESCUENTO - 6 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                        
                         br
                       li(type='disc')
-                        | 32.00% DE DESCUENTO - 9 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                        
                         br
                       li(type='disc')
-                        | 32.00% DE DESCUENTO - 15 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                        
                         br
                       li(type='disc')
-                        | 20.00% DE DESCUENTO - 6 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                        
                         br
                       li(type='disc')
-                        | 20.00% DE DESCUENTO - 9 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                        
                         br
                       li(type='disc')
-                        | 20.00% DE DESCUENTO - 15 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                        
                         br
                       li(type='disc')
-                        | 6 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                        
                         br
                       li(type='disc')
-                        | 9 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 15 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | PRESUPUESTO LIVERPOOL/FABRICAS
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                     hr.divider
                     .bg-tarjetas
@@ -348,46 +278,144 @@ html
                     p  
                     ul.bg-pdp-cell.otherpromos.tarjetas-externas
                       li(type='disc')
-                        | 32.00% DE DESCUENTO - CUENTA CORRIENTE EXTERNAS
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 32.00% DE DESCUENTO
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 20.00% DE DESCUENTO - CUENTA CORRIENTE EXTERNAS
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 20.00% DE DESCUENTO
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 32.00% DE DESCUENTO - 3 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 32.00% DE DESCUENTO - 6 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
+                        sbr
+                      li(type='disc')
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 32.00% DE DESCUENTO - 13 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 20.00% DE DESCUENTO - 3 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 20.00% DE DESCUENTO - 6 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 20.00% DE DESCUENTO - 13 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 3 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 6 MESES SIN INTERES
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
                       li(type='disc')
-                        | 13 MESES SIN INTERES
-                        br
-                      li(type='disc')
-                        | CUENTA CORRIENTE EXTERNAS
+                        strong 32.00%
+                        &nbsp;
+                        span.fcbkitem_text de descuento
+                        &nbsp; -
+                        &nbsp;
+                        strong 3
+                        &nbsp; 
+                        span.fcbkitem_text meses sin intereses                           
                         br
             // End Div Modal Forma de Pago
             script(type='text/javascript').
@@ -589,7 +617,7 @@ html
                             li
                               span Certificados de seguridad Verisign y Amipci
             // End  Loggin Modal
-            .row
+            .row.social-rating_container
               .social-rating
                 #tools_producto
                   .clear
@@ -624,7 +652,7 @@ html
             .list-group
               .col-md-12
                 a.list-group-item(href='#myModal2', data-toggle='modal', data-target='.bs-example-modal-lg2')
-                  .row
+                  .row.description-button
                     .col-md-6
                       h4.list-group-item-heading Descripción
                     .col-md-6
@@ -633,7 +661,7 @@ html
                       img(src='/mobileAssets/images/arrow_forward.png')
               .col-md-12
                 a.list-group-item.size-pago(href='#myModal3', data-toggle='modal', data-target='.bs-example-modal-lg3')
-                  .row
+                  .row.payment-options
                     .col-xs-10
                       h4.list-group-item-heading Opciones de pago
                     .img-arrow
@@ -674,40 +702,11 @@ html
         // End Div Description Product
       // Div Recomendations starts
       // Start: product-carousel-slot
-      #cs-cfg.notranslate.displayNone(style='display: none;')
-        dl.cs-cfg.displayNone(style='display: none;')
-          dt retailerId
-          dd 8ba3f9f2
-          dt customerId
-          dd 1690084220
-          dt view
-          dd
+      //WAP enhancements recomendations hidden implemented as new pages
       .row
-        // Div Recomendations
-        .col-xs-12
-          p  
-          .recomendations-section
-            p
-        .col-md-12
-          #myCarousel.carousel.slide
-            // Carousel items
-            .carousel-inner
-              input.itemCount(type='hidden', hreflang='2', value='4')
-              .item.active
-                ul#home-slot.globalslider.pdt-list.cs-slot
-                  span(style='display: none;')
-                    dl.cs-cfg.displayNone
-                      dt numRecs
-                      dd 8
-                      dt -inc-price
-                      dd true
-                      dt -rec-builder
-                      dd build_scroll_recomm
-                      dt dataItems
-                      dd
-                        dl
-                          dt lowPrice
-          // /myCarousel
+        include ./includes-plp/recomendations.jade
+      //WAP enhancements end block code
+
       // End Div Recomendations
       //
         <script type="text/javascript">
@@ -724,7 +723,9 @@ html
       // End Div Recomendations
       // dynamic Recomendations
       // End dynamic Recomendations
-    // End Section wrapper
+      //WAP enhancements recomendations hidden implemented as new pages
+      include ./includes-plp/footer-plp.jade
+      //WAP enhancements end block code
     script.
       dataLayer = [];
     noscript

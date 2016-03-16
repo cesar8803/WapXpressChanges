@@ -1,0 +1,975 @@
+doctype html
+html
+  head
+    // Google Tag Manager
+    script.
+      dataLayer = [{
+      'userId': 'df27fff93bdf60f54a778581d5ba1564'
+      }];
+    script.
+      window.onload = function(){
+      dataLayer.push({ 'category':'Checkout',
+      'subcategory':'New Delivery Address',
+      'event':'contentGroup'
+      });
+      }
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0', name='viewport')
+    title
+    // Bootstrap
+    link(href='/mobileAssets/css/bootstrap3/bootstrap.css', rel='stylesheet')
+    link(href='/mobileAssets/css/bootstrap3/awesome-bootstrap-checkbox.css', rel='stylesheet')
+    link(href='/mobileAssets/css/m5.css', rel='stylesheet')
+    link(href='/mobileAssets/css/header-checkout.css', rel='stylesheet')
+    link(href='/mobileAssets/css/pdpdevice.css', rel='stylesheet')
+    link(href='/mobileAssets/css/LP_Custom.css', rel='stylesheet')
+    link(href='/mobileAssets/css/forms.css', rel='stylesheet')
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/header.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/style.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/font-awesome.min.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/style-font.css")
+    
+  body
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='/mobileAssets/js/bootstrap3/jquery-1.11.2.min.js')
+    // Include all compiled plugins (below), or include individual files as needed
+    script(src='/mobileAssets/js/bootstrap3/bootstrap.js')
+    script(type='text/javascript', src='/mobileAssets/js/jquery.form.js')
+    script(src='/mobileAssets/js/bootstrap3/validator.js')
+    script(src='/mobileAssets/js/bootstrap3/lp_cp.js')
+    script(src='/mobileAssets/js/bootstrap3/checkout.js')
+    script(src='/mobileAssets/js/bootstrap3/cart.js')
+    script(src='/mobileAssets/js/bootstrap3/forms.js')
+    header.head_container
+      //WAP enhacements replacement of the new header of checkOut is same structure as the PLP but only included  the div.header-container  
+      include ./includes_checkout/header_checkout.jade
+      //WAP enhacements replacement FINISH HERE
+      .container.title-container
+        p.navbar-text
+          | Dirección de envío
+      // Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop
+      .container-fluid.navsteps
+        .container
+          .row
+      #sc-page-spinner.a-row.a-hidden
+        .a-row.sc-overwrap
+        .a-row.sc-spinner
+          img(alt='', src='/mobileAssets/images/icons/loader_liverpool.gif')
+    // Div Agregar bolsa error alerta
+    #myModalAlertError.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel3', aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .modal-body
+            .row
+              .col-xs-10
+                .col-xs-3
+                  img(src='/mobileAssets/images/symbol_alert_sb.png')
+                .col-xs-9
+                  p.color-rosa-Alert.text-center.cart-error OCURRIO UN ERROR
+              .col-xs-2
+                button.close(type='button', data-dismiss='modal') ×
+            .row
+              .bgAlertError
+                p#error-alert-popup-text.color-g.text-center
+    input#jsp_contextroot(type='hidden', value='/tienda/m', name='jsp_contextroot')
+    input#jsp_isLoggedIn(type='hidden', value='true', name='jsp_isLoggedIn')
+    #messagesDiv
+    #errors
+    #main.content-area-form
+      // Page content
+      form#adress_form.form-horizontal(method='post', action='?_DARGS=/m/checkout/addNewAddress.jsp#', data-toggle='validator', name='checkout-new-address')
+        input(value='utf-8', type='hidden', name='_dyncharset')
+        input(value='7743158613733417585', type='hidden', name='_dynSessConf')
+        #nameForm_validation.row.form-section
+          .panel.panel-primary
+            | Datos del destinatario
+          .col-sm-6.col-lg-4
+            .form-group
+              label.col-md-4.control-label(for='nombre_corto') *Nombre Corto
+              .col-md-8
+                input#alias.form-control(value='', oninvalid="setCustomValidity('Este campo es obligatorio')", mandatory='true', type='text', name='/atg/userprofiling/ProfileFormHandler.editValue.nickname', oninput="setCustomValidity('')")
+                input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.nickname')
+                .help-block.with-errors
+        #data_receiver.row.form-section
+          .col-sm-6.col-lg-4
+            .form-group
+              label.col-md-4.control-label(for='nombre') *Nombre
+              .col-md-8
+                input#name.form-control(value='', oninvalid="setCustomValidity('El Nombre es requerido.')", mandatory='true', type='text', name='/atg/userprofiling/ProfileFormHandler.editValue.firstName', oninput="setCustomValidity('')")
+                input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.firstName')
+                .help-block.with-errors
+          .col-sm-6.col-lg-4
+            .form-group
+              label.col-md-4.control-label(for='paternalastname') *Apellido paterno
+              .col-md-8
+                input#paternalastname.form-control(value='', oninvalid="setCustomValidity('El Apellido Paterno es requerido.')", mandatory='true', type='text', name='/atg/userprofiling/ProfileFormHandler.editValue.lastName', oninput="setCustomValidity('')")
+                input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.lastName')
+                .help-block.with-errors
+          .col-sm-6.col-lg-4
+            .form-group
+              label.col-md-4.control-label(for='maternalastname') Apellido materno
+              .col-md-8
+                input#maternalastname.form-control(value='', type='text', name='/atg/userprofiling/ProfileFormHandler.editValue.maternalName')
+                input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.maternalName')
+                .help-block.with-errors
+        #adress_content.row.form-section
+          .panel.panel-primary
+            | Dirección
+          #billingAddressDiv.marginbottom
+            #emptyBillingAddress.marginbottom(style='display: block;')
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='nombre') *País
+                  .col-md-8
+                    input#creditCardPageType(value='addCreditCardPage', type='hidden')
+                    input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.country')
+                    select#country.form-control(autocomplete='off', name='/atg/userprofiling/ProfileFormHandler.editValue.country', onchange='onCountrySelectionChanged();')
+                      option(value='AF') Afganistán
+                      option(value='AL') Albania
+                      option(value='DE') Alemania
+                      option(value='AD') Andorra
+                      option(value='AO') Angola
+                      option(value='AI') Anguilla
+                      option(value='AG') Antigua/Barbuda
+                      option(value='AN') Antillas hol.
+                      option(value='AQ') Antártida
+                      option(value='SA') Arabia Saudí
+                      option(value='DZ') Argelia
+                      option(value='AR') Argentina
+                      option(value='AM') Armenia
+                      option(value='AW') Aruba
+                      option(value='AU') Australia
+                      option(value='AT') Austria
+                      option(value='AZ') Azerbaiyán
+                      option(value='BS') Bahamas
+                      option(value='BH') Bahrein
+                      option(value='BD') Bangladesh
+                      option(value='BB') Barbados
+                      option(value='BZ') Belice
+                      option(value='BJ') Benin
+                      option(value='BM') Bermudas
+                      option(value='BY') Bielorrusia
+                      option(value='BO') Bolivia
+                      option(value='BA') Bosnia-Herz.
+                      option(value='BW') Botsuana
+                      option(value='BR') Brasil
+                      option(value='BN') Brunei Darussal
+                      option(value='BG') Bulgaria
+                      option(value='BF') Burkina Faso
+                      option(value='BI') Burundi
+                      option(value='BT') Bután
+                      option(value='BE') Bélgica
+                      option(value='CV') Cabo Verde
+                      option(value='KH') Camboya
+                      option(value='CM') Camerún
+                      option(value='CA') Canadá
+                      option(value='TD') Chad
+                      option(value='CL') Chile
+                      option(value='CN') China
+                      option(value='CY') Chipre
+                      option(value='VA') Ciudad Vaticano
+                      option(value='CO') Colombia
+                      option(value='KM') Comoras
+                      option(value='CG') Congo
+                      option(value='KP') Corea del Norte
+                      option(value='KR') Corea del Sur
+                      option(value='CR') Costa Rica
+                      option(value='CI') Costa de Marfil
+                      option(value='HR') Croacia
+                      option(value='CU') Cuba
+                      option(value='DK') Dinamarca
+                      option(value='DM') Dominica
+                      option(value='AE') E.A.U.
+                      option(value='EC') Ecuador
+                      option(value='EG') Egipto
+                      option(value='SV') El Salvador
+                      option(value='ER') Eritrea
+                      option(value='SK') Eslovaquia
+                      option(value='SI') Eslovenia
+                      option(value='ES') España
+                      option(value='EE') Estonia
+                      option(value='ET') Etiopía
+                      option(value='RU') Federación Rusa
+                      option(value='FJ') Fiji
+                      option(value='PH') Filipinas
+                      option(value='FI') Finlandia
+                      option(value='FR') Francia
+                      option(value='TF') French S.Territ
+                      option(value='GA') Gabón
+                      option(value='GM') Gambia
+                      option(value='GE') Georgia
+                      option(value='GH') Ghana
+                      option(value='GI') Gibraltar
+                      option(value='GD') Granada
+                      option(value='GR') Grecia
+                      option(value='GL') Groenlandia
+                      option(value='GP') Guadalupe
+                      option(value='GU') Guam
+                      option(value='GT') Guatemala
+                      option(value='GF') Guayana Franc.
+                      option(value='GN') Guinea
+                      option(value='GQ') Guinea Ecuator.
+                      option(value='GW') Guinea-Bissau
+                      option(value='GY') Guyana
+                      option(value='HT') Haití
+                      option(value='HM') Heard/Is.McDon
+                      option(value='HN') Honduras
+                      option(value='HK') Hong Kong
+                      option(value='HU') Hungría
+                      option(value='IN') India
+                      option(value='ID') Indonesia
+                      option(value='IQ') Irak
+                      option(value='IE') Irlanda
+                      option(value='IR') Irán
+                      option(value='VI') Is.Vírgenes USA
+                      option(value='UM') Isl.Minor Outl.
+                      option(value='GS') Isl.S.Sandwich
+                      option(value='VG') Isl.Vírgenes GB
+                      option(value='MP') Isla N.Mariana
+                      option(value='IS') Islandia
+                      option(value='BV') Islas Bouvet
+                      option(value='KY') Islas Caimán
+                      option(value='CC') Islas Coco
+                      option(value='CK') Islas Cook
+                      option(value='FO') Islas Feroé
+                      option(value='MV') Islas Maldivas
+                      option(value='FK') Islas Malvinas
+                      option(value='MH') Islas Marshall
+                      option(value='CX') Islas Navidad
+                      option(value='NU') Islas Niue
+                      option(value='NF') Islas Norfolk
+                      option(value='PN') Islas Pitcairn
+                      option(value='SB') Islas Salomón
+                      option(value='TK') Islas Tokelau
+                      option(value='IL') Israel
+                      option(value='IT') Italia
+                      option(value='JM') Jamaica
+                      option(value='JP') Japón
+                      option(value='JO') Jordania
+                      option(value='KZ') Kazajistán
+                      option(value='KE') Kenia
+                      option(value='KG') Kirguizistán
+                      option(value='KI') Kiribati
+                      option(value='KW') Kuwait
+                      option(value='LA') Laos
+                      option(value='LS') Lesotho
+                      option(value='LV') Letonia
+                      option(value='LR') Liberia
+                      option(value='LY') Libia
+                      option(value='LI') Liechtenstein
+                      option(value='LT') Lituania
+                      option(value='LU') Luxemburgo
+                      option(value='LB') Líbano
+                      option(value='MO') Macau
+                      option(value='MK') Macedonia
+                      option(value='MG') Madagascar
+                      option(value='MY') Malasia
+                      option(value='MW') Malaui
+                      option(value='ML') Mali
+                      option(value='MT') Malta
+                      option(value='MA') Marruecos
+                      option(value='MQ') Martinicas
+                      option(value='MU') Mauricio (Isl.)
+                      option(value='MR') Mauritania
+                      option(value='YT') Mayotte
+                      option(value='FM') Micronesia
+                      option(value='MD') Moldavia
+                      option(value='MN') Mongolia
+                      option(value='MS') Montserrat
+                      option(value='MZ') Mozambique
+                      option(value='MM') Myanmar
+                      option(value='MX', selected='') México
+                      option(value='MC') Mónaco
+                      option(value='NA') Namibia
+                      option(value='NR') Nauru
+                      option(value='NP') Nepal
+                      option(value='NI') Nicaragua
+                      option(value='NE') Nigeria
+                      option(value='NG') Nigeria
+                      option(value='NO') Noruega
+                      option(value='NC') Nueva Caledonia
+                      option(value='NZ') Nueva Zelanda
+                      option(value='OM') Omán
+                      option(value='PK') Pakistán
+                      option(value='PW') Palau
+                      option(value='PA') Panamá
+                      option(value='PG') PapuaNvaGuinea
+                      option(value='PY') Paraguay
+                      option(value='NL') Países Bajos
+                      option(value='PE') Perú
+                      option(value='PF') Polinesia fran.
+                      option(value='PL') Polonia
+                      option(value='PT') Portugal
+                      option(value='PR') Puerto Rico
+                      option(value='QA') Qatar
+                      option(value='GB') Reino Unido
+                      option(value='CF') Rep.Centroafr.
+                      option(value='DO') Rep.Dominicana
+                      option(value='CZ') República Checa
+                      option(value='CD') República Congo
+                      option(value='RE') Reunión
+                      option(value='RW') Ruanda
+                      option(value='RO') Rumania
+                      option(value='ST') S.Tomé
+                      option(value='WS') Samoa Occident.
+                      option(value='AS') Samoa americana
+                      option(value='SM') San Marino
+                      option(value='VC') San Vicente
+                      option(value='SH') Santa Helena
+                      option(value='LC') Santa Lucía
+                      option(value='SN') Senegal
+                      option(value='SC') Seychelles
+                      option(value='SL') Sierra Leona
+                      option(value='SG') Singapur
+                      option(value='SY') Siria
+                      option(value='SO') Somalia
+                      option(value='LK') Sri Lanka
+                      option(value='KN') St.Chr.
+                      option(value='PM') StPier.
+                      option(value='SZ') Suazilandia
+                      option(value='ZA') Sudáfrica
+                      option(value='SD') Sudán
+                      option(value='SE') Suecia
+                      option(value='CH') Suiza
+                      option(value='SR') Surinám
+                      option(value='SJ') Svalbard
+                      option(value='EH') Sáhara occid.
+                      option(value='TJ') Tadjikistán
+                      option(value='TH') Tailandia
+                      option(value='TW') Taiwan
+                      option(value='TZ') Tanzania
+                      option(value='IO') Terr.br.Oc.Ind.
+                      option(value='TP') Timor oriental
+                      option(value='TG') Togo
+                      option(value='TO') Tonga
+                      option(value='TT') Trinidad
+                      option(value='TM') Turkmenistán
+                      option(value='TC') Turks-
+                      option(value='TR') Turquía
+                      option(value='TV') Tuvalú
+                      option(value='TN') Túnez
+                      option(value='US') USA
+                      option(value='UA') Ucrania
+                      option(value='UG') Uganda
+                      option(value='UY') Uruguay
+                      option(value='UZ') Uzbekistán
+                      option(value='VU') Vanuatu
+                      option(value='VE') Venezuela
+                      option(value='VN') Vietnam
+                      option(value='WF') Wallis
+                      option(value='YE') Yemen
+                      option(value='DJ') Yibuti
+                      option(value='YU') Yugoslavia
+                      option(value='ZM') Zambia
+                      option(value='ZW') Zimbabwe
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='nombre') *C.P.
+                  .col-md-8
+                    input#cp.form-control(value='', size='5', placeholder='', oninvalid="setCustomValidity('El Código Postal es requerido.')", mandatory='true', type='tel', maxlength='5', name='cp', oninput="setCustomValidity('')")
+                    input(value=' ', type='hidden', name='_D:cp')
+                    .help-block.with-errors
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='state') *Estado
+                  .col-md-8
+                    //
+                      <input type="text" class="form-control" id="state"
+                      placeholder="">
+                    input#selectedState(type='hidden', value='')
+                    input(value=' ', type='hidden', name='_D:estado1')
+                    select#state.form-control(oninvalid="setCustomValidity('Por favor seleccione el estado')", mandatory='true', maxlength='25', name='estado1', oninput="setCustomValidity('')", onchange='onStateSelectionChanged();')
+                      option(value='') Seleciona Estado  
+                      option(value='01') AGUASCALIENTES
+                      option(value='02') BAJA CALIFORNIA
+                      option(value='03') BAJA CALIFORNIA SUR
+                      option(value='04') CAMPECHE
+                      option(value='07') CHIAPAS
+                      option(value='08') CHIHUAHUA
+                      option(value='05') COAHUILA
+                      option(value='06') COLIMA
+                      option(value='09') DISTRITO FEDERAL
+                      option(value='10') DURANGO
+                      option(value='11') GUANAJUATO
+                      option(value='12') GUERRERO
+                      option(value='13') HIDALGO
+                      option(value='14') JALISCO
+                      option(value='15') MEXICO
+                      option(value='15') MÉXICO
+                      option(value='16') MICHOACAN
+                      option(value='16') MICHOACÁN
+                      option(value='17') MORELOS
+                      option(value='18') NAYARIT
+                      option(value='19') NUEVO LEON
+                      option(value='19') NUEVO LEÓN
+                      option(value='20') OAXACA
+                      option(value='21') PUEBLA
+                      option(value='22') QUERETARO
+                      option(value='22') QUERÉTARO
+                      option(value='23') QUINTANA ROO
+                      option(value='24') SAN LUIS POTOSI
+                      option(value='24') SAN LUIS POTOSÍ
+                      option(value='25') SINALOA
+                      option(value='26') SONORA
+                      option(value='27') TABASCO
+                      option(value='28') TAMAULIPAS
+                      option(value='29') TLAXCALA
+                      option(value='30') VERACRUZ
+                      option(value='31') YUCATAN
+                      option(value='31') YUCATÁN
+                      option(value='32') ZACATECAS
+                    input#stateDescription.form-control(value='', style='display:none', oninvalid="setCustomValidity('Por favor seleccione el estado')", mandatory='true', type='text', name='stateDescription', oninput="setCustomValidity('')")
+                    input(value=' ', type='hidden', name='_D:stateDescription')
+                    .help-block.with-errors.statesdiv
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='nombre') *Ciudad
+                  .col-md-8
+                    //
+                      <input type="text" class="form-control" id="city"
+                      placeholder="">
+                    input#city.form-control(value='', size='23', placeholder='', oninvalid="setCustomValidity('La Ciudad es requerida.')", mandatory='true', type='text', maxlength='25', name='city', oninput="setCustomValidity('')")
+                    input(value=' ', type='hidden', name='_D:city')
+                    .help-block.with-errors
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='deleglabel') *Delegación O Municipio
+                  .col-md-8
+                    //
+                      <select class="form-control" name="genre">
+                      <option value="">Seleciona Delegación o Municipio</option>
+                      <option value="iztapalapa">Iztapalapa</option>
+                      <option value="iztacalco">Iztacalco</option>
+                      <option value="coyoacan">Coyoacán</option>
+                      <option value="miguelhidalgo">Miguel Hidalgo</option>
+                      </select>
+                    input#selectedMunicipality(type='hidden', value='')
+                    input(value=' ', type='hidden', name='_D:municipio')
+                    select#deleg.form-control(mandatory='true', name='municipio', onchange='onMunicipalitySelectionChanged();')
+                      option(value='')
+                        | Seleciona Delegación o Municipio
+                    input#delegDescription.form-control(value='', style='display:none', placeholder='', oninvalid="setCustomValidity('El Municipio es requerido')", mandatory='true', type='text', name='delegDescription', oninput="setCustomValidity('')")
+                    input(value=' ', type='hidden', name='_D:delegDescription')
+                    .help-block.with-errors.delegdes
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='collabel') *Colonia O Asentamiento
+                  .col-md-8
+                    //
+                      <select class="form-control" name="genre">
+                      <option value="">Seleciona colonia</option>
+                      <option value="cerrodelaestrella">Cerro de la estrella</option>
+                      <option value="cerrodelaestrella">Cerro de la estrella</option>
+                      <option value="cerrodelaestrella">Cerro de la estrella</option>
+                      <option value="cerrodelaestrella">Cerro de la estrella</option>
+                      </select>
+                    input#selectedNeighbourhood(type='hidden', value='')
+                    input(value=' ', type='hidden', name='_D:genre')
+                    select#col.form-control(mandatory='true', name='genre', onchange='onNeighborhoodSelectionChanged();')
+                      option(value='') Selecciona Colonia
+                      option(value='-2') Otra Colonia
+                    input#colDescription.form-control(value='', style='display:none', placeholder='', oninvalid="setCustomValidity('La Colonia es requerida.')", mandatory='true', type='text', name='colDescription', oninput="setCustomValidity('')")
+                    input(value=' ', type='hidden', name='_D:colDescription')
+                    .help-block.with-errors.coldes
+                    // Validation of the colony so that if you bring value -2 div Another colony is shown
+                    #otherNeighborhoodDiv(style='display: none;')
+                      label *Otra Colonia
+                      input#otherNeighborhood.form-control(value='', type='text', maxlength='100', name='genre')
+                      input(value=' ', type='hidden', name='_D:genre')
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='nombre') *Calle
+                  .col-md-8
+                    //
+                      <input type="text" class="form-control" id="street"
+                      placeholder="">
+                    input#street.form-control(value='', size='28', placeholder='', oninvalid="setCustomValidity('La Calle es requerida.')", autocomplete='off', mandatory='true', type='text', maxlength='50', name='calle', oninput="setCustomValidity('')")
+                    input(value=' ', type='hidden', name='_D:calle')
+                    .help-block.with-errors
+              .col-sm-6.col-lg-4.numbers
+                .form-group
+                  .col-xs-6.col-md-6
+                    .form-group
+                      label.col-md-5.control-label(for='nombre') *Núm. Exterior
+                      .col-md-7
+                        //
+                          <input type="text" class="form-control" id="externalnumber"
+                          placeholder="">
+                        input#externalnumber.form-control(size='13', autocomplete='off', maxlength='10', oninput="setCustomValidity('')", name='num_exterior', value='', placeholder='', minlength='1', oninvalid="setCustomValidity('El número exterior es requerido.')", mandatory='true', type='text')
+                        input(value=' ', type='hidden', name='_D:num_exterior')
+                        .help-block.with-errors
+                  .col-xs-6.col-md-6
+                    .form-group
+                      label.col-md-5.control-label(for='nombre') Núm. Interior
+                      .col-md-7
+                        input#internalnumber.form-control(value='', placeholder='', type='text', maxlength='10', name='/atg/userprofiling/ProfileFormHandler.editValue.interiorNumber')
+                        input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.interiorNumber')
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='nombre') Edificio
+                  .col-md-8
+                    input#building.form-control(value='', type='text', name='/atg/userprofiling/ProfileFormHandler.editValue.building')
+                    input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.building')
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='nombre') Entre Calle
+                  .col-md-8
+                    input#betweenstreet.form-control(value='', placeholder='', type='text', name='/atg/userprofiling/ProfileFormHandler.editValue.address2')
+                    input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.address2')
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='nombre') Y Calle
+                  .col-md-8
+                    input#betweenstreet.form-control(value='', placeholder='', type='text', name='/atg/userprofiling/ProfileFormHandler.editValue.address3')
+                    input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.address3')
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='nombre') *Tel. Particular Con Lada
+                  .col-md-8
+                    //
+                      <input type="text" class="form-control" id="phonenumber"
+                      placeholder="">
+                    .col-xs-4.col-md-4
+                      input#codenumber.form-control.phn_small_box(value='', placeholder='', oninvalid="setCustomValidity('El teléfono particular es requerido.')", minlength='2', mandatory='true', type='tel', maxlength='3', name='lada', oninput="setCustomValidity('')")
+                      input(value=' ', type='hidden', name='_D:lada')
+                    .col-xs-8.col-md-8
+                      input#phonenumber.form-control.phn_large_box(value='', placeholder='', oninvalid="setCustomValidity('LADA es requerida.')", minlength='7', autocomplete='off', mandatory='true', type='tel', maxlength='8', name='phoneNumber', oninput="setCustomValidity('')")
+                      input(value=' ', type='hidden', name='_D:phoneNumber')
+                    .help-block.with-errors
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='nombre') Celular
+                  .col-md-8
+                    input#officefonnumber.form-control(value='', placeholder='', type='tel', maxlength='10', name='/atg/userprofiling/ProfileFormHandler.editValue.cellular')
+                    input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.cellular')
+              .col-sm-6.col-lg-4
+                .form-group
+                  label.col-md-4.control-label(for='predeterminada')
+                  .col-md-8
+                    input(value='true', type='checkbox', name='/atg/userprofiling/ProfileFormHandler.default')
+                    input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.default')
+                    | Establecer como dirección predeterminada
+            #emptyBillingAddressFilled(style='display: none;')
+              link(href='/mobileAssets/css/pdpdevice.css', rel='stylesheet')
+              input#emptyPostalCode(type='hidden', value='Este cp es requerido.')
+              input#emptyExtNumber(type='hidden', value='El número exterior es requerido.')
+              input#emptyCity(type='hidden', value='La Ciudad es requerida.')
+              input#emptyColony(type='hidden', value='La Colonia es requerida.')
+              input#emptyStreet(type='hidden', value='La Calle es requerida.')
+              input#emptyParticularPhone(type='hidden', value='El teléfono particular es requerido.')
+              input#emptyPhoneCode(type='hidden', value='La LADA es requerida.')
+              input#emptyMunicipality(type='hidden', value='El Municipio es requerido.')
+              input#emptyState(type='hidden', value='El Estado es requerido.')
+              input#emptyStateDescription(type='hidden', value='Este Estado es requerido.')
+              input#emptyMunDescription(type='hidden', value='Este campo es requerido.')
+              input#emptyColDescription(type='hidden', value='La Colonia es requerida.')
+              #prefilledform
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='nombre') *País
+                    .col-md-8
+                      input#creditCardPageType(value='addCreditCardPage', type='hidden')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.country')
+                      select#country.form-control(autocomplete='off', name='/atg/userprofiling/ProfileFormHandler.editValue.country', onchange='onCountrySelectionChanged();')
+                        option(value='AF') Afganistán
+                        option(value='AL') Albania
+                        option(value='DE') Alemania
+                        option(value='AD') Andorra
+                        option(value='AO') Angola
+                        option(value='AI') Anguilla
+                        option(value='AG') Antigua/Barbuda
+                        option(value='AN') Antillas hol.
+                        option(value='AQ') Antártida
+                        option(value='SA') Arabia Saudí
+                        option(value='DZ') Argelia
+                        option(value='AR') Argentina
+                        option(value='AM') Armenia
+                        option(value='AW') Aruba
+                        option(value='AU') Australia
+                        option(value='AT') Austria
+                        option(value='AZ') Azerbaiyán
+                        option(value='BS') Bahamas
+                        option(value='BH') Bahrein
+                        option(value='BD') Bangladesh
+                        option(value='BB') Barbados
+                        option(value='BZ') Belice
+                        option(value='BJ') Benin
+                        option(value='BM') Bermudas
+                        option(value='BY') Bielorrusia
+                        option(value='BO') Bolivia
+                        option(value='BA') Bosnia-Herz.
+                        option(value='BW') Botsuana
+                        option(value='BR') Brasil
+                        option(value='BN') Brunei Darussal
+                        option(value='BG') Bulgaria
+                        option(value='BF') Burkina Faso
+                        option(value='BI') Burundi
+                        option(value='BT') Bután
+                        option(value='BE') Bélgica
+                        option(value='CV') Cabo Verde
+                        option(value='KH') Camboya
+                        option(value='CM') Camerún
+                        option(value='CA') Canadá
+                        option(value='TD') Chad
+                        option(value='CL') Chile
+                        option(value='CN') China
+                        option(value='CY') Chipre
+                        option(value='VA') Ciudad Vaticano
+                        option(value='CO') Colombia
+                        option(value='KM') Comoras
+                        option(value='CG') Congo
+                        option(value='KP') Corea del Norte
+                        option(value='KR') Corea del Sur
+                        option(value='CR') Costa Rica
+                        option(value='CI') Costa de Marfil
+                        option(value='HR') Croacia
+                        option(value='CU') Cuba
+                        option(value='DK') Dinamarca
+                        option(value='DM') Dominica
+                        option(value='AE') E.A.U.
+                        option(value='EC') Ecuador
+                        option(value='EG') Egipto
+                        option(value='SV') El Salvador
+                        option(value='ER') Eritrea
+                        option(value='SK') Eslovaquia
+                        option(value='SI') Eslovenia
+                        option(value='ES') España
+                        option(value='EE') Estonia
+                        option(value='ET') Etiopía
+                        option(value='RU') Federación Rusa
+                        option(value='FJ') Fiji
+                        option(value='PH') Filipinas
+                        option(value='FI') Finlandia
+                        option(value='FR') Francia
+                        option(value='TF') French S.Territ
+                        option(value='GA') Gabón
+                        option(value='GM') Gambia
+                        option(value='GE') Georgia
+                        option(value='GH') Ghana
+                        option(value='GI') Gibraltar
+                        option(value='GD') Granada
+                        option(value='GR') Grecia
+                        option(value='GL') Groenlandia
+                        option(value='GP') Guadalupe
+                        option(value='GU') Guam
+                        option(value='GT') Guatemala
+                        option(value='GF') Guayana Franc.
+                        option(value='GN') Guinea
+                        option(value='GQ') Guinea Ecuator.
+                        option(value='GW') Guinea-Bissau
+                        option(value='GY') Guyana
+                        option(value='HT') Haití
+                        option(value='HM') Heard/Is.McDon
+                        option(value='HN') Honduras
+                        option(value='HK') Hong Kong
+                        option(value='HU') Hungría
+                        option(value='IN') India
+                        option(value='ID') Indonesia
+                        option(value='IQ') Irak
+                        option(value='IE') Irlanda
+                        option(value='IR') Irán
+                        option(value='VI') Is.Vírgenes USA
+                        option(value='UM') Isl.Minor Outl.
+                        option(value='GS') Isl.S.Sandwich
+                        option(value='VG') Isl.Vírgenes GB
+                        option(value='MP') Isla N.Mariana
+                        option(value='IS') Islandia
+                        option(value='BV') Islas Bouvet
+                        option(value='KY') Islas Caimán
+                        option(value='CC') Islas Coco
+                        option(value='CK') Islas Cook
+                        option(value='FO') Islas Feroé
+                        option(value='MV') Islas Maldivas
+                        option(value='FK') Islas Malvinas
+                        option(value='MH') Islas Marshall
+                        option(value='CX') Islas Navidad
+                        option(value='NU') Islas Niue
+                        option(value='NF') Islas Norfolk
+                        option(value='PN') Islas Pitcairn
+                        option(value='SB') Islas Salomón
+                        option(value='TK') Islas Tokelau
+                        option(value='IL') Israel
+                        option(value='IT') Italia
+                        option(value='JM') Jamaica
+                        option(value='JP') Japón
+                        option(value='JO') Jordania
+                        option(value='KZ') Kazajistán
+                        option(value='KE') Kenia
+                        option(value='KG') Kirguizistán
+                        option(value='KI') Kiribati
+                        option(value='KW') Kuwait
+                        option(value='LA') Laos
+                        option(value='LS') Lesotho
+                        option(value='LV') Letonia
+                        option(value='LR') Liberia
+                        option(value='LY') Libia
+                        option(value='LI') Liechtenstein
+                        option(value='LT') Lituania
+                        option(value='LU') Luxemburgo
+                        option(value='LB') Líbano
+                        option(value='MO') Macau
+                        option(value='MK') Macedonia
+                        option(value='MG') Madagascar
+                        option(value='MY') Malasia
+                        option(value='MW') Malaui
+                        option(value='ML') Mali
+                        option(value='MT') Malta
+                        option(value='MA') Marruecos
+                        option(value='MQ') Martinicas
+                        option(value='MU') Mauricio (Isl.)
+                        option(value='MR') Mauritania
+                        option(value='YT') Mayotte
+                        option(value='FM') Micronesia
+                        option(value='MD') Moldavia
+                        option(value='MN') Mongolia
+                        option(value='MS') Montserrat
+                        option(value='MZ') Mozambique
+                        option(value='MM') Myanmar
+                        option(value='MX', selected='') México
+                        option(value='MC') Mónaco
+                        option(value='NA') Namibia
+                        option(value='NR') Nauru
+                        option(value='NP') Nepal
+                        option(value='NI') Nicaragua
+                        option(value='NE') Nigeria
+                        option(value='NG') Nigeria
+                        option(value='NO') Noruega
+                        option(value='NC') Nueva Caledonia
+                        option(value='NZ') Nueva Zelanda
+                        option(value='OM') Omán
+                        option(value='PK') Pakistán
+                        option(value='PW') Palau
+                        option(value='PA') Panamá
+                        option(value='PG') PapuaNvaGuinea
+                        option(value='PY') Paraguay
+                        option(value='NL') Países Bajos
+                        option(value='PE') Perú
+                        option(value='PF') Polinesia fran.
+                        option(value='PL') Polonia
+                        option(value='PT') Portugal
+                        option(value='PR') Puerto Rico
+                        option(value='QA') Qatar
+                        option(value='GB') Reino Unido
+                        option(value='CF') Rep.Centroafr.
+                        option(value='DO') Rep.Dominicana
+                        option(value='CZ') República Checa
+                        option(value='CD') República Congo
+                        option(value='RE') Reunión
+                        option(value='RW') Ruanda
+                        option(value='RO') Rumania
+                        option(value='ST') S.Tomé
+                        option(value='WS') Samoa Occident.
+                        option(value='AS') Samoa americana
+                        option(value='SM') San Marino
+                        option(value='VC') San Vicente
+                        option(value='SH') Santa Helena
+                        option(value='LC') Santa Lucía
+                        option(value='SN') Senegal
+                        option(value='SC') Seychelles
+                        option(value='SL') Sierra Leona
+                        option(value='SG') Singapur
+                        option(value='SY') Siria
+                        option(value='SO') Somalia
+                        option(value='LK') Sri Lanka
+                        option(value='KN') St.Chr.
+                        option(value='PM') StPier.
+                        option(value='SZ') Suazilandia
+                        option(value='ZA') Sudáfrica
+                        option(value='SD') Sudán
+                        option(value='SE') Suecia
+                        option(value='CH') Suiza
+                        option(value='SR') Surinám
+                        option(value='SJ') Svalbard
+                        option(value='EH') Sáhara occid.
+                        option(value='TJ') Tadjikistán
+                        option(value='TH') Tailandia
+                        option(value='TW') Taiwan
+                        option(value='TZ') Tanzania
+                        option(value='IO') Terr.br.Oc.Ind.
+                        option(value='TP') Timor oriental
+                        option(value='TG') Togo
+                        option(value='TO') Tonga
+                        option(value='TT') Trinidad
+                        option(value='TM') Turkmenistán
+                        option(value='TC') Turks-
+                        option(value='TR') Turquía
+                        option(value='TV') Tuvalú
+                        option(value='TN') Túnez
+                        option(value='US') USA
+                        option(value='UA') Ucrania
+                        option(value='UG') Uganda
+                        option(value='UY') Uruguay
+                        option(value='UZ') Uzbekistán
+                        option(value='VU') Vanuatu
+                        option(value='VE') Venezuela
+                        option(value='VN') Vietnam
+                        option(value='WF') Wallis
+                        option(value='YE') Yemen
+                        option(value='DJ') Yibuti
+                        option(value='YU') Yugoslavia
+                        option(value='ZM') Zambia
+                        option(value='ZW') Zimbabwe
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='nombre') *C.P
+                    .col-md-8
+                      input#cp.form-control.favor.introduzca.el(value='', size='5', class="{validate:{required:true,messages:{required:'Por código postal'}}}", type='tel', maxlength='5', name='cp')
+                      input(value=' ', type='hidden', name='_D:cp')
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='state') *Estado
+                    input#selectedState(type='hidden', value='')
+                    input(value=' ', type='hidden', name='_D:estado1')
+                    select#state.form-control(oninvalid="setCustomValidity('Por favor seleccione el estado')", mandatory='true', maxlength='25', name='estado1', oninput="setCustomValidity('')", onchange='onStateSelectionChanged();')
+                      option(value='') Seleciona Estado  
+                      option(value='01') AGUASCALIENTES
+                      option(value='02') BAJA CALIFORNIA
+                      option(value='03') BAJA CALIFORNIA SUR
+                      option(value='04') CAMPECHE
+                      option(value='07') CHIAPAS
+                      option(value='08') CHIHUAHUA
+                      option(value='05') COAHUILA
+                      option(value='06') COLIMA
+                      option(value='09') DISTRITO FEDERAL
+                      option(value='10') DURANGO
+                      option(value='11') GUANAJUATO
+                      option(value='12') GUERRERO
+                      option(value='13') HIDALGO
+                      option(value='14') JALISCO
+                      option(value='15') MEXICO
+                      option(value='15') MÉXICO
+                      option(value='16') MICHOACAN
+                      option(value='16') MICHOACÁN
+                      option(value='17') MORELOS
+                      option(value='18') NAYARIT
+                      option(value='19') NUEVO LEON
+                      option(value='19') NUEVO LEÓN
+                      option(value='20') OAXACA
+                      option(value='21') PUEBLA
+                      option(value='22') QUERETARO
+                      option(value='22') QUERÉTARO
+                      option(value='23') QUINTANA ROO
+                      option(value='24') SAN LUIS POTOSI
+                      option(value='24') SAN LUIS POTOSÍ
+                      option(value='25') SINALOA
+                      option(value='26') SONORA
+                      option(value='27') TABASCO
+                      option(value='28') TAMAULIPAS
+                      option(value='29') TLAXCALA
+                      option(value='30') VERACRUZ
+                      option(value='31') YUCATAN
+                      option(value='31') YUCATÁN
+                      option(value='32') ZACATECAS
+                    input#stateDescription.form-control(value='', style='display:none', oninvalid="setCustomValidity('Por favor seleccione el estado')", mandatory='true', type='text', name='stateDescription', oninput="setCustomValidity('')")
+                    input(value=' ', type='hidden', name='_D:stateDescription')
+                    .help-block.with-errors.statesdiv
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='city') *Ciudad
+                    .col-md-8
+                      input#city.form-control.favor.introduzca.la(value='', size='23', class="{validate:{required:true,messages:{required:'Por ciudad'}}}", type='text', maxlength='100', name='city')
+                      input(value=' ', type='hidden', name='_D:city')
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='nombre') *Delegación o Municipio
+                    .col-md-8
+                      input#selectedMunicipality(type='hidden', value='')
+                      input(value=' ', type='hidden', name='_D:municipio')
+                      select#deleg.form-control.favor.seleccione.el.municipio.o(class="{validate:{required:true,messages:{required:'Por delegación'}}}", name='municipio', onchange='onMunicipalitySelectionChanged();')
+                        option(value='') Seleccionar
+                        option(value='', selected='selected')
+                      input#delegDescription.cross_site_script_val.form-control(value='', style='display:none', mandatory='true', type='text', name='delegDescription')
+                      input(value=' ', type='hidden', name='_D:delegDescription')
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='nombre') *Colonia o Asentamiento
+                    .col-md-8
+                      input#selectedNeighbourhood(type='hidden', value='')
+                      input(value=' ', type='hidden', name='_D:colonia')
+                      select#col.form-control.favor.seleccione.la(class="{validate:{required:true,messages:{required:'Por colonia'}}}", name='colonia', onchange='onNeighborhoodSelectionChanged();')
+                        option(value='') Seleccionar
+                        option(value='-2') Referencia
+                      input#colDescription.form-control(value='', style='display:none', mandatory='true', type='text', name='colDescription')
+                      input(value=' ', type='hidden', name='_D:colDescription')
+                      // Validation of the colony so that if you bring value -2 div Another colony is shown
+                      #otherNeighborhoodDiv.hide
+                        label Referencia
+                        input#otherNeighborhood.form-control(value='', mandatory='true', type='text', maxlength='100', name='/atg/userprofiling/ProfileFormHandler.editValue.otherColony')
+                        input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.otherColony')
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='nombre') *Calle
+                    .col-md-8
+                      input#street.form-control.favor.ingrese.el.nombre.de.la(value='', size='28', class="{validate:{required:true,messages:{required:'Por calle'}}}", type='text', maxlength='100', name='calle')
+                      input(value=' ', type='hidden', name='_D:calle')
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='nombre') *Núm. exterior
+                    .col-md-8
+                      input#num_ext.form-control.favor.introduzca.el(value='', size='13', class="{validate:{required:true,messages:{required:'Por Número Exterior'}}}", type='text', maxlength='10', name='num_exterior')
+                      input(value=' ', type='hidden', name='_D:num_exterior')
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='nombre') Núm. interior
+                    .col-md-8
+                      input#num_int.form-control(value='', size='13', type='text', maxlength='10', name='num_int')
+                      input(value=' ', type='hidden', name='_D:num_int')
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='nombre') Edificio
+                    .col-md-8
+                      input#street.form-control(value='', size='10', type='text', maxlength='100', name='building')
+                      input(value=' ', type='hidden', name='_D:building')
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='nombre') Entre Calle
+                    .col-md-8
+                      input#street1.form-control(value='', size='28', type='text', maxlength='100', name='street1')
+                      input(value=' ', type='hidden', name='_D:street1')
+                .col-sm-6.col-lg-4
+                  .form-group.word-wrap
+                    label.col-md-4.control-label(for='nombre') y Calle
+                    .col-md-8
+                      input#street2.form-control(value='', size='28', type='text', maxlength='100', name='street2')
+                      input(value=' ', type='hidden', name='_D:street2')
+                .col-sm-6.col-lg-4
+                  .form-group
+                    label.col-md-4.control-label(for='nombre') *Tel. Particular Con Lada
+                    .col-md-8
+                      //
+                        <input type="text" class="form-control" id="phonenumber"
+                        placeholder="">
+                      .col-xs-4.col-md-4
+                        input#codenumber.form-control.phn_small_box(value='', placeholder='', oninvalid="setCustomValidity('El teléfono particular es requerido.')", minlength='2', mandatory='true', type='tel', maxlength='3', name='lada', oninput="setCustomValidity('')")
+                        input(value=' ', type='hidden', name='_D:lada')
+                      .col-xs-8.col-md-8
+                        input#phonenumber.form-control.phn_large_box(value='', placeholder='', oninvalid="setCustomValidity('LADA es requerida.')", minlength='7', autocomplete='off', mandatory='true', type='tel', maxlength='8', name='phoneNumber', oninput="setCustomValidity('')")
+                        input(value=' ', type='hidden', name='_D:phoneNumber')
+                      .help-block.with-errors
+                .col-sm-6.col-lg-4
+                  .form-group
+                    label.col-md-4.control-label(for='nombre') Celular
+                    .col-md-8
+                      input#officefonnumber.form-control(value='', placeholder='', type='tel', maxlength='10', name='/atg/userprofiling/ProfileFormHandler.editValue.cellular')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.editValue.cellular')
+                .col-sm-6.col-lg-4
+                  .form-group
+                    label.col-md-4.control-label(for='predeterminada')
+                    .col-md-8
+                      input(value='true', type='checkbox', name='/atg/userprofiling/ProfileFormHandler.default')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.default')
+                      | *He leido y acepto términos, condiciones y aviso de privacidad.
+        #submit_button.row
+          .col-md-12.text-center
+            input(value='/tienda/m', type='hidden', name='/atg/userprofiling/ProfileFormHandler.contextRoot')
+            input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.contextRoot')
+            input(value='/tienda/m/checkout/shipping.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.newAddressSuccessURL')
+            input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.newAddressSuccessURL')
+            input(value='/tienda/m/checkout/addNewAddress.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.newAddressErrorURL')
+            input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.newAddressErrorURL')
+            input#submit-form-adress-button.btn.btn-primary.submit-form-button(value='Guardar', type='submit', name='/atg/userprofiling/ProfileFormHandler.newAddress')
+            input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.newAddress')
+        input(value='/m/checkout/addNewAddress.jsp', type='hidden', name='_DARGS')

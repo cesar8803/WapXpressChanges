@@ -1,375 +1,303 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-<!-- Google Tag Manager --><script>
-dataLayer = [{
-'userId': 'df27fff93bdf60f54a778581d5ba1564'
-}];
-</script>
-<script>
-window.onload = function(){
-dataLayer.push({ 'category':'Checkout',
-'subcategory':'Shipping',
-'event':'contentGroup'
-});
-}
-</script>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title></title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-<title></title>
-<!-- Bootstrap -->
-<link href="/mobileAssets/css/bootstrap3/bootstrap.css" rel="stylesheet">
-<link href="/mobileAssets/css/bootstrap3/awesome-bootstrap-checkbox.css" rel="stylesheet">
-<link href="/mobileAssets/css/m5.css" rel="stylesheet">
-<link href="/mobileAssets/css/header-checkout.css" rel="stylesheet">
-<link href="/mobileAssets/css/pdpdevice.css" rel="stylesheet">
-<link href="/mobileAssets/css/LP_Custom.css" rel="stylesheet">
-
-</head>
-<body>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="/mobileAssets/js/bootstrap3/jquery-1.11.2.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/mobileAssets/js/bootstrap3/bootstrap.js"></script>
-
-<script type="text/javascript" src="/mobileAssets/js/jquery.form.js"></script>
-<script src="/mobileAssets/js/bootstrap3/validator.js"></script>
-<script src="/mobileAssets/js/bootstrap3/lp_cp.js"></script>
-<script src="/mobileAssets/js/bootstrap3/checkout.js"></script>
-<script src="/mobileAssets/js/bootstrap3/cart.js"></script>
-
-<header class="head_container">
-<nav class="navbar navbar-default">
-<div class="container-fluid no-padding-l">
-<div class="header_phone">
-<div id="TapZoom" class="col-xs-2 back-button no-padding-l">
-<a href="/tienda/m/cart/cart.jsp" onclick="/tienda/m/cart/cart.jsp" rel="external">
-<button class="btn-back-head">
-<img src="/mobileAssets/images/arrow_header.png">
-</button>
-</a>
-</div>
-</div>
-<div class="col-xs-4 col-xs-offset-1 logo-container">
-<div class="navbar-header">
-<a class="navbar-brand " href="/tienda/m/cart/cart.jsp"> <img class="img-responsive logo" alt="Brand" src="/mobileAssets/images/logo.png"> </a>
-</div></div>
-</div>
-</nav>
-<div class="container title-container" >
-<p class="navbar-text">
-
-Dirección de envío
-
-</p>
-</div>
-<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-<div class="container-fluid navsteps">
-<div class="container">
-<div class="row">
-
-<div class="col-xs-4 col-md-3 col-md-offset-1 navItem">
-<i class="navIcon home"></i>
-<div class="navLabel">
-Envio
-</div>
-</div>
-<div class="col-xs-4 col-md-3 navItem">
-<i class="navIcon payment"></i>
-<div class="navLabel">
-Pagos
-</div>
-</div>
-<div class="col-xs-4 col-md-3 navItem">
-<i class="navIcon promotion"></i>
-<div class="navLabel">
-3. Promociones
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-<div id="sc-page-spinner" class="a-row a-hidden">
-<div class="a-row sc-overwrap"></div>
-<div class="a-row sc-spinner">
-<img alt="" src="/mobileAssets/images/icons/loader_liverpool.gif">
-</div>
-</div>
-</header>
-<!--  Div Agregar bolsa error alerta -->
-<div id="myModalAlertError" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-<div class="modal-dialog">
-<div class="modal-content">
-<div class="modal-body">
-<div class="row">
-<div class="col-xs-10">
-<div class="col-xs-3"><img src="/mobileAssets/images/symbol_alert_sb.png"></div>
-<div class="col-xs-9"><p class="color-rosa-Alert text-center cart-error">OCURRIO UN ERROR</p></div>
-</div>
-<div class="col-xs-2">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-</div>
-</div>
-<div class="row">
-<div class="bgAlertError">
-<p class="color-g text-center" id="error-alert-popup-text"></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<input type="hidden" value="/tienda/m" name="jsp_contextroot" id="jsp_contextroot">
-<input type="hidden" value="true" name="jsp_isLoggedIn" id="jsp_isLoggedIn">
-
-<div id="main" class="content-area">
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-<div class="panel panel-default" onclick="location.href='shippingStoreAddress.jsp';">
-<div class="panel-heading panel-h-mod" role="tab" id="headingOne">
-<h4 class="panel-title">
-<a href="shippingStoreAddress.jsp"	class="envio-domicilio font-max">
-<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-Recoger en tienda  
-</a>
-<i class="arrow-icon clickpick"></i>
-</h4>
-</div>
-<div id="collapseOne" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
-<div class="panel-body guest-panel-body" >
-</div>
-</div>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading panel-h-mod" role="tab" id="headingTwo">
-<h4 class="panel-title">
-<a class="collapsed envio-domicilio font-max" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" aria-controls="collapseTwo">
-<span class="glyphicon glyphicon-home" aria-hidden="true"></span>  Envío a domicilio.
-</a>
-<i class="arrow-icon clickpick down"></i>
-</h4>
-</div>
-<div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
-<div class="panel-body">
-<!-- Page content -->
-<div class="row" id="main_grid">
-<div class="col-sm-6 col-md-4">
-<div class="dir-div">
-<div class="caption">
-<div class="radio radio-info">
-
-<input type="radio" id="radio1" value="Dirección Predeterminada" name="radioAdress" checked="checked">
-
-<label for="radio1">
-<div class="address_container" id="container_adress1">
-<h3>Dirección Predeterminada</h3>
-<p class='shipping-address-info'>
-Mixcoac&nbsp;14,
-METROPOLITANA TERCERA SECCION,&nbsp;57750,
-NEZAHUALCOYOTL,&nbsp;Nezahualcoyotl
-</p>
-</div>
-</label>
-
-<div class="container buttons_section container_buttons">
-<a href="javascript:void(0)" class="btn btn-primary btn_edit_address" role="button" nickName="Dirección Predeterminada">Editar</a>
-<a href="javascript:void(0)" class="btn btn-default btn_send_address" role="button" nickName="Dirección Predeterminada">Enviar a esta dirección</a>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-<div class="col-sm-6 col-md-4">
-<div class="dir-div">
-<div class="caption">
-<div class="radio radio-info">
-
-<input type="radio" id="radio2" value="CASA " name="radioAdress">
-
-<label for="radio2">
-<div class="address_container" id="container_adress2">
-<h3>CASA </h3>
-<p class='shipping-address-info'>
-Mixcoac&nbsp;14,
-METROPOLITANA TERCERA SECCION,&nbsp;57750,
-NEZAHUALCOYOTL,&nbsp;Nexahulacoyotl
-</p>
-</div>
-</label>
-
-<div class="container buttons_section container_buttons_off">
-<a href="javascript:void(0)" class="btn btn-primary btn_edit_address" role="button" disabled="disabled" nickName="CASA ">Editar</a>
-<a href="javascript:void(0)" class="btn btn-default btn_send_address" role="button" disabled="disabled" nickName="CASA ">Enviar a esta dirección</a>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-<div class="col-sm-6 col-md-4">
-<div class="dir-div">
-<div class="caption">
-<div class="radio radio-info">
-
-<input type="radio" id="radio3" value="Carolina" name="radioAdress">
-
-<label for="radio3">
-<div class="address_container" id="container_adress3">
-<h3>Carolina</h3>
-<p class='shipping-address-info'>
-Hacienda de corralejo  mza 831 &nbsp;Lote 54,
-LAS ANTENAS O CLAUSTRO DE SOR JUANA INES DE LA C,&nbsp;57130,
-NEZAHUALCOYOTL,&nbsp;Nezahualcóyotl 
-</p>
-</div>
-</label>
-
-<div class="container buttons_section container_buttons_off">
-<a href="javascript:void(0)" class="btn btn-primary btn_edit_address" role="button" disabled="disabled" nickName="Carolina">Editar</a>
-<a href="javascript:void(0)" class="btn btn-default btn_send_address" role="button" disabled="disabled" nickName="Carolina">Enviar a esta dirección</a>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-<div class="col-sm-6 col-md-4">
-<div class="dir-div">
-<div class="caption">
-<div class="radio radio-info">
-
-<input type="radio" id="radio4" value="asdasdasd" name="radioAdress">
-
-<label for="radio4">
-<div class="address_container" id="container_adress4">
-<h3>asdasdasd</h3>
-<p class='shipping-address-info'>
-asdasdasd&nbsp;12,
-METROPOLITANA TERCERA SECCION,&nbsp;57750,
-NEZAHUALCOYOTL,&nbsp;Mexico
-</p>
-</div>
-</label>
-
-<div class="container buttons_section container_buttons_off">
-<a href="javascript:void(0)" class="btn btn-primary btn_edit_address" role="button" disabled="disabled" nickName="asdasdasd">Editar</a>
-<a href="javascript:void(0)" class="btn btn-default btn_send_address" role="button" disabled="disabled" nickName="asdasdasd">Enviar a esta dirección</a>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-<div class="col-sm-6 col-md-4">
-<div class="dir-div">
-<div class="caption">
-<div class="radio radio-info">
-
-<input type="radio" id="radio5" value="trabajo" name="radioAdress">
-
-<label for="radio5">
-<div class="address_container" id="container_adress5">
-<h3>trabajo</h3>
-<p class='shipping-address-info'>
-mario pani&nbsp;200,
-SANTA FE CUAJIMALPA,&nbsp;05348,
-CUAJIMALPA DE MORELOS,&nbsp;mexico
-</p>
-</div>
-</label>
-
-<div class="container buttons_section container_buttons_off">
-<a href="javascript:void(0)" class="btn btn-primary btn_edit_address" role="button" disabled="disabled" nickName="trabajo">Editar</a>
-<a href="javascript:void(0)" class="btn btn-default btn_send_address" role="button" disabled="disabled" nickName="trabajo">Enviar a esta dirección</a>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-<form method="post" action="/tienda/m/checkout/addNewAddress.jsp?_DARGS=/m/checkout/includes/deliveryAddresses.jsp.editForm" id="editForm"><input value="utf-8" type="hidden" name="_dyncharset"></input><input value="2104392845242376022" type="hidden" name="_dynSessConf"></input><input value="" type="hidden" name="/atg/userprofiling/ProfileFormHandler.editNickName" id="selectedAddressForEdit"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.editNickName"><input value="Editar" class="hide" type="submit" name="/atg/userprofiling/ProfileFormHandler.editAddress" id="editAddressForm"><input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.editAddress"><input type="hidden" name="updateAddr" value="true" />
-<input type="hidden" name="successurl" value="/tienda/m/checkout/shipping.jsp" />
-<input value="/m/checkout/includes/deliveryAddresses.jsp.editForm" type="hidden" name="_DARGS"></input></form><form method="post" action="/tienda/m/checkout/includes/?_DARGS=/m/checkout/includes/deliveryAddresses.jsp.shippingSelectForm#" name="shippingSelectForm" id="form_checkout_ship_add"><input value="utf-8" type="hidden" name="_dyncharset"></input><input value="2104392845242376022" type="hidden" name="_dynSessConf"></input><input value="" type="hidden" name="shippingRadio" id="shipToThisAddress"><input value=" " type="hidden" name="_D:shippingRadio"><input value="/tienda/m/checkout/billing.jsp" type="hidden" name="/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingSuccessURL"><input value=" " type="hidden" name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingSuccessURL"><input value="/tienda/m/users/login.jsp" type="hidden" name="/atg/commerce/order/purchase/ShippingGroupFormHandler.sessionExpirationURL"><input value=" " type="hidden" name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.sessionExpirationURL"><input value="/tienda/m/checkout/shipping.jsp" type="hidden" name="/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingErrorURL"><input value=" " type="hidden" name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingErrorURL"><input value="Continuar" class="hide" type="submit" name="/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBilling" id="shipToThisAddressSubmit"><input value=" " type="hidden" name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBilling"><input value="/m/checkout/includes/deliveryAddresses.jsp.shippingSelectForm" type="hidden" name="_DARGS"></input></form><div class="col-sm-6 col-md-4">
-<div class="visible-xs thumbnail">
-<div class="caption">
-<div class="visible-xs addmore_container">
-<i class="icon-agregar"></i>
-<a class="a-touch-link" data-action="page-spinner-show" href="/tienda/m/checkout/addNewAddress.jsp"> <strong></strong> </a>
-<i class="arrow-icon right"></i>
-</div>
-</div>
-</div>
-<div class="hidden-xs thumbnail ipad-add-other-shipping-address">
-<div class="caption">
-<div class="hidden-xs addmore_container-m-l">
-<a class="a-touch-link-ipad" data-action="page-spinner-show" href="/tienda/m/checkout/addNewAddress.jsp">
-<i class="add_address_agregar_bco"></i>
-<strong class="text-center label-add-address"></strong>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- This JSP is added as part of GTM enhancements, for adding script  -->
-<script type="text/javascript">
-window.onload=function(){
-dataLayer.push({
-'event':'checkout',
-'ecommerce':{
-'checkout':{
-'actionField':{'step':1},
-'products':[
-{
-'name':'Colchón Matrimonial Restonic Blanco Placid ',
-'id':'1016450703',
-'price':'3302.1',
-'brand':'RESTONIC',
-'category': 'Matrimonial',
-
-'quantity':'1'
-
-}
-,{
-'name':'BLUSA CHICO¿S 570160420, 0, AZUL CLARO',
-'id':'1045681722',
-'price':'1499.0',
-'brand':'CHICO\'S',
-'category': 'Blusas',
-
-'variant':' Azul Claro',
-
-'quantity':'1'
-
-}
-]
-}
-}
-}
-);
-}
-</script>
-</body>
+  <head>
+    <!-- Google Tag Manager-->
+    <script>
+      dataLayer = [{
+      'userId': 'df27fff93bdf60f54a778581d5ba1564'
+      }];
+    </script>
+    <script>
+      window.onload = function(){
+      dataLayer.push({ 'category':'Checkout',
+      'subcategory':'Shipping',
+      'event':'contentGroup'
+      });
+      }
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title></title>
+    <!-- Bootstrap-->
+    <link href="/mobileAssets/css/bootstrap3/bootstrap.css" rel="stylesheet">
+    <link href="/mobileAssets/css/bootstrap3/awesome-bootstrap-checkbox.css" rel="stylesheet">
+    <link href="/mobileAssets/css/m5.css" rel="stylesheet">
+    <link href="/mobileAssets/css/header-checkout.css" rel="stylesheet">
+    <link href="/mobileAssets/css/pdpdevice.css" rel="stylesheet">
+    <link href="/mobileAssets/css/LP_Custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/header.css">
+    <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/style.css">
+    <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/style-font.css">
+  </head>
+  <body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+    <script src="/mobileAssets/js/bootstrap3/jquery-1.11.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed-->
+    <script src="/mobileAssets/js/bootstrap3/bootstrap.js"></script>
+    <script type="text/javascript" src="/mobileAssets/js/jquery.form.js"></script>
+    <script src="/mobileAssets/js/bootstrap3/validator.js"></script>
+    <script src="/mobileAssets/js/bootstrap3/lp_cp.js"></script>
+    <script src="/mobileAssets/js/bootstrap3/checkout.js"></script>
+    <script src="/mobileAssets/js/bootstrap3/cart.js"></script>
+    <header class="head_container">
+      <!--WAP enhacements replacement of the new header of checkOut is same structure as the PLP but only included  the div.header-container  -->
+      <div class="header-container row no-margin">
+        <div class="header-contain-left col-xs-3 col-md-2">
+          <div id="menu-icn">
+            <button class="c-hamburger c-hamburger--htla is-active"><span>toggle menu</span></button>
+          </div>
+        </div>
+        <div class="header-contain-middle col-xs-6 col-md-6"><span class="icon-liv-logo icon-logo-liverpool"></span></div>
+        <div class="header-contain-right col-xs-3 col-md-2">
+          <div class="row no-margin">
+            <div id="bag-contain" class="col-xs-6"><span class="icon-liv-bolsa icon-bolsa-liverpool">
+                <div class="cart-bubble">0</div></span></div>
+            <div id="search-icon-contain" class="col-xs-6"><span class="icon-liv-search icon-search-liverpool"> </span></div>
+          </div>
+        </div>
+      </div>
+      <!--WAP enhacements replacement FINISH HERE-->
+      <div class="container title-container">
+        <p class="navbar-text">Dirección de envío</p>
+      </div>
+      <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop-->
+      <div class="container-fluid navsteps">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-4 col-md-3 col-md-offset-1 navItem"><i class="navIcon home"></i>
+              <div class="navLabel">Envio</div>
+            </div>
+            <div class="col-xs-4 col-md-3 navItem"><i class="navIcon payment"></i>
+              <div class="navLabel">Pagos</div>
+            </div>
+            <div class="col-xs-4 col-md-3 navItem"><i class="navIcon promotion"></i>
+              <div class="navLabel">3. Promociones</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sc-page-spinner" class="a-row a-hidden">
+        <div class="a-row sc-overwrap"></div>
+        <div class="a-row sc-spinner"><img alt="" src="/mobileAssets/images/icons/loader_liverpool.gif"></div>
+      </div>
+    </header>
+    <!-- Div Agregar bolsa error alerta-->
+    <div id="myModalAlertError" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-10">
+                <div class="col-xs-3"><img src="/mobileAssets/images/symbol_alert_sb.png"></div>
+                <div class="col-xs-9">
+                  <p class="color-rosa-Alert text-center cart-error">OCURRIO UN ERROR</p>
+                </div>
+              </div>
+              <div class="col-xs-2">
+                <button type="button" data-dismiss="modal" class="close">×</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="bgAlertError">
+                <p id="error-alert-popup-text" class="color-g text-center"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <input id="jsp_contextroot" type="hidden" value="/tienda/m" name="jsp_contextroot">
+    <input id="jsp_isLoggedIn" type="hidden" value="true" name="jsp_isLoggedIn">
+    <div id="main" class="content-area">
+      <div id="accordion" role="tablist" aria-multiselectable="true" class="panel-group">
+        <div onclick="location.href='shippingStoreAddress.jsp';" class="panel panel-default">
+          <div id="headingOne" role="tab" class="panel-heading panel-h-mod">
+            <h4 class="panel-title"><a href="shippingStoreAddress.jsp" class="envio-domicilio font-max"><span aria-hidden="true" class="glyphicon glyphicon-map-marker"></span>Recoger en tienda</a><i class="arrow-icon clickpick"></i></h4>
+          </div>
+          <div id="collapseOne" role="tabpanel" aria-labelledby="headingOne" class="panel-collapse collapse">
+            <div class="panel-body guest-panel-body"></div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div id="headingTwo" role="tab" class="panel-heading panel-h-mod">
+            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseTwo" class="collapsed envio-domicilio font-max"><span aria-hidden="true" class="glyphicon glyphicon-home"></span>  Envío a domicilio.</a><i class="arrow-icon clickpick down"></i></h4>
+          </div>
+          <div id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <!-- Page content-->
+              <div id="main_grid" class="row">
+                <div class="col-sm-6 col-md-4">
+                  <div class="dir-div">
+                    <div class="caption">
+                      <div class="radio radio-info">
+                        <input id="radio1" type="radio" value="Dirección Predeterminada" name="radioAdress" checked="checked">
+                        <label for="radio1">
+                          <div id="container_adress1" class="address_container">
+                            <h3>Dirección Predeterminada</h3>
+                            <p class="shipping-address-info">
+                              Mixcoac 14,
+                              METROPOLITANA TERCERA SECCION, 57750,
+                              NEZAHUALCOYOTL, Nezahualcoyotl
+                            </p>
+                          </div>
+                        </label>
+                        <div class="container buttons_section container_buttons"><a href="javascript:void(0)" role="button" nickname="Dirección Predeterminada" class="btn btn-primary btn_edit_address">Editar</a><a href="javascript:void(0)" role="button" nickname="Dirección Predeterminada" class="btn btn-default btn_send_address">Enviar a esta dirección</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="dir-div">
+                    <div class="caption">
+                      <div class="radio radio-info">
+                        <input id="radio2" type="radio" value="CASA " name="radioAdress">
+                        <label for="radio2">
+                          <div id="container_adress2" class="address_container">
+                            <h3>CASA </h3>
+                            <p class="shipping-address-info">
+                              Mixcoac 14,
+                              METROPOLITANA TERCERA SECCION, 57750,
+                              NEZAHUALCOYOTL, Nexahulacoyotl
+                            </p>
+                          </div>
+                        </label>
+                        <div class="container buttons_section container_buttons_off"><a href="javascript:void(0)" role="button" disabled="disabled" nickname="CASA " class="btn btn-primary btn_edit_address">Editar</a><a href="javascript:void(0)" role="button" disabled="disabled" nickname="CASA " class="btn btn-default btn_send_address">Enviar a esta dirección</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="dir-div">
+                    <div class="caption">
+                      <div class="radio radio-info">
+                        <input id="radio3" type="radio" value="Carolina" name="radioAdress">
+                        <label for="radio3">
+                          <div id="container_adress3" class="address_container">
+                            <h3>Carolina</h3>
+                            <p class="shipping-address-info">
+                              Hacienda de corralejo  mza 831  Lote 54,
+                              LAS ANTENAS O CLAUSTRO DE SOR JUANA INES DE LA C, 57130,
+                              NEZAHUALCOYOTL, Nezahualcóyotl
+                            </p>
+                          </div>
+                        </label>
+                        <div class="container buttons_section container_buttons_off"><a href="javascript:void(0)" role="button" disabled="disabled" nickname="Carolina" class="btn btn-primary btn_edit_address">Editar</a><a href="javascript:void(0)" role="button" disabled="disabled" nickname="Carolina" class="btn btn-default btn_send_address">Enviar a esta dirección</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="dir-div">
+                    <div class="caption">
+                      <div class="radio radio-info">
+                        <input id="radio4" type="radio" value="asdasdasd" name="radioAdress">
+                        <label for="radio4">
+                          <div id="container_adress4" class="address_container">
+                            <h3>asdasdasd</h3>
+                            <p class="shipping-address-info">
+                              asdasdasd 12,
+                              METROPOLITANA TERCERA SECCION, 57750,
+                              NEZAHUALCOYOTL, Mexico
+                            </p>
+                          </div>
+                        </label>
+                        <div class="container buttons_section container_buttons_off"><a href="javascript:void(0)" role="button" disabled="disabled" nickname="asdasdasd" class="btn btn-primary btn_edit_address">Editar</a><a href="javascript:void(0)" role="button" disabled="disabled" nickname="asdasdasd" class="btn btn-default btn_send_address">Enviar a esta dirección</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="dir-div">
+                    <div class="caption">
+                      <div class="radio radio-info">
+                        <input id="radio5" type="radio" value="trabajo" name="radioAdress">
+                        <label for="radio5">
+                          <div id="container_adress5" class="address_container">
+                            <h3>trabajo</h3>
+                            <p class="shipping-address-info">
+                              mario pani 200,
+                              SANTA FE CUAJIMALPA, 05348,
+                              CUAJIMALPA DE MORELOS, mexico
+                            </p>
+                          </div>
+                        </label>
+                        <div class="container buttons_section container_buttons_off"><a href="javascript:void(0)" role="button" disabled="disabled" nickname="trabajo" class="btn btn-primary btn_edit_address">Editar</a><a href="javascript:void(0)" role="button" disabled="disabled" nickname="trabajo" class="btn btn-default btn_send_address">Enviar a esta dirección</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <form id="editForm" method="post" action="/tienda/m/checkout/addNewAddress.jsp?_DARGS=/m/checkout/includes/deliveryAddresses.jsp.editForm">
+                  <input value="utf-8" type="hidden" name="_dyncharset">
+                  <input value="1983206362885901894" type="hidden" name="_dynSessConf">
+                  <input id="selectedAddressForEdit" value="" type="hidden" name="/atg/userprofiling/ProfileFormHandler.editNickName">
+                  <input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.editNickName">
+                  <input id="editAddressForm" value="Editar" type="submit" name="/atg/userprofiling/ProfileFormHandler.editAddress" class="hide">
+                  <input value=" " type="hidden" name="_D:/atg/userprofiling/ProfileFormHandler.editAddress">
+                  <input type="hidden" name="updateAddr" value="true">
+                  <input type="hidden" name="successurl" value="/tienda/m/checkout/shipping.jsp">
+                  <input value="/m/checkout/includes/deliveryAddresses.jsp.editForm" type="hidden" name="_DARGS">
+                </form>
+                <form id="form_checkout_ship_add" method="post" action="/tienda/m/checkout/includes/?_DARGS=/m/checkout/includes/deliveryAddresses.jsp.shippingSelectForm#" name="shippingSelectForm">
+                  <input value="utf-8" type="hidden" name="_dyncharset">
+                  <input value="1983206362885901894" type="hidden" name="_dynSessConf">
+                  <input id="shipToThisAddress" value="" type="hidden" name="shippingRadio">
+                  <input value=" " type="hidden" name="_D:shippingRadio">
+                  <input value="/tienda/m/checkout/billing.jsp" type="hidden" name="/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingSuccessURL">
+                  <input value=" " type="hidden" name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingSuccessURL">
+                  <input value="/tienda/m/users/login.jsp" type="hidden" name="/atg/commerce/order/purchase/ShippingGroupFormHandler.sessionExpirationURL">
+                  <input value=" " type="hidden" name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.sessionExpirationURL">
+                  <input value="/tienda/m/checkout/shipping.jsp" type="hidden" name="/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingErrorURL">
+                  <input value=" " type="hidden" name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBillingErrorURL">
+                  <input id="shipToThisAddressSubmit" value="Continuar" type="submit" name="/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBilling" class="hide">
+                  <input value=" " type="hidden" name="_D:/atg/commerce/order/purchase/ShippingGroupFormHandler.moveToBilling">
+                  <input value="/m/checkout/includes/deliveryAddresses.jsp.shippingSelectForm" type="hidden" name="_DARGS">
+                </form>
+                <div class="col-sm-6 col-md-4">
+                  <div class="visible-xs thumbnail">
+                    <div class="caption">
+                      <div class="visible-xs addmore_container"><i class="icon-agregar"></i><a data-action="page-spinner-show" href="/tienda/m/checkout/addNewAddress.jsp" class="a-touch-link"><strong>Agregar dirección</strong></a><i class="arrow-icon right"></i></div>
+                    </div>
+                  </div>
+                  <div class="hidden-xs thumbnail ipad-add-other-shipping-address">
+                    <div class="caption">
+                      <div class="hidden-xs addmore_container-m-l"><a data-action="page-spinner-show" href="/tienda/m/checkout/addNewAddress.jsp" class="a-touch-link-ipad"><i class="add_address_agregar_bco"></i><strong class="text-center label-add-address"></strong></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- This JSP is added as part of GTM enhancements, for adding script-->
+    <script type="text/javascript">
+      window.onload=function(){
+      dataLayer.push({
+      'event':'checkout',
+      'ecommerce':{
+      'checkout':{
+      'actionField':{'step':1},
+      'products':[
+      {
+      'name':'SILLON ALEXA  BEIGE CONTEMPORANEO TELA',
+      'id':'1034593058',
+      'price':'6499.35',
+      'brand':'DIXY',
+      'category': 'Alexa Beige Contemporáneo',
+      'variant':'BEIGE',
+      'quantity':'1'
+      }
+      ]
+      }
+      }
+      }
+      );
+      }
+    </script>
+  </body>
 </html>
-<script>
-dataLayer = [];
-</script>
-
-<noscript>
-<iframesrc ="//www.googletagmanager.com/ns.html?id=GTM-MDXLRB" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MDXLRB');</script>

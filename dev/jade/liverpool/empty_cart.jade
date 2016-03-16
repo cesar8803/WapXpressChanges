@@ -1,0 +1,290 @@
+html
+  head
+    // <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    title
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0', name='viewport')
+    meta(name='format-detection', content='telephone=no')
+    title
+    // Bootstrap
+    link(href='/mobileAssets/css/bootstrap3/bootstrap.css', rel='stylesheet')
+    link(href='/mobileAssets/css/cart.css', rel='stylesheet')
+    // <link href="/mobileAssets/css/style.css" rel="stylesheet" />
+    link(href='/mobileAssets/css/bootstrap3/awesome-bootstrap-checkbox.css', rel='stylesheet')
+    // <link rel="stylesheet" href="/mobileAssets/mobileAssets/css/bootstrap3/jquery.mobile-1.4.5.min.css">
+    link(href='/mobileAssets/css/m5.css', rel='stylesheet')
+    link(href='/mobileAssets/css/account.css', rel='stylesheet')
+    link(href='/mobileAssets/css/header-checkout.css', rel='stylesheet')
+    link(rel='stylesheet', type='text/css', href='/mobileAssets/css/pdpheader.css')
+    link(href='/mobileAssets/css/pdpdevice.css', rel='stylesheet')
+    link(rel='stylesheet', type='text/css', href='/mobileAssets/css/bootstrap3/header-tyle.css')
+    link(rel='stylesheet', type='text/css', href='/mobileAssets/css/LP_Custom.css')
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/header.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/style.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/animating-menuicn/font-awesome.min.css")
+    link(rel="stylesheet" type="text/css" href="/mobileAssets/css/bootstrap3/header/style-font.css")
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(type='text/javascript', src='/mobileAssets/js/bootstrap3/jquery-1.11.2.min.js')
+    script(type='text/javascript', src='/mobileAssets/js/bootstrap3/bootstrap.js')
+    script(type='text/javascript', src='/mobileAssets/js/bootstrap3/checkout_cart.js')
+    script(type='text/javascript', src='/mobileAssets/js/jquery.form.js')
+    script(src='/mobileAssets/js/bootstrap3/validator.js')
+    script(type='text/javascript', src='/mobileAssets/js/bootstrap3/cart.js')
+    script(type='text/javascript', src='/mobileAssets/js/jquery-ui.js')
+    script(type='text/javascript', src='/mobileAssets/js/endeca_common.js')
+    script(type='text/javascript', src='/mobileAssets/js/endeca-auto-suggest.js')
+    script(type='text/javascript', src='/mobileAssets/js/akam_image_handler.js')
+    script(type='text/javascript', src='/mobileAssets/js/md5.js')
+    script(type='text/javascript', src='/mobileAssets/js/jquery.validate.js')
+    script(type='text/javascript', src='/mobileAssets/js/bootstrap3/forms.js')
+    script(type='text/javascript', src='/mobileAssets/js/LP_Custom.js')
+    script(type='text/javascript', src='/mobileAssets/js/analytics.js')
+    input#contextroot(type='hidden', value='/tienda/m')
+  body.step_0_shopping_cart
+    .root_container
+      // defect:7228 fix start
+      // defect:7228 fix end
+      header.head_container
+        //WAP enhacements replacement of the new header of checkOut is same structure as the PLP but only included  the div.header-container  
+        include ./includes_checkout/header_checkout.jade
+        include ./common/modal_search.jade
+      script.
+        dataLayer = [{
+        'userId': 'df27fff93bdf60f54a778581d5ba1564'
+        }];
+      script.
+        window.onload = function(){
+        dataLayer.push({ 'category':'Cart',
+        'subcategory':'Cart',
+        'event':'contentGroup'
+        });
+        }
+      #testHeaderCartContent
+        input#mobilePage_contextPath(type='hidden', value='/tienda/m')
+        .header-nav-utility.pull-left.hidden-phone
+          .row-fluid
+            .span4.pull-right.header-loginlinks
+              .row-fluid
+                .span7.menu-utility
+                  ul.headerrightmenu
+                    li.shopping-bag
+                      a.cart-link.touchEvent(href='/tienda/m/cart/cart.jsp', title='cart', rel='shopping-cart.jsp')
+                        span
+                          | cart
+                        .badge
+                          | 0
+                      .cart-link-arw
+                      // start: mini cart container
+                      section.mini-cart-container.hidden-phone.mini-cont
+                        .mini-cart-noitems
+                          #minicart_noitem
+                            span 1
+                            span elemento añadido a su bolsa
+                          p No tienes productos
+                      section.mini-cart-container.hidden-phone
+                        .mini-cart-noitems.hide
+                        // start: mini cart content
+                      // end: mini cart container
+                // </div>
+        .lp-header-search-icon
+          a.cart-link.visible-phone.touchEvent(href='/tienda/m/cart/cart.jsp', title='cart', rel='/tienda/m/cart/cart.jsp')
+            span cart
+            .cart-bubble 0
+      #main.content-area.area-shopping-card
+        // Page content
+        input#logged(type='hidden', name='logged', value='true')
+        script(type='text/javascript', src='/mobileAssets/js/script_filler.js')
+        input#commerceItemCountId(type='hidden', value='0')
+        input#contextroot(type='hidden', value='/tienda/m')
+        section.cart-container
+          .cart-noproduct-container
+            p
+              | No has seleccionado ningun producto para comprar.
+            a.btn-pink.continue-shop-link(href='/tienda/m') Seguir comprando
+        // end: cart container
+        #cart-delete-modal.modal.fade.delview-modal(tabindex='-1', role='dialog', aria-labelledby='cart-modal-label', aria-hidden='true')
+        // Page content
+        input#logged(type='hidden', name='logged', value='true')
+        #checkoutmyLogginAlert.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel2', aria-hidden='true')
+          .modal-dialog
+            .modal-content
+              .row
+                // start: tabnavigationcontainer
+                .popUp.rad3.tabnavigationcontainer
+                  ul.nav.nav-tabs.mb5.tabs
+                    li.col-md-6.chk-login-tab1.active
+                      a.mr0.tablink.login-button(href='javascript:void(0);')
+                        | Inicia sesión
+                        input.tabID(type='hidden', value='1')
+                    li.col-md-6.ml0.chk-login-tab2
+                      a.mr0.tablink.login-button(href='javascript:void(0);')
+                        | Nuevo usuario
+                        input.tabID(type='hidden', value='2')
+                  a.modal-close-btn.btn-default.checkout-login-close(href='/tienda/m/cart/cart.jsp', title='close')
+                  .tab-content.firsttab(style='display: block;')
+                    .row
+                      .col-md-12
+                        #divWarningForEbook1(name='divWarningForEbook', style='display: none;')
+                          span.error
+                            | Tu Orden contiene eBooks por lo que solo podrás realizar tu compra a través de un usuario registrado
+                    form#checkout-login.form-withphone(action='/tienda/m/home.jsp', role='form', data-toggle='validator', name='checkout-login')
+                      input(value='utf-8', type='hidden', name='_dyncharset')
+                      input(value='-6257908462655136534', type='hidden', name='_dynSessConf')
+                      input(value='/tienda/m', type='hidden', name='/atg/userprofiling/ProfileFormHandler.contextRoot')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.contextRoot')
+                      input(value='true', type='hidden', name='/atg/userprofiling/ProfileFormHandler.checkoutRedirect')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.checkoutRedirect')
+                      label(for='login-email') Inicia sesión para terminar tu compra
+                      .form-group
+                        input#inputEmail.checkout-login-email.form-control(value='', placeholder='Correo electrónico', data-error='Introduzca su dirección de correo electrónico', mandatory='true', type='email', name='checkout-login-email')
+                        input(value=' ', type='hidden', name='_D:checkout-login-email')
+                        .help-block.with-errors
+                      .form-group
+                        input#inputPassword.checkout-login-email.form-control(value='', placeholder='Contraseña', data-error='Por favor introduzca la contraseña', mandatory='true', type='password', name='checkout-login-pwd')
+                        input(value=' ', type='hidden', name='_D:checkout-login-pwd')
+                        .help-block.with-errors
+                      input.btn-pink(value='Inicia Sesión', type='submit', name='/atg/userprofiling/ProfileFormHandler.login')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.login')
+                      input(value='/tienda/m/home.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                      input(value='/tienda/m/cart/checkoutLoginError.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                      .row
+                        .col-md-6
+                          a.btn-grey.btn.mt10.rad3.signin-btn.btn-1(href='/tienda/m/checkout/billing.jsp')
+                            | Compra sin registro
+                        .col-md-6
+                          a.btn-grey.btn.mt10.rad3.cancel-btn.btn-2(href='/tienda/m/users/forgotPassword.jsp') ¿Olvidaste tu contraseña?
+                      input(value='/m/users/frag/checkoutpopup.jsp', type='hidden', name='_DARGS')
+                    .clearfix
+                  .tab-content.create-account-tab.hidecontent(style='display: none;')
+                    .row
+                      .col-md-12
+                        #divWarningForEbook(name='divWarningForEbook', style='display: none;')
+                          span.error
+                            | Tu Orden contiene eBooks por lo que solo podrás realizar tu compra a través de un usuario registrado
+                    .row.checkout-newuser-content
+                      .col-md-6.checkout-newuser-tab1
+                        .row.mb20
+                          .col-md-12
+                            label Compra sin registro
+                            span
+                              | Realiza tu compra sin crear cuenta
+                        .row
+                          .col-md-12
+                            a(href='/tienda/m/checkout/billing.jsp')
+                              input.btn-pink(type='submit', value='Compra sin registro')
+                      .col-md-6.checkout-newuser-tab2
+                        .row.mb20
+                          .col-md-12
+                            span.chk-new-userinfo   
+                        .row
+                          .col-md-12
+                            a(href='/tienda/m/users/register.jsp?checkoutRegister=true', onclick="dataLayer.push({'labelNewUser':'shoppingCart;','event':'RegisterUser'})")
+                              input.btn-pink(type='submit', value='Crear cuenta')
+                // end: tabnavigationcontainer
+        input#currentProductDetailsPageUrl(value='/tienda/m/cart/cart.jsp', type='hidden')
+        // Div Loggin Modal
+        #myLogginAlert.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel2', aria-hidden='true')
+          .modal-dialog
+            a.modal-close-btn.checkout-login-close(href='/tienda/m/cart/cart.jsp', rel='external', title='close')
+            .modal-content
+              .modal-body.loggin-modal-body
+                ul#myTab.nav.nav-tabs(role='tablist')
+                  li.active(role='presentation')
+                    a#home-tab(href='#home', role='tab', data-toggle='tab', aria-controls='home', aria-expanded='true')  Inicia sesión
+                  li(role='presentation')
+                    a#profile-tab(href='#profile', role='tab', data-toggle='tab', aria-controls='profile', aria-expanded='false')  ¿Nueva cuenta en Liverpool?
+                #myTabContent.tab-content
+                  #home.tab-pane.fade.active.in(role='tabpanel', aria-labelledby='home-tab')
+                    form#login.form-horizontal.form-withphone(target='_top', action='/tienda/m/cart/cart.jsp', novalidate='novalidate', name='login')
+                      input(value='utf-8', type='hidden', name='_dyncharset')
+                      input(value='-6257908462655136534', type='hidden', name='_dynSessConf')
+                      // 6981 defect Fix
+                      input(value='/tienda/m', type='hidden', name='/atg/userprofiling/ProfileFormHandler.contextRoot')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.contextRoot')
+                      // 6981 defect Fix
+                      #data_receiver.row.form-section
+                        div
+                          .form-group
+                            label.col-md-4.control-label(for='email')
+                              | Correo electrónico:
+                            .col-md-8
+                              //
+                                <input type="email" class="form-control" id="email"
+                                placeholder="">
+                              input#login.form-control.input-block-level(value='', data-error='Por favor ingrese un email válido', mandatory='true', type='email', maxlength='255', name='login', data-msg-email='111')
+                              input(value=' ', type='hidden', name='_D:login')
+                              .help-block.with-errors
+                        div
+                          .form-group
+                            label.col-md-4.control-label(for='password')
+                              // Contraseña:
+                              | Contraseña:
+                            .col-md-8
+                              //
+                                <input type="password" class="form-control" id="password"
+                                placeholder="">
+                              input#pass.form-control.input-block-level(value='', min='6', data-error='Por favor introduzca la contraseña', mandatory='true', type='password', name='pass')
+                              input(value=' ', type='hidden', name='_D:pass')
+                              .help-block.with-errors
+                      input.btn-pdp(value='Entrar', type='submit', name='/atg/userprofiling/ProfileFormHandler.login')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.login')
+                      // 
+                      input(value='/tienda/m/cart/cart.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.pdpLoginSuccessUrl')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.pdpLoginSuccessUrl')
+                      input(value='true', type='hidden', name='/atg/userprofiling/ProfileFormHandler.isWapPdp')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.isWapPdp')
+                      input(value='/tienda/m/cart/cart.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
+                      input(value='/tienda/m/users/cartLoginerror.jsp', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                      input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL')
+                      input(value='/m/users/frag/pdpLoginPopup.jsp', type='hidden', name='_DARGS')
+                    a(href='/tienda/m/users/forgotPassword.jsp', rel='external')
+                      button.btn-pdp-con
+                        span Olvidaste tu contraseña
+                  #profile.tab-pane.fade(role='tabpanel', aria-labelledby='profile-tab')
+                    div
+                      p  
+                      a(href='/tienda/m/users/register.jsp', rel='external')
+                        button.btn-pdp
+                          span Crea tu cuenta
+                      p.lead.mb5.mt20 Obtén grandes beneficios registrándote
+                      ul.subList.pb0
+                        li
+                          span Descuentos exclusivos en compras por internet
+                        li
+                          span Asistencia telefónica
+                        li
+                          span Certificados de seguridad Verisign y Amipci
+        // End  Loggin Modal
+        #catrchecking.row
+          .col-sm-8.all-products-container
+            // <div class="row personal-shop-container">
+            // </div>
+        //
+          <aside>
+          <h2>About section</h2>
+          <p>
+          Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+          </p>
+          </aside>
+          <footer>
+          <p>
+          Copyright 2009 Your name
+          </p>
+          </footer>
+        #sc-page-spinner.a-row.a-hidden
+          .a-row.sc-overwrap
+          .a-row.sc-spinner
+            img(alt='', src='/mobileAssets/images/icons/loader_liverpool.gif')
+  script.
+    dataLayer = [];
+  noscript
+    iframesrc(www.googletagmanager.com='', ns.html?id='GTM-MDXLRB"', height='0', width='0', style='display:none;visibility:hidden')
+  script.
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MDXLRB');

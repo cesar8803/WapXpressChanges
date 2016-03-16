@@ -24,6 +24,22 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+[class^="navIcon"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .icon-liv-accesorios:before {
     content: "\e900";
 }
@@ -395,5 +411,8 @@
 }
 .icon-liv-zoom-out-16:before {
     content: "\e97b";
+}
+.navIcon.home:before{
+      /*  content: "\e91e";*/
 }
 
