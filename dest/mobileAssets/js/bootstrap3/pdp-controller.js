@@ -115,6 +115,18 @@ $("#input-21f").on("rating.change", function(event, value, caption) {
     $(".close_search").click(function(){
         $("#myModal_search").modal("hide");
     });
+    
+    $(".rating-container").click(function(){
+        $("#myAlert").show();
+        setTimeout(function(){
+            $("#myAlert").hide();
+        },3000);
+    });
+    
+    $(".rating-container").alert();
+    $("#ratingForm").after('<div class="alert alert-success" id="myAlert" style="display:none">Tu calificacion fue aplicada exitosamente</div>');
+    
+    //$("#myAlert").alert('close');
 		
 });  
 

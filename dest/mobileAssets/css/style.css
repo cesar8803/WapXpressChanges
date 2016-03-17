@@ -1938,15 +1938,15 @@ margin-left: 10px;
 
 
 .cerrar-modal-login{
-     width: 35%;
-     font-size: 15px;
-     line-height: 28px;
-     color: #666;
-     display: inline-block;
-     line-height: 45px;
-     margin-left: 1em;
-     position: relative;
-     left: 73%;
+    float: right;
+    font-size: 15px;
+    line-height: 28px;
+    margin-right: 20px;
+    color: #666;
+    display: inline-block;
+    line-height: 45px;
+    margin-left: 1em;
+    position: relative;
 }
 
 
