@@ -604,3 +604,9 @@ margin-bottom:10px !important;
     margin-left: 0px;
     /* margin-right: -15px; */
 }
+
+.btn-Searc-head-more button{
+    border-radius: 0px;
+    background-color: #e10098;
+    color: white;  
+}
