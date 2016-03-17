@@ -124,12 +124,15 @@ $("#input-21f").on("rating.change", function(event, value, caption) {
     });
     
     $(".rating-container").alert();
-    $("#ratingForm").after('<div class="alert alert-success" id="myAlert" style="display:none">Tu calificacion fue aplicada exitosamente</div>');
-    
+   
+    ratingAlert();
     //$("#myAlert").alert('close');
 		
 });  
 
+function ratingAlert(){
+     $("#ratingForm").after('<div class="alert alert-success" id="myAlert" style="display:none">Tu calificacion fue aplicada exitosamente</div>');
+}
 //Función para cambiar precios en el PDP, solo activar con el SetTimeOut en caso de ser necesario.
 function explode(){
 	var skus = [
