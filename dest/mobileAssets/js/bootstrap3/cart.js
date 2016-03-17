@@ -106,6 +106,14 @@ $('.chk-login-tab2').on('click', function() {
 	$('.firsttab').hide();
 	$('.create-account-tab').show();
 	});
+    
+    $('#search-icon-contain').on('click', function() {
+	   $("#myModal_search").modal();
+	});
+    
+    $('.cerrar-modal-search').click(function(){
+        $('#myModal_search').modal('toggle');
+    });
 
 
 $('.chk-login-tab1').on('click', function() {

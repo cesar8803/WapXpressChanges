@@ -89,9 +89,10 @@ html
               // logged in user:start
               .col-md-12
                 hr
+                //WAP enhancements added new class to this form
                 form#ratingForm
                   a.popover-show(tabindex='0', data-toggle='popover', data-trigger='focus', title='Aviso', data-content="Para poder calificar los productos, debes\
-                  <a href='javascript: void(0);' data-toggle='modal' data-target='#myLogginAlert' title='iniciar sesión'>Iniciar sesión</a>")
+                  <a href='javascript: void(0);' data-toggle='modal' data-target='#modalLogin' title='iniciar sesión'>Iniciar sesión</a>")
                     input#input-21f.rating(value='5.0', type='number', disabled='true', min='0', max='5', step='0.5', data-size='xs')
             // defect 7217
             // defect 7217
@@ -543,79 +544,8 @@ html
             // End Div Agregar Bolsa Error alerta
             input#currentProductDetailsPageUrl(value='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', type='hidden')
             // Div Loggin Modal
-            #myLogginAlert.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel2', aria-hidden='true')
-              .modal-dialog
-                a.modal-close-btn.checkout-login-close(href='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', rel='external', title='close')
-                .modal-content
-                  .modal-body.loggin-modal-body
-                    ul#myTab.nav.nav-tabs(role='tablist')
-                      li.active(role='presentation')
-                        a#home-tab(href='#home', role='tab', data-toggle='tab', aria-controls='home', aria-expanded='true')  Inicia sesión
-                      li(role='presentation')
-                        a#profile-tab(href='#profile', role='tab', data-toggle='tab', aria-controls='profile', aria-expanded='false')  ¿Nueva cuenta en Liverpool?
-                    #myTabContent.tab-content
-                      #home.tab-pane.fade.active.in(role='tabpanel', aria-labelledby='home-tab')
-                        form#login.form-horizontal.form-withphone(target='_top', action='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', novalidate='novalidate', name='login')
-                          input(value='utf-8', type='hidden', name='_dyncharset')
-                          input(value='-2373058680953179633', type='hidden', name='_dynSessConf')
-                          // 6981 defect Fix
-                          input(value='/tienda/m', type='hidden', name='/atg/userprofiling/ProfileFormHandler.contextRoot')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.contextRoot')
-                          // 6981 defect Fix
-                          #data_receiver.row.form-section
-                            div
-                              .form-group
-                                label.col-md-4.control-label(for='email')
-                                  | Correo electrónico:
-                                .col-md-8
-                                  //
-                                    <input type="email" class="form-control" id="email"
-                                    placeholder="">
-                                  input#login.form-control.input-block-level(value='', data-error='Por favor ingrese un email válido', mandatory='true', type='email', maxlength='255', name='login', data-msg-email='111')
-                                  input(value=' ', type='hidden', name='_D:login')
-                                  .help-block.with-errors
-                            div
-                              .form-group
-                                label.col-md-4.control-label(for='password')
-                                  // Contraseña:
-                                  | Contraseña:
-                                .col-md-8
-                                  //
-                                    <input type="password" class="form-control" id="password"
-                                    placeholder="">
-                                  input#pass.form-control.input-block-level(value='', min='6', data-error='Por favor introduzca la contraseña', mandatory='true', type='password', name='pass')
-                                  input(value=' ', type='hidden', name='_D:pass')
-                                  .help-block.with-errors
-                          input.btn-pdp(value='Entrar', type='submit', name='/atg/userprofiling/ProfileFormHandler.login')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.login')
-                          // 
-                          input(value='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', type='hidden', name='/atg/userprofiling/ProfileFormHandler.pdpLoginSuccessUrl')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.pdpLoginSuccessUrl')
-                          input(value='true', type='hidden', name='/atg/userprofiling/ProfileFormHandler.isWapPdp')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.isWapPdp')
-                          input(value='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
-                          input(value='/tienda/m/users/pdpLoginerror.jsp?pdrid=1041579702', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginErrorURL')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL')
-                          p  
-                          input(value='/m/users/frag/pdpLoginPopup.jsp', type='hidden', name='_DARGS')
-                        a(href='/tienda/m/users/forgotPassword.jsp', rel='external')
-                          button.btn-pdp-con
-                            span Olvidaste tu contraseña
-                      #profile.tab-pane.fade(role='tabpanel', aria-labelledby='profile-tab')
-                        div
-                          p  
-                          a(href='/tienda/m/users/register.jsp', rel='external')
-                            button.btn-pdp
-                              span Crea tu cuenta
-                          p.lead.mb5.mt20 Obtén grandes beneficios registrándote
-                          ul.subList.pb0
-                            li
-                              span Descuentos exclusivos en compras por internet
-                            li
-                              span Asistencia telefónica
-                            li
-                              span Certificados de seguridad Verisign y Amipci
+            //WAP Enhancements Modal Login PopUp  (IN PDP we  remove the old modal)
+            //End WAP Enhancements Modal Login PopUp
             // End  Loggin Modal
             .row.social-rating_container
               .social-rating
@@ -705,6 +635,8 @@ html
       //WAP enhancements recomendations hidden implemented as new pages
       .row
         include ./includes-plp/recomendations.jade
+        include ./common/modal_login.jade
+
       //WAP enhancements end block code
 
       // End Div Recomendations

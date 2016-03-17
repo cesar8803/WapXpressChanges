@@ -128,10 +128,11 @@ html
     input#isLoggedIn(type='hidden', value='true')
     input#contextpath(type='hidden', value='/tienda/m')
     // Page content
-    #main.content-area
+    #main.content-area.step2paymentMethod
       // Page content
       .row
-        #submit_button_top.row.visible-xs.submit_button
+        //WAP enhancement Add submit_button_top_payment in only payment page 
+        #submit_button_top.row.visible-xs.submit_button.submit_button_top_payment
           .col-sm-12.text-center
             button.btn.btn-primary.next-step-button.submit_button_2_step3(type='submit')
               | Siguiente paso
@@ -511,6 +512,8 @@ html
                           img(src='/mobileAssets/images/icons/paypal-checkout-methods-2.gif', alt='Pagos PayPal')
                           p.payform_legend
                             | Si ya estás registrado, puedes usar tu cuenta PayPal para pagar tus compras. ¿No tienes cuenta? ¡Ábrela ahora! PayPal te permite hacer pagos de manera fácil y segura en millones de tiendas en línea con sólo proporcionar tu correo y contraseña. Mantén tus datos seguros: PayPal no comparte tu información financiera y después de registrarte, ya no tendrás que ingresar los números ni códigos de seguridad de tus tarjetas de crédito y/o débito.
+                        //WAP enhancement add pagar for CIE
+                        button.btn.btn-primary.next-step-button.submit_button_paypal_button(type='submit') Pagar con PayPal
               #cie_bancomer_payment_method.tab-pane(role='tabpanel')
                 .panel.panel-default
                   #headingThree.panel-heading(role='tab')
@@ -538,6 +541,8 @@ html
                         i.sprite-cie_seven
                         i.sprite-cie_spei
                         i.sprite-cie_logo
+                  //WAP enhancement add pagar for CIE
+                  button.btn.btn-primary.next-step-button.submit_button_cie(type='submit') Pagar con deposito bancario
         .col-sm-4.resume-container
          //WAP enhacements--  Here we take out #first-slot-resume ,  #resume-fieldset , #resume-fieldset and 
          // put in that special container called #order-summary-container same as step3

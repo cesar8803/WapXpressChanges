@@ -300,27 +300,14 @@ function checkIsLogged() {
 
 }
 
-/*function gotoCheckOut(islogged) {
-	
-	if(islogged=="true"){
-		
-		var $loading = $('#sc-page-spinner').hide();
-		
-		$loading.show();
-	
-		setTimeout(function() {
-		$loading.hide();
-		
-		}, 3000);
+function gotoCheckOut(islogged) {
 
-	}else{
-		
-		$('#myLogginAlert').modal();
-
-	}
-}*/
-
-
+		//WAP Enhancements modal change
+		$('#modalLogin').modal();
+	    $('.cerrar-modal-login').click(function(){
+        $("#modalLogin").modal('hide');
+    });
+}
 function submitFormAddress(event){
 	$( "#guess_fields_first_step_form" ).submit();
 }

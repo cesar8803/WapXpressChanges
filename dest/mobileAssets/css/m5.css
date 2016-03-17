@@ -1717,6 +1717,13 @@ a.estados-lista.active {
 	background: #E0068D;
 }
 
+.submit_button_paypal_button{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding-left:10%;
+	padding-right:10%;
+}
 .btn-primary.disabled {
 	background: #E0068D;
 }
@@ -2634,4 +2641,11 @@ a[href="#cie_bancomer_payment_method"] {
   border: 1px solid #ccc;
   margin-bottom: 1em;
   background: #fff;
+}
+.submit_button_top_payment{
+	display: none!important;
+}
+
+.submit_button_2_step3{
+	display: none;
 }

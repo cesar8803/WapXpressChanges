@@ -127,7 +127,13 @@ $("#input-21f").on("rating.change", function(event, value, caption) {
    
     ratingAlert();
     //$("#myAlert").alert('close');
-		
+
+
+    //WAP enchancements 
+
+    $('.cerrar-modal-login').click(function(){
+        $("#modalLogin").modal('hide');
+    });
 });  
 
 function ratingAlert(){

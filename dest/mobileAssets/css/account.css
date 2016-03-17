@@ -950,25 +950,6 @@ right:38px;
 bottom: 4px;
 }
 
-#login > a{
-	 position: relative;
-	 top: -92px;
-	 font-size: 14px;
-	 color: #e10198;
-}
-
-#login > input.btn-pink{
-	margin-top: 50px;
-	background: #E0068D;
-}
-
-#userLoginPopUp > div > div > div.tab-content.create-account-tab.hidecontent > p{
-	display:none;
-}
-
-#userLoginPopUp > div > div > div.tab-content.create-account-tab.hidecontent > ul{
-	display: none;
-}
 
 .confirm-order-store-table .order-table-subtotal .span3 {
 width: 23%;
