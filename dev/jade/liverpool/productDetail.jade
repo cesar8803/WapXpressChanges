@@ -89,9 +89,10 @@ html
               // logged in user:start
               .col-md-12
                 hr
-                form
+                //WAP enhancements added new class to this form
+                form#ratingForm
                   a.popover-show(tabindex='0', data-toggle='popover', data-trigger='focus', title='Aviso', data-content="Para poder calificar los productos, debes\
-                  <a href='javascript: void(0);' data-toggle='modal' data-target='#myLogginAlert' title='iniciar sesión'>Iniciar sesión</a>")
+                  <a href='javascript: void(0);' data-toggle='modal' data-target='#modalLogin' title='iniciar sesión'>Iniciar sesión</a>")
                     input#input-21f.rating(value='5.0', type='number', disabled='true', min='0', max='5', step='0.5', data-size='xs')
             // defect 7217
             // defect 7217
@@ -543,79 +544,8 @@ html
             // End Div Agregar Bolsa Error alerta
             input#currentProductDetailsPageUrl(value='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', type='hidden')
             // Div Loggin Modal
-            #myLogginAlert.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel2', aria-hidden='true')
-              .modal-dialog
-                a.modal-close-btn.checkout-login-close(href='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', rel='external', title='close')
-                .modal-content
-                  .modal-body.loggin-modal-body
-                    ul#myTab.nav.nav-tabs(role='tablist')
-                      li.active(role='presentation')
-                        a#home-tab(href='#home', role='tab', data-toggle='tab', aria-controls='home', aria-expanded='true')  Inicia sesión
-                      li(role='presentation')
-                        a#profile-tab(href='#profile', role='tab', data-toggle='tab', aria-controls='profile', aria-expanded='false')  ¿Nueva cuenta en Liverpool?
-                    #myTabContent.tab-content
-                      #home.tab-pane.fade.active.in(role='tabpanel', aria-labelledby='home-tab')
-                        form#login.form-horizontal.form-withphone(target='_top', action='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', novalidate='novalidate', name='login')
-                          input(value='utf-8', type='hidden', name='_dyncharset')
-                          input(value='-2373058680953179633', type='hidden', name='_dynSessConf')
-                          // 6981 defect Fix
-                          input(value='/tienda/m', type='hidden', name='/atg/userprofiling/ProfileFormHandler.contextRoot')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.contextRoot')
-                          // 6981 defect Fix
-                          #data_receiver.row.form-section
-                            div
-                              .form-group
-                                label.col-md-4.control-label(for='email')
-                                  | Correo electrónico:
-                                .col-md-8
-                                  //
-                                    <input type="email" class="form-control" id="email"
-                                    placeholder="">
-                                  input#login.form-control.input-block-level(value='', data-error='Por favor ingrese un email válido', mandatory='true', type='email', maxlength='255', name='login', data-msg-email='111')
-                                  input(value=' ', type='hidden', name='_D:login')
-                                  .help-block.with-errors
-                            div
-                              .form-group
-                                label.col-md-4.control-label(for='password')
-                                  // Contraseña:
-                                  | Contraseña:
-                                .col-md-8
-                                  //
-                                    <input type="password" class="form-control" id="password"
-                                    placeholder="">
-                                  input#pass.form-control.input-block-level(value='', min='6', data-error='Por favor introduzca la contraseña', mandatory='true', type='password', name='pass')
-                                  input(value=' ', type='hidden', name='_D:pass')
-                                  .help-block.with-errors
-                          input.btn-pdp(value='Entrar', type='submit', name='/atg/userprofiling/ProfileFormHandler.login')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.login')
-                          // 
-                          input(value='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', type='hidden', name='/atg/userprofiling/ProfileFormHandler.pdpLoginSuccessUrl')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.pdpLoginSuccessUrl')
-                          input(value='true', type='hidden', name='/atg/userprofiling/ProfileFormHandler.isWapPdp')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.isWapPdp')
-                          input(value='/tienda/m/lavadora-19-kg-whirlpool-blanca-7mwtw4915ew/1041579702', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL')
-                          input(value='/tienda/m/users/pdpLoginerror.jsp?pdrid=1041579702', type='hidden', name='/atg/userprofiling/ProfileFormHandler.loginErrorURL')
-                          input(value=' ', type='hidden', name='_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL')
-                          p  
-                          input(value='/m/users/frag/pdpLoginPopup.jsp', type='hidden', name='_DARGS')
-                        a(href='/tienda/m/users/forgotPassword.jsp', rel='external')
-                          button.btn-pdp-con
-                            span Olvidaste tu contraseña
-                      #profile.tab-pane.fade(role='tabpanel', aria-labelledby='profile-tab')
-                        div
-                          p  
-                          a(href='/tienda/m/users/register.jsp', rel='external')
-                            button.btn-pdp
-                              span Crea tu cuenta
-                          p.lead.mb5.mt20 Obtén grandes beneficios registrándote
-                          ul.subList.pb0
-                            li
-                              span Descuentos exclusivos en compras por internet
-                            li
-                              span Asistencia telefónica
-                            li
-                              span Certificados de seguridad Verisign y Amipci
+            //WAP Enhancements Modal Login PopUp  (IN PDP we  remove the old modal)
+            //End WAP Enhancements Modal Login PopUp
             // End  Loggin Modal
             .row.social-rating_container
               .social-rating
@@ -672,31 +602,174 @@ html
               .modal-size.modal-dialog.modal-lg
                 .modal-size.modal-content
                   .col-md-12.bg-Modal(data-dismiss='modal')
-                    p <  REGRESAR
+                    p < REGRESAR
                   .descripton-product.center-img-modal
-                    h4 Lavadora 19 Kg. Whirlpool Blanca 7MWTW4915EW
+                    h4 Pantalla LED 20 Pulgadas 20MT45D LG
+                    hr.divider
+                    p Televisor Led Full Hd 42 Pulgadas, Ahorro De Energía, Hdmi & Usb
                     hr.divider
                     ul.bg-pdp-cell
-                      span(itemprop='description')
+                      li(type='disc')
                         p
-                        h3
-                        ol#detalle_producto_bullets
-                          li
-                            | Características generales: Lavadora de carga superior con agitador HE, tapa metálica con apertura amplia, tina de acero, cuenta con depósito automático de blanqueador y de suavizante.
-                          li Marca: Whirlpool.
-                          li Modelo: 7MWTW4915EW.
-                          li Capacidad: 19 kg.
-                          li Color y diseño: Blanco.
-                          li
-                            | Niveles de programación: 9 ciclos automáticos: Ropa delicada, jeans, ropa casual, edredones, ropa de color Xpert Cycle, ropa blanca Xpert Cycle, lavado rápido, llenado profundo, ciclo limpieza lavadora, y 2 ciclos manuales: Enjuagar y exprimir, drenar y exprimir.
-                          li Panel de mando: Display LED con indicador de estatus del ciclo y 4 perillas.
-                          li
-                            | Funciones especiales: 5 temperaturas con autocontrol, opción remojo automático, opción nivel de suciedad, opción suavizante.
-                          li Potencia: Motor 1/3 hp - Velocidad de centrifugado: 800 RPM.
-                          li Dimensiones: Alto 109 cm. x Ancho 70 cm. x Profundo 67 cm. aproximado.
-                        br
-                        li No incluye kit de instalación, ni la instalación del producto.
+                          b Ancho:
+                          |  4 cm.
+                      li(type='disc')
                         p
+                          b Gama de color:
+                          |  Si.
+                      li(type='disc')
+                        p
+                          b Tecnología 3D:
+                          |  Si.
+                      li(type='disc')
+                        p
+                          b Cables Incluidos:
+                          |  Si
+                          li(type='disc')
+                            p
+                              b Pulgadas:
+                              |  19.
+                          | 5 Pulgadas.
+                      li(type='disc')
+                        p
+                          b Formato de Pantalla:
+                          |  16:9 (1.77:1).
+                      li(type='disc')
+                        p
+                          b Resolución:
+                          |  1600 x 900.
+                      li(type='disc')
+                        p
+                          b Tipo de sintonizador:
+                          |   HDTV (ATSC).
+                      li(type='disc')
+                        p
+                          b Conexión:
+                          |  HDMI.
+                      li(type='disc')
+                        p
+                          b Tipo de Sonido:
+                          |  Sistema Surround.
+                      li(type='disc')
+                        p
+                          b Tipo de Pantalla:
+                          |  Oled.
+                      li(type='disc')
+                        p
+                          b Calidad en Movimiento en HZ:
+                          |  240.
+                      li(type='disc')
+                        p
+                          b Clasificicación:
+                          |  energética.
+                      li(type='disc')
+                        p
+                          b Accesorios Incluidos:
+                          |  Control remoto, baterías, manual, cable de poder, manual del usuario.
+                      li(type='disc')
+                        p
+                          b Modelo:
+                          |  20MT45D.
+                      li(type='disc')
+                        p
+                          b Marca:
+                          |  LG.
+                      li(type='disc')
+                        p
+                          b Control remoto:
+                          |  Si.
+                      li(type='disc')
+                        p
+                          b Tecnologia:
+                          |  LED.
+                      li(type='disc')
+                        p
+                          b Composición:
+                          |  Plástico.
+                      li(type='disc')
+                        p
+                          b Consumo de energía:
+                          |  50 W.
+                      li(type='disc')
+                        p
+                          b Consumo en modo de espera:
+                          |  Si.
+                      li(type='disc')
+                        p
+                          b Tipo de Base:
+                          |  Fija.
+                      li(type='disc')
+                        p
+                          b Peso:
+                          |  2.
+                      | 5 kilogramos.
+                      p
+                      li(type='disc')
+                        p
+                          b Garantía:
+                          |  1 año.
+                      li(type='disc')
+                        p
+                          b Entrada de PC:
+                          |  Si.
+                      li(type='disc')
+                        p
+                          b Funciones:
+                          |  Panel LED, Contraste 5000000:1, Time Machine Ready, External Power Adapter,USB (fotos y musica), SUPER Energy Saving.
+                      li(type='disc')
+                        p
+                          b Salidas:
+                          |  Audio Out (Mini Jack),10 Watts x 2, 1 Digital Audio Out (Optical), WiFi Direct.
+                      li(type='disc')
+                        p
+                          b Número de entradas DVI:
+                          |  1.
+                      li(type='disc')
+                        p
+                          b Número de Entradas HDMI:
+                          |  1.
+                      li(type='disc')
+                        p
+                          b Número de Salidas HDMI:
+                          |  1.
+                      li(type='disc')
+                        p
+                          b Número de altavoces:
+                          |   2 CH + 40 Watts.
+                      li(type='disc')
+                        p
+                          b Detalles:
+                          |  Wireless y LAN integrado.
+                      li(type='disc')
+                        p
+                          b Tipo de control remoto:
+                          |  Tv/DVD.
+                      li(type='disc')
+                        p
+                          b Marco:
+                          |  Metal Silver.
+                      li(type='disc')
+                        p
+                          b Angulo de visión:
+                          |  178° (89/89) derecho/izquierdo y de arriba/abajo.
+                      li(type='disc')
+                        p
+                          b Montar en la pared:
+                          |  Si.
+                      li(type='disc')
+                        p
+                          b Detalles:
+                          |  HDMI, USB 3.
+                      | 0, LAN.
+                      p
+                      li(type='disc')
+                        p
+                          b Uso:
+                          |  Entretenimiento.
+                      li(type='disc')
+                        p
+                          b Color:
+                          |  Negro.
             // End Div Modal Preview Description
             // End Div Modal Preview Description
         // End Div Description Product
@@ -705,6 +778,8 @@ html
       //WAP enhancements recomendations hidden implemented as new pages
       .row
         include ./includes-plp/recomendations.jade
+        include ./common/modal_login.jade
+
       //WAP enhancements end block code
 
       // End Div Recomendations

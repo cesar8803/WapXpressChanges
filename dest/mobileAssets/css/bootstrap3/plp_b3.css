@@ -521,6 +521,11 @@ body[brandbar='yes'][omniprompt='yes'].no-navsteps views {
   border-right: 1px solid #d9dada;
   border-bottom: 1px solid #d9dada;
 }
+
+.product.item{
+  padding-right :1%;
+  padding-left:1%;
+}
 .container_search_box {
   background-color: #ebebeb;
   margin-bottom: 5px;
@@ -577,6 +582,7 @@ body[brandbar='yes'][omniprompt='yes'].no-navsteps views {
   padding: 0;
   list-style-type: none;
   margin-left: 0px;
+  line-height: 20px;
 }
 .item-cuantity-delete {
   display: block;
@@ -2100,6 +2106,10 @@ div#container_adress3 {
   background: #fff;
 }
 
+.item-descr-price-sku{
+ padding-right: 1%;
+ padding-left: 1%; 
+}
 
 .rating-list .rat-full {
   background-position: -105px -814px !important;

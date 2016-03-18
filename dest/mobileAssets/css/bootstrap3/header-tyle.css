@@ -200,3 +200,10 @@ body > div.ui-page.ui-page-theme-a.ui-page-active > section > header > div.hidde
 .mobile-menu-cont, .homesearch-position{
     display: none !important;
 }
+.video-slide{
+    width: 100%;
+  max-width: 400px;
+  color: #FFF;
+  margin: 50% auto 0;
+  text-align: center;
+}

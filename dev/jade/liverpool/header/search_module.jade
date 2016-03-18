@@ -1,14 +1,65 @@
 .input-group.homesearch-position.col-xs-12
-  form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top')
+  form(onsubmit="if(this.s.value == '')return false;", autocomplete='off', action='/tienda/m/', name='Search', target='_top', novalidate='novalidate')
     .col-xs-10.search_input_container
       input#busca.field-search.cross_site_script_val_pop.valid.form-control.col-xs-11(type='text', name='s', autocomplete='off', placeholder='¿Qué estás buscando?')
       #gs_st0.gsst_b.col-xs-1(dir='ltr')
         a.gsst_a(href='javascript:void(0)')
-          span#sb_cb0.sbcb_a(aria-label='Borrar búsqueda') ×
+          span#sb_cb0.sbcb_a(aria-label='Borrar bÃÂºsqueda') ÃÂ
     .col-xs-2.icon_search_container
       span.input-group-btn.btn-Searc-head-more
         button.header_search-button.icon-liv-search(type='submit')
       input#hiddenSearchValues(min='3', type='hidden', data-url='', data-caturl='/shop', data-path='/tienda/m', data-locale='es__MX', data-imageurl='http://media.liverpool.com.mx/web/images/products/es_MX')
-      #typeahead(style='display: none;')
-        #type-main-list
-          #type-ver-todos
+    #typeahead.type-head(style='display: block;')
+      #type-main-list
+        .type-line
+          a(href='/tienda/m/xbox-360/N-1z1418w', rel='external')
+            span XBOX
+            |  360
+          |  (78)
+        .type-line
+          a(href='/tienda/m/xbox-one/N-1z13lq2', rel='external')
+            span XBOX
+            |  ONE
+          |  (32)
+        .type-line
+          a(href='/tienda/m/xbox-live/N-1z13i1z', rel='external')
+            span XBOX
+            |  LIVE
+          |  (5)
+        .type-line
+          a(href='/tienda/m/xbox/N-29wi', rel='external')
+            | Home>Videojuegos > 
+            span Xbox
+          |  (104)
+        .type-line
+          a(href='/tienda/m/xbox-360/N-29wp', rel='external')
+            | Home>Videojuegos > Xbox > 
+            span Xbox
+            |  360
+          |  (61)
+        .type-line
+          a(href='/tienda/m/xbox-one/N-29wq', rel='external')
+            | Home>Videojuegos > Xbox > 
+            span Xbox
+            |  One
+          |  (20)
+        .type-line
+          img#ahead_1000431229(src='/mobileAssets/images/fillers/filler_REC.gif')
+          a(href='/tienda/m/cars-2-xbox-360/1000431229?typeahead=yes', rel='external')
+            | Cars 2 
+            span Xbox
+            |  360
+        .type-line
+          img#ahead_1000507896(src='/mobileAssets/images/fillers/filler_REC.gif')
+          a(href='/tienda/m/diadema-para-xbox-360-dg360-1717-micfosofcamouflage/1000507896?typeahead=yes', rel='external')
+            | Diadema para 
+            span Xbox
+            |  360 DG360-1717 MicfosofCamouflage
+        .type-line
+          img#ahead_1001453111(src='/mobileAssets/images/fillers/filler_REC.gif')
+          a(href='/tienda/m/gears-of-war-triple-pack-xbox-360/1001453111?typeahead=yes', rel='external')
+            | Gears of War Triple Pack 
+            span Xbox
+            |  360
+        #type-ver-todos.type-line
+          a(href='/tienda/m?s=xbox', rel='external')  Ver todos los resultados >>

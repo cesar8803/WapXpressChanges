@@ -115,9 +115,30 @@ $("#input-21f").on("rating.change", function(event, value, caption) {
     $(".close_search").click(function(){
         $("#myModal_search").modal("hide");
     });
-		
+    
+    $(".rating-container").click(function(){
+        $("#myAlert").show();
+        setTimeout(function(){
+            $("#myAlert").hide();
+        },3000);
+    });
+    
+    $(".rating-container").alert();
+   
+    ratingAlert();
+    //$("#myAlert").alert('close');
+
+
+    //WAP enchancements 
+
+    $('.cerrar-modal-login').click(function(){
+        $("#modalLogin").modal('hide');
+    });
 });  
 
+function ratingAlert(){
+     $("#ratingForm").after('<div class="alert alert-success" id="myAlert" style="display:none">Tu calificacion fue aplicada exitosamente</div>');
+}
 //Función para cambiar precios en el PDP, solo activar con el SetTimeOut en caso de ser necesario.
 function explode(){
 	var skus = [

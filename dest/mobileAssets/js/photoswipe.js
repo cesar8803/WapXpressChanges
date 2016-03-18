@@ -24,23 +24,32 @@ setTimeout(function(){
 			        childElements = el.children;
                     var cl = childElements.children;
 			        size = childElements[0].getAttribute('data-size').split('x');
-
+                    
+                    if(childElements[0].className === "item centerImg videoSlide"){
+                        item = {
+                            html: '<div class="video-slide"><iframe width="400" height="300" src="'+childElements[0].children[0].getAttribute('src')+'"></iframe></div>'
+                        };
+                    }else{
 			        // create slide object
-			        item = {
-						src: childElements[0].getAttribute('href'),
-						w: parseInt(size[0], 10),
-						h: parseInt(size[1], 10),
-						//author: childElements[0].getAttribute('data-author')
-			        };
+                        item = {
+                            src: childElements[0].getAttribute('href'),
+                            w: parseInt(size[0], 10),
+                            h: parseInt(size[1], 10),
+                            //author: childElements[0].getAttribute('data-author')
+                        };
+                    }
 
 			        item.el = childElements[0]; // save link to element for getThumbBoundsFn
 
 			        if(childElements.length > 0) {
-			          item.msrc = childElements[0].children[0].getAttribute('src'); // thumbnail url
-                      item.title = childElements[0].children[0].getAttribute('alt');
-			          if(childElements.length > 1) {
-			              item.title = childElements[1].innerHTML; // caption (contents of figure)
-			          }
+                        if(childElements[0].className === "item centerImg videoSlide"){
+                        }else{
+                          item.msrc = childElements[0].children[0].getAttribute('src'); // thumbnail url
+                          item.title = childElements[0].children[0].getAttribute('alt');
+                          if(childElements.length > 1) {
+                              item.title = childElements[1].innerHTML; // caption (contents of figure)
+                          }
+                        }
 			        }
 
 
@@ -55,12 +64,13 @@ setTimeout(function(){
 		            	};
 		          	}
 		          	// original image
-		          	item.o = {
-		          		src: item.src,
-		          		w: item.w,
-		          		h: item.h
-		          	};
-
+                    if(childElements[0].className != "item centerImg videoSlide"){
+                        item.o = {
+                            src: item.src,
+                            w: item.w,
+                            h: item.h
+                        };
+                    }
 			        items.push(item);
 			    }
 
@@ -268,9 +278,11 @@ setTimeout(function(){
 				        item.w = item.o.w;
 				        item.h = item.o.h;
 				    } else {
-				        item.src = item.m.src;
-				        item.w = item.m.w;
-				        item.h = item.m.h;
+                        if(item.m){
+                            item.src = item.m.src;
+                            item.w = item.m.w;
+                            item.h = item.m.h;
+                        }
 				    }
 				});
 
