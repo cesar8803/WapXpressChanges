@@ -1,12 +1,11 @@
+/*identificador1*/
 .footer{
 color: #fff;
 font-family: 'Roboto Medium', sans-serif;
 }
 .footer-top{
-background: #E0068D;
-padding: 30px 0;
-clear:both;
-}
+background: #E0068D;/* padding: 30px 0; */
+clear:both;}
 .footer-top h1{
 font-family: arial;
 font-size: 21px;
@@ -121,9 +120,7 @@ margin-left: 9px;
 
 }
 .footer-top
-{
-padding: 30px 0px 4px 0px;
-}
+{/* padding: 30px 0px 4px 0px; */}
 .footertop_phone
 {
 
@@ -163,22 +160,12 @@ ul.breadcrumb.bread-terms.tmc_wap_footer li a {
     padding: 10px;
     font-size: 1.28em;
 }
-
-.footer-schedules {
-float: left;
-background: #cbd5d7;
-color: #000000;
-padding: 1.02em;
-}
-.footer-contact {
-background: #e4e8e9;
-color: #000000;
-padding: 1.02em;
-float: left;
-}
+/*Jon Febrero 2016 martes 16*/
 .footer-contact span a {
-color: #FF2797;
+color:#e10098;
 }
+/*Jon Febrero 2016 martes 16*/
+
 .footer-bottom .sub-section h3 a, .footer-bottom .sub-section h3 font font font font {
   color: #3d4949;
   font-size: 15px;
@@ -198,6 +185,12 @@ background-size: 1em;
 background-position: 5px 5px;
 display: inline-block;
 }
+/*Jon Febrero 2016 martes 16*/
+.footer-schedules {
+    font-size: 12px!important;
+}
+/*Jon Febrero 2016 martes 16*/
+
 .footer-schedules span {
 color: #ff2797;
 }
@@ -206,13 +199,7 @@ ul.breadcrumb.bread-terms.tmc_wap_footer {
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px) and (orientation: portrait) {
-.footer-schedules {
-width: 47%;
-}
-.footer-contact {
-width: 46%;
-padding : 2.3% 1.9%;
-}
+
 
 .bootom-footer .breadcrumb{
 width: 48%;
@@ -227,15 +214,16 @@ padding: 0;
 .bootom-footer .breadcrumb {
 min-height : 25px;
 }
+ul.breadcrumb.bread-terms.tmc_wap_footer li a {
+
+  margin: 0px 7% 0 -8%!important;
+}
+.row-fluid.footerbtcontent .span3 .sub-section > .phone-hide > p {
+        margin-bottom: -28px;
+    margin-left: 0px;
+}
 }
 @media only screen and (min-width:768px) and (max-width:1024px) and (orientation: landscape) {
-.footer-schedules {
-width: 47%;
-}
-.footer-contact {
-width: 47.8%;
-padding: 1.7% 1.4%;
-}
 .bootom-footer .breadcrumb{
 width: 40%;
 }
@@ -245,15 +233,27 @@ width:100%;
 .footer-bottom .breadcrumb li{
 border:none;
 padding: 0;
-}
+display:inline-block!important;
+float: none;vertical-align: bottom;}
 .bootom-footer .breadcrumb {
 min-height : 25px;
 }
+ul.breadcrumb.bread-terms.tmc_wap_footer li a {
 
+margin: 0!important;
 }
+.row-fluid.footerbtcontent .span3 .sub-section > .phone-hide > p {
+    margin-bottom: -28px;
+    margin-left: 0px;
+}
+}
+/*Jon Febrero 2016 martes 16*/
 .bootom-footer .breadcrumb.bread-terms li a{
-color: #00a4e4;
+    color:#e10098;
+    font-size: 12px;
 }
+/*Jon Febrero 2016 martes 16*/
+
 .bootom-footer .breadcrumb li:first-child{
 background : none;
 margin: 0 7% 0 13%;
@@ -280,6 +280,7 @@ color: #949897;
 
 ul.breadcrumb.bread-rights {
   display: block!important;
+  text-align: center;
 }
 ul.breadcrumb.bread-terms {
   display: block!important;
@@ -298,30 +299,242 @@ ul.breadcrumb.bread-terms.tmc_wap_footer {
 
 .bootom-footer ul.breadcrumb.bread-rights li:first-child {
   background: none;
-  margin: 0px 7% 0 5%;
+  margin: 0;
+}
+.bootom-footer ul.breadcrumb.bread-terms{
+  text-align:center;
+  margin:0!important;
 }
 .bootom-footer ul.breadcrumb.bread-terms li:first-child{
-	  margin: 0px 7% 0 6%;
-
+    margin: 0!important;
 }
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
+.bootom-footer ul.breadcrumb.bread-terms li{
+  display:inline-block!important;
+  float:none;
+  vertical-align:top;
+}
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
 .bootom-footer ul.breadcrumb.bread-terms li:first-child{
-	  margin: 0px 7% 0 9%;
+    margin: 0px 7% 0 9%;
 
 }
-	.bootom-footer ul.breadcrumb.bread-rights li:first-child {
+  .bootom-footer ul.breadcrumb.bread-rights li:first-child {
   background: none;
   margin: 0px 7% 0 12%;
 }
 ul.breadcrumb.tmc_wap_footer li {
   margin: 0px 7% 0 -1%!important;
 }
-
+.row-fluid.footerbtcontent .span3 .sub-section > .phone-hide > p {
+    margin-top: 0px;
+    margin-left: 10px;
+}
 }
 @media only screen and (max-device-width: 568px) and (min-device-width: 320px) and (orientation: portrait) { 
 ul.breadcrumb.tmc_wap_footer li {
   margin: 0px 7% 0 -1%!important;
 }
+.row-fluid.footerbtcontent .span3 .sub-section > .phone-hide > p {
+    margin-top: 0px;
+    margin-left: 10px;
 }
+}
+.footer-header {
+float: left;
+background: #cbd5d7;
+color: #000000;
+padding: 1.02em;
+width:50%;
+box-sizing:border-box;
+/* height:50px
+ */}
+ @media(min-width: 768px){
+  .footer-header{
+    height: 50px;
+  }
+ }
+.footer-contact {
+background: #e4e8e9;
+color: #000000;
+padding: 1.02em;
+float: left;
+width:50%;
+box-sizing:border-box;
+height:50px
+}
+.span3.footer-imageleft a {
+    display: inline-block;
+    width: 80px;
+    position: absolute;
+    left:0;
+}
+/*Jon Febrero 2016 martes 16*/
+.span3.footer-imageleft{
+    padding-left:1.75em;
+    position:relative;
+    color:#e10098;
+}
+/*Jon Febrero 2016 martes 16*/
+
+.bootom-footer .divider{
+  display:inline-block!important;
+}
+.footer-header{
+    display:block!important;
+    width:50%!important;
+    padding:10px 0;
+  }
+@media(max-width:767px){
+  .footer-header{
+    display:block!important;
+    width:100%!important;
+    padding:10px 0;
+  }
+}
+.footer-schedules{
+    box-sizing:border-box;
+}
+.span3.footer-imageleft{
+    display:inline-block!important;
+    text-align:left!important;
+}
+ul.breadcrumb.bread-rights li{
+    display:inline-block!important;
+    float:none!important;
+    vertical-align:top;
+}
+.bootom-footer ul.breadcrumb.bread-rights li:first-child{
+  margin:0;
+}
+ul.breadcrumb.bread-terms.tmc_wap_footer a {
+    margin:0!important;
+}
+ul.breadcrumb.bread-terms{
+    width:100%;
+}
+ul.breadcrumb.bread-terms li {
+    float:none!important;
+    display:inline-block!important;
+}
+ul.breadcrumb.bread-terms.tmc_wap_footer li a{
+  margin:0!important;
+}
+@media(max-width:319px){
+    .footer-schedules .span12 >.span2{
+    //background-color:red;
+    display:block;
+    position:initial!important;
+    width:60%!important;
+    }
+    .footer-schedules .span12 >.span3{
+        //background-color:rebeccapurple;
+        display:block;
+        position:relative!important;
+        right:0;
+        width:35%!important;
+    }
+}
+.row-fluid.footerbtcontent .span3 .sub-section{
+    padding:0;
+}
+.row-fluid.footerbtcontent .span3 .sub-section a{
+    padding-top:14px;
+    padding-bottom:15px;
+    display:block;
+    width:100%;
+    //background-color:red;   
+
+}
+
+.row-fluid.footerbtcontent .span3 .sub-section h3{
+    margin:0;
+    padding-right:10px!important;
+    padding-left: 10px!important;
+}
+body > div.wrapper > footer > div.footer-bottom > div.row-fluid.footerbtcontent > div > div:nth-child(4) > div > h3 > font > font > font > font{
+   padding-top:14px;
+    padding-bottom:15px;
+    display:block;
+    width:100%;
+}
+.footer-bottom .sub-section h3{
+    background-position: 98% center !important;
+  padding: 0!important;
+}
+.row-fluid.footerbtcontent .span3:nth-child(4) .sub-section h3{
+  padding:0 10px!important;
+  box-sizing: border-box;
+    display:block;
+    width:100%;
+}
+.row-fluid.footerbtcontent .span3:nth-child(5) .sub-section h3{
+  padding:0!important;
+}
+.row-fluid.footerbtcontent .span3:nth-child(5) .sub-section h3 font font font font{
+  padding: 0 10px;
+  display: block!important;
+  magin:0!important;
+}
+/*Jon Febrero 2016 martes 16*/
+#locator_pf_icn{
+  background-image: url('/mobileAssets/images/sprite/redisign_SPRITE.png');
+  background-repeat: no-repeat;
+  width:18px;
+  height:18px;
+  background-position: -66px -169px;
+}
+#call_af_icn{
+  background-image: url('/mobileAssets/images/sprite/redisign_SPRITE.png');
+  background-repeat: no-repeat;
+  width:18px;
+  height:18px;
+  background-position: -16px -170px;
+  display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+.footer-schedules{
+  font-size: 12px!important;
+}
+.footer-contact{
+  font-size: 12px!important;
+}
+.footer .footer-bottom .sub-section a, .footer .footer-bottom .sub-section h3 font font font font {
+    font-size: 18px!important;
+}
+div.row-fluid.footerbtcontent > div > div:nth-child(4) > div > h3 > font > font > font > font > a {
+    padding: 0px!important;
+}
+
+div.row-fluid.footerbtcontent > div > div:nth-child(5) > div > h3 > font > font > font > font {
+    padding: 15px 10px!important;
+}
+p.temporary-label-footer {
+    height: 45px;
+    background: #f5f5f5!important;
+    margin-bottom: 0px;
+}
+#go-ini{
+  width:100%;
+  height: 4em;
+  text-align: center;
+  vertical-align:middle;
+  line-height: 2em;
+  border:1px solid #ccc ;
+  margin-bottom: 0;
+  background: #fbfbfb;
+  }
+ #go-ini span{
+      font-family: "Roboto regular";
+      font-size: 13px;
+ }
+ #arrow_up_icn {
+    background-image: url('/mobileAssets/images/sprite/redisign_SPRITE.png');
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    background-position: -167px -250px;
+    margin: 0 auto 0 auto;
+}
+/*Jon Febrero 2016 martes 16*/
+
